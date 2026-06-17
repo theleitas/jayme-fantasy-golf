@@ -8,7 +8,7 @@
     "Jayme Leita",
     "Peter Miller"
   ],
-  "last_pick_started_at": 1781702147.6615567,
+  "last_pick_started_at": 1781702165.3288085,
   "player_results": {
     "Bryson DeChambeau": {
       "score": "N/A",
@@ -1106,14 +1106,17 @@
     "Carl Yuan": []
   },
   "player_headshots": {
-    "Scottie Scheffler": "https://a.espncdn.com/i/headshots/golf/players/full/9478.png"
+    "Scottie Scheffler": "https://a.espncdn.com/i/headshots/golf/players/full/9478.png",
+    "Rory McIlroy": "https://a.espncdn.com/i/headshots/golf/players/full/3470.png"
   },
   "last_score_refresh_at": 1781702154.786322,
   "last_score_refresh_attempt_at": 1781702154.786322,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
-      "players": [],
+      "players": [
+        "Rory McIlroy"
+      ],
       "color": "#39FF14",
       "image": "jayme-pic.png"
     },
