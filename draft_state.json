@@ -8,7 +8,7 @@
     "Jayme Leita",
     "Peter Miller"
   ],
-  "last_pick_started_at": 1781729691.3031356,
+  "last_pick_started_at": 1781729696.6406665,
   "player_results": {
     "Bryson DeChambeau": {
       "score": "N/A",
@@ -1126,7 +1126,8 @@
     "Jordan Spieth": "https://a.espncdn.com/i/headshots/golf/players/full/5467.png",
     "Min Woo Lee": "https://a.espncdn.com/i/headshots/golf/players/full/4410932.png",
     "Justin Rose": "https://a.espncdn.com/i/headshots/golf/players/full/569.png",
-    "Corey Conners": "https://a.espncdn.com/i/headshots/golf/players/full/9126.png"
+    "Corey Conners": "https://a.espncdn.com/i/headshots/golf/players/full/9126.png",
+    "Sepp Straka": "https://a.espncdn.com/i/headshots/golf/players/full/8961.png"
   },
   "last_score_refresh_at": 1781729406.343485,
   "last_score_refresh_attempt_at": 1781729406.343485,
@@ -1168,7 +1169,8 @@
         "Tommy Fleetwood",
         "Justin Thomas",
         "Sahith Theegala",
-        "Corey Conners"
+        "Corey Conners",
+        "Sepp Straka"
       ],
       "color": "#FF00FF",
       "image": "peter-pic.png"
