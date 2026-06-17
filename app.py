@@ -150,11 +150,17 @@ def first_secret(*paths):
 GITHUB_TOKEN = first_secret(
     ("GITHUB", "TOKEN"),
     ("GITHUB", "token"),
+    ("GITHUB", "GITHUB_TOKEN"),
+    ("GITHUB", "GH_TOKEN"),
     ("github", "token"),
     ("github", "TOKEN"),
+    ("github", "GITHUB_TOKEN"),
+    ("github", "github_token"),
     ("GITHUB_TOKEN",),
     ("GH_TOKEN",),
+    ("GITHUB_PAT",),
     ("github_token",),
+    ("github_pat",),
 )
 REPO_OWNER = "theleitas"
 REPO_NAME = "jayme-fantasy-golf"
@@ -755,6 +761,18 @@ PLAYER_NAME_LOOKUP = {normalize_player_match_name(player): player for player in 
 def github_file_url():
     return f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{STATE_FILE_PATH}"
 
+def github_response_error(resp):
+    try:
+        payload = resp.json()
+    except ValueError:
+        payload = {}
+    message = payload.get("message") or resp.text[:300] or "No response body"
+    documentation_url = payload.get("documentation_url")
+    detail = f"GitHub API {resp.status_code}: {message}"
+    if documentation_url:
+        detail += f" ({documentation_url})"
+    return detail
+
 def load_state_from_github(show_warning=True):
     try:
         resp = requests.get(github_file_url(), headers=GITHUB_HEADERS, timeout=10)
@@ -765,7 +783,7 @@ def load_state_from_github(show_warning=True):
             st.session_state.last_good_state = loaded_state
             return loaded_state, payload["sha"]
         if show_warning:
-            st.warning(f"Could not load {STATE_FILE_PATH}. Status code: {resp.status_code}")
+            st.warning(f"Could not load {STATE_FILE_PATH}. {github_response_error(resp)}")
     except Exception as e:
         if show_warning:
             st.warning(f"Could not load {STATE_FILE_PATH}: {e}")
@@ -794,8 +812,17 @@ def save_state_to_github(state, sha, message_prefix="Update draft state"):
         payload["sha"] = sha
     try:
         resp = requests.put(github_file_url(), headers=GITHUB_HEADERS, json=payload, timeout=15)
-        return resp.status_code in [200, 201]
-    except Exception:
+        if resp.status_code in [200, 201]:
+            return True
+        st.error(f"Could not save roster state. {github_response_error(resp)}")
+        if resp.status_code in [401, 403, 404]:
+            st.info(
+                "Check that the Streamlit secret token has access to "
+                "theleitas/jayme-fantasy-golf and Contents permission set to Read and write."
+            )
+        return False
+    except Exception as error:
+        st.error(f"Could not save roster state: {error}")
         return False
 
 def mutate_shared_state(mutator, message_prefix):
