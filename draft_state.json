@@ -8,7 +8,7 @@
     "Jayme Leita",
     "Peter Miller"
   ],
-  "last_pick_started_at": 1781723630.4091475,
+  "last_pick_started_at": 1781723636.7754052,
   "player_results": {
     "Bryson DeChambeau": {
       "score": "N/A",
@@ -1111,7 +1111,8 @@
     "Xander Schauffele": "https://a.espncdn.com/i/headshots/golf/players/full/10140.png",
     "Cameron Young": "https://a.espncdn.com/i/headshots/golf/players/full/4425906.png",
     "Jon Rahm": "https://a.espncdn.com/i/headshots/golf/players/full/9780.png",
-    "Bryson DeChambeau": "https://a.espncdn.com/i/headshots/golf/players/full/10046.png"
+    "Bryson DeChambeau": "https://a.espncdn.com/i/headshots/golf/players/full/10046.png",
+    "Ludvig Aberg": "https://a.espncdn.com/i/headshots/golf/players/full/4375972.png"
   },
   "last_score_refresh_at": 1781723604.5585442,
   "last_score_refresh_attempt_at": 1781723604.5585442,
@@ -1129,7 +1130,8 @@
       "team_name": "Spencer's Team",
       "players": [
         "Scottie Scheffler",
-        "Bryson DeChambeau"
+        "Bryson DeChambeau",
+        "Ludvig Aberg"
       ],
       "color": "#00F5FF",
       "image": "spencer-pic.png"
