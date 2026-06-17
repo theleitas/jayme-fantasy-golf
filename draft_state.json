@@ -8,7 +8,7 @@
     "Jayme Leita",
     "Peter Miller"
   ],
-  "last_pick_started_at": 1781715730.563096,
+  "last_pick_started_at": 1781715876.8219812,
   "player_results": {
     "Bryson DeChambeau": {
       "score": "N/A",
@@ -1109,7 +1109,8 @@
     "Scottie Scheffler": "https://a.espncdn.com/i/headshots/golf/players/full/9478.png",
     "Rory McIlroy": "https://a.espncdn.com/i/headshots/golf/players/full/3470.png",
     "Xander Schauffele": "https://a.espncdn.com/i/headshots/golf/players/full/10140.png",
-    "Cameron Young": "https://a.espncdn.com/i/headshots/golf/players/full/4425906.png"
+    "Cameron Young": "https://a.espncdn.com/i/headshots/golf/players/full/4425906.png",
+    "Jon Rahm": "https://a.espncdn.com/i/headshots/golf/players/full/9780.png"
   },
   "last_score_refresh_at": 1781715698.6394866,
   "last_score_refresh_attempt_at": 1781715698.6394866,
@@ -1117,7 +1118,8 @@
     "Jayme Leita": {
       "team_name": "Jayme's Team",
       "players": [
-        "Rory McIlroy"
+        "Rory McIlroy",
+        "Jon Rahm"
       ],
       "color": "#39FF14",
       "image": "jayme-pic.png"
