@@ -5,7 +5,7 @@ Separate Streamlit codebase for the Jayme Fantasy Golf app with the original Gol
 ## What This Reuses
 
 - Current Jayme Fantasy Golf Streamlit structure and visual style.
-- Draft board, roster cards, standings cards, tournament leaderboard, tournament selector, admin controls, and 5-round snake draft behavior.
+- Draft board, roster cards, standings cards, tournament leaderboard, tournament selector, admin controls, and 10-round snake draft behavior.
 - Original Golf Challenge coach photos for Jayme, Spencer, and Peter.
 - Original Golf Challenge title thumbnail/icon.
 - Original Golf Challenge Twilio text-update concepts: group recipients, test messages, and score-driven alert templates.

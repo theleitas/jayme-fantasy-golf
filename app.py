@@ -147,16 +147,16 @@ STATE_FILE_PATH = "draft_state.json"
 BRANCH = "main"
 DEFAULT_APP_TITLE = "Jayme Fantasy Golf"
 DEFAULT_COACHES = ["Jayme Leita", "Spencer Tidwell", "Peter Miller"]
-MAX_ROUNDS = 5
+MAX_ROUNDS = 10
 MAX_PICKS = len(DEFAULT_COACHES) * MAX_ROUNDS
 ADMIN_ROSTER_RESET_TOKEN = "admin_confirmed_roster_reset"
 ESPN_LEADERBOARD_BASE_URL = "https://site.web.api.espn.com/apis/site/v2/sports/golf/leaderboard"
 ESPN_PGA_SCOREBOARD_URL = "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard"
 AUTO_SCORE_REFRESH_SECONDS = 5 * 60
 AVAILABLE_GOLFERS_PAGE_SIZE = 33
-DEFAULT_TWILIO_ACCOUNT_SID = read_secret("TWILIO_ACCOUNT_SID") or ""
-DEFAULT_TWILIO_AUTH_TOKEN = read_secret("TWILIO_AUTH_TOKEN") or ""
-DEFAULT_TWILIO_FROM_NUMBER = read_secret("TWILIO_FROM_NUMBER") or ""
+DEFAULT_TWILIO_ACCOUNT_SID = read_secret("TWILIO_ACCOUNT_SID") or read_secret("TWILIO", "ACCOUNT_SID") or read_secret("twilio", "account_sid") or ""
+DEFAULT_TWILIO_AUTH_TOKEN = read_secret("TWILIO_AUTH_TOKEN") or read_secret("TWILIO", "AUTH_TOKEN") or read_secret("twilio", "auth_token") or ""
+DEFAULT_TWILIO_FROM_NUMBER = read_secret("TWILIO_FROM_NUMBER") or read_secret("TWILIO", "FROM_NUMBER") or read_secret("twilio", "from_number") or ""
 PGATOUR_FIELD_URLS_BY_ESPN_EVENT_ID = {
     "401811951": "https://www.pgatour.com/tournaments/2026/rbc-canadian-open/R2026032/field",
 }
@@ -326,9 +326,9 @@ def default_text_updates():
     return {
         "enabled": False,
         "twilio": {
-            "account_sid": DEFAULT_TWILIO_ACCOUNT_SID,
-            "auth_token": DEFAULT_TWILIO_AUTH_TOKEN,
-            "from_number": DEFAULT_TWILIO_FROM_NUMBER,
+            "account_sid": "",
+            "auth_token": "",
+            "from_number": "",
         },
         "recipients": {
             "Jayme": {"enabled": False, "phone": ""},
@@ -1627,6 +1627,30 @@ def format_all_team_totals_from_results(state, results):
 def normalize_phone(value):
     return str(value or "").strip()
 
+def first_nonempty(*values):
+    for value in values:
+        normalized = normalize_phone(value)
+        if normalized and not normalized.lower().startswith("your_"):
+            return normalized
+    return ""
+
+def resolved_twilio_config(text_updates):
+    twilio = text_updates.get("twilio", {}) if isinstance(text_updates, dict) else {}
+    return {
+        "account_sid": first_nonempty(DEFAULT_TWILIO_ACCOUNT_SID, twilio.get("account_sid")),
+        "auth_token": first_nonempty(DEFAULT_TWILIO_AUTH_TOKEN, twilio.get("auth_token")),
+        "from_number": first_nonempty(DEFAULT_TWILIO_FROM_NUMBER, twilio.get("from_number")),
+    }
+
+def twilio_config_status(text_updates):
+    config = resolved_twilio_config(text_updates)
+    missing = [label for label, key in [
+        ("account SID", "account_sid"),
+        ("auth token", "auth_token"),
+        ("from number", "from_number"),
+    ] if not config.get(key)]
+    return config, missing
+
 def render_update_template(template, context):
     class SafeDict(dict):
         def __missing__(self, key):
@@ -1634,13 +1658,18 @@ def render_update_template(template, context):
     return str(template or "").format_map(SafeDict(context))
 
 def send_twilio_sms(text_updates, to_number, body):
-    twilio = text_updates.get("twilio", {})
-    sid = normalize_phone(twilio.get("account_sid"))
-    token = normalize_phone(twilio.get("auth_token"))
-    from_number = normalize_phone(twilio.get("from_number"))
+    config, missing = twilio_config_status(text_updates)
+    sid = config["account_sid"]
+    token = config["auth_token"]
+    from_number = config["from_number"]
     to_number = normalize_phone(to_number)
-    if not sid or not token or not from_number or not to_number or not body:
-        return False, "Missing Twilio credentials, sender, recipient, or message body."
+    if missing or not to_number or not body:
+        missing_parts = missing[:]
+        if not to_number:
+            missing_parts.append("recipient phone number")
+        if not body:
+            missing_parts.append("message body")
+        return False, f"Missing Twilio {', '.join(missing_parts)}."
 
     try:
         response = requests.post(
@@ -1654,7 +1683,15 @@ def send_twilio_sms(text_updates, to_number, body):
 
     if 200 <= response.status_code < 300:
         return True, "sent"
-    return False, f"{response.status_code}: {response.text[:200]}"
+    try:
+        error_payload = response.json()
+        twilio_message = error_payload.get("message") or response.text
+        twilio_code = error_payload.get("code")
+        if twilio_code:
+            return False, f"{response.status_code} / Twilio {twilio_code}: {twilio_message}"
+        return False, f"{response.status_code}: {twilio_message}"
+    except ValueError:
+        return False, f"{response.status_code}: {response.text[:300]}"
 
 def get_group_recipients(text_updates):
     recipients = []
@@ -2763,6 +2800,11 @@ with st.expander("📱 Text Updates", expanded=False):
 
         st.markdown("### Twilio Settings")
         st.caption("Twilio account SID, auth token, and from number must be entered in Streamlit secrets.")
+        twilio_config, missing_twilio = twilio_config_status(text_updates)
+        if missing_twilio:
+            st.warning(f"Twilio secrets missing: {', '.join(missing_twilio)}.")
+        else:
+            st.success(f"Twilio secrets detected. Sending from {twilio_config['from_number']}.")
 
         st.markdown("### Group Recipients")
         recipients_cfg = text_updates.get("recipients", {})
