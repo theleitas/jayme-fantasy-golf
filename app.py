@@ -13,7 +13,7 @@ from zoneinfo import ZoneInfo
 RENDER_T0 = time.perf_counter()
 
 st.set_page_config(
-    page_title="Leita Fantasy Golf",
+    page_title="Jayme Fantasy Golf",
     page_icon="titlethumb.png",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -142,10 +142,10 @@ def read_secret(*path):
 
 GITHUB_TOKEN = read_secret("GITHUB", "TOKEN")
 REPO_OWNER = "theleitas"
-REPO_NAME = "leita-fantasy-golf-twilio"
+REPO_NAME = "jayme-fantasy-golf"
 STATE_FILE_PATH = "draft_state.json"
 BRANCH = "main"
-DEFAULT_APP_TITLE = "Leita Fantasy Golf"
+DEFAULT_APP_TITLE = "Jayme Fantasy Golf"
 DEFAULT_COACHES = ["Jayme Leita", "Spencer Tidwell", "Peter Miller"]
 MAX_ROUNDS = 5
 MAX_PICKS = len(DEFAULT_COACHES) * MAX_ROUNDS

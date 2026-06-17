@@ -1,10 +1,10 @@
-# Leita Fantasy Golf Twilio
+# Jayme Fantasy Golf
 
-Separate Streamlit codebase for the Leita Fantasy Golf app with the original Golf Challenge text-update system restored.
+Separate Streamlit codebase for the Jayme Fantasy Golf app with the original Golf Challenge text-update system restored.
 
 ## What This Reuses
 
-- Current Leita Fantasy Golf Streamlit structure and visual style.
+- Current Jayme Fantasy Golf Streamlit structure and visual style.
 - Draft board, roster cards, standings cards, tournament leaderboard, tournament selector, admin controls, and 5-round snake draft behavior.
 - Original Golf Challenge coach photos for Jayme, Spencer, and Peter.
 - Original Golf Challenge title thumbnail/icon.
@@ -12,7 +12,7 @@ Separate Streamlit codebase for the Leita Fantasy Golf app with the original Gol
 
 ## What Is Separate
 
-- The app targets its own GitHub repo: `leita-fantasy-golf-twilio`.
+- The app targets its own GitHub repo: `jayme-fantasy-golf`.
 - Shared app state is stored in this repo's `draft_state.json`.
 - The existing `leita-fantasy-golf` app/repo is not modified.
 - Twilio credentials and phone numbers are not committed into the repo.

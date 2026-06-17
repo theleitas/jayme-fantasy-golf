@@ -1,5 +1,5 @@
 {
-  "app_title": "Leita Fantasy Golf",
+  "app_title": "Jayme Fantasy Golf",
   "payout_rules": "Each coach drafts 5 golfers and antes $50. Coach with lowest 3 golfers at end of tournaments wins with payouts of $X for 1st, $Y for 2nd, and $Z for 3rd.",
   "draft_enabled": false,
   "draft_active": false,
