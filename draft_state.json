@@ -8,7 +8,7 @@
     "Jayme Leita",
     "Peter Miller"
   ],
-  "last_pick_started_at": 1781727286.4609044,
+  "last_pick_started_at": 1781727401.1643348,
   "player_results": {
     "Bryson DeChambeau": {
       "score": "N/A",
@@ -1116,7 +1116,8 @@
     "Hideki Matsuyama": "https://a.espncdn.com/i/headshots/golf/players/full/5860.png",
     "Matt Fitzpatrick": "https://a.espncdn.com/i/headshots/golf/players/full/9037.png",
     "Tommy Fleetwood": "https://a.espncdn.com/i/headshots/golf/players/full/5539.png",
-    "Viktor Hovland": "https://a.espncdn.com/i/headshots/golf/players/full/4364873.png"
+    "Viktor Hovland": "https://a.espncdn.com/i/headshots/golf/players/full/4364873.png",
+    "Brooks Koepka": "https://a.espncdn.com/i/headshots/golf/players/full/6798.png"
   },
   "last_score_refresh_at": 1781727381.3596463,
   "last_score_refresh_attempt_at": 1781727381.3596463,
@@ -1137,7 +1138,8 @@
       "players": [
         "Scottie Scheffler",
         "Bryson DeChambeau",
-        "Ludvig Aberg"
+        "Ludvig Aberg",
+        "Brooks Koepka"
       ],
       "color": "#00F5FF",
       "image": "spencer-pic.png"
