@@ -149,6 +149,7 @@ DEFAULT_APP_TITLE = "Jayme Fantasy Golf"
 DEFAULT_COACHES = ["Jayme Leita", "Spencer Tidwell", "Peter Miller"]
 MAX_ROUNDS = 10
 MAX_PICKS = len(DEFAULT_COACHES) * MAX_ROUNDS
+ADMIN_PASSWORD = "0102"
 ADMIN_ROSTER_RESET_TOKEN = "admin_confirmed_roster_reset"
 ESPN_LEADERBOARD_BASE_URL = "https://site.web.api.espn.com/apis/site/v2/sports/golf/leaderboard"
 ESPN_PGA_SCOREBOARD_URL = "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard"
@@ -192,10 +193,11 @@ DEFAULT_PAYOUT_RULES = (
 )
 
 GITHUB_HEADERS = {
-    "Authorization": f"Bearer {GITHUB_TOKEN}",
     "Accept": "application/vnd.github+json",
     "X-GitHub-Api-Version": "2022-11-28",
 }
+if GITHUB_TOKEN:
+    GITHUB_HEADERS["Authorization"] = f"Bearer {GITHUB_TOKEN}"
 
 TEAM_COLOR_OPTIONS = [
     ("Neon Green", "#39FF14"),
@@ -739,37 +741,32 @@ def github_file_url():
     return f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{STATE_FILE_PATH}"
 
 def load_state_from_github(show_warning=True):
-    if not GITHUB_TOKEN:
-        try:
-            with open(STATE_FILE_PATH, "r", encoding="utf-8") as state_file:
-                return normalize_state(json.load(state_file)), None
-        except Exception as e:
-            if show_warning:
-                st.warning(f"Could not load local {STATE_FILE_PATH}: {e}")
-            return default_state(), None
-
     try:
         resp = requests.get(github_file_url(), headers=GITHUB_HEADERS, timeout=10)
         if resp.status_code == 200:
             payload = resp.json()
             content = base64.b64decode(payload["content"]).decode("utf-8")
-            return normalize_state(json.loads(content)), payload["sha"]
+            loaded_state = normalize_state(json.loads(content))
+            st.session_state.last_good_state = loaded_state
+            return loaded_state, payload["sha"]
         if show_warning:
             st.warning(f"Could not load {STATE_FILE_PATH}. Status code: {resp.status_code}")
     except Exception as e:
         if show_warning:
             st.warning(f"Could not load {STATE_FILE_PATH}: {e}")
-    return default_state(), None
+
+    if st.session_state.get("last_good_state"):
+        if show_warning:
+            st.warning("Using the last loaded roster state for this refresh. No saves will be allowed until GitHub reloads cleanly.")
+        return normalize_state(st.session_state.last_good_state), None
+
+    st.error("Could not load the saved roster state from GitHub. The app is stopped to prevent an accidental draft or roster reset.")
+    st.stop()
 
 def save_state_to_github(state, sha, message_prefix="Update draft state"):
     if not GITHUB_TOKEN:
-        try:
-            with open(STATE_FILE_PATH, "w", encoding="utf-8") as state_file:
-                json.dump(normalize_state(state), state_file, indent=2, ensure_ascii=False)
-            return True
-        except Exception as e:
-            st.error(f"Could not save local {STATE_FILE_PATH}: {e}")
-            return False
+        st.error("Missing GitHub token. Refusing to save local-only state because that could appear to reset the live draft.")
+        return False
 
     content_str = json.dumps(normalize_state(state), indent=2, ensure_ascii=False)
     content_b64 = base64.b64encode(content_str.encode("utf-8")).decode("utf-8")
@@ -787,9 +784,12 @@ def save_state_to_github(state, sha, message_prefix="Update draft state"):
         return False
 
 def mutate_shared_state(mutator, message_prefix):
+    if not GITHUB_TOKEN:
+        st.error("Missing GitHub token. No draft or roster changes were saved.")
+        return False, None
     for _ in range(3):
         fresh_state, fresh_sha = load_state_from_github(show_warning=False)
-        if GITHUB_TOKEN and not fresh_sha:
+        if not fresh_sha:
             st.error("Could not load the saved roster state, so nothing was saved. This prevents accidental roster wipes.")
             return False, None
         result = mutator(fresh_state)
@@ -2085,7 +2085,7 @@ def make_draft_pick(golfer):
             return False
         if current_pick > MAX_PICKS:
             state["draft_active"] = False
-            state["draft_enabled"] = False
+            state["draft_enabled"] = True
             st.warning("The draft is complete.")
             return False
         if golfer in get_picked_golfers(state):
@@ -2100,7 +2100,7 @@ def make_draft_pick(golfer):
         state["last_pick_started_at"] = time.time()
         if next_pick > MAX_PICKS:
             state["draft_active"] = False
-            state["draft_enabled"] = False
+            state["draft_enabled"] = True
         return True
     return mutate_shared_state(mutator, "Draft pick")
 
@@ -2167,7 +2167,6 @@ def set_draft_enabled(enabled):
 def start_draft():
     def mutator(state):
         if get_current_pick(state) > MAX_PICKS:
-            state["draft_enabled"] = False
             state["draft_active"] = False
             st.warning("The draft is already complete.")
             return False
@@ -2187,7 +2186,7 @@ def finish_draft(reason="Complete draft"):
     def mutator(state):
         state = normalize_state(state)
         state["draft_active"] = False
-        state["draft_enabled"] = False
+        state["draft_enabled"] = True
         return True
     return mutate_shared_state(mutator, reason)
 
@@ -2366,6 +2365,8 @@ def render_pick_timer(start_time):
 
 if "confirm_clear_rosters" not in st.session_state:
     st.session_state.confirm_clear_rosters = False
+if "admin_reset_phrase_input" not in st.session_state:
+    st.session_state.admin_reset_phrase_input = ""
 if "confirm_save_tournament" not in st.session_state:
     st.session_state.confirm_save_tournament = False
 
@@ -2592,16 +2593,6 @@ with draft_controls_slot:
                     unsafe_allow_html=True,
                 )
 
-            st.markdown("<div class='undo-pick-wrap'>", unsafe_allow_html=True)
-            if st.button("↩️ Undo Last Pick", disabled=not picks, use_container_width=True, key="public_undo_last_pick"):
-                result, _ = undo_last_pick()
-                if result:
-                    undone_pick_num, undone_coach, undone_golfer = result
-                    st.success(f"Undid Pick #{undone_pick_num}: {display_player_name(undone_golfer)}. {undone_coach} is back on the clock.")
-                    time.sleep(0.5)
-                    st.rerun()
-            st.markdown("</div>", unsafe_allow_html=True)
-
             st.subheader("Draft Dashboard")
 
             grid_html = """
@@ -2686,11 +2677,7 @@ with draft_controls_slot:
             total_available = len(available)
 
             if draft_player_pool and total_available == 0 and not golfer_search and state["draft_active"] and current_pick <= MAX_PICKS:
-                result, _ = finish_draft("Complete draft - golfer pool exhausted")
-                if result:
-                    st.success("Draft complete. All available golfers have been drafted and rosters are saved.")
-                    time.sleep(0.5)
-                    st.rerun()
+                st.warning("No available golfers are showing. The draft was left unchanged; an admin can stop or adjust it if needed.")
 
             total_pages = max(1, (total_available + AVAILABLE_GOLFERS_PAGE_SIZE - 1) // AVAILABLE_GOLFERS_PAGE_SIZE)
             current_page = min(max(int(st.session_state.get("available_golfers_page", 1) or 1), 1), total_pages)
@@ -2876,201 +2863,235 @@ with st.expander("📱 Text Updates", expanded=False):
             st.error(f"Test message failed: {info}")
 
 with st.expander("🔧 Admin Section", expanded=False):
-    st.subheader("App Settings")
-    with st.form("app_settings_form"):
-        new_app_title = st.text_input("App Title", value=state.get("app_title", DEFAULT_APP_TITLE))
-        new_payout_rules = st.text_area("Payout Rules", value=state.get("payout_rules", DEFAULT_PAYOUT_RULES), height=110)
-        if st.form_submit_button("💾 Save App Settings", use_container_width=True):
-            result, _ = save_app_settings(new_app_title, new_payout_rules)
-            if result:
-                st.success("App settings saved.")
-                st.rerun()
-            else:
-                st.error("App settings were not saved.")
-
-    st.subheader("Tournament Selection")
-
-    if not TOURNAMENT_OPTIONS:
-        st.error("Could not load tournament schedule from ESPN right now.")
-    else:
-        option_lookup = {option["event_id"]: option for option in TOURNAMENT_OPTIONS}
-        option_ids = list(option_lookup.keys())
-        saved_event_id = str((state.get("selected_tournament") or {}).get("event_id") or "")
-        active_event_id = saved_event_id if saved_event_id in option_lookup else str(SELECTED_TOURNAMENT.get("event_id") or "")
-        if active_event_id not in option_ids:
-            active_event_id = option_ids[0]
-        effective_saved_event_id = saved_event_id if saved_event_id in option_lookup else active_event_id
-
-        selected_event_id = st.selectbox(
-            "Tournament",
-            options=option_ids,
-            index=option_ids.index(active_event_id),
-            format_func=lambda event_id: tournament_option_label(option_lookup[event_id]),
-            key="admin_tournament_select_event_id",
-        )
-
-        if st.session_state.get("pending_tournament_event_id") != selected_event_id:
-            st.session_state.confirm_save_tournament = False
-            st.session_state.pending_tournament_event_id = selected_event_id
-
-        chosen_option = option_lookup[selected_event_id]
-        if selected_event_id == effective_saved_event_id:
-            st.caption("Current saved tournament is active.")
-        else:
-            st.warning("Saving this updates the app's tournament target and score source. Rosters will stay untouched.")
-            if not st.session_state.confirm_save_tournament:
-                if st.button("💾 Save Tournament Selection", use_container_width=True):
-                    st.session_state.confirm_save_tournament = True
-                    st.rerun()
-            else:
-                st.warning(f"Are you sure you want to switch to: {tournament_option_label(chosen_option)}?")
-                save_col, cancel_col = st.columns(2)
-                with save_col:
-                    if st.button("✅ YES, SAVE TOURNAMENT", type="primary", use_container_width=True):
-                        result, _ = save_selected_tournament(chosen_option)
-                        if result:
-                            st.session_state.confirm_save_tournament = False
-                            st.success("Tournament selection saved.")
-                            time.sleep(0.5)
-                            st.rerun()
-                with cancel_col:
-                    if st.button("Cancel Tournament Save", use_container_width=True):
-                        st.session_state.confirm_save_tournament = False
-                        st.rerun()
-
-    st.subheader("Draft Control")
-    st.toggle("Show Performance Debug", value=st.session_state.get("perf_debug_enabled", False), key="perf_debug_enabled")
-
-    st.caption(f"Draft status: {'Enabled' if state['draft_enabled'] else 'Disabled'}")
-    enable_col, disable_col = st.columns(2)
-    with enable_col:
-        if st.button("Enable Draft", disabled=state["draft_enabled"], use_container_width=True):
-            result, _ = set_draft_enabled(True)
-            st.session_state.confirm_clear_rosters = False
-            if result:
-                st.rerun()
-    with disable_col:
-        if st.button("Disable Draft", disabled=not state["draft_enabled"], use_container_width=True):
-            result, _ = set_draft_enabled(False)
-            st.session_state.confirm_clear_rosters = False
-            if result:
-                st.rerun()
-
-    start_col, stop_col = st.columns(2)
-    with start_col:
-        if st.button("▶️ Start Draft", type="primary", disabled=state["draft_active"] or current_pick > MAX_PICKS, use_container_width=True):
-            result, _ = start_draft()
-            if result:
-                st.rerun()
-    with stop_col:
-        if st.button("⏹️ Stop Draft", disabled=not state["draft_active"], use_container_width=True):
-            result, _ = stop_draft()
-            if result:
-                st.rerun()
-
-    if state["draft_enabled"]:
-        if not st.session_state.confirm_clear_rosters:
-            if st.button("🛑 Reset Draft & Clear Roster", type="secondary", use_container_width=True):
-                st.session_state.confirm_clear_rosters = True
-                st.rerun()
-        else:
-            st.warning("⚠️ This will permanently clear ALL rosters and reset the draft.")
-            col1, col2 = st.columns(2)
-
-            with col1:
-                if st.button("✅ YES, CLEAR EVERYTHING", type="primary", use_container_width=True):
-                    result, _ = mutate_shared_state(
-                        lambda draft_state: reset_rosters_in_state(draft_state, ADMIN_ROSTER_RESET_TOKEN),
-                        "Admin confirmed roster reset",
-                    )
-                    if result:
-                        st.session_state.confirm_clear_rosters = False
-                        st.success("✅ All rosters cleared and draft fully reset!")
-                        time.sleep(1)
-                        st.rerun()
-
-            with col2:
-                if st.button("Cancel", use_container_width=True):
+    if not st.session_state.get("admin_authenticated", False):
+        st.subheader("Admin Locked")
+        with st.form("admin_login_form"):
+            admin_password = st.text_input("Admin Password", type="password")
+            unlock_admin = st.form_submit_button("Unlock Admin", use_container_width=True)
+            if unlock_admin:
+                if admin_password == ADMIN_PASSWORD:
+                    st.session_state.admin_authenticated = True
                     st.session_state.confirm_clear_rosters = False
+                    st.session_state.admin_reset_phrase_input = ""
+                    st.success("Admin unlocked.")
+                    st.rerun()
+                else:
+                    st.error("Incorrect admin password.")
+        st.caption("Draft and roster controls are locked.")
+    else:
+        if st.button("Lock Admin", use_container_width=True):
+            st.session_state.admin_authenticated = False
+            st.session_state.confirm_clear_rosters = False
+            st.session_state.admin_reset_phrase_input = ""
+            st.rerun()
+        st.subheader("App Settings")
+        with st.form("app_settings_form"):
+            new_app_title = st.text_input("App Title", value=state.get("app_title", DEFAULT_APP_TITLE))
+            new_payout_rules = st.text_area("Payout Rules", value=state.get("payout_rules", DEFAULT_PAYOUT_RULES), height=110)
+            if st.form_submit_button("💾 Save App Settings", use_container_width=True):
+                result, _ = save_app_settings(new_app_title, new_payout_rules)
+                if result:
+                    st.success("App settings saved.")
+                    st.rerun()
+                else:
+                    st.error("App settings were not saved.")
+
+        st.subheader("Tournament Selection")
+
+        if not TOURNAMENT_OPTIONS:
+            st.error("Could not load tournament schedule from ESPN right now.")
+        else:
+            option_lookup = {option["event_id"]: option for option in TOURNAMENT_OPTIONS}
+            option_ids = list(option_lookup.keys())
+            saved_event_id = str((state.get("selected_tournament") or {}).get("event_id") or "")
+            active_event_id = saved_event_id if saved_event_id in option_lookup else str(SELECTED_TOURNAMENT.get("event_id") or "")
+            if active_event_id not in option_ids:
+                active_event_id = option_ids[0]
+            effective_saved_event_id = saved_event_id if saved_event_id in option_lookup else active_event_id
+
+            selected_event_id = st.selectbox(
+                "Tournament",
+                options=option_ids,
+                index=option_ids.index(active_event_id),
+                format_func=lambda event_id: tournament_option_label(option_lookup[event_id]),
+                key="admin_tournament_select_event_id",
+            )
+
+            if st.session_state.get("pending_tournament_event_id") != selected_event_id:
+                st.session_state.confirm_save_tournament = False
+                st.session_state.pending_tournament_event_id = selected_event_id
+
+            chosen_option = option_lookup[selected_event_id]
+            if selected_event_id == effective_saved_event_id:
+                st.caption("Current saved tournament is active.")
+            else:
+                st.warning("Saving this updates the app's tournament target and score source. Rosters will stay untouched.")
+                if not st.session_state.confirm_save_tournament:
+                    if st.button("💾 Save Tournament Selection", use_container_width=True):
+                        st.session_state.confirm_save_tournament = True
+                        st.rerun()
+                else:
+                    st.warning(f"Are you sure you want to switch to: {tournament_option_label(chosen_option)}?")
+                    save_col, cancel_col = st.columns(2)
+                    with save_col:
+                        if st.button("✅ YES, SAVE TOURNAMENT", type="primary", use_container_width=True):
+                            result, _ = save_selected_tournament(chosen_option)
+                            if result:
+                                st.session_state.confirm_save_tournament = False
+                                st.success("Tournament selection saved.")
+                                time.sleep(0.5)
+                                st.rerun()
+                    with cancel_col:
+                        if st.button("Cancel Tournament Save", use_container_width=True):
+                            st.session_state.confirm_save_tournament = False
+                            st.rerun()
+
+        st.subheader("Draft Control")
+        st.toggle("Show Performance Debug", value=st.session_state.get("perf_debug_enabled", False), key="perf_debug_enabled")
+
+        st.caption(f"Draft status: {'Enabled' if state['draft_enabled'] else 'Disabled'}")
+        enable_col, disable_col = st.columns(2)
+        with enable_col:
+            if st.button("Enable Draft", disabled=state["draft_enabled"], use_container_width=True):
+                result, _ = set_draft_enabled(True)
+                st.session_state.confirm_clear_rosters = False
+                if result:
+                    st.rerun()
+        with disable_col:
+            if st.button("Disable Draft", disabled=not state["draft_enabled"], use_container_width=True):
+                result, _ = set_draft_enabled(False)
+                st.session_state.confirm_clear_rosters = False
+                if result:
                     st.rerun()
 
-    st.subheader("Draft Order")
+        start_col, stop_col = st.columns(2)
+        with start_col:
+            if st.button("▶️ Start Draft", type="primary", disabled=state["draft_active"] or current_pick > MAX_PICKS, use_container_width=True):
+                result, _ = start_draft()
+                if result:
+                    st.rerun()
+        with stop_col:
+            if st.button("⏹️ Stop Draft", disabled=not state["draft_active"], use_container_width=True):
+                result, _ = stop_draft()
+                if result:
+                    st.rerun()
 
-    if state["draft_enabled"]:
-        st.info("Disable the draft to change the draft order.")
-    else:
-        coaches = list(teams_data.keys())
-        current_order = draft_order
-        proposed_order = []
-        for row_start in range(0, len(coaches), 3):
-            order_cols = st.columns(3)
-            for offset, col in enumerate(order_cols):
-                slot_index = row_start + offset
-                if slot_index >= len(coaches):
-                    continue
-                with col:
-                    current_coach = current_order[slot_index] if slot_index < len(current_order) else coaches[slot_index]
-                    selected_coach = st.selectbox(
-                        f"{slot_index + 1}{'st' if slot_index == 0 else 'nd' if slot_index == 1 else 'rd' if slot_index == 2 else 'th'} Pick",
-                        options=coaches,
-                        index=coaches.index(current_coach) if current_coach in coaches else slot_index,
-                        key=f"draft_order_{slot_index}",
-                    )
-                    proposed_order.append(selected_coach)
-
-        if len(set(proposed_order)) < len(proposed_order):
-            st.error("Each draft slot must have a different coach.")
-        elif st.button("💾 Save Draft Order", use_container_width=True):
-            result, _ = save_draft_order(proposed_order)
+        if st.button("↩️ Admin Undo Last Pick", disabled=not picks, use_container_width=True):
+            result, _ = undo_last_pick()
             if result:
-                st.success("Draft order saved.")
+                undone_pick_num, undone_coach, undone_golfer = result
+                st.success(f"Undid Pick #{undone_pick_num}: {display_player_name(undone_golfer)}. {undone_coach} is back on the clock.")
+                time.sleep(0.5)
                 st.rerun()
 
-    st.subheader("Team Names & Colors")
-    st.caption("Color selection is first come, first serve. I'm a chemical engineer, not an IT guy.")
-    used_colors = {info.get("color") for info in teams_data.values() if info.get("color")}
-    palette_parts = []
-    for label, color in TEAM_COLOR_OPTIONS:
-        chip_class = "color-chip used" if color in used_colors else "color-chip"
-        palette_parts.append(
-            f"<span title='{html.escape(label)}' class='{chip_class}' style='background:{color};'></span>"
-        )
-    st.markdown("".join(palette_parts), unsafe_allow_html=True)
-
-    new_team_settings = {}
-    for row_start in range(0, len(teams_data), 3):
-        team_setting_cols = st.columns(3)
-        for idx, (coach_id, info) in enumerate(list(teams_data.items())[row_start:row_start + 3]):
-            with team_setting_cols[idx]:
-                st.markdown(f"### {coach_id}")
-                team_name = st.text_input("Team Name", value=info.get("team_name", coach_id), key=f"name_{coach_id}")
-                current_color = info.get("color", default_team_color(idx))
-                colors_used_by_others = {
-                    other_info.get("color")
-                    for other_id, other_info in teams_data.items()
-                    if other_id != coach_id and other_info.get("color")
-                }
-                available_colors = [current_color] + [
-                    color for _, color in TEAM_COLOR_OPTIONS
-                    if color not in colors_used_by_others and color != current_color
-                ]
-                selected_color = st.selectbox(
-                    "Color",
-                    options=available_colors,
-                    index=0,
-                    format_func=lambda color: f"{TEAM_COLOR_BY_HEX.get(color, color)} ({color})",
-                    key=f"color_{coach_id}",
+        if state["draft_enabled"]:
+            if not st.session_state.confirm_clear_rosters:
+                if st.button("🛑 Reset Draft & Clear Roster", type="secondary", use_container_width=True):
+                    st.session_state.confirm_clear_rosters = True
+                    st.rerun()
+            else:
+                st.warning("⚠️ This will permanently clear ALL rosters and reset the draft.")
+                reset_phrase = st.text_input(
+                    'Type "RESET" to confirm roster clearing',
+                    key="admin_reset_phrase_input",
                 )
-                st.caption(f"Photo file: {coach_photo_filename(coach_id)}")
-                new_team_settings[coach_id] = {"team_name": team_name, "color": selected_color}
+                col1, col2 = st.columns(2)
 
-    if st.button("💾 Save Team Settings", use_container_width=True):
-        result, _ = save_team_settings(new_team_settings)
-        if result:
-            st.success("Team settings saved!")
-            st.rerun()
+                with col1:
+                    reset_ready = reset_phrase == "RESET"
+                    if st.button("✅ YES, CLEAR EVERYTHING", type="primary", disabled=not reset_ready, use_container_width=True):
+                        result, _ = mutate_shared_state(
+                            lambda draft_state: reset_rosters_in_state(draft_state, ADMIN_ROSTER_RESET_TOKEN),
+                            "Admin confirmed roster reset",
+                        )
+                        if result:
+                            st.session_state.confirm_clear_rosters = False
+                            st.success("✅ All rosters cleared and draft fully reset!")
+                            time.sleep(1)
+                            st.rerun()
+
+                with col2:
+                    if st.button("Cancel", use_container_width=True):
+                        st.session_state.confirm_clear_rosters = False
+                        st.rerun()
+
+        st.subheader("Draft Order")
+
+        if state["draft_enabled"]:
+            st.info("Disable the draft to change the draft order.")
         else:
-            st.error("Team settings were not saved. Please try again.")
+            coaches = list(teams_data.keys())
+            current_order = draft_order
+            proposed_order = []
+            for row_start in range(0, len(coaches), 3):
+                order_cols = st.columns(3)
+                for offset, col in enumerate(order_cols):
+                    slot_index = row_start + offset
+                    if slot_index >= len(coaches):
+                        continue
+                    with col:
+                        current_coach = current_order[slot_index] if slot_index < len(current_order) else coaches[slot_index]
+                        selected_coach = st.selectbox(
+                            f"{slot_index + 1}{'st' if slot_index == 0 else 'nd' if slot_index == 1 else 'rd' if slot_index == 2 else 'th'} Pick",
+                            options=coaches,
+                            index=coaches.index(current_coach) if current_coach in coaches else slot_index,
+                            key=f"draft_order_{slot_index}",
+                        )
+                        proposed_order.append(selected_coach)
+
+            if len(set(proposed_order)) < len(proposed_order):
+                st.error("Each draft slot must have a different coach.")
+            elif st.button("💾 Save Draft Order", use_container_width=True):
+                result, _ = save_draft_order(proposed_order)
+                if result:
+                    st.success("Draft order saved.")
+                    st.rerun()
+
+        st.subheader("Team Names & Colors")
+        st.caption("Color selection is first come, first serve. I'm a chemical engineer, not an IT guy.")
+        used_colors = {info.get("color") for info in teams_data.values() if info.get("color")}
+        palette_parts = []
+        for label, color in TEAM_COLOR_OPTIONS:
+            chip_class = "color-chip used" if color in used_colors else "color-chip"
+            palette_parts.append(
+                f"<span title='{html.escape(label)}' class='{chip_class}' style='background:{color};'></span>"
+            )
+        st.markdown("".join(palette_parts), unsafe_allow_html=True)
+
+        new_team_settings = {}
+        for row_start in range(0, len(teams_data), 3):
+            team_setting_cols = st.columns(3)
+            for idx, (coach_id, info) in enumerate(list(teams_data.items())[row_start:row_start + 3]):
+                with team_setting_cols[idx]:
+                    st.markdown(f"### {coach_id}")
+                    team_name = st.text_input("Team Name", value=info.get("team_name", coach_id), key=f"name_{coach_id}")
+                    current_color = info.get("color", default_team_color(idx))
+                    colors_used_by_others = {
+                        other_info.get("color")
+                        for other_id, other_info in teams_data.items()
+                        if other_id != coach_id and other_info.get("color")
+                    }
+                    available_colors = [current_color] + [
+                        color for _, color in TEAM_COLOR_OPTIONS
+                        if color not in colors_used_by_others and color != current_color
+                    ]
+                    selected_color = st.selectbox(
+                        "Color",
+                        options=available_colors,
+                        index=0,
+                        format_func=lambda color: f"{TEAM_COLOR_BY_HEX.get(color, color)} ({color})",
+                        key=f"color_{coach_id}",
+                    )
+                    st.caption(f"Photo file: {coach_photo_filename(coach_id)}")
+                    new_team_settings[coach_id] = {"team_name": team_name, "color": selected_color}
+
+        if st.button("💾 Save Team Settings", use_container_width=True):
+            result, _ = save_team_settings(new_team_settings)
+            if result:
+                st.success("Team settings saved!")
+                st.rerun()
+            else:
+                st.error("Team settings were not saved. Please try again.")
 
 st.caption(f"{html.escape(str(state.get('app_title') or DEFAULT_APP_TITLE))} • Built by Jayme Leita")
 if st.session_state.get("perf_debug_enabled", False):
