@@ -140,7 +140,22 @@ def read_secret(*path):
     except Exception:
         return None
 
-GITHUB_TOKEN = read_secret("GITHUB", "TOKEN")
+def first_secret(*paths):
+    for path in paths:
+        value = read_secret(*path)
+        if value:
+            return str(value).strip()
+    return ""
+
+GITHUB_TOKEN = first_secret(
+    ("GITHUB", "TOKEN"),
+    ("GITHUB", "token"),
+    ("github", "token"),
+    ("github", "TOKEN"),
+    ("GITHUB_TOKEN",),
+    ("GH_TOKEN",),
+    ("github_token",),
+)
 REPO_OWNER = "theleitas"
 REPO_NAME = "jayme-fantasy-golf"
 STATE_FILE_PATH = "draft_state.json"
@@ -765,7 +780,7 @@ def load_state_from_github(show_warning=True):
 
 def save_state_to_github(state, sha, message_prefix="Update draft state"):
     if not GITHUB_TOKEN:
-        st.error("Missing GitHub token. Refusing to save local-only state because that could appear to reset the live draft.")
+        st.error("Missing GitHub token. Add GITHUB_TOKEN or [GITHUB] TOKEN in Streamlit secrets. No roster changes were saved.")
         return False
 
     content_str = json.dumps(normalize_state(state), indent=2, ensure_ascii=False)
@@ -785,7 +800,7 @@ def save_state_to_github(state, sha, message_prefix="Update draft state"):
 
 def mutate_shared_state(mutator, message_prefix):
     if not GITHUB_TOKEN:
-        st.error("Missing GitHub token. No draft or roster changes were saved.")
+        st.error("Missing GitHub token. Add GITHUB_TOKEN or [GITHUB] TOKEN in Streamlit secrets. No draft or roster changes were saved.")
         return False, None
     for _ in range(3):
         fresh_state, fresh_sha = load_state_from_github(show_warning=False)

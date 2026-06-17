@@ -35,10 +35,10 @@ Twilio credentials must be configured in Streamlit secrets:
 TWILIO_ACCOUNT_SID = "your_twilio_account_sid"
 TWILIO_AUTH_TOKEN = "your_twilio_auth_token"
 TWILIO_FROM_NUMBER = "+15555555555"
-
-[GITHUB]
-TOKEN = "your_github_personal_access_token"
+GITHUB_TOKEN = "your_github_personal_access_token"
 ```
+
+The app also accepts `[GITHUB] TOKEN = "..."`, `GH_TOKEN`, and lowercase `github_token`.
 
 Phone numbers are entered in the app UI and saved to `draft_state.json` through the normal GitHub-backed state flow.
 
