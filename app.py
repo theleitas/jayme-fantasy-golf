@@ -143,9 +143,23 @@ def read_secret(*path):
 def first_secret(*paths):
     for path in paths:
         value = read_secret(*path)
-        if value:
-            return str(value).strip()
+        normalized = normalize_secret_token(value)
+        if normalized:
+            return normalized
     return ""
+
+def normalize_secret_token(value):
+    text = str(value or "").strip().strip('"').strip("'").strip()
+    lowered = text.lower()
+    if lowered.startswith("bearer "):
+        text = text[7:].strip()
+        lowered = text.lower()
+    if lowered.startswith("token "):
+        text = text[6:].strip()
+        lowered = text.lower()
+    if not text or lowered.startswith("your_") or "personal_access_token" in lowered:
+        return ""
+    return text
 
 GITHUB_TOKEN = first_secret(
     ("GITHUB", "TOKEN"),
@@ -773,6 +787,57 @@ def github_response_error(resp):
         detail += f" ({documentation_url})"
     return detail
 
+def github_token_status_label():
+    if not GITHUB_TOKEN:
+        return "Token not detected"
+    return f"Token detected ({GITHUB_TOKEN[:8]}..., {len(GITHUB_TOKEN)} characters)"
+
+def github_api_get(url, timeout=10):
+    return requests.get(url, headers=GITHUB_HEADERS, timeout=timeout)
+
+def check_github_connection():
+    checks = [github_token_status_label()]
+    if not GITHUB_TOKEN:
+        checks.append("Add GITHUB_TOKEN in Streamlit secrets, then reboot the app.")
+        return False, checks
+
+    ok = True
+    try:
+        user_resp = github_api_get("https://api.github.com/user")
+        if user_resp.status_code == 200:
+            login = user_resp.json().get("login") or "unknown user"
+            checks.append(f"GitHub accepted token for {login}.")
+        else:
+            ok = False
+            checks.append(github_response_error(user_resp))
+
+        repo_resp = github_api_get(f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}")
+        if repo_resp.status_code == 200:
+            repo_payload = repo_resp.json()
+            permissions = repo_payload.get("permissions") or {}
+            permission_bits = [
+                name for name in ["admin", "maintain", "push", "triage", "pull"]
+                if permissions.get(name)
+            ]
+            checks.append(f"Repo access confirmed. Permissions: {', '.join(permission_bits) or 'not reported'}.")
+            if permissions and not (permissions.get("admin") or permissions.get("maintain") or permissions.get("push")):
+                ok = False
+                checks.append("Token can read the repo but does not appear to have write/push permission.")
+        else:
+            ok = False
+            checks.append(github_response_error(repo_resp))
+
+        contents_resp = github_api_get(github_file_url())
+        if contents_resp.status_code == 200:
+            checks.append(f"{STATE_FILE_PATH} read confirmed.")
+        else:
+            ok = False
+            checks.append(github_response_error(contents_resp))
+    except Exception as error:
+        ok = False
+        checks.append(f"GitHub connection check failed: {error}")
+    return ok, checks
+
 def load_state_from_github(show_warning=True):
     try:
         resp = requests.get(github_file_url(), headers=GITHUB_HEADERS, timeout=10)
@@ -825,9 +890,10 @@ def save_state_to_github(state, sha, message_prefix="Update draft state"):
         st.error(f"Could not save roster state: {error}")
         return False
 
-def mutate_shared_state(mutator, message_prefix):
+def mutate_shared_state(mutator, message_prefix, show_missing_token_error=True):
     if not GITHUB_TOKEN:
-        st.error("Missing GitHub token. Add GITHUB_TOKEN or [GITHUB] TOKEN in Streamlit secrets. No draft or roster changes were saved.")
+        if show_missing_token_error:
+            st.error("Missing GitHub token. Add GITHUB_TOKEN or [GITHUB] TOKEN in Streamlit secrets. No draft or roster changes were saved.")
         return False, None
     for _ in range(3):
         fresh_state, fresh_sha = load_state_from_github(show_warning=False)
@@ -1893,6 +1959,8 @@ def should_auto_refresh_scores(state):
     return time.time() - latest_score_refresh_marker(state) >= AUTO_SCORE_REFRESH_SECONDS
 
 def claim_auto_score_refresh():
+    if not GITHUB_TOKEN:
+        return False
     now = time.time()
 
     def mutator(state):
@@ -2148,6 +2216,8 @@ def make_draft_pick(golfer):
 
 def backfill_drafted_player_headshots(state, tournament):
     state = normalize_state(state)
+    if not GITHUB_TOKEN:
+        return state
     drafted_players = sorted(get_picked_golfers(state), key=lambda player: (last_name_key(player), player.lower()))
     existing_headshots = state.get("player_headshots", {})
     missing_players = [player for player in drafted_players if not existing_headshots.get(player)]
@@ -2926,6 +2996,15 @@ with st.expander("🔧 Admin Section", expanded=False):
             st.session_state.confirm_clear_rosters = False
             st.session_state.admin_reset_phrase_input = ""
             st.rerun()
+        st.subheader("GitHub Connection")
+        github_ok, github_checks = check_github_connection()
+        if github_ok:
+            st.success("GitHub save connection looks ready.")
+        else:
+            st.error("GitHub save connection is not ready.")
+        for check in github_checks:
+            st.caption(check)
+
         st.subheader("App Settings")
         with st.form("app_settings_form"):
             new_app_title = st.text_input("App Title", value=state.get("app_title", DEFAULT_APP_TITLE))
