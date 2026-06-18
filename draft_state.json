@@ -8,7 +8,7 @@
     "Jayme Leita",
     "Peter Miller"
   ],
-  "last_pick_started_at": 1781741768.874489,
+  "last_pick_started_at": 1781744093.8546402,
   "player_results": {
     "Bryson DeChambeau": {
       "score": "N/A",
@@ -1130,7 +1130,8 @@
     "Sepp Straka": "https://a.espncdn.com/i/headshots/golf/players/full/8961.png",
     "Shane Lowry": "https://a.espncdn.com/i/headshots/golf/players/full/4587.png",
     "Sungjae Im": "https://a.espncdn.com/i/headshots/golf/players/full/11382.png",
-    "Tyrrell Hatton": "https://a.espncdn.com/i/headshots/golf/players/full/5553.png"
+    "Tyrrell Hatton": "https://a.espncdn.com/i/headshots/golf/players/full/5553.png",
+    "Sam Burns": "https://a.espncdn.com/i/headshots/golf/players/full/9938.png"
   },
   "last_score_refresh_at": 1781744092.5377243,
   "last_score_refresh_attempt_at": 1781744092.5377243,
@@ -1145,7 +1146,8 @@
         "Collin Morikawa",
         "Patrick Cantlay",
         "Justin Rose",
-        "Shane Lowry"
+        "Shane Lowry",
+        "Sam Burns"
       ],
       "color": "#39FF14",
       "image": "jayme-pic.png"
