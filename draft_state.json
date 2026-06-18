@@ -71,8 +71,8 @@
       "competitor_id": "1067"
     },
     "Aaron Rai": {
-      "score": "-2",
-      "hole": "5",
+      "score": "-1",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/10906/aaron-rai",
       "competitor_id": "10906"
     },
@@ -95,8 +95,8 @@
       "competitor_id": "10990"
     },
     "Manav Shah": {
-      "score": "N/A",
-      "hole": "4:42 PM",
+      "score": "E",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/10994/manav-shah",
       "competitor_id": "10994"
     },
@@ -119,8 +119,8 @@
       "competitor_id": "11119"
     },
     "Nicolai Højgaard": {
-      "score": "+1",
-      "hole": "3",
+      "score": "+2",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/11250/nicolai-højgaard",
       "competitor_id": "11250"
     },
@@ -131,8 +131,8 @@
       "competitor_id": "11332"
     },
     "Robert MacIntyre": {
-      "score": "-1",
-      "hole": "3",
+      "score": "+1",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/11378/robert-macintyre",
       "competitor_id": "11378"
     },
@@ -149,8 +149,8 @@
       "competitor_id": "11383"
     },
     "Angel Hidalgo": {
-      "score": "+2",
-      "hole": "1",
+      "score": "+1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/11469/angel-hidalgo",
       "competitor_id": "11469"
     },
@@ -246,7 +246,7 @@
     },
     "Ryan Fox": {
       "score": "-1",
-      "hole": "4",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/4251/ryan-fox",
       "competitor_id": "4251"
     },
@@ -275,8 +275,8 @@
       "competitor_id": "4364865"
     },
     "Viktor Hovland": {
-      "score": "+3",
-      "hole": "5",
+      "score": "+4",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/4364873/viktor-hovland",
       "competitor_id": "4364873"
     },
@@ -311,8 +311,8 @@
       "competitor_id": "4404992"
     },
     "Nico Echavarria": {
-      "score": "+2",
-      "hole": "3",
+      "score": "+1",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/4408316/nico-echavarria",
       "competitor_id": "4408316"
     },
@@ -348,7 +348,7 @@
     },
     "Spencer Tibbits": {
       "score": "E",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/4425905/spencer-tibbits",
       "competitor_id": "4425905"
     },
@@ -377,8 +377,8 @@
       "competitor_id": "4566443"
     },
     "T.K. Kim": {
-      "score": "N/A",
-      "hole": "4:42 PM",
+      "score": "-1",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/4567001/tk-kim",
       "competitor_id": "4567001"
     },
@@ -467,8 +467,8 @@
       "competitor_id": "4848"
     },
     "Ryo Hisatsune": {
-      "score": "+1",
-      "hole": "4",
+      "score": "E",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/4858572/ryo-hisatsune",
       "competitor_id": "4858572"
     },
@@ -593,8 +593,8 @@
       "competitor_id": "5217048"
     },
     "Giuseppe Puebla": {
-      "score": "N/A",
-      "hole": "4:42 PM",
+      "score": "E",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/5272338/giuseppe-puebla",
       "competitor_id": "5272338"
     },
@@ -605,8 +605,8 @@
       "competitor_id": "5277550"
     },
     "Jake Sollon": {
-      "score": "N/A",
-      "hole": "4:42 PM",
+      "score": "E",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/5289156/jake-sollon",
       "competitor_id": "5289156"
     },
@@ -660,7 +660,7 @@
     },
     "Mateo Pulcini": {
       "score": "E",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/5344763/mateo-pulcini",
       "competitor_id": "5344763"
     },
@@ -683,8 +683,8 @@
       "competitor_id": "5362517"
     },
     "Marek Fleming": {
-      "score": "N/A",
-      "hole": "4:42 PM",
+      "score": "E",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362518/marek-fleming",
       "competitor_id": "5362518"
     },
@@ -713,8 +713,8 @@
       "competitor_id": "5362522"
     },
     "Matthew Robles": {
-      "score": "N/A",
-      "hole": "4:42 PM",
+      "score": "+2",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362523/matthew-robles",
       "competitor_id": "5362523"
     },
@@ -1008,7 +1008,8 @@
       "○",
       "P",
       "○",
-      "P"
+      "P",
+      "□"
     ],
     "Nathan Kimsey": [
       "P",
@@ -1052,7 +1053,8 @@
     ],
     "Nicolai Højgaard": [
       "□",
-      "P"
+      "P",
+      "□"
     ],
     "Andrew Novak": [
       "P",
@@ -1063,7 +1065,8 @@
     ],
     "Robert MacIntyre": [
       "P",
-      "○"
+      "○",
+      "□"
     ],
     "Sungjae Im": [
       "○",
@@ -1078,7 +1081,9 @@
       "P",
       "P"
     ],
-    "Angel Hidalgo": [],
+    "Angel Hidalgo": [
+      "○"
+    ],
     "Brian Harman": [
       "P",
       "P",
@@ -1181,6 +1186,7 @@
     "Ryan Fox": [
       "P",
       "P",
+      "P",
       "P"
     ],
     "Kristoffer Reitan": [
@@ -1213,6 +1219,7 @@
     ],
     "Viktor Hovland": [
       "P",
+      "□",
       "□",
       "□",
       "□"
@@ -1252,6 +1259,7 @@
     ],
     "Nico Echavarria": [
       "□",
+      "○",
       "○"
     ],
     "Kevin Roy": [
@@ -1284,7 +1292,9 @@
       "P",
       "□"
     ],
-    "Spencer Tibbits": [],
+    "Spencer Tibbits": [
+      "P"
+    ],
     "Cameron Young": [
       "P",
       "P",
@@ -1404,7 +1414,8 @@
     "Ryo Hisatsune": [
       "P",
       "P",
-      "□"
+      "□",
+      "○"
     ],
     "Filippo Celli": [
       "□",
@@ -1593,7 +1604,9 @@
       "P",
       "□"
     ],
-    "Mateo Pulcini": [],
+    "Mateo Pulcini": [
+      "P"
+    ],
     "Jackson Herrington": [
       "□",
       "P",
@@ -1901,8 +1914,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781816903.7498775,
-  "last_score_refresh_attempt_at": 1781817261.8621552,
+  "last_score_refresh_at": 1781817263.4786797,
+  "last_score_refresh_attempt_at": 1781817263.4786797,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
