@@ -30,7 +30,7 @@
     },
     "Xander Schauffele": {
       "score": "-2",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele",
       "competitor_id": "10140"
     },
@@ -294,7 +294,7 @@
     },
     "Niklas Nørgaard": {
       "score": "E",
-      "hole": "8",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/4382434/niklas-nørgaard",
       "competitor_id": "4382434"
     },
@@ -329,8 +329,8 @@
       "competitor_id": "4410932"
     },
     "Ugo Coussaud": {
-      "score": "E",
-      "hole": "5",
+      "score": "+1",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/4418567/ugo-coussaud",
       "competitor_id": "4418567"
     },
@@ -395,8 +395,8 @@
       "competitor_id": "4587989"
     },
     "Harry Hall": {
-      "score": "+1",
-      "hole": "5",
+      "score": "+2",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/4589438/harry-hall",
       "competitor_id": "4589438"
     },
@@ -419,8 +419,8 @@
       "competitor_id": "4604053"
     },
     "John Parry": {
-      "score": "+3",
-      "hole": "7",
+      "score": "+2",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/4671/john-parry",
       "competitor_id": "4671"
     },
@@ -461,8 +461,8 @@
       "competitor_id": "4844"
     },
     "Justin Thomas": {
-      "score": "+2",
-      "hole": "3",
+      "score": "+3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/4848/justin-thomas",
       "competitor_id": "4848"
     },
@@ -497,8 +497,8 @@
       "competitor_id": "4901368"
     },
     "Michael Brennan": {
-      "score": "E",
-      "hole": "5",
+      "score": "+1",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/4921329/michael-brennan",
       "competitor_id": "4921329"
     },
@@ -551,8 +551,8 @@
       "competitor_id": "5110034"
     },
     "Sudarshan Yellamaraju": {
-      "score": "+1",
-      "hole": "8",
+      "score": "+2",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/5143175/sudarshan-yellamaraju",
       "competitor_id": "5143175"
     },
@@ -611,8 +611,8 @@
       "competitor_id": "5289156"
     },
     "Rocco Repetto Taylor": {
-      "score": "+4",
-      "hole": "8",
+      "score": "+6",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/5289692/rocco-repetto-taylor",
       "competitor_id": "5289692"
     },
@@ -623,8 +623,8 @@
       "competitor_id": "5289811"
     },
     "Bryan Lee": {
-      "score": "+2",
-      "hole": "7",
+      "score": "+3",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/5289813/bryan-lee",
       "competitor_id": "5289813"
     },
@@ -750,7 +750,7 @@
     },
     "Andrew Putnam": {
       "score": "E",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/5502/andrew-putnam",
       "competitor_id": "5502"
     },
@@ -768,7 +768,7 @@
     },
     "Laurie Canter": {
       "score": "+1",
-      "hole": "7",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/5550/laurie-canter",
       "competitor_id": "5550"
     },
@@ -791,8 +791,8 @@
       "competitor_id": "569"
     },
     "Hideki Matsuyama": {
-      "score": "+2",
-      "hole": "3",
+      "score": "+3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/5860/hideki-matsuyama",
       "competitor_id": "5860"
     },
@@ -827,8 +827,8 @@
       "competitor_id": "6922"
     },
     "Adrien Saddier": {
-      "score": "+1",
-      "hole": "7",
+      "score": "E",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/6962/adrien-saddier",
       "competitor_id": "6962"
     },
@@ -958,7 +958,8 @@
     "Nick Hardy": [],
     "Xander Schauffele": [
       "○",
-      "○"
+      "○",
+      "P"
     ],
     "J.J. Spaun": [
       "P",
@@ -1223,7 +1224,8 @@
       "○",
       "P",
       "□",
-      "○"
+      "○",
+      "P"
     ],
     "Matthew Jordan": [
       "□",
@@ -1252,7 +1254,10 @@
       "P"
     ],
     "Ugo Coussaud": [
-      "○"
+      "○",
+      "P",
+      "P",
+      "□"
     ],
     "Akshay Bhatia": [
       "□",
@@ -1308,7 +1313,8 @@
     "Harry Hall": [
       "P",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Davis Thompson": [
       "P",
@@ -1333,7 +1339,8 @@
       "□",
       "□",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "James Nicholas": [
       "P",
@@ -1373,6 +1380,7 @@
     ],
     "Justin Thomas": [
       "□",
+      "□",
       "□"
     ],
     "Ryo Hisatsune": [
@@ -1404,7 +1412,8 @@
     "Michael Brennan": [
       "P",
       "□",
-      "P"
+      "P",
+      "□"
     ],
     "Jackson Suber": [
       "P",
@@ -1461,7 +1470,8 @@
       "○",
       "P",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Jackson Van Paris": [
       "P"
@@ -1506,7 +1516,8 @@
       "P",
       "P",
       "□",
-      "P"
+      "P",
+      "□"
     ],
     "Mason Howell": [
       "□",
@@ -1519,6 +1530,7 @@
       "□",
       "○",
       "P",
+      "□",
       "□"
     ],
     "Ethan Fang": [
@@ -1626,7 +1638,8 @@
     "Andrew Putnam": [
       "□",
       "P",
-      "○"
+      "○",
+      "P"
     ],
     "Carlos Ortiz": [
       "□",
@@ -1643,7 +1656,8 @@
       "□",
       "○",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Tyrrell Hatton": [
       "P",
@@ -1664,6 +1678,7 @@
     ],
     "Hideki Matsuyama": [
       "P",
+      "□",
       "□"
     ],
     "Emiliano Grillo": [
@@ -1697,7 +1712,8 @@
     "Adrien Saddier": [
       "P",
       "P",
-      "□"
+      "□",
+      "○"
     ],
     "Si Woo Kim": [
       "P",
@@ -1847,8 +1863,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781816183.3606102,
-  "last_score_refresh_attempt_at": 1781816541.8118777,
+  "last_score_refresh_at": 1781816543.4491067,
+  "last_score_refresh_attempt_at": 1781816543.4491067,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
@@ -1961,7 +1977,7 @@
       "Peter Miller": [
         "Xander Schauffele",
         "Tommy Fleetwood",
-        "Michael Brennan"
+        "Corey Conners"
       ]
     },
     "leaders": [
