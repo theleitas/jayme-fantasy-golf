@@ -101,7 +101,7 @@
       "competitor_id": "10994"
     },
     "Joaquin Niemann": {
-      "score": "+5",
+      "score": "+11",
       "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/11099/joaquin-niemann",
       "competitor_id": "11099"
@@ -294,7 +294,7 @@
     },
     "Niklas Nørgaard": {
       "score": "E",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/4382434/niklas-nørgaard",
       "competitor_id": "4382434"
     },
@@ -317,8 +317,8 @@
       "competitor_id": "4408316"
     },
     "Kevin Roy": {
-      "score": "+3",
-      "hole": "3",
+      "score": "+4",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/4408320/kevin-roy",
       "competitor_id": "4408320"
     },
@@ -377,8 +377,8 @@
       "competitor_id": "4566443"
     },
     "T.K. Kim": {
-      "score": "+8",
-      "hole": "15",
+      "score": "+9",
+      "hole": "9:02 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4567001/tk-kim",
       "competitor_id": "4567001"
     },
@@ -395,8 +395,8 @@
       "competitor_id": "4587989"
     },
     "Harry Hall": {
-      "score": "+7",
-      "hole": "3",
+      "score": "+8",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/4589438/harry-hall",
       "competitor_id": "4589438"
     },
@@ -449,8 +449,8 @@
       "competitor_id": "4699297"
     },
     "Pierceson Coody": {
-      "score": "+3",
-      "hole": "3",
+      "score": "+4",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/4837368/pierceson-coody",
       "competitor_id": "4837368"
     },
@@ -485,8 +485,8 @@
       "competitor_id": "4894340"
     },
     "David Puig": {
-      "score": "+9",
-      "hole": "2",
+      "score": "+11",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/4895429/david-puig",
       "competitor_id": "4895429"
     },
@@ -498,7 +498,7 @@
     },
     "Michael Brennan": {
       "score": "+3",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/4921329/michael-brennan",
       "competitor_id": "4921329"
     },
@@ -552,7 +552,7 @@
     },
     "Sudarshan Yellamaraju": {
       "score": "+3",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/5143175/sudarshan-yellamaraju",
       "competitor_id": "5143175"
     },
@@ -575,8 +575,8 @@
       "competitor_id": "5209798"
     },
     "Preston Stout": {
-      "score": "+4",
-      "hole": "2",
+      "score": "+7",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5210226/preston-stout",
       "competitor_id": "5210226"
     },
@@ -612,7 +612,7 @@
     },
     "Rocco Repetto Taylor": {
       "score": "+14",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/5289692/rocco-repetto-taylor",
       "competitor_id": "5289692"
     },
@@ -749,8 +749,8 @@
       "competitor_id": "5467"
     },
     "Andrew Putnam": {
-      "score": "+4",
-      "hole": "3",
+      "score": "+3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/5502/andrew-putnam",
       "competitor_id": "5502"
     },
@@ -881,8 +881,8 @@
       "competitor_id": "9037"
     },
     "Zac Blair": {
-      "score": "+2",
-      "hole": "3",
+      "score": "+3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/9040/zac-blair",
       "competitor_id": "9040"
     },
@@ -1281,8 +1281,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "P"
     ],
     "Matthew Jordan": [
       "□",
@@ -1306,11 +1306,11 @@
       "□"
     ],
     "Kevin Roy": [
-      "P",
       "□",
       "○",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Min Woo Lee": [
       "P",
@@ -1398,10 +1398,10 @@
     ],
     "Harry Hall": [
       "P",
+      "□",
+      "□",
       "P",
-      "□",
-      "□",
-      "P"
+      "□"
     ],
     "Davis Thompson": [
       "P",
@@ -1462,9 +1462,9 @@
     "Pierceson Coody": [
       "P",
       "P",
-      "P",
       "□",
-      "P"
+      "P",
+      "□"
     ],
     "Harry Higgs": [
       "P",
@@ -1504,8 +1504,8 @@
     "David Puig": [
       "□",
       "□",
-      "□",
       "P",
+      "□",
       "□"
     ],
     "Matt McCarty": [
@@ -1516,11 +1516,11 @@
       "P"
     ],
     "Michael Brennan": [
-      "P",
       "□",
       "P",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Jackson Suber": [
       "P",
@@ -1581,8 +1581,8 @@
     "Sudarshan Yellamaraju": [
       "P",
       "P",
-      "P",
       "□",
+      "P",
       "P"
     ],
     "Jackson Van Paris": [
@@ -1608,7 +1608,7 @@
     ],
     "Preston Stout": [
       "P",
-      "P",
+      "□",
       "□",
       "□",
       "□"
@@ -1811,10 +1811,10 @@
     ],
     "Andrew Putnam": [
       "□",
-      "□",
       "P",
       "□",
-      "P"
+      "P",
+      "○"
     ],
     "Carlos Ortiz": [
       "P",
@@ -1965,10 +1965,10 @@
     ],
     "Zac Blair": [
       "P",
-      "P",
       "○",
       "□",
-      "P"
+      "P",
+      "□"
     ],
     "Corey Conners": [
       "□",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781872258.3085973,
-  "last_score_refresh_attempt_at": 1781872573.7508829,
+  "last_score_refresh_at": 1781872575.2898116,
+  "last_score_refresh_attempt_at": 1781872575.2898116,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
