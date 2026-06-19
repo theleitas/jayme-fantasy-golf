@@ -65,8 +65,8 @@
       "competitor_id": "10592"
     },
     "J.B. Holmes": {
-      "score": "+8",
-      "hole": "12",
+      "score": "+9",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/1067/jb-holmes",
       "competitor_id": "1067"
     },
@@ -125,8 +125,8 @@
       "competitor_id": "11250"
     },
     "Andrew Novak": {
-      "score": "+3",
-      "hole": "14",
+      "score": "+5",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/11332/andrew-novak",
       "competitor_id": "11332"
     },
@@ -180,7 +180,7 @@
     },
     "Padraig Harrington": {
       "score": "+11",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/186/padraig-harrington",
       "competitor_id": "186"
     },
@@ -221,8 +221,8 @@
       "competitor_id": "3550"
     },
     "Rickie Fowler": {
-      "score": "+4",
-      "hole": "15",
+      "score": "+5",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/3702/rickie-fowler",
       "competitor_id": "3702"
     },
@@ -252,7 +252,7 @@
     },
     "Kristoffer Reitan": {
       "score": "+6",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4348470/kristoffer-reitan",
       "competitor_id": "4348470"
     },
@@ -473,8 +473,8 @@
       "competitor_id": "4858572"
     },
     "Filippo Celli": {
-      "score": "+6",
-      "hole": "12",
+      "score": "+7",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/4884239/filippo-celli",
       "competitor_id": "4884239"
     },
@@ -570,7 +570,7 @@
     },
     "Miles Russell": {
       "score": "+3",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5209798/miles-russell",
       "competitor_id": "5209798"
     },
@@ -671,8 +671,8 @@
       "competitor_id": "5344766"
     },
     "Jackson Ormond": {
-      "score": "+14",
-      "hole": "12",
+      "score": "+17",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/5360549/jackson-ormond",
       "competitor_id": "5360549"
     },
@@ -732,7 +732,7 @@
     },
     "Harris English": {
       "score": "+3",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/5408/harris-english",
       "competitor_id": "5408"
     },
@@ -780,7 +780,7 @@
     },
     "Patrick Reed": {
       "score": "+4",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/5579/patrick-reed",
       "competitor_id": "5579"
     },
@@ -816,7 +816,7 @@
     },
     "Patrick Rodgers": {
       "score": "+3",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/6825/patrick-rodgers",
       "competitor_id": "6825"
     },
@@ -869,8 +869,8 @@
       "competitor_id": "8974"
     },
     "Daniel Berger": {
-      "score": "+10",
-      "hole": "15",
+      "score": "+9",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/9025/daniel-berger",
       "competitor_id": "9025"
     },
@@ -893,8 +893,8 @@
       "competitor_id": "9126"
     },
     "Cameron Smith": {
-      "score": "+5",
-      "hole": "16",
+      "score": "+6",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/9131/cameron-smith",
       "competitor_id": "9131"
     },
@@ -1013,9 +1013,9 @@
     ],
     "J.B. Holmes": [
       "P",
-      "P",
       "○",
       "P",
+      "□",
       "□"
     ],
     "Aaron Rai": [
@@ -1083,10 +1083,10 @@
     ],
     "Andrew Novak": [
       "P",
-      "P",
       "○",
       "□",
-      "○"
+      "○",
+      "□"
     ],
     "Robert MacIntyre": [
       "○",
@@ -1146,8 +1146,8 @@
     ],
     "Padraig Harrington": [
       "P",
-      "P",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -1197,7 +1197,7 @@
       "P",
       "P",
       "P",
-      "P",
+      "□",
       "□"
     ],
     "Nick Taylor": [
@@ -1229,11 +1229,11 @@
       "P"
     ],
     "Kristoffer Reitan": [
+      "P",
+      "P",
+      "P",
       "□",
-      "P",
-      "P",
-      "P",
-      "□"
+      "P"
     ],
     "Brandon Wu": [
       "○",
@@ -1491,7 +1491,7 @@
       "P",
       "P",
       "P",
-      "P",
+      "□",
       "□"
     ],
     "Kaito Onishi": [
@@ -1601,10 +1601,10 @@
     ],
     "Miles Russell": [
       "□",
+      "P",
+      "P",
       "□",
-      "P",
-      "P",
-      "□"
+      "P"
     ],
     "Preston Stout": [
       "○",
@@ -1719,11 +1719,11 @@
       "□"
     ],
     "Jackson Ormond": [
-      "□",
       "P",
       "P",
       "P",
-      "○"
+      "○",
+      "□"
     ],
     "Ryder Cowan": [
       "□",
@@ -1789,10 +1789,10 @@
       "○"
     ],
     "Harris English": [
-      "P",
       "□",
       "P",
       "□",
+      "P",
       "P"
     ],
     "Russell Henley": [
@@ -1845,11 +1845,11 @@
       "P"
     ],
     "Patrick Reed": [
-      "P",
       "□",
       "○",
       "□",
-      "○"
+      "○",
+      "P"
     ],
     "Justin Rose": [
       "P",
@@ -1887,8 +1887,8 @@
       "□"
     ],
     "Patrick Rodgers": [
-      "P",
       "□",
+      "P",
       "P",
       "P",
       "P"
@@ -1950,11 +1950,11 @@
       "P"
     ],
     "Daniel Berger": [
-      "○",
       "P",
       "P",
       "□",
-      "□"
+      "□",
+      "○"
     ],
     "Matt Fitzpatrick": [
       "P",
@@ -1979,10 +1979,10 @@
     ],
     "Cameron Smith": [
       "P",
-      "P",
       "○",
       "□",
-      "P"
+      "P",
+      "□"
     ],
     "Scottie Scheffler": [
       "P",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781909398.0728686,
-  "last_score_refresh_attempt_at": 1781909699.496605,
+  "last_score_refresh_at": 1781909701.2466455,
+  "last_score_refresh_attempt_at": 1781909701.2466455,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
