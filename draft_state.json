@@ -36,7 +36,7 @@
     },
     "J.J. Spaun": {
       "score": "+8",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/10166/jj-spaun",
       "competitor_id": "10166"
     },
@@ -108,7 +108,7 @@
     },
     "Max Greyserman": {
       "score": "-2",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/11101/max-greyserman",
       "competitor_id": "11101"
     },
@@ -156,7 +156,7 @@
     },
     "Brian Harman": {
       "score": "-1",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/1225/brian-harman",
       "competitor_id": "1225"
     },
@@ -228,7 +228,7 @@
     },
     "Nick Taylor": {
       "score": "+4",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/3792/nick-taylor",
       "competitor_id": "3792"
     },
@@ -240,7 +240,7 @@
     },
     "Adam Scott": {
       "score": "+5",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/388/adam-scott",
       "competitor_id": "388"
     },
@@ -288,7 +288,7 @@
     },
     "Ludvig Aberg": {
       "score": "-1",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/4375972/ludvig-aberg",
       "competitor_id": "4375972"
     },
@@ -510,13 +510,13 @@
     },
     "Cooper Dossey": {
       "score": "+8",
-      "hole": "5",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/5027437/cooper-dossey",
       "competitor_id": "5027437"
     },
     "Jacob Bridgeman": {
       "score": "+2",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/5054388/jacob-bridgeman",
       "competitor_id": "5054388"
     },
@@ -618,7 +618,7 @@
     },
     "Mason Howell": {
       "score": "+8",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/5289811/mason-howell",
       "competitor_id": "5289811"
     },
@@ -762,7 +762,7 @@
     },
     "Tommy Fleetwood": {
       "score": "+1",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5539/tommy-fleetwood",
       "competitor_id": "5539"
     },
@@ -900,7 +900,7 @@
     },
     "Scottie Scheffler": {
       "score": "+1",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/9478/scottie-scheffler",
       "competitor_id": "9478"
     },
@@ -979,9 +979,9 @@
     "J.J. Spaun": [
       "P",
       "P",
-      "P",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "Lucas Herbert": [
       "□",
@@ -1063,8 +1063,8 @@
     "Max Greyserman": [
       "P",
       "P",
-      "P",
       "○",
+      "P",
       "P"
     ],
     "Wyndham Clark": [
@@ -1119,8 +1119,8 @@
     "Brian Harman": [
       "P",
       "P",
-      "P",
       "○",
+      "P",
       "P"
     ],
     "Billy Horschel": [
@@ -1203,8 +1203,8 @@
     "Nick Taylor": [
       "P",
       "P",
-      "P",
       "□",
+      "P",
       "P"
     ],
     "Alex Noren": [
@@ -1217,8 +1217,8 @@
     "Adam Scott": [
       "P",
       "P",
-      "P",
       "□",
+      "P",
       "P"
     ],
     "Ryan Fox": [
@@ -1530,17 +1530,17 @@
       "P"
     ],
     "Cooper Dossey": [
-      "□",
-      "P",
       "P",
       "○",
+      "P",
+      "P",
       "P"
     ],
     "Jacob Bridgeman": [
       "P",
       "P",
-      "P",
       "○",
+      "P",
       "P"
     ],
     "Adrien Dumont de Chassart": [
@@ -1659,7 +1659,7 @@
       "□",
       "□",
       "□",
-      "□",
+      "P",
       "P"
     ],
     "Bryan Lee": [
@@ -1825,10 +1825,10 @@
     ],
     "Tommy Fleetwood": [
       "P",
-      "P",
       "○",
       "○",
-      "□"
+      "□",
+      "P"
     ],
     "Laurie Canter": [
       "○",
@@ -1987,8 +1987,8 @@
     "Scottie Scheffler": [
       "P",
       "P",
-      "P",
       "○",
+      "P",
       "P"
     ],
     "Alex Smalley": [
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781895478.219802,
-  "last_score_refresh_attempt_at": 1781895836.759049,
+  "last_score_refresh_at": 1781895838.248686,
+  "last_score_refresh_attempt_at": 1781895838.248686,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
