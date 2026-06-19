@@ -48,7 +48,7 @@
     },
     "Kurt Kitayama": {
       "score": "+2",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/10364/kurt-kitayama",
       "competitor_id": "10364"
     },
@@ -84,7 +84,7 @@
     },
     "Sahith Theegala": {
       "score": "E",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/10980/sahith-theegala",
       "competitor_id": "10980"
     },
@@ -222,7 +222,7 @@
     },
     "Rickie Fowler": {
       "score": "+5",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/3702/rickie-fowler",
       "competitor_id": "3702"
     },
@@ -365,8 +365,8 @@
       "competitor_id": "4426181"
     },
     "Keegan Bradley": {
-      "score": "E",
-      "hole": "16",
+      "score": "+1",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4513/keegan-bradley",
       "competitor_id": "4513"
     },
@@ -408,7 +408,7 @@
     },
     "Tom Kim": {
       "score": "-2",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/4602673/tom-kim",
       "competitor_id": "4602673"
     },
@@ -540,7 +540,7 @@
     },
     "Ben James": {
       "score": "E",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/5077389/ben-james",
       "competitor_id": "5077389"
     },
@@ -581,8 +581,8 @@
       "competitor_id": "5210226"
     },
     "Jackson Koivun": {
-      "score": "+5",
-      "hole": "13",
+      "score": "+4",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/5215013/jackson-koivun",
       "competitor_id": "5215013"
     },
@@ -600,7 +600,7 @@
     },
     "Robbie Higgins": {
       "score": "+21",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/5277550/robbie-higgins",
       "competitor_id": "5277550"
     },
@@ -642,7 +642,7 @@
     },
     "Greyson Leach": {
       "score": "+17",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/5327840/greyson-leach",
       "competitor_id": "5327840"
     },
@@ -708,7 +708,7 @@
     },
     "Logan Reilly": {
       "score": "+10",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362522/logan-reilly",
       "competitor_id": "5362522"
     },
@@ -780,7 +780,7 @@
     },
     "Patrick Reed": {
       "score": "+4",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5579/patrick-reed",
       "competitor_id": "5579"
     },
@@ -834,7 +834,7 @@
     },
     "Si Woo Kim": {
       "score": "+6",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/7081/si-woo-kim",
       "competitor_id": "7081"
     },
@@ -864,13 +864,13 @@
     },
     "Michael Kim": {
       "score": "+1",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/8974/michael-kim",
       "competitor_id": "8974"
     },
     "Daniel Berger": {
-      "score": "+9",
-      "hole": "16",
+      "score": "+10",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/9025/daniel-berger",
       "competitor_id": "9025"
     },
@@ -993,9 +993,9 @@
     "Kurt Kitayama": [
       "P",
       "P",
-      "P",
       "○",
-      "□"
+      "□",
+      "P"
     ],
     "J.T. Poston": [
       "P",
@@ -1036,8 +1036,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "P"
     ],
     "Jimmy Stanger": [
       "P",
@@ -1196,9 +1196,9 @@
     "Rickie Fowler": [
       "P",
       "P",
-      "P",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "Nick Taylor": [
       "□",
@@ -1362,11 +1362,11 @@
       "P"
     ],
     "Keegan Bradley": [
-      "□",
       "P",
       "P",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Matti Schmid": [
       "□",
@@ -1411,9 +1411,9 @@
       "P"
     ],
     "Tom Kim": [
-      "○",
       "P",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -1565,8 +1565,8 @@
       "P"
     ],
     "Ben James": [
-      "□",
       "○",
+      "P",
       "P",
       "P",
       "P"
@@ -1614,11 +1614,11 @@
       "○"
     ],
     "Jackson Koivun": [
-      "P",
       "□",
       "P",
       "□",
-      "□"
+      "□",
+      "○"
     ],
     "Johnny Keefer": [
       "P",
@@ -1635,11 +1635,11 @@
       "○"
     ],
     "Robbie Higgins": [
-      "□",
       "P",
       "□",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "Jake Sollon": [
       "P",
@@ -1684,10 +1684,10 @@
       "P"
     ],
     "Greyson Leach": [
-      "□",
       "○",
       "□",
       "□",
+      "P",
       "P"
     ],
     "Bud Cauley": [
@@ -1762,8 +1762,8 @@
     ],
     "Logan Reilly": [
       "P",
-      "P",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -1845,10 +1845,10 @@
       "P"
     ],
     "Patrick Reed": [
-      "□",
       "○",
       "□",
       "○",
+      "P",
       "P"
     ],
     "Justin Rose": [
@@ -1908,8 +1908,8 @@
       "P"
     ],
     "Si Woo Kim": [
-      "P",
       "□",
+      "P",
       "P",
       "P",
       "P"
@@ -1944,17 +1944,17 @@
     ],
     "Michael Kim": [
       "P",
-      "P",
       "□",
       "○",
+      "P",
       "P"
     ],
     "Daniel Berger": [
       "P",
-      "P",
       "□",
       "□",
-      "○"
+      "○",
+      "□"
     ],
     "Matt Fitzpatrick": [
       "P",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781910418.3043933,
-  "last_score_refresh_attempt_at": 1781910776.8633575,
+  "last_score_refresh_at": 1781910778.46726,
+  "last_score_refresh_attempt_at": 1781910778.46726,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
