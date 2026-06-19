@@ -35,8 +35,8 @@
       "competitor_id": "10140"
     },
     "J.J. Spaun": {
-      "score": "+7",
-      "hole": "14",
+      "score": "+8",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/10166/jj-spaun",
       "competitor_id": "10166"
     },
@@ -185,8 +185,8 @@
       "competitor_id": "186"
     },
     "Brandon Holtz": {
-      "score": "+11",
-      "hole": "14",
+      "score": "+10",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/2201886/brandon-holtz",
       "competitor_id": "2201886"
     },
@@ -234,7 +234,7 @@
     },
     "Alex Noren": {
       "score": "+6",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/3832/alex-noren",
       "competitor_id": "3832"
     },
@@ -341,8 +341,8 @@
       "competitor_id": "4419142"
     },
     "Dylan Wu": {
-      "score": "+2",
-      "hole": "14",
+      "score": "+3",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/4423323/dylan-wu",
       "competitor_id": "4423323"
     },
@@ -354,7 +354,7 @@
     },
     "Cameron Young": {
       "score": "+2",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4425906/cameron-young",
       "competitor_id": "4425906"
     },
@@ -432,7 +432,7 @@
     },
     "Chris Gotterup": {
       "score": "+4",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4690755/chris-gotterup",
       "competitor_id": "4690755"
     },
@@ -443,8 +443,8 @@
       "competitor_id": "4691550"
     },
     "Ryuichi Oiwa": {
-      "score": "+12",
-      "hole": "14",
+      "score": "+13",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/4699297/ryuichi-oiwa",
       "competitor_id": "4699297"
     },
@@ -618,7 +618,7 @@
     },
     "Mason Howell": {
       "score": "+8",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/5289811/mason-howell",
       "competitor_id": "5289811"
     },
@@ -809,8 +809,8 @@
       "competitor_id": "6007"
     },
     "Brooks Koepka": {
-      "score": "+9",
-      "hole": "17",
+      "score": "+10",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/6798/brooks-koepka",
       "competitor_id": "6798"
     },
@@ -857,8 +857,8 @@
       "competitor_id": "8910"
     },
     "Sepp Straka": {
-      "score": "+6",
-      "hole": "15",
+      "score": "+7",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/8961/sepp-straka",
       "competitor_id": "8961"
     },
@@ -900,7 +900,7 @@
     },
     "Scottie Scheffler": {
       "score": "E",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/9478/scottie-scheffler",
       "competitor_id": "9478"
     },
@@ -977,11 +977,11 @@
       "P"
     ],
     "J.J. Spaun": [
-      "○",
       "P",
       "P",
       "□",
-      "○"
+      "○",
+      "□"
     ],
     "Lucas Herbert": [
       "□",
@@ -1152,11 +1152,11 @@
       "P"
     ],
     "Brandon Holtz": [
-      "P",
       "□",
       "P",
       "P",
-      "□"
+      "□",
+      "○"
     ],
     "Graeme McDowell": [
       "P",
@@ -1211,8 +1211,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "□"
+      "□",
+      "P"
     ],
     "Adam Scott": [
       "□",
@@ -1334,11 +1334,11 @@
       "P"
     ],
     "Dylan Wu": [
+      "P",
+      "P",
+      "P",
       "○",
-      "P",
-      "P",
-      "P",
-      "○"
+      "□"
     ],
     "Spencer Tibbits": [
       "P",
@@ -1350,9 +1350,9 @@
     "Cameron Young": [
       "P",
       "P",
-      "P",
       "□",
-      "○"
+      "○",
+      "P"
     ],
     "Sam Stevens": [
       "P",
@@ -1439,8 +1439,8 @@
       "P"
     ],
     "Chris Gotterup": [
-      "□",
       "○",
+      "P",
       "P",
       "P",
       "P"
@@ -1453,11 +1453,11 @@
       "P"
     ],
     "Ryuichi Oiwa": [
-      "□",
       "P",
       "P",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Pierceson Coody": [
       "P",
@@ -1658,8 +1658,8 @@
     "Mason Howell": [
       "P",
       "P",
-      "P",
       "○",
+      "P",
       "P"
     ],
     "Bryan Lee": [
@@ -1883,8 +1883,8 @@
       "□",
       "□",
       "□",
-      "□",
-      "P"
+      "P",
+      "□"
     ],
     "Patrick Rodgers": [
       "□",
@@ -1936,10 +1936,10 @@
       "□"
     ],
     "Sepp Straka": [
-      "P",
-      "P",
       "○",
       "□",
+      "□",
+      "P",
       "□"
     ],
     "Michael Kim": [
@@ -1988,8 +1988,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "P"
     ],
     "Alex Smalley": [
       "P",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781910778.46726,
-  "last_score_refresh_attempt_at": 1781911136.729367,
+  "last_score_refresh_at": 1781911139.6370528,
+  "last_score_refresh_attempt_at": 1781911139.6370528,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
