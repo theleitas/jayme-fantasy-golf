@@ -108,7 +108,7 @@
     },
     "Max Greyserman": {
       "score": "-3",
-      "hole": "6",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/11101/max-greyserman",
       "competitor_id": "11101"
     },
@@ -210,7 +210,7 @@
     },
     "Rory McIlroy": {
       "score": "-3",
-      "hole": "8",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/3470/rory-mcilroy",
       "competitor_id": "3470"
     },
@@ -222,25 +222,25 @@
     },
     "Rickie Fowler": {
       "score": "+4",
-      "hole": "8",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/3702/rickie-fowler",
       "competitor_id": "3702"
     },
     "Nick Taylor": {
       "score": "+5",
-      "hole": "7",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/3792/nick-taylor",
       "competitor_id": "3792"
     },
     "Alex Noren": {
-      "score": "+5",
-      "hole": "7",
+      "score": "+4",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/3832/alex-noren",
       "competitor_id": "3832"
     },
     "Adam Scott": {
       "score": "+6",
-      "hole": "7",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/388/adam-scott",
       "competitor_id": "388"
     },
@@ -389,8 +389,8 @@
       "competitor_id": "4587"
     },
     "Chandler Phillips": {
-      "score": "+5",
-      "hole": "12",
+      "score": "+7",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/4587989/chandler-phillips",
       "competitor_id": "4587989"
     },
@@ -455,8 +455,8 @@
       "competitor_id": "4837368"
     },
     "Harry Higgs": {
-      "score": "-3",
-      "hole": "12",
+      "score": "-2",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/4844/harry-higgs",
       "competitor_id": "4844"
     },
@@ -642,7 +642,7 @@
     },
     "Greyson Leach": {
       "score": "+11",
-      "hole": "4",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/5327840/greyson-leach",
       "competitor_id": "5327840"
     },
@@ -654,7 +654,7 @@
     },
     "Hamilton Coleman": {
       "score": "+9",
-      "hole": "12",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/5343786/hamilton-coleman",
       "competitor_id": "5343786"
     },
@@ -707,8 +707,8 @@
       "competitor_id": "5362521"
     },
     "Logan Reilly": {
-      "score": "+10",
-      "hole": "4",
+      "score": "+9",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362522/logan-reilly",
       "competitor_id": "5362522"
     },
@@ -761,8 +761,8 @@
       "competitor_id": "5532"
     },
     "Tommy Fleetwood": {
-      "score": "E",
-      "hole": "8",
+      "score": "-1",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/5539/tommy-fleetwood",
       "competitor_id": "5539"
     },
@@ -857,8 +857,8 @@
       "competitor_id": "8910"
     },
     "Sepp Straka": {
-      "score": "+5",
-      "hole": "7",
+      "score": "+6",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/8961/sepp-straka",
       "competitor_id": "8961"
     },
@@ -869,8 +869,8 @@
       "competitor_id": "8974"
     },
     "Daniel Berger": {
-      "score": "+8",
-      "hole": "8",
+      "score": "+9",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/9025/daniel-berger",
       "competitor_id": "9025"
     },
@@ -1062,8 +1062,8 @@
     ],
     "Max Greyserman": [
       "P",
-      "P",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -1180,11 +1180,11 @@
       "P"
     ],
     "Rory McIlroy": [
-      "P",
       "○",
       "P",
       "P",
-      "○"
+      "○",
+      "P"
     ],
     "Gary Woodland": [
       "P",
@@ -1194,32 +1194,32 @@
       "P"
     ],
     "Rickie Fowler": [
-      "□",
       "P",
       "□",
+      "P",
       "P",
       "P"
     ],
     "Nick Taylor": [
       "P",
-      "P",
       "□",
+      "P",
       "P",
       "P"
     ],
     "Alex Noren": [
-      "P",
       "○",
       "P",
       "□",
-      "□"
-    ],
-    "Adam Scott": [
-      "P",
-      "□",
-      "P",
       "□",
       "○"
+    ],
+    "Adam Scott": [
+      "□",
+      "P",
+      "□",
+      "○",
+      "P"
     ],
     "Ryan Fox": [
       "P",
@@ -1392,9 +1392,9 @@
     "Chandler Phillips": [
       "□",
       "P",
-      "□",
       "P",
-      "P"
+      "□",
+      "□"
     ],
     "Harry Hall": [
       "○",
@@ -1468,10 +1468,10 @@
     ],
     "Harry Higgs": [
       "P",
-      "P",
-      "P",
       "○",
-      "P"
+      "P",
+      "P",
+      "□"
     ],
     "Justin Thomas": [
       "P",
@@ -1684,11 +1684,11 @@
       "P"
     ],
     "Greyson Leach": [
-      "□",
       "P",
       "□",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Bud Cauley": [
       "P",
@@ -1698,11 +1698,11 @@
       "P"
     ],
     "Hamilton Coleman": [
+      "P",
+      "P",
       "○",
       "P",
-      "P",
-      "P",
-      "○"
+      "P"
     ],
     "Mateo Pulcini": [
       "P",
@@ -1762,10 +1762,10 @@
     ],
     "Logan Reilly": [
       "P",
-      "P",
       "□",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Matthew Robles": [
       "□",
@@ -1824,11 +1824,11 @@
       "P"
     ],
     "Tommy Fleetwood": [
-      "P",
       "○",
       "P",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Laurie Canter": [
       "○",
@@ -1937,9 +1937,9 @@
     ],
     "Sepp Straka": [
       "□",
-      "□",
       "P",
       "○",
+      "□",
       "□"
     ],
     "Michael Kim": [
@@ -1951,10 +1951,10 @@
     ],
     "Daniel Berger": [
       "P",
-      "P",
       "□",
       "○",
-      "P"
+      "P",
+      "□"
     ],
     "Matt Fitzpatrick": [
       "P",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781901598.2895122,
-  "last_score_refresh_attempt_at": 1781901956.7340434,
+  "last_score_refresh_at": 1781901958.23059,
+  "last_score_refresh_attempt_at": 1781901958.23059,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
@@ -2189,7 +2189,7 @@
       "Peter Miller": [
         "Xander Schauffele",
         "Matt Fitzpatrick",
-        "Justin Thomas"
+        "Tommy Fleetwood"
       ]
     },
     "leaders": [
