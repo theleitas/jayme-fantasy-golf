@@ -30,7 +30,7 @@
     },
     "Xander Schauffele": {
       "score": "-2",
-      "hole": "10",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele",
       "competitor_id": "10140"
     },
@@ -96,7 +96,7 @@
     },
     "Manav Shah": {
       "score": "+5",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/10994/manav-shah",
       "competitor_id": "10994"
     },
@@ -293,8 +293,8 @@
       "competitor_id": "4375972"
     },
     "Niklas Nørgaard": {
-      "score": "E",
-      "hole": "13",
+      "score": "-1",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/4382434/niklas-nørgaard",
       "competitor_id": "4382434"
     },
@@ -462,7 +462,7 @@
     },
     "Justin Thomas": {
       "score": "-1",
-      "hole": "10",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/4848/justin-thomas",
       "competitor_id": "4848"
     },
@@ -552,7 +552,7 @@
     },
     "Sudarshan Yellamaraju": {
       "score": "+3",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/5143175/sudarshan-yellamaraju",
       "competitor_id": "5143175"
     },
@@ -606,13 +606,13 @@
     },
     "Jake Sollon": {
       "score": "+12",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/5289156/jake-sollon",
       "competitor_id": "5289156"
     },
     "Rocco Repetto Taylor": {
       "score": "+18",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/5289692/rocco-repetto-taylor",
       "competitor_id": "5289692"
     },
@@ -714,7 +714,7 @@
     },
     "Matthew Robles": {
       "score": "+9",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362523/matthew-robles",
       "competitor_id": "5362523"
     },
@@ -792,7 +792,7 @@
     },
     "Hideki Matsuyama": {
       "score": "+2",
-      "hole": "10",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/5860/hideki-matsuyama",
       "competitor_id": "5860"
     },
@@ -971,9 +971,9 @@
     ],
     "Xander Schauffele": [
       "○",
-      "○",
       "P",
       "○",
+      "P",
       "P"
     ],
     "J.J. Spaun": [
@@ -1049,7 +1049,7 @@
     "Manav Shah": [
       "□",
       "□",
-      "□",
+      "P",
       "P",
       "P"
     ],
@@ -1281,8 +1281,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "□"
+      "□",
+      "○"
     ],
     "Matthew Jordan": [
       "□",
@@ -1475,10 +1475,10 @@
     ],
     "Justin Thomas": [
       "○",
-      "○",
       "P",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Ryo Hisatsune": [
       "P",
@@ -1579,9 +1579,9 @@
       "P"
     ],
     "Sudarshan Yellamaraju": [
-      "P",
       "○",
       "□",
+      "P",
       "P",
       "P"
     ],
@@ -1642,16 +1642,16 @@
       "□"
     ],
     "Jake Sollon": [
-      "□",
       "P",
       "□",
+      "P",
       "P",
       "P"
     ],
     "Rocco Repetto Taylor": [
       "□",
       "□",
-      "□",
+      "P",
       "P",
       "P"
     ],
@@ -1769,10 +1769,10 @@
     ],
     "Matthew Robles": [
       "□",
+      "P",
+      "P",
       "□",
-      "P",
-      "P",
-      "□"
+      "P"
     ],
     "Arni Sveinsson": [
       "P",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781882025.6418195,
-  "last_score_refresh_attempt_at": 1781882336.873224,
+  "last_score_refresh_at": 1781882338.3950236,
+  "last_score_refresh_attempt_at": 1781882338.3950236,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
