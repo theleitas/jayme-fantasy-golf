@@ -84,7 +84,7 @@
     },
     "Sahith Theegala": {
       "score": "+1",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/10980/sahith-theegala",
       "competitor_id": "10980"
     },
@@ -156,7 +156,7 @@
     },
     "Brian Harman": {
       "score": "E",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/1225/brian-harman",
       "competitor_id": "1225"
     },
@@ -240,7 +240,7 @@
     },
     "Adam Scott": {
       "score": "+8",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/388/adam-scott",
       "competitor_id": "388"
     },
@@ -582,7 +582,7 @@
     },
     "Jackson Koivun": {
       "score": "+3",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5215013/jackson-koivun",
       "competitor_id": "5215013"
     },
@@ -599,8 +599,8 @@
       "competitor_id": "5272338"
     },
     "Robbie Higgins": {
-      "score": "+20",
-      "hole": "15",
+      "score": "+19",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5277550/robbie-higgins",
       "competitor_id": "5277550"
     },
@@ -642,7 +642,7 @@
     },
     "Greyson Leach": {
       "score": "+19",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5327840/greyson-leach",
       "competitor_id": "5327840"
     },
@@ -707,8 +707,8 @@
       "competitor_id": "5362521"
     },
     "Logan Reilly": {
-      "score": "+11",
-      "hole": "15",
+      "score": "+10",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362522/logan-reilly",
       "competitor_id": "5362522"
     },
@@ -732,7 +732,7 @@
     },
     "Harris English": {
       "score": "+5",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5408/harris-english",
       "competitor_id": "5408"
     },
@@ -864,7 +864,7 @@
     },
     "Michael Kim": {
       "score": "+2",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/8974/michael-kim",
       "competitor_id": "8974"
     },
@@ -1034,10 +1034,10 @@
     ],
     "Sahith Theegala": [
       "P",
-      "P",
       "○",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Jimmy Stanger": [
       "P",
@@ -1119,8 +1119,8 @@
     "Brian Harman": [
       "P",
       "P",
-      "P",
       "□",
+      "P",
       "P"
     ],
     "Billy Horschel": [
@@ -1215,11 +1215,11 @@
       "P"
     ],
     "Adam Scott": [
-      "□",
       "P",
       "P",
       "□",
-      "○"
+      "○",
+      "P"
     ],
     "Ryan Fox": [
       "P",
@@ -1614,11 +1614,11 @@
       "○"
     ],
     "Jackson Koivun": [
-      "P",
       "□",
       "□",
       "○",
-      "○"
+      "○",
+      "P"
     ],
     "Johnny Keefer": [
       "P",
@@ -1637,8 +1637,8 @@
     "Robbie Higgins": [
       "□",
       "□",
-      "□",
       "P",
+      "○",
       "○"
     ],
     "Jake Sollon": [
@@ -1685,10 +1685,10 @@
     ],
     "Greyson Leach": [
       "□",
+      "P",
+      "P",
       "□",
-      "P",
-      "P",
-      "□"
+      "P"
     ],
     "Bud Cauley": [
       "P",
@@ -1761,11 +1761,11 @@
       "P"
     ],
     "Logan Reilly": [
-      "○",
       "P",
       "P",
       "P",
-      "□"
+      "□",
+      "○"
     ],
     "Matthew Robles": [
       "□",
@@ -1790,9 +1790,9 @@
     ],
     "Harris English": [
       "P",
+      "□",
+      "□",
       "P",
-      "□",
-      "□",
       "P"
     ],
     "Russell Henley": [
@@ -1943,11 +1943,11 @@
       "P"
     ],
     "Michael Kim": [
-      "□",
       "○",
       "P",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Daniel Berger": [
       "□",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781912938.171815,
-  "last_score_refresh_attempt_at": 1781913243.3225431,
+  "last_score_refresh_at": 1781913244.8191206,
+  "last_score_refresh_attempt_at": 1781913244.8191206,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
