@@ -24,7 +24,7 @@
     },
     "Nick Hardy": {
       "score": "+9",
-      "hole": "8:51 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/10048/nick-hardy",
       "competitor_id": "10048"
     },
@@ -114,7 +114,7 @@
     },
     "Wyndham Clark": {
       "score": "-6",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/11119/wyndham-clark",
       "competitor_id": "11119"
     },
@@ -198,7 +198,7 @@
     },
     "Dustin Johnson": {
       "score": "-3",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/3448/dustin-johnson",
       "competitor_id": "3448"
     },
@@ -215,8 +215,8 @@
       "competitor_id": "3470"
     },
     "Gary Woodland": {
-      "score": "-3",
-      "hole": "3",
+      "score": "-2",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/3550/gary-woodland",
       "competitor_id": "3550"
     },
@@ -372,7 +372,7 @@
     },
     "Matti Schmid": {
       "score": "+12",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/4566443/matti-schmid",
       "competitor_id": "4566443"
     },
@@ -395,8 +395,8 @@
       "competitor_id": "4587989"
     },
     "Harry Hall": {
-      "score": "+8",
-      "hole": "5",
+      "score": "+9",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/4589438/harry-hall",
       "competitor_id": "4589438"
     },
@@ -498,7 +498,7 @@
     },
     "Michael Brennan": {
       "score": "+3",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/4921329/michael-brennan",
       "competitor_id": "4921329"
     },
@@ -527,8 +527,8 @@
       "competitor_id": "5076011"
     },
     "Ryan Gerard": {
-      "score": "+4",
-      "hole": "3",
+      "score": "+3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -563,8 +563,8 @@
       "competitor_id": "5203535"
     },
     "Neal Shipley": {
-      "score": "+1",
-      "hole": "5",
+      "score": "+3",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/5209442/neal-shipley",
       "competitor_id": "5209442"
     },
@@ -647,8 +647,8 @@
       "competitor_id": "5327840"
     },
     "Bud Cauley": {
-      "score": "+3",
-      "hole": "5",
+      "score": "+2",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/5338/bud-cauley",
       "competitor_id": "5338"
     },
@@ -725,8 +725,8 @@
       "competitor_id": "5362524"
     },
     "Jack Schoenberger": {
-      "score": "+3",
-      "hole": "8:51 AM",
+      "score": "+4",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362526/jack-schoenberger",
       "competitor_id": "5362526"
     },
@@ -738,7 +738,7 @@
     },
     "Russell Henley": {
       "score": "+1",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/5409/russell-henley",
       "competitor_id": "5409"
     },
@@ -750,7 +750,7 @@
     },
     "Andrew Putnam": {
       "score": "+3",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/5502/andrew-putnam",
       "competitor_id": "5502"
     },
@@ -918,7 +918,7 @@
     },
     "Jon Rahm": {
       "score": "-2",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/9780/jon-rahm",
       "competitor_id": "9780"
     },
@@ -1166,11 +1166,11 @@
       "□"
     ],
     "Dustin Johnson": [
-      "□",
       "○",
       "P",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Chris Kirk": [
       "P",
@@ -1188,10 +1188,10 @@
     ],
     "Gary Woodland": [
       "P",
-      "P",
       "○",
       "□",
-      "P"
+      "P",
+      "□"
     ],
     "Rickie Fowler": [
       "P",
@@ -1369,11 +1369,11 @@
       "P"
     ],
     "Matti Schmid": [
-      "P",
       "□",
       "□",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "T.K. Kim": [
       "P",
@@ -1398,10 +1398,10 @@
     ],
     "Harry Hall": [
       "□",
-      "□",
       "P",
       "□",
-      "P"
+      "P",
+      "□"
     ],
     "Davis Thompson": [
       "P",
@@ -1517,8 +1517,8 @@
     ],
     "Michael Brennan": [
       "P",
-      "P",
       "□",
+      "P",
       "P",
       "P"
     ],
@@ -1553,9 +1553,9 @@
     "Ryan Gerard": [
       "P",
       "P",
-      "P",
       "□",
-      "P"
+      "P",
+      "○"
     ],
     "William Mouw": [
       "○",
@@ -1593,11 +1593,11 @@
       "□"
     ],
     "Neal Shipley": [
-      "□",
       "P",
       "P",
       "P",
-      "○"
+      "○",
+      "□"
     ],
     "Miles Russell": [
       "P",
@@ -1691,11 +1691,11 @@
       "P"
     ],
     "Bud Cauley": [
-      "P",
       "□",
       "P",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Hamilton Coleman": [
       "P",
@@ -1796,11 +1796,11 @@
       "P"
     ],
     "Russell Henley": [
-      "○",
       "P",
       "P",
       "□",
-      "○"
+      "○",
+      "P"
     ],
     "Jordan Spieth": [
       "P",
@@ -1810,10 +1810,10 @@
       "P"
     ],
     "Andrew Putnam": [
-      "P",
       "□",
       "P",
       "○",
+      "P",
       "P"
     ],
     "Carlos Ortiz": [
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781874204.0116408,
-  "last_score_refresh_attempt_at": 1781874536.885277,
+  "last_score_refresh_at": 1781874538.356695,
+  "last_score_refresh_attempt_at": 1781874538.356695,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
