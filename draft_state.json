@@ -12,7 +12,7 @@
   "player_results": {
     "Bryson DeChambeau": {
       "score": "-1",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/10046/bryson-dechambeau",
       "competitor_id": "10046"
     },
@@ -29,8 +29,8 @@
       "competitor_id": "10048"
     },
     "Xander Schauffele": {
-      "score": "+2",
-      "hole": "15",
+      "score": "+1",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele",
       "competitor_id": "10140"
     },
@@ -197,8 +197,8 @@
       "competitor_id": "301"
     },
     "Dustin Johnson": {
-      "score": "-2",
-      "hole": "15",
+      "score": "-3",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/3448/dustin-johnson",
       "competitor_id": "3448"
     },
@@ -216,7 +216,7 @@
     },
     "Gary Woodland": {
       "score": "-2",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/3550/gary-woodland",
       "competitor_id": "3550"
     },
@@ -462,13 +462,13 @@
     },
     "Justin Thomas": {
       "score": "+1",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4848/justin-thomas",
       "competitor_id": "4848"
     },
     "Ryo Hisatsune": {
-      "score": "E",
-      "hole": "16",
+      "score": "+1",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4858572/ryo-hisatsune",
       "competitor_id": "4858572"
     },
@@ -792,7 +792,7 @@
     },
     "Hideki Matsuyama": {
       "score": "+1",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5860/hideki-matsuyama",
       "competitor_id": "5860"
     },
@@ -875,8 +875,8 @@
       "competitor_id": "9025"
     },
     "Matt Fitzpatrick": {
-      "score": "-2",
-      "hole": "16",
+      "score": "-3",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/9037/matt-fitzpatrick",
       "competitor_id": "9037"
     },
@@ -888,7 +888,7 @@
     },
     "Corey Conners": {
       "score": "-1",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/9126/corey-conners",
       "competitor_id": "9126"
     },
@@ -949,11 +949,11 @@
   },
   "hole_outcomes": {
     "Bryson DeChambeau": [
-      "○",
       "P",
       "○",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Cole Hammer": [
       "P",
@@ -971,10 +971,10 @@
     ],
     "Xander Schauffele": [
       "P",
-      "P",
       "□",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "J.J. Spaun": [
       "P",
@@ -1168,9 +1168,9 @@
     "Dustin Johnson": [
       "○",
       "○",
-      "○",
       "P",
-      "□"
+      "□",
+      "○"
     ],
     "Chris Kirk": [
       "□",
@@ -1187,10 +1187,10 @@
       "P"
     ],
     "Gary Woodland": [
-      "□",
       "○",
       "○",
       "○",
+      "P",
       "P"
     ],
     "Rickie Fowler": [
@@ -1474,7 +1474,7 @@
       "○"
     ],
     "Justin Thomas": [
-      "○",
+      "P",
       "P",
       "P",
       "P",
@@ -1484,7 +1484,7 @@
       "P",
       "P",
       "P",
-      "P",
+      "□",
       "□"
     ],
     "Filippo Celli": [
@@ -1862,8 +1862,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "P"
     ],
     "Emiliano Grillo": [
       "P",
@@ -1957,11 +1957,11 @@
       "□"
     ],
     "Matt Fitzpatrick": [
-      "○",
       "P",
       "○",
       "P",
-      "□"
+      "□",
+      "○"
     ],
     "Zac Blair": [
       "P",
@@ -1972,8 +1972,8 @@
     ],
     "Corey Conners": [
       "○",
-      "○",
       "□",
+      "P",
       "P",
       "P"
     ],
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781865598.3246994,
-  "last_score_refresh_attempt_at": 1781865956.7948403,
+  "last_score_refresh_at": 1781865958.3124747,
+  "last_score_refresh_attempt_at": 1781865958.3124747,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
