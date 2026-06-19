@@ -54,7 +54,7 @@
     },
     "J.T. Poston": {
       "score": "+1",
-      "hole": "17",
+      "hole": "8:29 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/10505/jt-poston",
       "competitor_id": "10505"
     },
@@ -95,8 +95,8 @@
       "competitor_id": "10990"
     },
     "Manav Shah": {
-      "score": "+2",
-      "hole": "13",
+      "score": "+1",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/10994/manav-shah",
       "competitor_id": "10994"
     },
@@ -162,7 +162,7 @@
     },
     "Billy Horschel": {
       "score": "+3",
-      "hole": "17",
+      "hole": "8:29 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/1651/billy-horschel",
       "competitor_id": "1651"
     },
@@ -294,7 +294,7 @@
     },
     "Niklas Nørgaard": {
       "score": "+1",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/4382434/niklas-nørgaard",
       "competitor_id": "4382434"
     },
@@ -323,8 +323,8 @@
       "competitor_id": "4408320"
     },
     "Min Woo Lee": {
-      "score": "+3",
-      "hole": "17",
+      "score": "+4",
+      "hole": "8:18 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4410932/min-woo-lee",
       "competitor_id": "4410932"
     },
@@ -336,7 +336,7 @@
     },
     "Akshay Bhatia": {
       "score": "E",
-      "hole": "17",
+      "hole": "8:18 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4419142/akshay-bhatia",
       "competitor_id": "4419142"
     },
@@ -377,8 +377,8 @@
       "competitor_id": "4566443"
     },
     "T.K. Kim": {
-      "score": "+5",
-      "hole": "13",
+      "score": "+8",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/4567001/tk-kim",
       "competitor_id": "4567001"
     },
@@ -498,7 +498,7 @@
     },
     "Michael Brennan": {
       "score": "+2",
-      "hole": "7:23 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/4921329/michael-brennan",
       "competitor_id": "4921329"
     },
@@ -533,8 +533,8 @@
       "competitor_id": "5076021"
     },
     "William Mouw": {
-      "score": "E",
-      "hole": "2",
+      "score": "-1",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076025/william-mouw",
       "competitor_id": "5076025"
     },
@@ -552,7 +552,7 @@
     },
     "Sudarshan Yellamaraju": {
       "score": "+2",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5143175/sudarshan-yellamaraju",
       "competitor_id": "5143175"
     },
@@ -612,7 +612,7 @@
     },
     "Rocco Repetto Taylor": {
       "score": "+14",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5289692/rocco-repetto-taylor",
       "competitor_id": "5289692"
     },
@@ -678,13 +678,13 @@
     },
     "Ryder Cowan": {
       "score": "-2",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362517/ryder-cowan",
       "competitor_id": "5362517"
     },
     "Marek Fleming": {
-      "score": "+2",
-      "hole": "13",
+      "score": "+3",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362518/marek-fleming",
       "competitor_id": "5362518"
     },
@@ -744,7 +744,7 @@
     },
     "Jordan Spieth": {
       "score": "+3",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5467/jordan-spieth",
       "competitor_id": "5467"
     },
@@ -756,7 +756,7 @@
     },
     "Carlos Ortiz": {
       "score": "+2",
-      "hole": "17",
+      "hole": "8:18 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5532/carlos-ortiz",
       "competitor_id": "5532"
     },
@@ -804,7 +804,7 @@
     },
     "Patrick Cantlay": {
       "score": "+4",
-      "hole": "17",
+      "hole": "8:29 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/6007/patrick-cantlay",
       "competitor_id": "6007"
     },
@@ -929,8 +929,8 @@
       "competitor_id": "9843"
     },
     "Hennie Du Plessis": {
-      "score": "+6",
-      "hole": "2",
+      "score": "+7",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/9899/hennie-du-plessis",
       "competitor_id": "9899"
     },
@@ -1048,10 +1048,10 @@
     ],
     "Manav Shah": [
       "P",
-      "P",
       "□",
       "○",
-      "P"
+      "P",
+      "○"
     ],
     "Joaquin Niemann": [
       "P",
@@ -1278,9 +1278,9 @@
       "P"
     ],
     "Niklas Nørgaard": [
-      "□",
       "P",
       "□",
+      "P",
       "P",
       "P"
     ],
@@ -1377,9 +1377,9 @@
     ],
     "T.K. Kim": [
       "P",
+      "P",
       "□",
-      "P",
-      "P",
+      "□",
       "□"
     ],
     "Shane Lowry": [
@@ -1558,11 +1558,11 @@
       "P"
     ],
     "William Mouw": [
-      "P",
       "□",
       "P",
       "○",
-      "P"
+      "P",
+      "○"
     ],
     "Ben James": [
       "P",
@@ -1649,9 +1649,9 @@
       "□"
     ],
     "Rocco Repetto Taylor": [
-      "□",
       "P",
       "□",
+      "P",
       "P",
       "P"
     ],
@@ -1728,14 +1728,14 @@
     "Ryder Cowan": [
       "P",
       "P",
-      "P",
       "○",
+      "P",
       "P"
     ],
     "Marek Fleming": [
-      "○",
       "P",
       "P",
+      "□",
       "P",
       "□"
     ],
@@ -1803,11 +1803,11 @@
       "P"
     ],
     "Jordan Spieth": [
-      "□",
       "P",
       "○",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Andrew Putnam": [
       "P",
@@ -2022,9 +2022,9 @@
     "Hennie Du Plessis": [
       "P",
       "P",
-      "P",
       "□",
-      "P"
+      "P",
+      "□"
     ],
     "Sam Burns": [
       "P",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781869282.6050081,
-  "last_score_refresh_attempt_at": 1781869616.9660692,
+  "last_score_refresh_at": 1781869618.445912,
+  "last_score_refresh_attempt_at": 1781869618.445912,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
