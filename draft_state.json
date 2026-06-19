@@ -12,7 +12,7 @@
   "player_results": {
     "Bryson DeChambeau": {
       "score": "+3",
-      "hole": "9",
+      "hole": "10",
       "profile_url": "https://www.espn.com/golf/player/_/id/10046/bryson-dechambeau",
       "competitor_id": "10046"
     },
@@ -24,7 +24,7 @@
     },
     "Nick Hardy": {
       "score": "+10",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/10048/nick-hardy",
       "competitor_id": "10048"
     },
@@ -102,7 +102,7 @@
     },
     "Joaquin Niemann": {
       "score": "+4",
-      "hole": "7",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/11099/joaquin-niemann",
       "competitor_id": "11099"
     },
@@ -120,7 +120,7 @@
     },
     "Nicolai Højgaard": {
       "score": "+7",
-      "hole": "7",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/11250/nicolai-højgaard",
       "competitor_id": "11250"
     },
@@ -324,7 +324,7 @@
     },
     "Min Woo Lee": {
       "score": "+3",
-      "hole": "6",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/4410932/min-woo-lee",
       "competitor_id": "4410932"
     },
@@ -437,8 +437,8 @@
       "competitor_id": "4690755"
     },
     "Taihei Sato": {
-      "score": "+6",
-      "hole": "5",
+      "score": "+7",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/4691550/taihei-sato",
       "competitor_id": "4691550"
     },
@@ -485,14 +485,14 @@
       "competitor_id": "4894340"
     },
     "David Puig": {
-      "score": "+9",
-      "hole": "10",
+      "score": "+8",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/4895429/david-puig",
       "competitor_id": "4895429"
     },
     "Matt McCarty": {
-      "score": "+2",
-      "hole": "4",
+      "score": "+5",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/4901368/matt-mccarty",
       "competitor_id": "4901368"
     },
@@ -534,7 +534,7 @@
     },
     "William Mouw": {
       "score": "-2",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076025/william-mouw",
       "competitor_id": "5076025"
     },
@@ -576,7 +576,7 @@
     },
     "Preston Stout": {
       "score": "+10",
-      "hole": "10",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/5210226/preston-stout",
       "competitor_id": "5210226"
     },
@@ -720,13 +720,13 @@
     },
     "Arni Sveinsson": {
       "score": "+18",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362524/arni-sveinsson",
       "competitor_id": "5362524"
     },
     "Jack Schoenberger": {
       "score": "+4",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362526/jack-schoenberger",
       "competitor_id": "5362526"
     },
@@ -768,7 +768,7 @@
     },
     "Laurie Canter": {
       "score": "+5",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/5550/laurie-canter",
       "competitor_id": "5550"
     },
@@ -839,8 +839,8 @@
       "competitor_id": "7081"
     },
     "Marcelo Rozo": {
-      "score": "+5",
-      "hole": "5",
+      "score": "+6",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/7120/marcelo-rozo",
       "competitor_id": "7120"
     },
@@ -905,8 +905,8 @@
       "competitor_id": "9478"
     },
     "Alex Smalley": {
-      "score": "+6",
-      "hole": "7",
+      "score": "+7",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/9484/alex-smalley",
       "competitor_id": "9484"
     },
@@ -949,10 +949,10 @@
   },
   "hole_outcomes": {
     "Bryson DeChambeau": [
-      "○",
       "□",
       "P",
       "○",
+      "P",
       "P"
     ],
     "Cole Hammer": [
@@ -964,10 +964,10 @@
     ],
     "Nick Hardy": [
       "P",
-      "P",
       "□",
       "P",
-      "○"
+      "○",
+      "P"
     ],
     "Xander Schauffele": [
       "P",
@@ -1054,10 +1054,10 @@
       "P"
     ],
     "Joaquin Niemann": [
-      "□",
       "○",
       "○",
       "○",
+      "P",
       "P"
     ],
     "Max Greyserman": [
@@ -1077,9 +1077,9 @@
     "Nicolai Højgaard": [
       "P",
       "P",
-      "P",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "Andrew Novak": [
       "P",
@@ -1315,8 +1315,8 @@
     "Min Woo Lee": [
       "P",
       "P",
-      "P",
       "○",
+      "P",
       "P"
     ],
     "Ugo Coussaud": [
@@ -1449,7 +1449,7 @@
       "P",
       "P",
       "P",
-      "P",
+      "□",
       "□"
     ],
     "Ryuichi Oiwa": [
@@ -1502,10 +1502,10 @@
       "□"
     ],
     "David Puig": [
-      "□",
       "○",
       "P",
       "P",
+      "○",
       "○"
     ],
     "Matt McCarty": [
@@ -1513,7 +1513,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "□"
     ],
     "Michael Brennan": [
       "P",
@@ -1558,11 +1558,11 @@
       "P"
     ],
     "William Mouw": [
-      "○",
       "P",
       "○",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Ben James": [
       "P",
@@ -1608,9 +1608,9 @@
     ],
     "Preston Stout": [
       "P",
-      "P",
       "□",
       "○",
+      "P",
       "P"
     ],
     "Jackson Koivun": [
@@ -1775,11 +1775,11 @@
       "P"
     ],
     "Arni Sveinsson": [
-      "□",
       "P",
       "□",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Jack Schoenberger": [
       "P",
@@ -1915,11 +1915,11 @@
       "○"
     ],
     "Marcelo Rozo": [
-      "□",
       "P",
       "□",
       "P",
-      "○"
+      "○",
+      "□"
     ],
     "Keith Mitchell": [
       "○",
@@ -1993,9 +1993,9 @@
     ],
     "Alex Smalley": [
       "P",
-      "P",
       "○",
       "○",
+      "□",
       "□"
     ],
     "Maverick McNealy": [
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781880059.5606508,
-  "last_score_refresh_attempt_at": 1781880381.057097,
+  "last_score_refresh_at": 1781880382.5389547,
+  "last_score_refresh_attempt_at": 1781880382.5389547,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
