@@ -156,7 +156,7 @@
     },
     "Brian Harman": {
       "score": "-1",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/1225/brian-harman",
       "competitor_id": "1225"
     },
@@ -186,7 +186,7 @@
     },
     "Brandon Holtz": {
       "score": "+6",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/2201886/brandon-holtz",
       "competitor_id": "2201886"
     },
@@ -258,7 +258,7 @@
     },
     "Brandon Wu": {
       "score": "+7",
-      "hole": "6",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/4355673/brandon-wu",
       "competitor_id": "4355673"
     },
@@ -341,8 +341,8 @@
       "competitor_id": "4419142"
     },
     "Dylan Wu": {
-      "score": "+4",
-      "hole": "1",
+      "score": "+5",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/4423323/dylan-wu",
       "competitor_id": "4423323"
     },
@@ -426,7 +426,7 @@
     },
     "James Nicholas": {
       "score": "+3",
-      "hole": "9",
+      "hole": "10",
       "profile_url": "https://www.espn.com/golf/player/_/id/4683800/james-nicholas",
       "competitor_id": "4683800"
     },
@@ -444,7 +444,7 @@
     },
     "Ryuichi Oiwa": {
       "score": "+9",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/4699297/ryuichi-oiwa",
       "competitor_id": "4699297"
     },
@@ -479,8 +479,8 @@
       "competitor_id": "4884239"
     },
     "Kaito Onishi": {
-      "score": "+7",
-      "hole": "1",
+      "score": "+6",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/4894340/kaito-onishi",
       "competitor_id": "4894340"
     },
@@ -509,8 +509,8 @@
       "competitor_id": "4982182"
     },
     "Cooper Dossey": {
-      "score": "+9",
-      "hole": "8",
+      "score": "+8",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/5027437/cooper-dossey",
       "competitor_id": "5027437"
     },
@@ -546,7 +546,7 @@
     },
     "Caleb Surratt": {
       "score": "+2",
-      "hole": "9",
+      "hole": "10",
       "profile_url": "https://www.espn.com/golf/player/_/id/5110034/caleb-surratt",
       "competitor_id": "5110034"
     },
@@ -582,7 +582,7 @@
     },
     "Jackson Koivun": {
       "score": "+1",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5215013/jackson-koivun",
       "competitor_id": "5215013"
     },
@@ -696,7 +696,7 @@
     },
     "Chase Kyes": {
       "score": "+8",
-      "hole": "6",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362520/chase-kyes",
       "competitor_id": "5362520"
     },
@@ -1118,8 +1118,8 @@
     ],
     "Brian Harman": [
       "P",
-      "P",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -1154,8 +1154,8 @@
     "Brandon Holtz": [
       "□",
       "□",
-      "□",
       "○",
+      "P",
       "P"
     ],
     "Graeme McDowell": [
@@ -1335,9 +1335,9 @@
     ],
     "Dylan Wu": [
       "P",
-      "P",
       "□",
       "P",
+      "□",
       "□"
     ],
     "Spencer Tibbits": [
@@ -1455,8 +1455,8 @@
     "Ryuichi Oiwa": [
       "□",
       "□",
-      "□",
       "○",
+      "P",
       "P"
     ],
     "Pierceson Coody": [
@@ -1499,7 +1499,7 @@
       "□",
       "□",
       "□",
-      "□"
+      "○"
     ],
     "David Puig": [
       "P",
@@ -1530,11 +1530,11 @@
       "P"
     ],
     "Cooper Dossey": [
-      "○",
       "P",
       "P",
       "P",
-      "□"
+      "□",
+      "○"
     ],
     "Jacob Bridgeman": [
       "P",
@@ -1572,10 +1572,10 @@
       "P"
     ],
     "Caleb Surratt": [
-      "○",
       "P",
       "P",
       "○",
+      "P",
       "P"
     ],
     "Sudarshan Yellamaraju": [
@@ -1614,11 +1614,11 @@
       "○"
     ],
     "Jackson Koivun": [
-      "P",
       "○",
       "P",
       "□",
-      "○"
+      "○",
+      "P"
     ],
     "Johnny Keefer": [
       "P",
@@ -1747,10 +1747,10 @@
       "P"
     ],
     "Chase Kyes": [
-      "P",
       "□",
       "P",
       "□",
+      "P",
       "P"
     ],
     "Eric Lee": [
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781896918.1300254,
-  "last_score_refresh_attempt_at": 1781897276.7226017,
+  "last_score_refresh_at": 1781897278.2824373,
+  "last_score_refresh_attempt_at": 1781897278.2824373,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
