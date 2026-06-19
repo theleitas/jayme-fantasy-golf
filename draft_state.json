@@ -305,8 +305,8 @@
       "competitor_id": "4390719"
     },
     "Ben Griffin": {
-      "score": "+3",
-      "hole": "17",
+      "score": "+1",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4404992/ben-griffin",
       "competitor_id": "4404992"
     },
@@ -738,7 +738,7 @@
     },
     "Russell Henley": {
       "score": "E",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5409/russell-henley",
       "competitor_id": "5409"
     },
@@ -1796,11 +1796,11 @@
       "P"
     ],
     "Russell Henley": [
-      "□",
       "P",
       "□",
       "○",
-      "○"
+      "○",
+      "P"
     ],
     "Jordan Spieth": [
       "P",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781830246.1572845,
-  "last_score_refresh_attempt_at": 1781831125.493409,
+  "last_score_refresh_at": 1781831126.966565,
+  "last_score_refresh_attempt_at": 1781831126.966565,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
