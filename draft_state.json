@@ -24,7 +24,7 @@
     },
     "Nick Hardy": {
       "score": "+13",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/10048/nick-hardy",
       "competitor_id": "10048"
     },
@@ -53,8 +53,8 @@
       "competitor_id": "10364"
     },
     "J.T. Poston": {
-      "score": "+3",
-      "hole": "16",
+      "score": "+2",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/10505/jt-poston",
       "competitor_id": "10505"
     },
@@ -299,8 +299,8 @@
       "competitor_id": "4382434"
     },
     "Matthew Jordan": {
-      "score": "+3",
-      "hole": "2",
+      "score": "+2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/4390719/matthew-jordan",
       "competitor_id": "4390719"
     },
@@ -587,8 +587,8 @@
       "competitor_id": "5215013"
     },
     "Johnny Keefer": {
-      "score": "+2",
-      "hole": "15",
+      "score": "+1",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5217048/johnny-keefer",
       "competitor_id": "5217048"
     },
@@ -725,8 +725,8 @@
       "competitor_id": "5362524"
     },
     "Jack Schoenberger": {
-      "score": "+7",
-      "hole": "15",
+      "score": "+8",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362526/jack-schoenberger",
       "competitor_id": "5362526"
     },
@@ -786,7 +786,7 @@
     },
     "Justin Rose": {
       "score": "+1",
-      "hole": "15",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/569/justin-rose",
       "competitor_id": "569"
     },
@@ -798,7 +798,7 @@
     },
     "Emiliano Grillo": {
       "score": "+2",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/5882/emiliano-grillo",
       "competitor_id": "5882"
     },
@@ -822,7 +822,7 @@
     },
     "Ben Kohles": {
       "score": "E",
-      "hole": "15",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/6922/ben-kohles",
       "competitor_id": "6922"
     },
@@ -918,7 +918,7 @@
     },
     "Jon Rahm": {
       "score": "+6",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/9780/jon-rahm",
       "competitor_id": "9780"
     },
@@ -963,11 +963,11 @@
       "□"
     ],
     "Nick Hardy": [
-      "□",
       "P",
       "P",
       "○",
-      "□"
+      "□",
+      "P"
     ],
     "Xander Schauffele": [
       "□",
@@ -999,10 +999,10 @@
     ],
     "J.T. Poston": [
       "P",
-      "□",
-      "P",
       "○",
-      "P"
+      "P",
+      "P",
+      "○"
     ],
     "Collin Morikawa": [
       "P",
@@ -1285,11 +1285,11 @@
       "□"
     ],
     "Matthew Jordan": [
-      "○",
       "P",
       "P",
       "P",
-      "□"
+      "□",
+      "○"
     ],
     "Ben Griffin": [
       "P",
@@ -1621,11 +1621,11 @@
       "□"
     ],
     "Johnny Keefer": [
-      "□",
       "P",
       "○",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Giuseppe Puebla": [
       "□",
@@ -1782,10 +1782,10 @@
       "P"
     ],
     "Jack Schoenberger": [
+      "P",
+      "P",
+      "P",
       "□",
-      "P",
-      "P",
-      "P",
       "□"
     ],
     "Harris English": [
@@ -1852,11 +1852,11 @@
       "□"
     ],
     "Justin Rose": [
-      "P",
+      "□",
       "P",
       "□",
       "P",
-      "□"
+      "P"
     ],
     "Hideki Matsuyama": [
       "○",
@@ -1869,8 +1869,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "□"
+      "□",
+      "P"
     ],
     "Patrick Cantlay": [
       "P",
@@ -1894,11 +1894,11 @@
       "○"
     ],
     "Ben Kohles": [
+      "P",
       "○",
       "□",
       "P",
-      "○",
-      "□"
+      "P"
     ],
     "Adrien Saddier": [
       "P",
@@ -2010,7 +2010,7 @@
       "□",
       "□",
       "□",
-      "□"
+      "P"
     ],
     "Jake Knapp": [
       "○",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781891578.3825479,
-  "last_score_refresh_attempt_at": 1781891936.8328378,
+  "last_score_refresh_at": 1781891938.2933571,
+  "last_score_refresh_attempt_at": 1781891938.2933571,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
