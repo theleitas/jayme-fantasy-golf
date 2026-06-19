@@ -84,7 +84,7 @@
     },
     "Sahith Theegala": {
       "score": "+1",
-      "hole": "11",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/10980/sahith-theegala",
       "competitor_id": "10980"
     },
@@ -167,8 +167,8 @@
       "competitor_id": "1651"
     },
     "Peter Uihlein": {
-      "score": "+5",
-      "hole": "17",
+      "score": "+4",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/1674/peter-uihlein",
       "competitor_id": "1674"
     },
@@ -209,8 +209,8 @@
       "competitor_id": "3449"
     },
     "Rory McIlroy": {
-      "score": "-2",
-      "hole": "14",
+      "score": "E",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/3470/rory-mcilroy",
       "competitor_id": "3470"
     },
@@ -239,8 +239,8 @@
       "competitor_id": "3832"
     },
     "Adam Scott": {
-      "score": "+6",
-      "hole": "12",
+      "score": "+8",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/388/adam-scott",
       "competitor_id": "388"
     },
@@ -360,7 +360,7 @@
     },
     "Sam Stevens": {
       "score": "-3",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4426181/sam-stevens",
       "competitor_id": "4426181"
     },
@@ -581,8 +581,8 @@
       "competitor_id": "5210226"
     },
     "Jackson Koivun": {
-      "score": "+3",
-      "hole": "11",
+      "score": "+4",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/5215013/jackson-koivun",
       "competitor_id": "5215013"
     },
@@ -702,7 +702,7 @@
     },
     "Eric Lee": {
       "score": "+4",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362521/eric-lee",
       "competitor_id": "5362521"
     },
@@ -863,8 +863,8 @@
       "competitor_id": "8961"
     },
     "Michael Kim": {
-      "score": "+2",
-      "hole": "11",
+      "score": "+1",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/8974/michael-kim",
       "competitor_id": "8974"
     },
@@ -912,7 +912,7 @@
     },
     "Maverick McNealy": {
       "score": "-1",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/9530/maverick-mcnealy",
       "competitor_id": "9530"
     },
@@ -1033,8 +1033,8 @@
       "P"
     ],
     "Sahith Theegala": [
-      "○",
       "□",
+      "P",
       "P",
       "P",
       "P"
@@ -1135,7 +1135,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "○"
     ],
     "Jason Day": [
       "□",
@@ -1182,9 +1182,9 @@
     "Rory McIlroy": [
       "□",
       "□",
-      "□",
       "○",
-      "○"
+      "○",
+      "□"
     ],
     "Gary Woodland": [
       "P",
@@ -1216,10 +1216,10 @@
     ],
     "Adam Scott": [
       "P",
-      "P",
       "□",
       "□",
-      "○"
+      "○",
+      "□"
     ],
     "Ryan Fox": [
       "P",
@@ -1614,11 +1614,11 @@
       "○"
     ],
     "Jackson Koivun": [
-      "P",
       "□",
       "P",
       "□",
-      "P"
+      "P",
+      "□"
     ],
     "Johnny Keefer": [
       "P",
@@ -1755,9 +1755,9 @@
     ],
     "Eric Lee": [
       "P",
+      "□",
+      "□",
       "P",
-      "□",
-      "□",
       "P"
     ],
     "Logan Reilly": [
@@ -1943,11 +1943,11 @@
       "○"
     ],
     "Michael Kim": [
-      "□",
       "○",
       "P",
       "P",
-      "□"
+      "□",
+      "○"
     ],
     "Daniel Berger": [
       "□",
@@ -1999,11 +1999,11 @@
       "P"
     ],
     "Maverick McNealy": [
-      "○",
       "P",
       "○",
       "P",
-      "○"
+      "○",
+      "P"
     ],
     "Jon Rahm": [
       "□",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781907598.2912323,
-  "last_score_refresh_attempt_at": 1781907956.8306599,
+  "last_score_refresh_at": 1781907958.3105943,
+  "last_score_refresh_attempt_at": 1781907958.3105943,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
@@ -2177,9 +2177,9 @@
     "sent_event_ids": [],
     "top3_by_coach": {
       "Jayme Leita": [
-        "Rory McIlroy",
         "Collin Morikawa",
-        "Sam Burns"
+        "Sam Burns",
+        "Rory McIlroy"
       ],
       "Spencer Tidwell": [
         "Ludvig Aberg",
