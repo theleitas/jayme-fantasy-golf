@@ -48,7 +48,7 @@
     },
     "Kurt Kitayama": {
       "score": "+2",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/10364/kurt-kitayama",
       "competitor_id": "10364"
     },
@@ -126,7 +126,7 @@
     },
     "Andrew Novak": {
       "score": "+5",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/11332/andrew-novak",
       "competitor_id": "11332"
     },
@@ -516,7 +516,7 @@
     },
     "Jacob Bridgeman": {
       "score": "+4",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5054388/jacob-bridgeman",
       "competitor_id": "5054388"
     },
@@ -780,7 +780,7 @@
     },
     "Patrick Reed": {
       "score": "+5",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5579/patrick-reed",
       "competitor_id": "5579"
     },
@@ -991,9 +991,9 @@
       "○"
     ],
     "Kurt Kitayama": [
-      "P",
       "○",
       "□",
+      "P",
       "P",
       "P"
     ],
@@ -1082,9 +1082,9 @@
       "□"
     ],
     "Andrew Novak": [
-      "□",
       "○",
       "□",
+      "P",
       "P",
       "P"
     ],
@@ -1537,9 +1537,9 @@
       "□"
     ],
     "Jacob Bridgeman": [
-      "P",
       "○",
       "□",
+      "P",
       "P",
       "P"
     ],
@@ -1845,11 +1845,11 @@
       "P"
     ],
     "Patrick Reed": [
-      "□",
       "○",
       "P",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Justin Rose": [
       "P",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781912219.3411458,
-  "last_score_refresh_attempt_at": 1781912576.7538788,
+  "last_score_refresh_at": 1781912578.2592876,
+  "last_score_refresh_attempt_at": 1781912578.2592876,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
