@@ -53,8 +53,8 @@
       "competitor_id": "10364"
     },
     "J.T. Poston": {
-      "score": "+1",
-      "hole": "14",
+      "score": "+2",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/10505/jt-poston",
       "competitor_id": "10505"
     },
@@ -101,8 +101,8 @@
       "competitor_id": "10994"
     },
     "Joaquin Niemann": {
-      "score": "E",
-      "hole": "14",
+      "score": "+5",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/11099/joaquin-niemann",
       "competitor_id": "11099"
     },
@@ -305,8 +305,8 @@
       "competitor_id": "4390719"
     },
     "Ben Griffin": {
-      "score": "+1",
-      "hole": "16",
+      "score": "+2",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4404992/ben-griffin",
       "competitor_id": "4404992"
     },
@@ -378,7 +378,7 @@
     },
     "T.K. Kim": {
       "score": "+4",
-      "hole": "11",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/4567001/tk-kim",
       "competitor_id": "4567001"
     },
@@ -528,7 +528,7 @@
     },
     "Ryan Gerard": {
       "score": "+3",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -684,7 +684,7 @@
     },
     "Marek Fleming": {
       "score": "+1",
-      "hole": "11",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362518/marek-fleming",
       "competitor_id": "5362518"
     },
@@ -738,13 +738,13 @@
     },
     "Russell Henley": {
       "score": "E",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5409/russell-henley",
       "competitor_id": "5409"
     },
     "Jordan Spieth": {
-      "score": "+3",
-      "hole": "13",
+      "score": "+2",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/5467/jordan-spieth",
       "competitor_id": "5467"
     },
@@ -786,7 +786,7 @@
     },
     "Justin Rose": {
       "score": "+3",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/569/justin-rose",
       "competitor_id": "569"
     },
@@ -998,11 +998,11 @@
       "□"
     ],
     "J.T. Poston": [
-      "P",
       "○",
       "P",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Collin Morikawa": [
       "P",
@@ -1055,10 +1055,10 @@
     ],
     "Joaquin Niemann": [
       "P",
-      "P",
       "○",
       "P",
-      "○"
+      "○",
+      "□"
     ],
     "Max Greyserman": [
       "P",
@@ -1293,8 +1293,8 @@
     ],
     "Ben Griffin": [
       "P",
-      "P",
       "○",
+      "□",
       "□",
       "□"
     ],
@@ -1376,10 +1376,10 @@
       "P"
     ],
     "T.K. Kim": [
-      "P",
       "□",
       "P",
       "□",
+      "P",
       "P"
     ],
     "Shane Lowry": [
@@ -1733,9 +1733,9 @@
       "○"
     ],
     "Marek Fleming": [
-      "P",
       "□",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -1796,18 +1796,18 @@
       "P"
     ],
     "Russell Henley": [
-      "P",
       "□",
       "○",
       "○",
+      "P",
       "P"
     ],
     "Jordan Spieth": [
       "P",
+      "□",
+      "□",
       "P",
-      "□",
-      "□",
-      "P"
+      "○"
     ],
     "Andrew Putnam": [
       "P",
@@ -1853,7 +1853,7 @@
     ],
     "Justin Rose": [
       "□",
-      "□",
+      "P",
       "P",
       "P",
       "P"
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781865958.3124747,
-  "last_score_refresh_attempt_at": 1781866316.7767718,
+  "last_score_refresh_at": 1781866318.3502338,
+  "last_score_refresh_attempt_at": 1781866318.3502338,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
