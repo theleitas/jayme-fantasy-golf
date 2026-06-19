@@ -30,7 +30,7 @@
     },
     "Xander Schauffele": {
       "score": "+1",
-      "hole": "8:07 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele",
       "competitor_id": "10140"
     },
@@ -59,8 +59,8 @@
       "competitor_id": "10505"
     },
     "Collin Morikawa": {
-      "score": "+3",
-      "hole": "2",
+      "score": "+2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/10592/collin-morikawa",
       "competitor_id": "10592"
     },
@@ -72,7 +72,7 @@
     },
     "Aaron Rai": {
       "score": "+4",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/10906/aaron-rai",
       "competitor_id": "10906"
     },
@@ -101,8 +101,8 @@
       "competitor_id": "10994"
     },
     "Joaquin Niemann": {
-      "score": "+6",
-      "hole": "8:07 AM",
+      "score": "+5",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/11099/joaquin-niemann",
       "competitor_id": "11099"
     },
@@ -245,7 +245,7 @@
       "competitor_id": "388"
     },
     "Ryan Fox": {
-      "score": "E",
+      "score": "+1",
       "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/4251/ryan-fox",
       "competitor_id": "4251"
@@ -293,8 +293,8 @@
       "competitor_id": "4375972"
     },
     "Niklas Nørgaard": {
-      "score": "+1",
-      "hole": "4",
+      "score": "E",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/4382434/niklas-nørgaard",
       "competitor_id": "4382434"
     },
@@ -348,7 +348,7 @@
     },
     "Spencer Tibbits": {
       "score": "-2",
-      "hole": "17",
+      "hole": "8:51 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4425905/spencer-tibbits",
       "competitor_id": "4425905"
     },
@@ -383,8 +383,8 @@
       "competitor_id": "4567001"
     },
     "Shane Lowry": {
-      "score": "+3",
-      "hole": "8:07 AM",
+      "score": "+4",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/4587/shane-lowry",
       "competitor_id": "4587"
     },
@@ -462,7 +462,7 @@
     },
     "Justin Thomas": {
       "score": "+1",
-      "hole": "8:07 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/4848/justin-thomas",
       "competitor_id": "4848"
     },
@@ -492,7 +492,7 @@
     },
     "Matt McCarty": {
       "score": "+2",
-      "hole": "17",
+      "hole": "8:40 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4901368/matt-mccarty",
       "competitor_id": "4901368"
     },
@@ -552,7 +552,7 @@
     },
     "Sudarshan Yellamaraju": {
       "score": "+3",
-      "hole": "4",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/5143175/sudarshan-yellamaraju",
       "competitor_id": "5143175"
     },
@@ -564,7 +564,7 @@
     },
     "Neal Shipley": {
       "score": "+2",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/5209442/neal-shipley",
       "competitor_id": "5209442"
     },
@@ -612,7 +612,7 @@
     },
     "Rocco Repetto Taylor": {
       "score": "+14",
-      "hole": "4",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/5289692/rocco-repetto-taylor",
       "competitor_id": "5289692"
     },
@@ -648,7 +648,7 @@
     },
     "Bud Cauley": {
       "score": "+3",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/5338/bud-cauley",
       "competitor_id": "5338"
     },
@@ -791,8 +791,8 @@
       "competitor_id": "569"
     },
     "Hideki Matsuyama": {
-      "score": "+1",
-      "hole": "8:07 AM",
+      "score": "+2",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/5860/hideki-matsuyama",
       "competitor_id": "5860"
     },
@@ -888,7 +888,7 @@
     },
     "Corey Conners": {
       "score": "-1",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/9126/corey-conners",
       "competitor_id": "9126"
     },
@@ -906,7 +906,7 @@
     },
     "Alex Smalley": {
       "score": "+6",
-      "hole": "8:07 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/9484/alex-smalley",
       "competitor_id": "9484"
     },
@@ -1007,9 +1007,9 @@
     "Collin Morikawa": [
       "P",
       "P",
-      "P",
       "□",
-      "P"
+      "P",
+      "○"
     ],
     "J.B. Holmes": [
       "□",
@@ -1020,9 +1020,9 @@
     ],
     "Aaron Rai": [
       "□",
-      "□",
       "P",
       "□",
+      "P",
       "P"
     ],
     "Nathan Kimsey": [
@@ -1278,11 +1278,11 @@
       "P"
     ],
     "Niklas Nørgaard": [
-      "□",
       "P",
       "P",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Matthew Jordan": [
       "□",
@@ -1582,8 +1582,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "□"
+      "□",
+      "P"
     ],
     "Jackson Van Paris": [
       "○",
@@ -1593,9 +1593,9 @@
       "P"
     ],
     "Neal Shipley": [
-      "P",
       "○",
       "□",
+      "P",
       "P",
       "P"
     ],
@@ -1649,7 +1649,7 @@
       "□"
     ],
     "Rocco Repetto Taylor": [
-      "□",
+      "P",
       "P",
       "P",
       "P",
@@ -1693,8 +1693,8 @@
     "Bud Cauley": [
       "P",
       "P",
-      "P",
       "□",
+      "P",
       "P"
     ],
     "Hamilton Coleman": [
@@ -1971,8 +1971,8 @@
       "P"
     ],
     "Corey Conners": [
-      "○",
       "□",
+      "P",
       "P",
       "P",
       "P"
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781871600.567044,
-  "last_score_refresh_attempt_at": 1781871920.9812534,
+  "last_score_refresh_at": 1781871922.553667,
+  "last_score_refresh_attempt_at": 1781871922.553667,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
@@ -2179,7 +2179,7 @@
       "Jayme Leita": [
         "Jon Rahm",
         "Rory McIlroy",
-        "Hideki Matsuyama"
+        "Justin Rose"
       ],
       "Spencer Tidwell": [
         "Ludvig Aberg",
