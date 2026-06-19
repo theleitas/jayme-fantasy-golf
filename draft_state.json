@@ -114,7 +114,7 @@
     },
     "Wyndham Clark": {
       "score": "-6",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/11119/wyndham-clark",
       "competitor_id": "11119"
     },
@@ -305,8 +305,8 @@
       "competitor_id": "4390719"
     },
     "Ben Griffin": {
-      "score": "+1",
-      "hole": "15",
+      "score": "+3",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4404992/ben-griffin",
       "competitor_id": "4404992"
     },
@@ -395,8 +395,8 @@
       "competitor_id": "4587989"
     },
     "Harry Hall": {
-      "score": "+3",
-      "hole": "17",
+      "score": "+4",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4589438/harry-hall",
       "competitor_id": "4589438"
     },
@@ -437,8 +437,8 @@
       "competitor_id": "4690755"
     },
     "Taihei Sato": {
-      "score": "+2",
-      "hole": "13",
+      "score": "+3",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/4691550/taihei-sato",
       "competitor_id": "4691550"
     },
@@ -450,7 +450,7 @@
     },
     "Pierceson Coody": {
       "score": "+2",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4837368/pierceson-coody",
       "competitor_id": "4837368"
     },
@@ -486,7 +486,7 @@
     },
     "David Puig": {
       "score": "+6",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4895429/david-puig",
       "competitor_id": "4895429"
     },
@@ -498,7 +498,7 @@
     },
     "Michael Brennan": {
       "score": "+2",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4921329/michael-brennan",
       "competitor_id": "4921329"
     },
@@ -528,7 +528,7 @@
     },
     "Ryan Gerard": {
       "score": "+3",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -575,8 +575,8 @@
       "competitor_id": "5209798"
     },
     "Preston Stout": {
-      "score": "+1",
-      "hole": "17",
+      "score": "+2",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5210226/preston-stout",
       "competitor_id": "5210226"
     },
@@ -719,8 +719,8 @@
       "competitor_id": "5362523"
     },
     "Arni Sveinsson": {
-      "score": "+10",
-      "hole": "13",
+      "score": "+9",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362524/arni-sveinsson",
       "competitor_id": "5362524"
     },
@@ -750,7 +750,7 @@
     },
     "Andrew Putnam": {
       "score": "+4",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5502/andrew-putnam",
       "competitor_id": "5502"
     },
@@ -881,8 +881,8 @@
       "competitor_id": "9037"
     },
     "Zac Blair": {
-      "score": "+2",
-      "hole": "17",
+      "score": "+1",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/9040/zac-blair",
       "competitor_id": "9040"
     },
@@ -1068,10 +1068,10 @@
       "P"
     ],
     "Wyndham Clark": [
-      "□",
       "○",
       "○",
       "○",
+      "P",
       "P"
     ],
     "Nicolai Højgaard": [
@@ -1292,11 +1292,11 @@
       "P"
     ],
     "Ben Griffin": [
+      "P",
+      "P",
+      "○",
       "□",
-      "P",
-      "P",
-      "P",
-      "○"
+      "□"
     ],
     "Nico Echavarria": [
       "□",
@@ -1401,7 +1401,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "□"
     ],
     "Davis Thompson": [
       "P",
@@ -1446,11 +1446,11 @@
       "□"
     ],
     "Taihei Sato": [
-      "P",
       "□",
       "P",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Ryuichi Oiwa": [
       "□",
@@ -1461,8 +1461,8 @@
     ],
     "Pierceson Coody": [
       "P",
-      "P",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -1502,11 +1502,11 @@
       "□"
     ],
     "David Puig": [
-      "○",
       "P",
       "□",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "Matt McCarty": [
       "P",
@@ -1516,11 +1516,11 @@
       "P"
     ],
     "Michael Brennan": [
-      "P",
       "□",
       "P",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Jackson Suber": [
       "P",
@@ -1551,7 +1551,7 @@
       "□"
     ],
     "Ryan Gerard": [
-      "□",
+      "P",
       "P",
       "P",
       "P",
@@ -1608,9 +1608,9 @@
     ],
     "Preston Stout": [
       "□",
+      "P",
+      "P",
       "□",
-      "P",
-      "P",
       "□"
     ],
     "Jackson Koivun": [
@@ -1775,11 +1775,11 @@
       "P"
     ],
     "Arni Sveinsson": [
-      "P",
       "□",
       "P",
       "P",
-      "□"
+      "□",
+      "○"
     ],
     "Jack Schoenberger": [
       "P",
@@ -1810,11 +1810,11 @@
       "P"
     ],
     "Andrew Putnam": [
-      "□",
       "P",
       "P",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "Carlos Ortiz": [
       "P",
@@ -1968,7 +1968,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "○"
     ],
     "Corey Conners": [
       "○",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781829081.132825,
-  "last_score_refresh_attempt_at": 1781829814.392856,
+  "last_score_refresh_at": 1781829818.0961382,
+  "last_score_refresh_attempt_at": 1781829818.0961382,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
