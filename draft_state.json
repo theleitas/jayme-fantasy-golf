@@ -60,7 +60,7 @@
     },
     "Collin Morikawa": {
       "score": "+3",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/10592/collin-morikawa",
       "competitor_id": "10592"
     },
@@ -72,7 +72,7 @@
     },
     "Aaron Rai": {
       "score": "+4",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/10906/aaron-rai",
       "competitor_id": "10906"
     },
@@ -144,7 +144,7 @@
     },
     "Max McGreevy": {
       "score": "-1",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/11383/max-mcgreevy",
       "competitor_id": "11383"
     },
@@ -204,7 +204,7 @@
     },
     "Chris Kirk": {
       "score": "+8",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/3449/chris-kirk",
       "competitor_id": "3449"
     },
@@ -371,8 +371,8 @@
       "competitor_id": "4513"
     },
     "Matti Schmid": {
-      "score": "+8",
-      "hole": "2",
+      "score": "+9",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/4566443/matti-schmid",
       "competitor_id": "4566443"
     },
@@ -558,13 +558,13 @@
     },
     "Jackson Van Paris": {
       "score": "E",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5203535/jackson-van-paris",
       "competitor_id": "5203535"
     },
     "Neal Shipley": {
       "score": "+2",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5209442/neal-shipley",
       "competitor_id": "5209442"
     },
@@ -588,7 +588,7 @@
     },
     "Johnny Keefer": {
       "score": "+1",
-      "hole": "17",
+      "hole": "8:40 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5217048/johnny-keefer",
       "competitor_id": "5217048"
     },
@@ -648,7 +648,7 @@
     },
     "Bud Cauley": {
       "score": "+3",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5338/bud-cauley",
       "competitor_id": "5338"
     },
@@ -659,8 +659,8 @@
       "competitor_id": "5343786"
     },
     "Mateo Pulcini": {
-      "score": "+3",
-      "hole": "16",
+      "score": "+5",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5344763/mateo-pulcini",
       "competitor_id": "5344763"
     },
@@ -876,7 +876,7 @@
     },
     "Matt Fitzpatrick": {
       "score": "-3",
-      "hole": "7:45 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/9037/matt-fitzpatrick",
       "competitor_id": "9037"
     },
@@ -924,7 +924,7 @@
     },
     "Jake Knapp": {
       "score": "+8",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/9843/jake-knapp",
       "competitor_id": "9843"
     },
@@ -1008,8 +1008,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "□"
+      "□",
+      "P"
     ],
     "J.B. Holmes": [
       "□",
@@ -1019,11 +1019,11 @@
       "P"
     ],
     "Aaron Rai": [
-      "P",
       "□",
       "□",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Nathan Kimsey": [
       "P",
@@ -1105,8 +1105,8 @@
     "Max McGreevy": [
       "P",
       "P",
-      "P",
       "○",
+      "P",
       "P"
     ],
     "Angel Hidalgo": [
@@ -1173,10 +1173,10 @@
       "P"
     ],
     "Chris Kirk": [
-      "○",
       "P",
       "P",
       "□",
+      "P",
       "P"
     ],
     "Rory McIlroy": [
@@ -1369,10 +1369,10 @@
       "P"
     ],
     "Matti Schmid": [
-      "○",
       "□",
       "□",
       "P",
+      "□",
       "□"
     ],
     "T.K. Kim": [
@@ -1586,17 +1586,17 @@
       "□"
     ],
     "Jackson Van Paris": [
+      "○",
+      "○",
       "P",
-      "○",
-      "○",
       "P",
       "P"
     ],
     "Neal Shipley": [
       "P",
-      "P",
       "○",
       "□",
+      "P",
       "P"
     ],
     "Miles Russell": [
@@ -1694,8 +1694,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "□"
+      "□",
+      "P"
     ],
     "Hamilton Coleman": [
       "P",
@@ -1705,11 +1705,11 @@
       "□"
     ],
     "Mateo Pulcini": [
-      "□",
       "P",
       "○",
       "P",
-      "○"
+      "○",
+      "□"
     ],
     "Jackson Herrington": [
       "□",
@@ -2013,7 +2013,7 @@
       "P"
     ],
     "Jake Knapp": [
-      "□",
+      "P",
       "P",
       "P",
       "P",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781870602.4858575,
-  "last_score_refresh_attempt_at": 1781870936.7985032,
+  "last_score_refresh_at": 1781870939.7766817,
+  "last_score_refresh_attempt_at": 1781870939.7766817,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
