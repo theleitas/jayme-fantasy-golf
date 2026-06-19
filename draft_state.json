@@ -30,7 +30,7 @@
     },
     "Xander Schauffele": {
       "score": "+1",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele",
       "competitor_id": "10140"
     },
@@ -120,7 +120,7 @@
     },
     "Nicolai Højgaard": {
       "score": "+4",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/11250/nicolai-højgaard",
       "competitor_id": "11250"
     },
@@ -276,7 +276,7 @@
     },
     "Viktor Hovland": {
       "score": "+6",
-      "hole": "17",
+      "hole": "7:45 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4364873/viktor-hovland",
       "competitor_id": "4364873"
     },
@@ -294,7 +294,7 @@
     },
     "Niklas Nørgaard": {
       "score": "+1",
-      "hole": "6:50 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/4382434/niklas-nørgaard",
       "competitor_id": "4382434"
     },
@@ -306,13 +306,13 @@
     },
     "Ben Griffin": {
       "score": "+2",
-      "hole": "17",
+      "hole": "7:56 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4404992/ben-griffin",
       "competitor_id": "4404992"
     },
     "Nico Echavarria": {
-      "score": "E",
-      "hole": "16",
+      "score": "+1",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4408316/nico-echavarria",
       "competitor_id": "4408316"
     },
@@ -534,7 +534,7 @@
     },
     "William Mouw": {
       "score": "E",
-      "hole": "6:50 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076025/william-mouw",
       "competitor_id": "5076025"
     },
@@ -551,8 +551,8 @@
       "competitor_id": "5110034"
     },
     "Sudarshan Yellamaraju": {
-      "score": "+3",
-      "hole": "6:50 AM",
+      "score": "+2",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/5143175/sudarshan-yellamaraju",
       "competitor_id": "5143175"
     },
@@ -593,8 +593,8 @@
       "competitor_id": "5217048"
     },
     "Giuseppe Puebla": {
-      "score": "+3",
-      "hole": "12",
+      "score": "+4",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/5272338/giuseppe-puebla",
       "competitor_id": "5272338"
     },
@@ -611,8 +611,8 @@
       "competitor_id": "5289156"
     },
     "Rocco Repetto Taylor": {
-      "score": "+11",
-      "hole": "6:50 AM",
+      "score": "+13",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/5289692/rocco-repetto-taylor",
       "competitor_id": "5289692"
     },
@@ -792,7 +792,7 @@
     },
     "Hideki Matsuyama": {
       "score": "+1",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5860/hideki-matsuyama",
       "competitor_id": "5860"
     },
@@ -876,7 +876,7 @@
     },
     "Matt Fitzpatrick": {
       "score": "-3",
-      "hole": "17",
+      "hole": "7:45 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/9037/matt-fitzpatrick",
       "competitor_id": "9037"
     },
@@ -930,7 +930,7 @@
     },
     "Hennie Du Plessis": {
       "score": "+6",
-      "hole": "6:50 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/9899/hennie-du-plessis",
       "competitor_id": "9899"
     },
@@ -970,11 +970,11 @@
       "□"
     ],
     "Xander Schauffele": [
-      "P",
       "□",
       "P",
       "P",
-      "○"
+      "○",
+      "P"
     ],
     "J.J. Spaun": [
       "P",
@@ -1075,11 +1075,11 @@
       "P"
     ],
     "Nicolai Højgaard": [
-      "○",
       "□",
       "P",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Andrew Novak": [
       "P",
@@ -1299,11 +1299,11 @@
       "□"
     ],
     "Nico Echavarria": [
-      "○",
       "P",
       "○",
       "P",
-      "○"
+      "○",
+      "□"
     ],
     "Kevin Roy": [
       "P",
@@ -1629,10 +1629,10 @@
     ],
     "Giuseppe Puebla": [
       "P",
-      "P",
       "□",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Robbie Higgins": [
       "□",
@@ -1861,8 +1861,8 @@
     "Hideki Matsuyama": [
       "P",
       "P",
-      "P",
       "○",
+      "P",
       "P"
     ],
     "Emiliano Grillo": [
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781867302.4862132,
-  "last_score_refresh_attempt_at": 1781867636.7925377,
+  "last_score_refresh_at": 1781867638.4529593,
+  "last_score_refresh_attempt_at": 1781867638.4529593,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
