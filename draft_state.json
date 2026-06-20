@@ -30,7 +30,7 @@
     },
     "Xander Schauffele": {
       "score": "-3",
-      "hole": "F",
+      "hole": "3:34 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele",
       "competitor_id": "10140"
     },
@@ -60,7 +60,7 @@
     },
     "Collin Morikawa": {
       "score": "-2",
-      "hole": "F",
+      "hole": "3:23 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/10592/collin-morikawa",
       "competitor_id": "10592"
     },
@@ -84,7 +84,7 @@
     },
     "Sahith Theegala": {
       "score": "-1",
-      "hole": "F",
+      "hole": "3:01 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/10980/sahith-theegala",
       "competitor_id": "10980"
     },
@@ -114,7 +114,7 @@
     },
     "Wyndham Clark": {
       "score": "-7",
-      "hole": "F",
+      "hole": "3:45 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/11119/wyndham-clark",
       "competitor_id": "11119"
     },
@@ -144,7 +144,7 @@
     },
     "Max McGreevy": {
       "score": "+1",
-      "hole": "F",
+      "hole": "1:39 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/11383/max-mcgreevy",
       "competitor_id": "11383"
     },
@@ -156,7 +156,7 @@
     },
     "Brian Harman": {
       "score": "E",
-      "hole": "F",
+      "hole": "2:01 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/1225/brian-harman",
       "competitor_id": "1225"
     },
@@ -210,13 +210,13 @@
     },
     "Rory McIlroy": {
       "score": "E",
-      "hole": "F",
+      "hole": "2:12 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/3470/rory-mcilroy",
       "competitor_id": "3470"
     },
     "Gary Woodland": {
       "score": "E",
-      "hole": "F",
+      "hole": "2:34 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/3550/gary-woodland",
       "competitor_id": "3550"
     },
@@ -270,7 +270,7 @@
     },
     "Alex Fitzpatrick": {
       "score": "E",
-      "hole": "F",
+      "hole": "1:50 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4364865/alex-fitzpatrick",
       "competitor_id": "4364865"
     },
@@ -294,7 +294,7 @@
     },
     "Niklas Nørgaard": {
       "score": "+1",
-      "hole": "F",
+      "hole": "1:50 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4382434/niklas-nørgaard",
       "competitor_id": "4382434"
     },
@@ -336,7 +336,7 @@
     },
     "Akshay Bhatia": {
       "score": "E",
-      "hole": "F",
+      "hole": "2:23 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4419142/akshay-bhatia",
       "competitor_id": "4419142"
     },
@@ -360,7 +360,7 @@
     },
     "Sam Stevens": {
       "score": "-3",
-      "hole": "F",
+      "hole": "3:34 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4426181/sam-stevens",
       "competitor_id": "4426181"
     },
@@ -408,7 +408,7 @@
     },
     "Tom Kim": {
       "score": "-3",
-      "hole": "F",
+      "hole": "3:23 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4602673/tom-kim",
       "competitor_id": "4602673"
     },
@@ -456,19 +456,19 @@
     },
     "Harry Higgs": {
       "score": "-1",
-      "hole": "F",
+      "hole": "3:12 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4844/harry-higgs",
       "competitor_id": "4844"
     },
     "Justin Thomas": {
       "score": "-1",
-      "hole": "F",
+      "hole": "3:12 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4848/justin-thomas",
       "competitor_id": "4848"
     },
     "Ryo Hisatsune": {
       "score": "E",
-      "hole": "F",
+      "hole": "2:34 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4858572/ryo-hisatsune",
       "competitor_id": "4858572"
     },
@@ -534,7 +534,7 @@
     },
     "William Mouw": {
       "score": "E",
-      "hole": "F",
+      "hole": "2:50 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076025/william-mouw",
       "competitor_id": "5076025"
     },
@@ -678,7 +678,7 @@
     },
     "Ryder Cowan": {
       "score": "E",
-      "hole": "F",
+      "hole": "2:50 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362517/ryder-cowan",
       "competitor_id": "5362517"
     },
@@ -846,7 +846,7 @@
     },
     "Keith Mitchell": {
       "score": "E",
-      "hole": "F",
+      "hole": "2:23 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/8906/keith-mitchell",
       "competitor_id": "8906"
     },
@@ -876,13 +876,13 @@
     },
     "Matt Fitzpatrick": {
       "score": "-3",
-      "hole": "F",
+      "hole": "3:45 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/9037/matt-fitzpatrick",
       "competitor_id": "9037"
     },
     "Zac Blair": {
       "score": "+1",
-      "hole": "F",
+      "hole": "1:39 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/9040/zac-blair",
       "competitor_id": "9040"
     },
@@ -900,7 +900,7 @@
     },
     "Scottie Scheffler": {
       "score": "E",
-      "hole": "F",
+      "hole": "2:01 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/9478/scottie-scheffler",
       "competitor_id": "9478"
     },
@@ -912,7 +912,7 @@
     },
     "Maverick McNealy": {
       "score": "E",
-      "hole": "F",
+      "hole": "2:12 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/9530/maverick-mcnealy",
       "competitor_id": "9530"
     },
@@ -936,7 +936,7 @@
     },
     "Sam Burns": {
       "score": "-1",
-      "hole": "F",
+      "hole": "3:01 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/9938/sam-burns",
       "competitor_id": "9938"
     },
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781920259.4756982,
-  "last_score_refresh_attempt_at": 1781920616.7204082,
+  "last_score_refresh_at": 1781920618.1617477,
+  "last_score_refresh_attempt_at": 1781920618.1617477,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
