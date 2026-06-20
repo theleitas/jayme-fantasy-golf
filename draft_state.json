@@ -65,8 +65,8 @@
       "competitor_id": "10592"
     },
     "J.B. Holmes": {
-      "score": "+8",
-      "hole": "16",
+      "score": "+9",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/1067/jb-holmes",
       "competitor_id": "1067"
     },
@@ -270,7 +270,7 @@
     },
     "Alex Fitzpatrick": {
       "score": "E",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4364865/alex-fitzpatrick",
       "competitor_id": "4364865"
     },
@@ -408,7 +408,7 @@
     },
     "Tom Kim": {
       "score": "-3",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4602673/tom-kim",
       "competitor_id": "4602673"
     },
@@ -474,7 +474,7 @@
     },
     "Filippo Celli": {
       "score": "+6",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4884239/filippo-celli",
       "competitor_id": "4884239"
     },
@@ -540,7 +540,7 @@
     },
     "Ben James": {
       "score": "+1",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5077389/ben-james",
       "competitor_id": "5077389"
     },
@@ -600,7 +600,7 @@
     },
     "Robbie Higgins": {
       "score": "+19",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5277550/robbie-higgins",
       "competitor_id": "5277550"
     },
@@ -642,7 +642,7 @@
     },
     "Greyson Leach": {
       "score": "+19",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5327840/greyson-leach",
       "competitor_id": "5327840"
     },
@@ -671,8 +671,8 @@
       "competitor_id": "5344766"
     },
     "Jackson Ormond": {
-      "score": "+18",
-      "hole": "16",
+      "score": "+19",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5360549/jackson-ormond",
       "competitor_id": "5360549"
     },
@@ -707,8 +707,8 @@
       "competitor_id": "5362521"
     },
     "Logan Reilly": {
-      "score": "+10",
-      "hole": "16",
+      "score": "+11",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362522/logan-reilly",
       "competitor_id": "5362522"
     },
@@ -1013,10 +1013,10 @@
     ],
     "J.B. Holmes": [
       "□",
-      "□",
       "○",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Aaron Rai": [
       "P",
@@ -1413,8 +1413,8 @@
     "Tom Kim": [
       "P",
       "P",
-      "P",
       "○",
+      "P",
       "P"
     ],
     "Jayden Schaper": [
@@ -1489,8 +1489,8 @@
     ],
     "Filippo Celli": [
       "□",
-      "□",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -1567,8 +1567,8 @@
     "Ben James": [
       "P",
       "P",
-      "P",
       "□",
+      "P",
       "P"
     ],
     "Caleb Surratt": [
@@ -1636,10 +1636,10 @@
     ],
     "Robbie Higgins": [
       "□",
-      "□",
       "P",
       "○",
-      "○"
+      "○",
+      "P"
     ],
     "Jake Sollon": [
       "P",
@@ -1684,10 +1684,10 @@
       "□"
     ],
     "Greyson Leach": [
-      "□",
       "P",
       "P",
       "□",
+      "P",
       "P"
     ],
     "Bud Cauley": [
@@ -1719,11 +1719,11 @@
       "□"
     ],
     "Jackson Ormond": [
-      "○",
       "□",
       "○",
       "□",
-      "P"
+      "P",
+      "□"
     ],
     "Ryder Cowan": [
       "□",
@@ -1763,9 +1763,9 @@
     "Logan Reilly": [
       "P",
       "P",
-      "P",
       "□",
-      "○"
+      "○",
+      "□"
     ],
     "Matthew Robles": [
       "□",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781913959.5172563,
-  "last_score_refresh_attempt_at": 1781914316.7196853,
+  "last_score_refresh_at": 1781914318.164121,
+  "last_score_refresh_attempt_at": 1781914318.164121,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
