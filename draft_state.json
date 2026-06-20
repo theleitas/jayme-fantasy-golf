@@ -30,7 +30,7 @@
     },
     "Xander Schauffele": {
       "score": "-3",
-      "hole": "3:34 PM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele",
       "competitor_id": "10140"
     },
@@ -47,20 +47,20 @@
       "competitor_id": "10343"
     },
     "Kurt Kitayama": {
-      "score": "+7",
-      "hole": "16",
+      "score": "+8",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/10364/kurt-kitayama",
       "competitor_id": "10364"
     },
     "J.T. Poston": {
-      "score": "+4",
-      "hole": "14",
+      "score": "+3",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/10505/jt-poston",
       "competitor_id": "10505"
     },
     "Collin Morikawa": {
       "score": "-2",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/10592/collin-morikawa",
       "competitor_id": "10592"
     },
@@ -71,8 +71,8 @@
       "competitor_id": "1067"
     },
     "Aaron Rai": {
-      "score": "+2",
-      "hole": "9",
+      "score": "+3",
+      "hole": "10",
       "profile_url": "https://www.espn.com/golf/player/_/id/10906/aaron-rai",
       "competitor_id": "10906"
     },
@@ -155,8 +155,8 @@
       "competitor_id": "11469"
     },
     "Brian Harman": {
-      "score": "+1",
-      "hole": "7",
+      "score": "+2",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/1225/brian-harman",
       "competitor_id": "1225"
     },
@@ -216,7 +216,7 @@
     },
     "Gary Woodland": {
       "score": "E",
-      "hole": "4",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/3550/gary-woodland",
       "competitor_id": "3550"
     },
@@ -305,8 +305,8 @@
       "competitor_id": "4390719"
     },
     "Ben Griffin": {
-      "score": "+4",
-      "hole": "14",
+      "score": "+3",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/4404992/ben-griffin",
       "competitor_id": "4404992"
     },
@@ -359,14 +359,14 @@
       "competitor_id": "4425906"
     },
     "Sam Stevens": {
-      "score": "-3",
-      "hole": "3:34 PM",
+      "score": "-4",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/4426181/sam-stevens",
       "competitor_id": "4426181"
     },
     "Keegan Bradley": {
       "score": "+2",
-      "hole": "11",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/4513/keegan-bradley",
       "competitor_id": "4513"
     },
@@ -407,8 +407,8 @@
       "competitor_id": "4602218"
     },
     "Tom Kim": {
-      "score": "-3",
-      "hole": "1",
+      "score": "-2",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/4602673/tom-kim",
       "competitor_id": "4602673"
     },
@@ -534,7 +534,7 @@
     },
     "William Mouw": {
       "score": "+2",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076025/william-mouw",
       "competitor_id": "5076025"
     },
@@ -678,7 +678,7 @@
     },
     "Ryder Cowan": {
       "score": "+2",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362517/ryder-cowan",
       "competitor_id": "5362517"
     },
@@ -750,7 +750,7 @@
     },
     "Andrew Putnam": {
       "score": "+4",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/5502/andrew-putnam",
       "competitor_id": "5502"
     },
@@ -761,8 +761,8 @@
       "competitor_id": "5532"
     },
     "Tommy Fleetwood": {
-      "score": "E",
-      "hole": "12",
+      "score": "+1",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/5539/tommy-fleetwood",
       "competitor_id": "5539"
     },
@@ -773,8 +773,8 @@
       "competitor_id": "5550"
     },
     "Tyrrell Hatton": {
-      "score": "+4",
-      "hole": "16",
+      "score": "+5",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5553/tyrrell-hatton",
       "competitor_id": "5553"
     },
@@ -785,8 +785,8 @@
       "competitor_id": "5579"
     },
     "Justin Rose": {
-      "score": "+3",
-      "hole": "10",
+      "score": "+2",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/569/justin-rose",
       "competitor_id": "569"
     },
@@ -822,7 +822,7 @@
     },
     "Ben Kohles": {
       "score": "+1",
-      "hole": "10",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/6922/ben-kohles",
       "competitor_id": "6922"
     },
@@ -887,8 +887,8 @@
       "competitor_id": "9040"
     },
     "Corey Conners": {
-      "score": "E",
-      "hole": "9",
+      "score": "+1",
+      "hole": "10",
       "profile_url": "https://www.espn.com/golf/player/_/id/9126/corey-conners",
       "competitor_id": "9126"
     },
@@ -900,7 +900,7 @@
     },
     "Scottie Scheffler": {
       "score": "+2",
-      "hole": "7",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/9478/scottie-scheffler",
       "competitor_id": "9478"
     },
@@ -1000,15 +1000,15 @@
     "J.T. Poston": [
       "P",
       "P",
-      "P",
       "□",
-      "□"
+      "□",
+      "○"
     ],
     "Collin Morikawa": [
-      "P",
       "○",
       "○",
       "□",
+      "P",
       "P"
     ],
     "J.B. Holmes": [
@@ -1022,7 +1022,7 @@
       "P",
       "P",
       "P",
-      "P",
+      "□",
       "□"
     ],
     "Nathan Kimsey": [
@@ -1120,7 +1120,7 @@
       "P",
       "P",
       "P",
-      "P",
+      "□",
       "□"
     ],
     "Billy Horschel": [
@@ -1187,7 +1187,7 @@
       "○"
     ],
     "Gary Woodland": [
-      "○",
+      "P",
       "P",
       "P",
       "P",
@@ -1296,7 +1296,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "○"
     ],
     "Nico Echavarria": [
       "P",
@@ -1365,8 +1365,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "□"
+      "□",
+      "P"
     ],
     "Matti Schmid": [
       "□",
@@ -1412,10 +1412,10 @@
     ],
     "Tom Kim": [
       "P",
-      "P",
       "○",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Jayden Schaper": [
       "○",
@@ -1558,11 +1558,11 @@
       "P"
     ],
     "William Mouw": [
-      "P",
       "□",
       "P",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Ben James": [
       "□",
@@ -1728,9 +1728,9 @@
     "Ryder Cowan": [
       "P",
       "P",
-      "P",
       "○",
-      "□"
+      "□",
+      "P"
     ],
     "Marek Fleming": [
       "P",
@@ -1813,8 +1813,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "□"
+      "□",
+      "P"
     ],
     "Carlos Ortiz": [
       "P",
@@ -1824,11 +1824,11 @@
       "P"
     ],
     "Tommy Fleetwood": [
-      "P",
       "□",
       "P",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Laurie Canter": [
       "P",
@@ -1840,7 +1840,7 @@
     "Tyrrell Hatton": [
       "P",
       "P",
-      "P",
+      "□",
       "□",
       "□"
     ],
@@ -1854,9 +1854,9 @@
     "Justin Rose": [
       "P",
       "P",
-      "P",
       "□",
-      "□"
+      "□",
+      "○"
     ],
     "Hideki Matsuyama": [
       "P",
@@ -1974,8 +1974,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "□"
     ],
     "Cameron Smith": [
       "○",
@@ -1987,9 +1987,9 @@
     "Scottie Scheffler": [
       "P",
       "P",
-      "P",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "Alex Smalley": [
       "P",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781985077.5233977,
-  "last_score_refresh_attempt_at": 1781985381.388025,
+  "last_score_refresh_at": 1781985383.016211,
+  "last_score_refresh_attempt_at": 1781985383.016211,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
@@ -2184,7 +2184,7 @@
       "Spencer Tidwell": [
         "Scottie Scheffler",
         "Sungjae Im",
-        "Tyrrell Hatton"
+        "Bryson DeChambeau"
       ],
       "Peter Miller": [
         "Xander Schauffele",
