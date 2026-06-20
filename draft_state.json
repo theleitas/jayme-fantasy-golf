@@ -131,8 +131,8 @@
       "competitor_id": "11332"
     },
     "Robert MacIntyre": {
-      "score": "+4",
-      "hole": "9:33 AM",
+      "score": "+5",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/11378/robert-macintyre",
       "competitor_id": "11378"
     },
@@ -684,7 +684,7 @@
     },
     "Marek Fleming": {
       "score": "+4",
-      "hole": "9:33 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362518/marek-fleming",
       "competitor_id": "5362518"
     },
@@ -702,7 +702,7 @@
     },
     "Eric Lee": {
       "score": "+5",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362521/eric-lee",
       "competitor_id": "5362521"
     },
@@ -1754,9 +1754,9 @@
       "□"
     ],
     "Eric Lee": [
+      "□",
+      "□",
       "P",
-      "□",
-      "□",
       "P",
       "P"
     ],
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781963158.7890415,
-  "last_score_refresh_attempt_at": 1781963646.907495,
+  "last_score_refresh_at": 1781963648.3928866,
+  "last_score_refresh_attempt_at": 1781963648.3928866,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
