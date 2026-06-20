@@ -168,7 +168,7 @@
     },
     "Peter Uihlein": {
       "score": "+5",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/1674/peter-uihlein",
       "competitor_id": "1674"
     },
@@ -546,7 +546,7 @@
     },
     "Caleb Surratt": {
       "score": "+4",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/5110034/caleb-surratt",
       "competitor_id": "5110034"
     },
@@ -1134,8 +1134,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "P"
     ],
     "Jason Day": [
       "□",
@@ -1572,11 +1572,11 @@
       "P"
     ],
     "Caleb Surratt": [
-      "○",
       "P",
       "P",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "Sudarshan Yellamaraju": [
       "P",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781963648.3928866,
-  "last_score_refresh_attempt_at": 1781964017.9350307,
+  "last_score_refresh_at": 1781964019.4994457,
+  "last_score_refresh_attempt_at": 1781964019.4994457,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
