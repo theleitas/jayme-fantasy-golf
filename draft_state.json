@@ -582,7 +582,7 @@
     },
     "Jackson Koivun": {
       "score": "+3",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5215013/jackson-koivun",
       "competitor_id": "5215013"
     },
@@ -864,7 +864,7 @@
     },
     "Michael Kim": {
       "score": "+3",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/8974/michael-kim",
       "competitor_id": "8974"
     },
@@ -1614,9 +1614,9 @@
       "○"
     ],
     "Jackson Koivun": [
-      "□",
       "○",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -1944,10 +1944,10 @@
     ],
     "Michael Kim": [
       "P",
-      "P",
       "□",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Daniel Berger": [
       "□",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781914318.164121,
-  "last_score_refresh_attempt_at": 1781914676.6863344,
+  "last_score_refresh_at": 1781914678.29104,
+  "last_score_refresh_attempt_at": 1781914678.29104,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
