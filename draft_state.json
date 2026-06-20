@@ -107,8 +107,8 @@
       "competitor_id": "11099"
     },
     "Max Greyserman": {
-      "score": "+1",
-      "hole": "17",
+      "score": "+2",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/11101/max-greyserman",
       "competitor_id": "11101"
     },
@@ -186,7 +186,7 @@
     },
     "Brandon Holtz": {
       "score": "+10",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/2201886/brandon-holtz",
       "competitor_id": "2201886"
     },
@@ -342,7 +342,7 @@
     },
     "Dylan Wu": {
       "score": "+4",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4423323/dylan-wu",
       "competitor_id": "4423323"
     },
@@ -443,8 +443,8 @@
       "competitor_id": "4691550"
     },
     "Ryuichi Oiwa": {
-      "score": "+12",
-      "hole": "16",
+      "score": "+11",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4699297/ryuichi-oiwa",
       "competitor_id": "4699297"
     },
@@ -516,7 +516,7 @@
     },
     "Jacob Bridgeman": {
       "score": "+4",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5054388/jacob-bridgeman",
       "competitor_id": "5054388"
     },
@@ -1064,7 +1064,7 @@
       "P",
       "P",
       "P",
-      "P",
+      "□",
       "□"
     ],
     "Wyndham Clark": [
@@ -1153,9 +1153,9 @@
     ],
     "Brandon Holtz": [
       "P",
-      "P",
       "□",
       "○",
+      "P",
       "P"
     ],
     "Graeme McDowell": [
@@ -1335,10 +1335,10 @@
     ],
     "Dylan Wu": [
       "P",
-      "P",
       "○",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "Spencer Tibbits": [
       "P",
@@ -1455,8 +1455,8 @@
     "Ryuichi Oiwa": [
       "P",
       "P",
-      "P",
       "□",
+      "○",
       "○"
     ],
     "Pierceson Coody": [
@@ -1537,8 +1537,8 @@
       "□"
     ],
     "Jacob Bridgeman": [
-      "○",
       "□",
+      "P",
       "P",
       "P",
       "P"
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781913244.8191206,
-  "last_score_refresh_attempt_at": 1781913596.816526,
+  "last_score_refresh_at": 1781913599.628399,
+  "last_score_refresh_attempt_at": 1781913599.628399,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
