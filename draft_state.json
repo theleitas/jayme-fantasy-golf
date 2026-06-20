@@ -66,7 +66,7 @@
     },
     "J.B. Holmes": {
       "score": "+9",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/1067/jb-holmes",
       "competitor_id": "1067"
     },
@@ -473,8 +473,8 @@
       "competitor_id": "4858572"
     },
     "Filippo Celli": {
-      "score": "+6",
-      "hole": "17",
+      "score": "+5",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4884239/filippo-celli",
       "competitor_id": "4884239"
     },
@@ -485,7 +485,7 @@
       "competitor_id": "4894340"
     },
     "David Puig": {
-      "score": "+8",
+      "score": "+9",
       "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4895429/david-puig",
       "competitor_id": "4895429"
@@ -600,7 +600,7 @@
     },
     "Robbie Higgins": {
       "score": "+19",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5277550/robbie-higgins",
       "competitor_id": "5277550"
     },
@@ -641,8 +641,8 @@
       "competitor_id": "5326067"
     },
     "Greyson Leach": {
-      "score": "+19",
-      "hole": "17",
+      "score": "+21",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5327840/greyson-leach",
       "competitor_id": "5327840"
     },
@@ -671,8 +671,8 @@
       "competitor_id": "5344766"
     },
     "Jackson Ormond": {
-      "score": "+19",
-      "hole": "17",
+      "score": "+20",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5360549/jackson-ormond",
       "competitor_id": "5360549"
     },
@@ -708,7 +708,7 @@
     },
     "Logan Reilly": {
       "score": "+11",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362522/logan-reilly",
       "competitor_id": "5362522"
     },
@@ -1012,11 +1012,11 @@
       "P"
     ],
     "J.B. Holmes": [
-      "□",
       "○",
       "P",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Aaron Rai": [
       "P",
@@ -1488,11 +1488,11 @@
       "○"
     ],
     "Filippo Celli": [
-      "□",
       "○",
       "P",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Kaito Onishi": [
       "P",
@@ -1635,10 +1635,10 @@
       "○"
     ],
     "Robbie Higgins": [
-      "□",
       "P",
       "○",
       "○",
+      "P",
       "P"
     ],
     "Jake Sollon": [
@@ -1685,10 +1685,10 @@
     ],
     "Greyson Leach": [
       "P",
-      "P",
       "□",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Bud Cauley": [
       "P",
@@ -1719,10 +1719,10 @@
       "□"
     ],
     "Jackson Ormond": [
-      "□",
       "○",
       "□",
       "P",
+      "□",
       "□"
     ],
     "Ryder Cowan": [
@@ -1762,10 +1762,10 @@
     ],
     "Logan Reilly": [
       "P",
-      "P",
       "□",
       "○",
-      "□"
+      "□",
+      "P"
     ],
     "Matthew Robles": [
       "□",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781915038.3328323,
-  "last_score_refresh_attempt_at": 1781915396.7160614,
+  "last_score_refresh_at": 1781915397.9823647,
+  "last_score_refresh_attempt_at": 1781915397.9823647,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
