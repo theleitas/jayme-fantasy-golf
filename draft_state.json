@@ -36,7 +36,7 @@
     },
     "J.J. Spaun": {
       "score": "+8",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/10166/jj-spaun",
       "competitor_id": "10166"
     },
@@ -66,7 +66,7 @@
     },
     "J.B. Holmes": {
       "score": "+8",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/1067/jb-holmes",
       "competitor_id": "1067"
     },
@@ -83,8 +83,8 @@
       "competitor_id": "10914"
     },
     "Sahith Theegala": {
-      "score": "+1",
-      "hole": "16",
+      "score": "E",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/10980/sahith-theegala",
       "competitor_id": "10980"
     },
@@ -474,13 +474,13 @@
     },
     "Filippo Celli": {
       "score": "+6",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4884239/filippo-celli",
       "competitor_id": "4884239"
     },
     "Kaito Onishi": {
       "score": "+7",
-      "hole": "14",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4894340/kaito-onishi",
       "competitor_id": "4894340"
     },
@@ -582,7 +582,7 @@
     },
     "Jackson Koivun": {
       "score": "+3",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5215013/jackson-koivun",
       "competitor_id": "5215013"
     },
@@ -617,8 +617,8 @@
       "competitor_id": "5289692"
     },
     "Mason Howell": {
-      "score": "+7",
-      "hole": "17",
+      "score": "+8",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5289811/mason-howell",
       "competitor_id": "5289811"
     },
@@ -635,8 +635,8 @@
       "competitor_id": "5293232"
     },
     "Jake Peacock": {
-      "score": "+8",
-      "hole": "14",
+      "score": "+10",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5326067/jake-peacock",
       "competitor_id": "5326067"
     },
@@ -672,7 +672,7 @@
     },
     "Jackson Ormond": {
       "score": "+18",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5360549/jackson-ormond",
       "competitor_id": "5360549"
     },
@@ -690,7 +690,7 @@
     },
     "Vaughn Harber": {
       "score": "+12",
-      "hole": "14",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362519/vaughn-harber",
       "competitor_id": "5362519"
     },
@@ -863,8 +863,8 @@
       "competitor_id": "8961"
     },
     "Michael Kim": {
-      "score": "+2",
-      "hole": "16",
+      "score": "+3",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/8974/michael-kim",
       "competitor_id": "8974"
     },
@@ -900,7 +900,7 @@
     },
     "Scottie Scheffler": {
       "score": "E",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/9478/scottie-scheffler",
       "competitor_id": "9478"
     },
@@ -977,9 +977,9 @@
       "P"
     ],
     "J.J. Spaun": [
-      "□",
       "○",
       "□",
+      "P",
       "P",
       "P"
     ],
@@ -1012,10 +1012,10 @@
       "P"
     ],
     "J.B. Holmes": [
-      "P",
       "□",
       "□",
       "○",
+      "P",
       "P"
     ],
     "Aaron Rai": [
@@ -1033,11 +1033,11 @@
       "P"
     ],
     "Sahith Theegala": [
-      "P",
       "○",
       "P",
       "□",
-      "P"
+      "P",
+      "○"
     ],
     "Jimmy Stanger": [
       "P",
@@ -1488,15 +1488,15 @@
       "○"
     ],
     "Filippo Celli": [
-      "P",
       "□",
       "□",
       "○",
+      "P",
       "P"
     ],
     "Kaito Onishi": [
       "P",
-      "□",
+      "P",
       "P",
       "P",
       "P"
@@ -1615,9 +1615,9 @@
     ],
     "Jackson Koivun": [
       "□",
-      "□",
       "○",
       "○",
+      "P",
       "P"
     ],
     "Johnny Keefer": [
@@ -1656,11 +1656,11 @@
       "○"
     ],
     "Mason Howell": [
-      "○",
       "P",
       "P",
       "○",
-      "P"
+      "P",
+      "□"
     ],
     "Bryan Lee": [
       "P",
@@ -1678,10 +1678,10 @@
     ],
     "Jake Peacock": [
       "P",
+      "P",
+      "○",
       "□",
-      "P",
-      "P",
-      "○"
+      "□"
     ],
     "Greyson Leach": [
       "□",
@@ -1719,11 +1719,11 @@
       "□"
     ],
     "Jackson Ormond": [
-      "P",
       "○",
       "□",
       "○",
-      "□"
+      "□",
+      "P"
     ],
     "Ryder Cowan": [
       "□",
@@ -1742,9 +1742,9 @@
     "Vaughn Harber": [
       "P",
       "□",
+      "○",
       "P",
-      "□",
-      "○"
+      "P"
     ],
     "Chase Kyes": [
       "P",
@@ -1943,11 +1943,11 @@
       "P"
     ],
     "Michael Kim": [
-      "○",
       "P",
       "P",
       "□",
-      "P"
+      "P",
+      "□"
     ],
     "Daniel Berger": [
       "□",
@@ -1985,8 +1985,8 @@
       "P"
     ],
     "Scottie Scheffler": [
-      "P",
       "○",
+      "P",
       "P",
       "P",
       "P"
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781913599.628399,
-  "last_score_refresh_attempt_at": 1781913956.8157191,
+  "last_score_refresh_at": 1781913959.5172563,
+  "last_score_refresh_attempt_at": 1781913959.5172563,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
