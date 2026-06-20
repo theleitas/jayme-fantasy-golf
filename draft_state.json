@@ -341,8 +341,8 @@
       "competitor_id": "4419142"
     },
     "Dylan Wu": {
-      "score": "+4",
-      "hole": "9:00 AM",
+      "score": "+8",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/4423323/dylan-wu",
       "competitor_id": "4423323"
     },
@@ -516,7 +516,7 @@
     },
     "Jacob Bridgeman": {
       "score": "+4",
-      "hole": "9:00 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/5054388/jacob-bridgeman",
       "competitor_id": "5054388"
     },
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781961307.602791,
-  "last_score_refresh_attempt_at": 1781962085.5266507,
+  "last_score_refresh_at": 1781962088.2014503,
+  "last_score_refresh_attempt_at": 1781962088.2014503,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
