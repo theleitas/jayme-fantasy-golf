@@ -131,8 +131,8 @@
       "competitor_id": "11332"
     },
     "Robert MacIntyre": {
-      "score": "+5",
-      "hole": "2",
+      "score": "+6",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/11378/robert-macintyre",
       "competitor_id": "11378"
     },
@@ -432,7 +432,7 @@
     },
     "Chris Gotterup": {
       "score": "+6",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/4690755/chris-gotterup",
       "competitor_id": "4690755"
     },
@@ -684,7 +684,7 @@
     },
     "Marek Fleming": {
       "score": "+4",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362518/marek-fleming",
       "competitor_id": "5362518"
     },
@@ -701,8 +701,8 @@
       "competitor_id": "5362520"
     },
     "Eric Lee": {
-      "score": "+6",
-      "hole": "3",
+      "score": "+7",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362521/eric-lee",
       "competitor_id": "5362521"
     },
@@ -767,8 +767,8 @@
       "competitor_id": "5539"
     },
     "Laurie Canter": {
-      "score": "+4",
-      "hole": "10:06 AM",
+      "score": "+5",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/5550/laurie-canter",
       "competitor_id": "5550"
     },
@@ -864,7 +864,7 @@
     },
     "Michael Kim": {
       "score": "+3",
-      "hole": "10:06 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/8974/michael-kim",
       "competitor_id": "8974"
     },
@@ -1091,9 +1091,9 @@
     "Robert MacIntyre": [
       "□",
       "□",
-      "□",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Sungjae Im": [
       "□",
@@ -1733,10 +1733,10 @@
       "○"
     ],
     "Marek Fleming": [
-      "P",
       "○",
       "P",
       "□",
+      "P",
       "P"
     ],
     "Vaughn Harber": [
@@ -1754,10 +1754,10 @@
       "□"
     ],
     "Eric Lee": [
+      "P",
+      "P",
+      "P",
       "□",
-      "P",
-      "P",
-      "P",
       "□"
     ],
     "Logan Reilly": [
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781964961.3079233,
-  "last_score_refresh_attempt_at": 1781965398.1948693,
+  "last_score_refresh_at": 1781965399.64169,
+  "last_score_refresh_attempt_at": 1781965399.64169,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
