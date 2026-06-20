@@ -342,7 +342,7 @@
     },
     "Dylan Wu": {
       "score": "+4",
-      "hole": "F",
+      "hole": "9:00 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4423323/dylan-wu",
       "competitor_id": "4423323"
     },
@@ -432,7 +432,7 @@
     },
     "Chris Gotterup": {
       "score": "+4",
-      "hole": "F",
+      "hole": "9:11 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4690755/chris-gotterup",
       "competitor_id": "4690755"
     },
@@ -516,7 +516,7 @@
     },
     "Jacob Bridgeman": {
       "score": "+4",
-      "hole": "F",
+      "hole": "9:00 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5054388/jacob-bridgeman",
       "competitor_id": "5054388"
     },
@@ -702,7 +702,7 @@
     },
     "Eric Lee": {
       "score": "+4",
-      "hole": "F",
+      "hole": "9:11 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362521/eric-lee",
       "competitor_id": "5362521"
     },
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781919538.786542,
-  "last_score_refresh_attempt_at": 1781919896.7223449,
+  "last_score_refresh_at": 1781919898.194679,
+  "last_score_refresh_attempt_at": 1781919898.194679,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
