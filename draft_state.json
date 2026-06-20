@@ -167,8 +167,8 @@
       "competitor_id": "1651"
     },
     "Peter Uihlein": {
-      "score": "+4",
-      "hole": "9:22 AM",
+      "score": "+5",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/1674/peter-uihlein",
       "competitor_id": "1674"
     },
@@ -341,8 +341,8 @@
       "competitor_id": "4419142"
     },
     "Dylan Wu": {
-      "score": "+9",
-      "hole": "2",
+      "score": "+10",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/4423323/dylan-wu",
       "competitor_id": "4423323"
     },
@@ -431,8 +431,8 @@
       "competitor_id": "4683800"
     },
     "Chris Gotterup": {
-      "score": "+4",
-      "hole": "9:11 AM",
+      "score": "+6",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/4690755/chris-gotterup",
       "competitor_id": "4690755"
     },
@@ -516,7 +516,7 @@
     },
     "Jacob Bridgeman": {
       "score": "+4",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5054388/jacob-bridgeman",
       "competitor_id": "5054388"
     },
@@ -546,7 +546,7 @@
     },
     "Caleb Surratt": {
       "score": "+4",
-      "hole": "9:22 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/5110034/caleb-surratt",
       "competitor_id": "5110034"
     },
@@ -701,7 +701,7 @@
       "competitor_id": "5362520"
     },
     "Eric Lee": {
-      "score": "+4",
+      "score": "+5",
       "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/5362521/eric-lee",
       "competitor_id": "5362521"
@@ -1335,9 +1335,9 @@
     ],
     "Dylan Wu": [
       "□",
+      "P",
+      "P",
       "□",
-      "P",
-      "P",
       "□"
     ],
     "Spencer Tibbits": [
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781962396.0228524,
-  "last_score_refresh_attempt_at": 1781963157.0920439,
+  "last_score_refresh_at": 1781963158.7890415,
+  "last_score_refresh_attempt_at": 1781963158.7890415,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
