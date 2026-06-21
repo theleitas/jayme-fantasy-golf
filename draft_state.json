@@ -114,7 +114,7 @@
     },
     "Wyndham Clark": {
       "score": "-4",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/11119/wyndham-clark",
       "competitor_id": "11119"
     },
@@ -900,7 +900,7 @@
     },
     "Scottie Scheffler": {
       "score": "E",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/9478/scottie-scheffler",
       "competitor_id": "9478"
     },
@@ -1069,10 +1069,10 @@
     ],
     "Wyndham Clark": [
       "P",
-      "P",
       "□",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "Nicolai Højgaard": [
       "P",
@@ -1988,8 +1988,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "□"
+      "□",
+      "P"
     ],
     "Alex Smalley": [
       "P",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1782081783.3352942,
-  "last_score_refresh_attempt_at": 1782082667.0864234,
+  "last_score_refresh_at": 1782082668.548412,
+  "last_score_refresh_attempt_at": 1782082668.548412,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
