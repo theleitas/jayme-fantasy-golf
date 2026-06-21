@@ -167,8 +167,8 @@
       "competitor_id": "1651"
     },
     "Peter Uihlein": {
-      "score": "+14",
-      "hole": "7:56 AM",
+      "score": "+13",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/1674/peter-uihlein",
       "competitor_id": "1674"
     },
@@ -341,8 +341,8 @@
       "competitor_id": "4419142"
     },
     "Dylan Wu": {
-      "score": "+16",
-      "hole": "7:45 AM",
+      "score": "+18",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/4423323/dylan-wu",
       "competitor_id": "4423323"
     },
@@ -426,7 +426,7 @@
     },
     "James Nicholas": {
       "score": "+15",
-      "hole": "7:45 AM",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/4683800/james-nicholas",
       "competitor_id": "4683800"
     },
@@ -738,7 +738,7 @@
     },
     "Russell Henley": {
       "score": "+13",
-      "hole": "7:56 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/5409/russell-henley",
       "competitor_id": "5409"
     },
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1782008753.0685668,
-  "last_score_refresh_attempt_at": 1782044196.227977,
+  "last_score_refresh_at": 1782044197.7805133,
+  "last_score_refresh_attempt_at": 1782044197.7805133,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
