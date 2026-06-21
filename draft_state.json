@@ -113,8 +113,8 @@
       "competitor_id": "11101"
     },
     "Wyndham Clark": {
-      "score": "-8",
-      "hole": "17",
+      "score": "-7",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/11119/wyndham-clark",
       "competitor_id": "11119"
     },
@@ -875,8 +875,8 @@
       "competitor_id": "9025"
     },
     "Matt Fitzpatrick": {
-      "score": "E",
-      "hole": "17",
+      "score": "+1",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/9037/matt-fitzpatrick",
       "competitor_id": "9037"
     },
@@ -1069,10 +1069,10 @@
     ],
     "Wyndham Clark": [
       "P",
-      "P",
       "□",
       "○",
-      "○"
+      "○",
+      "□"
     ],
     "Nicolai Højgaard": [
       "P",
@@ -1958,10 +1958,10 @@
     ],
     "Matt Fitzpatrick": [
       "□",
-      "□",
       "P",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Zac Blair": [
       "P",
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1782000863.616262,
-  "last_score_refresh_attempt_at": 1782001242.6726556,
+  "last_score_refresh_at": 1782001246.2395666,
+  "last_score_refresh_attempt_at": 1782001246.2395666,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
