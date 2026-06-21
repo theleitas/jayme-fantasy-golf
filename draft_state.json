@@ -30,7 +30,7 @@
     },
     "Xander Schauffele": {
       "score": "E",
-      "hole": "15",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele",
       "competitor_id": "10140"
     },
@@ -60,7 +60,7 @@
     },
     "Collin Morikawa": {
       "score": "+1",
-      "hole": "16",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/10592/collin-morikawa",
       "competitor_id": "10592"
     },
@@ -113,8 +113,8 @@
       "competitor_id": "11101"
     },
     "Wyndham Clark": {
-      "score": "-6",
-      "hole": "15",
+      "score": "-8",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/11119/wyndham-clark",
       "competitor_id": "11119"
     },
@@ -360,7 +360,7 @@
     },
     "Sam Stevens": {
       "score": "-1",
-      "hole": "15",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4426181/sam-stevens",
       "competitor_id": "4426181"
     },
@@ -408,7 +408,7 @@
     },
     "Tom Kim": {
       "score": "-1",
-      "hole": "16",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4602673/tom-kim",
       "competitor_id": "4602673"
     },
@@ -456,13 +456,13 @@
     },
     "Harry Higgs": {
       "score": "+6",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4844/harry-higgs",
       "competitor_id": "4844"
     },
     "Justin Thomas": {
       "score": "+4",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4848/justin-thomas",
       "competitor_id": "4848"
     },
@@ -876,7 +876,7 @@
     },
     "Matt Fitzpatrick": {
       "score": "E",
-      "hole": "15",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/9037/matt-fitzpatrick",
       "competitor_id": "9037"
     },
@@ -971,10 +971,10 @@
     ],
     "Xander Schauffele": [
       "□",
-      "□",
-      "□",
-      "□",
-      "○"
+      "○",
+      "P",
+      "P",
+      "P"
     ],
     "J.J. Spaun": [
       "○",
@@ -1005,10 +1005,10 @@
       "P"
     ],
     "Collin Morikawa": [
+      "□",
+      "□",
       "P",
-      "□",
-      "□",
-      "□",
+      "P",
       "P"
     ],
     "J.B. Holmes": [
@@ -1070,9 +1070,9 @@
     "Wyndham Clark": [
       "P",
       "P",
-      "P",
-      "P",
-      "□"
+      "□",
+      "○",
+      "○"
     ],
     "Nicolai Højgaard": [
       "P",
@@ -1355,10 +1355,10 @@
       "P"
     ],
     "Sam Stevens": [
+      "□",
       "P",
-      "□",
-      "□",
-      "□",
+      "P",
+      "P",
       "P"
     ],
     "Keegan Bradley": [
@@ -1411,11 +1411,11 @@
       "P"
     ],
     "Tom Kim": [
-      "P",
-      "P",
       "□",
       "□",
-      "○"
+      "○",
+      "P",
+      "P"
     ],
     "Jayden Schaper": [
       "○",
@@ -1469,14 +1469,14 @@
     "Harry Higgs": [
       "□",
       "□",
-      "□",
+      "P",
       "P",
       "P"
     ],
     "Justin Thomas": [
       "□",
       "□",
-      "□",
+      "P",
       "P",
       "P"
     ],
@@ -1957,10 +1957,10 @@
       "P"
     ],
     "Matt Fitzpatrick": [
+      "□",
+      "□",
       "P",
-      "□",
-      "□",
-      "□",
+      "P",
       "P"
     ],
     "Zac Blair": [
@@ -2075,8 +2075,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1781998756.996814,
-  "last_score_refresh_attempt_at": 1782000862.1671288,
+  "last_score_refresh_at": 1782000863.616262,
+  "last_score_refresh_attempt_at": 1782000863.616262,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
