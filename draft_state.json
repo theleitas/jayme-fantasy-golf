@@ -8,7 +8,7 @@
     "Peter Miller",
     "Jayme Leita"
   ],
-  "last_pick_started_at": 1783992496.6212718,
+  "last_pick_started_at": 1783994755.0170887,
   "player_results": {
     "Bryson DeChambeau": {
       "score": "N/A",
@@ -2110,7 +2110,8 @@
     "Scott Vincent": []
   },
   "player_headshots": {
-    "Rory McIlroy": "https://a.espncdn.com/i/headshots/golf/players/full/3470.png"
+    "Rory McIlroy": "https://a.espncdn.com/i/headshots/golf/players/full/3470.png",
+    "Scottie Scheffler": "https://a.espncdn.com/i/headshots/golf/players/full/9478.png"
   },
   "last_score_refresh_at": 1783994584.5795193,
   "last_score_refresh_attempt_at": 1783994584.5795193,
@@ -2131,7 +2132,9 @@
     },
     "Peter Miller": {
       "team_name": "Peter's Princesses",
-      "players": [],
+      "players": [
+        "Scottie Scheffler"
+      ],
       "color": "#FF00FF",
       "image": "peter-pic.png"
     }
