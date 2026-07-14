@@ -8,7 +8,7 @@
     "Jayme Leita",
     "Peter Miller"
   ],
-  "last_pick_started_at": 1783992116.1838393,
+  "last_pick_started_at": 1783992267.964912,
   "player_results": {
     "Bryson DeChambeau": {
       "score": "N/A",
@@ -2109,7 +2109,9 @@
     "Jordan Smith": [],
     "Scott Vincent": []
   },
-  "player_headshots": {},
+  "player_headshots": {
+    "Rory McIlroy": "https://a.espncdn.com/i/headshots/golf/players/full/3470.png"
+  },
   "last_score_refresh_at": 1783992226.9106624,
   "last_score_refresh_attempt_at": 1783992226.9106624,
   "teams": {
@@ -2121,7 +2123,9 @@
     },
     "Spencer Tidwell": {
       "team_name": "Spencer's Team",
-      "players": [],
+      "players": [
+        "Rory McIlroy"
+      ],
       "color": "#00F5FF",
       "image": "spencer-pic.png"
     },
