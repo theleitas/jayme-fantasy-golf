@@ -65,6 +65,10 @@ div[data-testid="stButton"] > button:disabled, div[data-testid="stButton"] > but
 .history-table th, .lunch-table th { background:rgba(255,255,255,.04); }
 .history-table td, .lunch-table td { border-left:1px solid rgba(255,255,255,.08); }
 .history-table td:first-child, .history-table th:first-child, .lunch-table td:first-child, .lunch-table th:first-child { border-left:none; }
+.history-table .tournament-cell { font-weight:950; color:#fff; }
+.history-coach-cell { display:flex; align-items:center; justify-content:center; gap:9px; color:currentColor; font-weight:950; }
+.history-face { width:2.35rem; height:2.35rem; border-radius:50%; object-fit:cover; border:2px solid currentColor; flex:0 0 auto; box-shadow:0 0 10px currentColor; }
+.history-face-placeholder { width:2.35rem; height:2.35rem; border-radius:50%; border:2px solid currentColor; display:flex; align-items:center; justify-content:center; font-size:.42rem; font-weight:900; line-height:1; text-align:center; overflow:hidden; flex:0 0 auto; padding:4px; background:#050505; box-shadow:0 0 10px currentColor; }
 .lunch-table { table-layout:fixed; font-size:.9rem; }
 .lunch-table .axis-cell { color:#bbb; font-size:.72rem; font-weight:950; letter-spacing:.04em; text-transform:uppercase; line-height:1.15; }
 .lunch-table .row-coach { font-weight:950; }
@@ -1877,16 +1881,29 @@ def lunch_icons(count):
 def render_history_section(state, teams_data):
     with st.expander("History", expanded=False):
         st.subheader("Tournament Results")
+        placement_headers = [("1st", "🥇 1st Place"), ("2nd", "🥈 2nd Place"), ("3rd", "🥉 3rd Place")]
         history_parts = ["<table class='roster-table history-table'><thead><tr><th>Tournament</th>"]
-        for coach in DEFAULT_COACHES:
-            color = html.escape(str(teams_data.get(coach, {}).get("color", "#ffffff")))
-            history_parts.append(f"<th style='color:{color};'>{html.escape(coach_short_name(coach))}</th>")
+        for _, label in placement_headers:
+            history_parts.append(f"<th>{html.escape(label)}</th>")
         history_parts.append("</tr></thead><tbody>")
         for entry in HISTORY_RESULTS:
-            history_parts.append(f"<tr><td>{html.escape(str(entry.get('tournament') or 'Tournament'))}</td>")
+            history_parts.append(
+                f"<tr><td class='tournament-cell'>{html.escape(str(entry.get('tournament') or 'Tournament'))}</td>"
+            )
             placements = entry.get("placements") if isinstance(entry.get("placements"), dict) else {}
-            for coach in DEFAULT_COACHES:
-                history_parts.append(f"<td>{html.escape(str(placements.get(coach, '')))}</td>")
+            coaches_by_place = {str(place): coach for coach, place in placements.items()}
+            for place, _ in placement_headers:
+                coach = coaches_by_place.get(place, "")
+                if not coach:
+                    history_parts.append("<td></td>")
+                    continue
+                color = html.escape(str(teams_data.get(coach, {}).get("color", "#ffffff")))
+                face_html = coach_image_html(coach, color, "history-face", "history-face-placeholder")
+                history_parts.append(
+                    f"<td style='color:{color};'>"
+                    f"<div class='history-coach-cell'>{face_html}<span>{html.escape(coach_short_name(coach))}</span></div>"
+                    f"</td>"
+                )
             history_parts.append("</tr>")
         history_parts.append("</tbody></table>")
         st.markdown("".join(history_parts), unsafe_allow_html=True)
