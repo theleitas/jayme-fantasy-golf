@@ -8,7 +8,7 @@
     "Peter Miller",
     "Jayme Leita"
   ],
-  "last_pick_started_at": 1784032726.1729636,
+  "last_pick_started_at": 1784036288.1277614,
   "player_results": {
     "Bryson DeChambeau": {
       "score": "N/A",
@@ -2116,7 +2116,8 @@
     "Matt Fitzpatrick": "https://a.espncdn.com/i/headshots/golf/players/full/9037.png",
     "Xander Schauffele": "https://a.espncdn.com/i/headshots/golf/players/full/10140.png",
     "Jon Rahm": "https://a.espncdn.com/i/headshots/golf/players/full/9780.png",
-    "Ludvig Aberg": "https://a.espncdn.com/i/headshots/golf/players/full/4375972.png"
+    "Ludvig Aberg": "https://a.espncdn.com/i/headshots/golf/players/full/4375972.png",
+    "Viktor Hovland": "https://a.espncdn.com/i/headshots/golf/players/full/4364873.png"
   },
   "last_score_refresh_at": 1784036208.9051533,
   "last_score_refresh_attempt_at": 1784036208.9051533,
@@ -2144,7 +2145,8 @@
       "team_name": "Peter's Princesses",
       "players": [
         "Scottie Scheffler",
-        "Xander Schauffele"
+        "Xander Schauffele",
+        "Viktor Hovland"
       ],
       "color": "#FF00FF",
       "image": "peter-pic.png"
