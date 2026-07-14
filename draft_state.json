@@ -8,7 +8,7 @@
     "Peter Miller",
     "Jayme Leita"
   ],
-  "last_pick_started_at": 1783994755.0170887,
+  "last_pick_started_at": 1783995988.3139367,
   "player_results": {
     "Bryson DeChambeau": {
       "score": "N/A",
@@ -2111,14 +2111,17 @@
   },
   "player_headshots": {
     "Rory McIlroy": "https://a.espncdn.com/i/headshots/golf/players/full/3470.png",
-    "Scottie Scheffler": "https://a.espncdn.com/i/headshots/golf/players/full/9478.png"
+    "Scottie Scheffler": "https://a.espncdn.com/i/headshots/golf/players/full/9478.png",
+    "Tommy Fleetwood": "https://a.espncdn.com/i/headshots/golf/players/full/5539.png"
   },
   "last_score_refresh_at": 1783995907.8394535,
   "last_score_refresh_attempt_at": 1783995907.8394535,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
-      "players": [],
+      "players": [
+        "Tommy Fleetwood"
+      ],
       "color": "#39FF14",
       "image": "jayme-pic.png"
     },
