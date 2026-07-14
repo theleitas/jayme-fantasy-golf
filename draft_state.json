@@ -8,7 +8,7 @@
     "Peter Miller",
     "Jayme Leita"
   ],
-  "last_pick_started_at": 1784047745.1065505,
+  "last_pick_started_at": 1784047761.6834798,
   "player_results": {
     "Bryson DeChambeau": {
       "score": "N/A",
@@ -2124,7 +2124,8 @@
     "Chris Gotterup": "https://a.espncdn.com/i/headshots/golf/players/full/4690755.png",
     "Wyndham Clark": "https://a.espncdn.com/i/headshots/golf/players/full/11119.png",
     "Shane Lowry": "https://a.espncdn.com/i/headshots/golf/players/full/4587.png",
-    "Russell Henley": "https://a.espncdn.com/i/headshots/golf/players/full/5409.png"
+    "Russell Henley": "https://a.espncdn.com/i/headshots/golf/players/full/5409.png",
+    "J.T. Poston": "https://a.espncdn.com/i/headshots/golf/players/full/10505.png"
   },
   "last_score_refresh_at": 1784047519.3845575,
   "last_score_refresh_attempt_at": 1784047519.3845575,
@@ -2136,7 +2137,8 @@
         "Matt Fitzpatrick",
         "Collin Morikawa",
         "Cameron Young",
-        "Russell Henley"
+        "Russell Henley",
+        "J.T. Poston"
       ],
       "color": "#39FF14",
       "image": "jayme-pic.png"
