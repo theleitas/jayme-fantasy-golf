@@ -1,6 +1,6 @@
 # Jayme Fantasy Golf
 
-Separate Streamlit codebase for the Jayme Fantasy Golf app with the original Golf Challenge text-update system restored.
+Separate Streamlit codebase for the Jayme Fantasy Golf app.
 
 ## What This Reuses
 
@@ -8,39 +8,22 @@ Separate Streamlit codebase for the Jayme Fantasy Golf app with the original Gol
 - Draft board, roster cards, standings cards, tournament leaderboard, tournament selector, admin controls, and 10-round snake draft behavior.
 - Original Golf Challenge coach photos for Jayme, Spencer, and Peter.
 - Original Golf Challenge title thumbnail/icon.
-- Original Golf Challenge Twilio text-update concepts: group recipients, test messages, and score-driven alert templates.
 
 ## What Is Separate
 
 - The app targets its own GitHub repo: `jayme-fantasy-golf`.
 - Shared app state is stored in this repo's `draft_state.json`.
 - The existing `leita-fantasy-golf` app/repo is not modified.
-- Twilio credentials and phone numbers are not committed into the repo.
 
-## Text Updates
+## Secrets
 
-Text updates are configured in the `Text Updates` expander inside the app.
-
-Supported alert types:
-
-- Tee off updates
-- Birdie updates
-- Bogey updates
-- Lead change
-- Top 3 golfer change
-
-Twilio credentials must be configured in Streamlit secrets:
+The app saves shared state back to GitHub, so a GitHub token must be configured in Streamlit secrets:
 
 ```toml
-TWILIO_ACCOUNT_SID = "your_twilio_account_sid"
-TWILIO_AUTH_TOKEN = "your_twilio_auth_token"
-TWILIO_FROM_NUMBER = "+15555555555"
 GITHUB_TOKEN = "your_github_personal_access_token"
 ```
 
 The app also accepts `[GITHUB] TOKEN = "..."`, `GH_TOKEN`, and lowercase `github_token`.
-
-Phone numbers are entered in the app UI and saved to `draft_state.json` through the normal GitHub-backed state flow.
 
 ## Run
 

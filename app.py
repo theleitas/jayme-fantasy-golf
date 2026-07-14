@@ -190,33 +190,8 @@ ESPN_LEADERBOARD_BASE_URL = "https://site.web.api.espn.com/apis/site/v2/sports/g
 ESPN_PGA_SCOREBOARD_URL = "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard"
 AUTO_SCORE_REFRESH_SECONDS = 5 * 60
 AVAILABLE_GOLFERS_PAGE_SIZE = 33
-DEFAULT_TWILIO_ACCOUNT_SID = read_secret("TWILIO_ACCOUNT_SID") or read_secret("TWILIO", "ACCOUNT_SID") or read_secret("twilio", "account_sid") or ""
-DEFAULT_TWILIO_AUTH_TOKEN = read_secret("TWILIO_AUTH_TOKEN") or read_secret("TWILIO", "AUTH_TOKEN") or read_secret("twilio", "auth_token") or ""
-DEFAULT_TWILIO_FROM_NUMBER = read_secret("TWILIO_FROM_NUMBER") or read_secret("TWILIO", "FROM_NUMBER") or read_secret("twilio", "from_number") or ""
 PGATOUR_FIELD_URLS_BY_ESPN_EVENT_ID = {
     "401811951": "https://www.pgatour.com/tournaments/2026/rbc-canadian-open/R2026032/field",
-}
-TEXT_UPDATE_TYPES = {
-    "tee_off": {
-        "label": "Tee Off Updates",
-        "template": "{coach}'s golfer {player} has teed off. Team totals: {team_totals}",
-    },
-    "birdie": {
-        "label": "Birdie Updates",
-        "template": "{coach}'s golfer {player} got a birdie on hole {hole}",
-    },
-    "bogey": {
-        "label": "Bogey Updates",
-        "template": "{coach}'s golfer {player} got a bogey on hole {hole}",
-    },
-    "lead_change": {
-        "label": "Lead Change",
-        "template": "Lead change: {leaders} now lead. Team totals: {team_totals}",
-    },
-    "top3_change": {
-        "label": "Top 3 Golfer Change",
-        "template": "{coach}'s golfer {dropped_player} has dropped from the Top 3, replaced by {added_player}",
-    },
 }
 OLD_DEFAULT_PAYOUT_RULES = (
     "Each coach drafts 10 golfers and antes $50. Coach with lowest 3 golfers at end of tournaments "
@@ -359,57 +334,6 @@ def default_teams():
         for index, coach in enumerate(DEFAULT_COACHES)
     }
 
-def default_text_updates():
-    return {
-        "enabled": False,
-        "twilio": {
-            "account_sid": "",
-            "auth_token": "",
-            "from_number": "",
-        },
-        "recipients": {
-            "Jayme": {"enabled": False, "phone": ""},
-            "Spencer": {"enabled": False, "phone": ""},
-            "Peter": {"enabled": False, "phone": ""},
-        },
-        "updates": {key: {"enabled": True, "template": value["template"]} for key, value in TEXT_UPDATE_TYPES.items()},
-        "sent_event_ids": [],
-        "top3_by_coach": {},
-        "leaders": [],
-    }
-
-def normalize_text_updates(state):
-    defaults = default_text_updates()
-    text_updates = state.get("text_updates")
-    if not isinstance(text_updates, dict):
-        text_updates = defaults
-        state["text_updates"] = text_updates
-
-    text_updates.setdefault("enabled", defaults["enabled"])
-    twilio = text_updates.setdefault("twilio", {})
-    for key, value in defaults["twilio"].items():
-        twilio.setdefault(key, value)
-
-    recipients = text_updates.setdefault("recipients", {})
-    for name, value in defaults["recipients"].items():
-        slot = recipients.setdefault(name, {})
-        slot.setdefault("enabled", value["enabled"])
-        slot.setdefault("phone", value["phone"])
-
-    updates = text_updates.setdefault("updates", {})
-    for key, value in defaults["updates"].items():
-        slot = updates.setdefault(key, {})
-        slot.setdefault("enabled", value["enabled"])
-        slot.setdefault("template", value["template"])
-
-    if not isinstance(text_updates.get("sent_event_ids"), list):
-        text_updates["sent_event_ids"] = []
-    if not isinstance(text_updates.get("top3_by_coach"), dict):
-        text_updates["top3_by_coach"] = {}
-    if not isinstance(text_updates.get("leaders"), list):
-        text_updates["leaders"] = []
-    return text_updates
-
 def default_state():
     return {
         "app_title": DEFAULT_APP_TITLE,
@@ -425,7 +349,6 @@ def default_state():
         "last_score_refresh_attempt_at": 0,
         "teams": default_teams(),
         "selected_tournament": {},
-        "text_updates": default_text_updates(),
     }
 
 def normalize_state(state):
@@ -452,7 +375,7 @@ def normalize_state(state):
     state.setdefault("last_score_refresh_attempt_at", base["last_score_refresh_attempt_at"])
     state.setdefault("teams", base["teams"])
     state.setdefault("selected_tournament", base["selected_tournament"])
-    normalize_text_updates(state)
+    state.pop("text_updates", None)
     existing_teams = state.get("teams") if isinstance(state.get("teams"), dict) else {}
     normalized_teams = {}
     used_colors = set()
@@ -685,10 +608,6 @@ def save_selected_tournament(selection):
         state["hole_outcomes"] = {}
         state["last_score_refresh_at"] = 0
         state["last_score_refresh_attempt_at"] = 0
-        text_updates = normalize_text_updates(state)
-        text_updates["sent_event_ids"] = []
-        text_updates["top3_by_coach"] = {}
-        text_updates["leaders"] = []
         return True
 
     return mutate_shared_state(mutator, "Update selected tournament")
@@ -1732,218 +1651,6 @@ def format_all_team_totals_from_results(state, results):
         parts.append(f"{coach_short_name(coach_id)} {total}")
     return " | ".join(parts)
 
-def normalize_phone(value):
-    return str(value or "").strip()
-
-def first_nonempty(*values):
-    for value in values:
-        normalized = normalize_phone(value)
-        if normalized and not normalized.lower().startswith("your_"):
-            return normalized
-    return ""
-
-def resolved_twilio_config(text_updates):
-    twilio = text_updates.get("twilio", {}) if isinstance(text_updates, dict) else {}
-    return {
-        "account_sid": first_nonempty(DEFAULT_TWILIO_ACCOUNT_SID, twilio.get("account_sid")),
-        "auth_token": first_nonempty(DEFAULT_TWILIO_AUTH_TOKEN, twilio.get("auth_token")),
-        "from_number": first_nonempty(DEFAULT_TWILIO_FROM_NUMBER, twilio.get("from_number")),
-    }
-
-def twilio_config_status(text_updates):
-    config = resolved_twilio_config(text_updates)
-    missing = [label for label, key in [
-        ("account SID", "account_sid"),
-        ("auth token", "auth_token"),
-        ("from number", "from_number"),
-    ] if not config.get(key)]
-    return config, missing
-
-def render_update_template(template, context):
-    class SafeDict(dict):
-        def __missing__(self, key):
-            return "{" + key + "}"
-    return str(template or "").format_map(SafeDict(context))
-
-def send_twilio_sms(text_updates, to_number, body):
-    config, missing = twilio_config_status(text_updates)
-    sid = config["account_sid"]
-    token = config["auth_token"]
-    from_number = config["from_number"]
-    to_number = normalize_phone(to_number)
-    if missing or not to_number or not body:
-        missing_parts = missing[:]
-        if not to_number:
-            missing_parts.append("recipient phone number")
-        if not body:
-            missing_parts.append("message body")
-        return False, f"Missing Twilio {', '.join(missing_parts)}."
-
-    try:
-        response = requests.post(
-            f"https://api.twilio.com/2010-04-01/Accounts/{sid}/Messages.json",
-            auth=(sid, token),
-            data={"From": from_number, "To": to_number, "Body": body},
-            timeout=10,
-        )
-    except Exception as error:
-        return False, str(error)
-
-    if 200 <= response.status_code < 300:
-        return True, "sent"
-    try:
-        error_payload = response.json()
-        twilio_message = error_payload.get("message") or response.text
-        twilio_code = error_payload.get("code")
-        if twilio_code:
-            return False, f"{response.status_code} / Twilio {twilio_code}: {twilio_message}"
-        return False, f"{response.status_code}: {twilio_message}"
-    except ValueError:
-        return False, f"{response.status_code}: {response.text[:300]}"
-
-def get_group_recipients(text_updates):
-    recipients = []
-    for slot in text_updates.get("recipients", {}).values():
-        if not slot.get("enabled"):
-            continue
-        phone = normalize_phone(slot.get("phone"))
-        if phone:
-            recipients.append(phone)
-    seen = set()
-    unique = []
-    for phone in recipients:
-        if phone in seen:
-            continue
-        seen.add(phone)
-        unique.append(phone)
-    return unique
-
-def send_group_text_message(text_updates, body):
-    recipients = get_group_recipients(text_updates)
-    sent = 0
-    errors = []
-    for phone in recipients:
-        ok, info = send_twilio_sms(text_updates, phone, body)
-        if ok:
-            sent += 1
-        else:
-            errors.append(f"{phone}: {info}")
-    return sent, errors
-
-def build_text_update_messages(state, old_results, new_results):
-    text_updates = normalize_text_updates(state)
-    if not text_updates.get("enabled"):
-        return [], set()
-
-    update_config = text_updates.get("updates", {})
-    sent_event_ids = set(text_updates.get("sent_event_ids", []))
-    new_event_ids = set()
-    messages = []
-    teams = state.get("teams", {})
-    old_top3 = {}
-    new_top3 = {}
-    for coach_id, info in teams.items():
-        players = info.get("players", [])
-        old_top3[coach_id] = get_team_top_three_from_results(players, old_results)
-        new_top3[coach_id] = get_team_top_three_from_results(players, new_results)
-
-    team_totals = format_all_team_totals_from_results(state, new_results)
-
-    for coach_id, info in teams.items():
-        coach_name = coach_short_name(coach_id)
-        current_top3 = new_top3.get(coach_id, [])
-
-        if update_config.get("tee_off", {}).get("enabled"):
-            for player in current_top3:
-                old_hole = old_results.get(player, {}).get("hole", "—")
-                new_hole = new_results.get(player, {}).get("hole", "—")
-                old_started = hole_number_from_status(old_hole) is not None
-                new_started = hole_number_from_status(new_hole) is not None
-                if not old_started and new_started and is_tee_time_status(old_hole):
-                    event_id = f"tee_off:{coach_id}:{player}:{new_hole}"
-                    if event_id not in sent_event_ids:
-                        body = render_update_template(
-                            update_config["tee_off"].get("template"),
-                            {"coach": coach_name, "player": player, "team_totals": team_totals},
-                        )
-                        messages.append(body)
-                        new_event_ids.add(event_id)
-
-        for player in current_top3:
-            old_score = parse_golf_score(old_results.get(player, {}).get("score"))
-            new_score = parse_golf_score(new_results.get(player, {}).get("score"))
-            if old_score is None or new_score is None:
-                continue
-            delta = new_score - old_score
-            old_hole = old_results.get(player, {}).get("hole", "—")
-            new_hole = new_results.get(player, {}).get("hole", "—")
-            old_hole_num = hole_number_from_status(old_hole)
-            new_hole_num = hole_number_from_status(new_hole)
-            completed_hole = old_hole_num if old_hole_num is not None else new_hole_num
-            hole_label = completed_hole if completed_hole is not None else "?"
-
-            if delta == -1 and update_config.get("birdie", {}).get("enabled"):
-                event_id = f"birdie:{coach_id}:{player}:{new_score}:{hole_label}"
-                if event_id not in sent_event_ids:
-                    body = render_update_template(
-                        update_config["birdie"].get("template"),
-                        {"coach": coach_name, "player": player, "hole": hole_label},
-                    )
-                    messages.append(body)
-                    new_event_ids.add(event_id)
-
-            if delta == 1 and update_config.get("bogey", {}).get("enabled"):
-                event_id = f"bogey:{coach_id}:{player}:{new_score}:{hole_label}"
-                if event_id not in sent_event_ids:
-                    body = render_update_template(
-                        update_config["bogey"].get("template"),
-                        {"coach": coach_name, "player": player, "hole": hole_label},
-                    )
-                    messages.append(body)
-                    new_event_ids.add(event_id)
-
-        if update_config.get("top3_change", {}).get("enabled"):
-            old_list = old_top3.get(coach_id, [])
-            new_list = new_top3.get(coach_id, [])
-            if old_list != new_list:
-                dropped = [player for player in old_list if player not in new_list]
-                added = [player for player in new_list if player not in old_list]
-                max_len = max(len(dropped), len(added))
-                for idx in range(max_len):
-                    dropped_player = dropped[idx] if idx < len(dropped) else ""
-                    added_player = added[idx] if idx < len(added) else ""
-                    event_id = f"top3_change:{coach_id}:{','.join(old_list)}->{','.join(new_list)}:{idx}"
-                    if event_id in sent_event_ids:
-                        continue
-                    body = render_update_template(
-                        update_config["top3_change"].get("template"),
-                        {
-                            "coach": coach_name,
-                            "dropped_player": dropped_player or "(none)",
-                            "added_player": added_player or "(none)",
-                        },
-                    )
-                    messages.append(body)
-                    new_event_ids.add(event_id)
-
-    if update_config.get("lead_change", {}).get("enabled"):
-        old_leaders = text_updates.get("leaders", [])
-        new_leaders = get_leader_names_from_results(state, new_results)
-        if new_leaders and old_leaders != new_leaders:
-            event_id = f"lead_change:{','.join(new_leaders)}:{team_totals}"
-            if event_id not in sent_event_ids:
-                body = render_update_template(
-                    update_config["lead_change"].get("template"),
-                    {
-                        "leaders": ", ".join(coach_short_name(name) for name in new_leaders),
-                        "team_totals": team_totals,
-                    },
-                )
-                messages.append(body)
-                new_event_ids.add(event_id)
-
-    return messages, new_event_ids
-
 def latest_score_refresh_marker(state):
     try:
         refreshed_at = float(state.get("last_score_refresh_at", 0) or 0)
@@ -1990,35 +1697,18 @@ def refresh_scores(show_status=True):
             st.error("ESPN did not return matching player scores yet.")
         return False
 
-    pending_messages = []
-
     def mutator(state):
-        nonlocal pending_messages
         now = time.time()
         old_results = state.get("player_results", {})
         old_outcomes = state.get("hole_outcomes", {})
-        pending_messages, new_event_ids = build_text_update_messages(state, old_results, live_results)
         state["hole_outcomes"] = update_hole_outcomes(old_outcomes, old_results, live_results)
         state["player_results"] = live_results
         state["last_score_refresh_at"] = now
         state["last_score_refresh_attempt_at"] = now
-        text_updates = normalize_text_updates(state)
-        if new_event_ids:
-            merged_event_ids = set(text_updates.get("sent_event_ids", []))
-            merged_event_ids.update(new_event_ids)
-            text_updates["sent_event_ids"] = sorted(merged_event_ids)[-5000:]
-        text_updates["leaders"] = get_leader_names_from_results(state, live_results)
-        text_updates["top3_by_coach"] = {
-            coach_id: get_team_top_three_from_results(info.get("players", []), live_results)
-            for coach_id, info in state.get("teams", {}).items()
-        }
         return True
 
-    result, updated_state = mutate_shared_state(mutator, "Refresh scores")
+    result, _ = mutate_shared_state(mutator, "Refresh scores")
     if result:
-        text_updates = normalize_text_updates(updated_state if isinstance(updated_state, dict) else {})
-        for message in pending_messages:
-            send_group_text_message(text_updates, message)
         if show_status:
             st.success(f"Scores refreshed for {len(live_results)} golfers.")
         time.sleep(0.5)
@@ -2041,23 +1731,6 @@ def render_refresh_scores_button(key, state):
     st.markdown("</div>", unsafe_allow_html=True)
     if clicked:
         refresh_scores()
-
-def save_text_updates_settings(new_settings):
-    def mutator(state):
-        state = normalize_state(state)
-        state["text_updates"] = new_settings
-        normalize_text_updates(state)
-        return True
-    return mutate_shared_state(mutator, "Update text updates settings")
-
-def send_test_text_update(text_updates, recipient_name):
-    recipients = text_updates.get("recipients", {})
-    recipient = recipients.get(recipient_name, {})
-    phone = normalize_phone(recipient.get("phone"))
-    if not phone:
-        return False, "Selected recipient does not have a phone number."
-    message = f"Test message from {DEFAULT_APP_TITLE} ({datetime.now().strftime('%Y-%m-%d %H:%M:%S')})."
-    return send_twilio_sms(text_updates, phone, message)
 
 def leaderboard_owner_image_html(golfer, owner_lookup):
     coach_id = owner_lookup.get(golfer)
@@ -2485,7 +2158,6 @@ if "confirm_save_tournament" not in st.session_state:
 state, state_sha = load_state_from_github()
 SELECTED_TOURNAMENT, TOURNAMENT_OPTIONS = current_tournament_selection(state)
 state = backfill_drafted_player_headshots(state, SELECTED_TOURNAMENT)
-text_updates = normalize_text_updates(state)
 teams_data = state["teams"]
 draft_order = state["draft_order"]
 PLAYER_RESULTS = state.get("player_results", {})
@@ -2890,89 +2562,6 @@ with draft_controls_slot:
                                 result, _ = make_draft_pick(golfer)
                                 if result:
                                     st.rerun()
-
-with st.expander("📱 Text Updates", expanded=False):
-    st.subheader("Text Updates")
-
-    with st.form("text_updates_settings_form"):
-        updates_enabled = st.toggle("Text Updates", value=text_updates.get("enabled", False))
-
-        st.markdown("### Twilio Settings")
-        st.caption("Twilio account SID, auth token, and from number must be entered in Streamlit secrets.")
-        twilio_config, missing_twilio = twilio_config_status(text_updates)
-        if missing_twilio:
-            st.warning(f"Twilio secrets missing: {', '.join(missing_twilio)}.")
-        else:
-            st.success(f"Twilio secrets detected. Sending from {twilio_config['from_number']}.")
-
-        st.markdown("### Group Recipients")
-        recipients_cfg = text_updates.get("recipients", {})
-        recipient_names = ["Peter", "Jayme", "Spencer"]
-        new_recipients = {}
-        for recipient_name in recipient_names:
-            slot = recipients_cfg.get(recipient_name, {})
-            col_enabled, col_phone = st.columns([1, 3])
-            with col_enabled:
-                enabled = st.toggle(
-                    f"{recipient_name} On",
-                    value=slot.get("enabled", False),
-                    key=f"text_updates_recipient_enabled_{recipient_name}",
-                )
-            with col_phone:
-                phone = st.text_input(
-                    f"{recipient_name} Phone",
-                    value=slot.get("phone", ""),
-                    key=f"text_updates_recipient_phone_{recipient_name}",
-                )
-            new_recipients[recipient_name] = {"enabled": enabled, "phone": phone}
-
-        st.markdown("### Update Types")
-        updates_cfg = text_updates.get("updates", {})
-        new_updates_cfg = {}
-        for update_key, info in TEXT_UPDATE_TYPES.items():
-            slot = updates_cfg.get(update_key, {})
-            st.markdown(f"#### {info['label']}")
-            enabled = st.toggle(
-                f"{info['label']} On",
-                value=slot.get("enabled", True),
-                key=f"text_updates_update_enabled_{update_key}",
-            )
-            template = st.text_area(
-                f"{info['label']} Text",
-                value=slot.get("template", info["template"]),
-                key=f"text_updates_update_template_{update_key}",
-                height=80,
-            )
-            new_updates_cfg[update_key] = {"enabled": enabled, "template": template}
-
-        save_settings = st.form_submit_button("Save Text Update Settings & Phone Numbers", use_container_width=True)
-
-        if save_settings:
-            new_settings = {
-                "enabled": updates_enabled,
-                "twilio": text_updates.get("twilio", {}),
-                "recipients": new_recipients,
-                "updates": new_updates_cfg,
-                "sent_event_ids": text_updates.get("sent_event_ids", []),
-                "top3_by_coach": text_updates.get("top3_by_coach", {}),
-                "leaders": text_updates.get("leaders", []),
-            }
-            result, _ = save_text_updates_settings(new_settings)
-            if result:
-                st.success("Text update settings saved.")
-                st.rerun()
-            else:
-                st.error("Could not save text update settings.")
-
-    st.markdown("### Test Message")
-    st.caption("Save settings first to test the latest phone numbers.")
-    test_target = st.selectbox("Test Recipient", options=["Peter", "Jayme", "Spencer"], key="text_updates_test_target")
-    if st.button("Send TEST MESSAGE", key="text_updates_send_test_message", use_container_width=True):
-        ok, info = send_test_text_update(text_updates, test_target)
-        if ok:
-            st.success(f"Test message sent to {test_target}.")
-        else:
-            st.error(f"Test message failed: {info}")
 
 with st.expander("🔧 Admin Section", expanded=False):
     if not st.session_state.get("admin_authenticated", False):
