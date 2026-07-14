@@ -61,6 +61,15 @@ div[data-testid="stButton"] > button:disabled, div[data-testid="stButton"] > but
 .roster-table th { text-align:left; padding:7px 8px; color:#fff; border-bottom:1px solid rgba(255,255,255,.18); font-weight:800; }
 .roster-table td { padding:7px 8px; border-bottom:1px solid rgba(255,255,255,.10); vertical-align:middle; }
 .roster-table tr:last-child td { border-bottom:none; }
+.history-table th, .history-table td, .lunch-table th, .lunch-table td { text-align:center!important; vertical-align:middle; }
+.history-table th, .lunch-table th { background:rgba(255,255,255,.04); }
+.history-table td, .lunch-table td { border-left:1px solid rgba(255,255,255,.08); }
+.history-table td:first-child, .history-table th:first-child, .lunch-table td:first-child, .lunch-table th:first-child { border-left:none; }
+.lunch-table { table-layout:fixed; font-size:.9rem; }
+.lunch-table .axis-cell { color:#bbb; font-size:.72rem; font-weight:950; letter-spacing:.04em; text-transform:uppercase; line-height:1.15; }
+.lunch-table .row-coach { font-weight:950; }
+.lunch-table .lunch-cell { height:3.1rem; min-width:4.8rem; font-size:1.35rem; line-height:1.2; }
+.lunch-table .empty-lunch-cell { color:#555; font-size:.9rem; font-weight:800; }
 .roster-top-three td { background:#ffeb3b!important; color:#000!important; font-weight:900; }
 .draft-stopped-note { color:#bbb; font-style:italic; margin:.5rem 0 1rem 0; }
 .team-heading { display:flex; align-items:center; flex-wrap:wrap; gap:14px; min-width:0; }
@@ -1860,7 +1869,7 @@ def lunch_icons(count):
 def render_history_section(state, teams_data):
     with st.expander("History", expanded=False):
         st.subheader("Tournament Results")
-        history_parts = ["<table class='roster-table'><thead><tr><th>Tournament</th>"]
+        history_parts = ["<table class='roster-table history-table'><thead><tr><th>Tournament</th>"]
         for coach in DEFAULT_COACHES:
             color = html.escape(str(teams_data.get(coach, {}).get("color", "#ffffff")))
             history_parts.append(f"<th style='color:{color};'>{html.escape(coach_short_name(coach))}</th>")
@@ -1876,21 +1885,33 @@ def render_history_section(state, teams_data):
 
         st.subheader("Lunch Tracker")
         ledger = normalize_lunch_ledger(state)
-        lunch_parts = ["<table class='roster-table'><thead><tr><th>Owes ↓ / Receives →</th>"]
+        lunch_parts = ["<table class='roster-table lunch-table'><thead><tr><th class='axis-cell'>Owes<br>to</th>"]
         for creditor in DEFAULT_COACHES:
             color = html.escape(str(teams_data.get(creditor, {}).get("color", "#ffffff")))
             lunch_parts.append(f"<th style='color:{color};'>{html.escape(coach_short_name(creditor))}</th>")
         lunch_parts.append("</tr></thead><tbody>")
         for debtor in DEFAULT_COACHES:
             debtor_color = html.escape(str(teams_data.get(debtor, {}).get("color", "#ffffff")))
-            lunch_parts.append(f"<tr><th style='color:{debtor_color};'>{html.escape(coach_short_name(debtor))}</th>")
+            lunch_parts.append(
+                f"<tr><th class='row-coach' style='color:{debtor_color};'>"
+                f"{html.escape(coach_short_name(debtor))}<br><span style='font-size:.68rem; color:#aaa;'>owes</span></th>"
+            )
             for creditor in DEFAULT_COACHES:
                 if debtor == creditor:
-                    cell = "—"
+                    cell_style = (
+                        f"background:{debtor_color}52; border:2px solid {debtor_color}; "
+                        f"box-shadow:inset 0 0 12px {debtor_color}88;"
+                    )
+                    lunch_parts.append(f"<td class='lunch-cell' style='{cell_style}'></td>")
+                    continue
                 else:
                     icons = lunch_icons(ledger.get(debtor, {}).get(creditor, 0))
-                    cell = html.escape(icons) if icons else ""
-                lunch_parts.append(f"<td style='font-size:1.2rem; min-width:4.5rem;'>{cell}</td>")
+                    cell = html.escape(icons) if icons else "<span class='empty-lunch-cell'>0</span>"
+                creditor_name = html.escape(coach_short_name(creditor))
+                debtor_name = html.escape(coach_short_name(debtor))
+                lunch_parts.append(
+                    f"<td class='lunch-cell' title='{debtor_name} owes {creditor_name}'>{cell}</td>"
+                )
             lunch_parts.append("</tr>")
         lunch_parts.append("</tbody></table>")
         st.markdown("".join(lunch_parts), unsafe_allow_html=True)
