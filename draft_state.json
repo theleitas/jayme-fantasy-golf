@@ -8,7 +8,7 @@
     "Peter Miller",
     "Jayme Leita"
   ],
-  "last_pick_started_at": 1784037460.4444485,
+  "last_pick_started_at": 1784037541.8309486,
   "player_results": {
     "Bryson DeChambeau": {
       "score": "N/A",
@@ -2121,7 +2121,8 @@
     "Collin Morikawa": "https://a.espncdn.com/i/headshots/golf/players/full/10592.png",
     "Cameron Young": "https://a.espncdn.com/i/headshots/golf/players/full/4425906.png",
     "Justin Thomas": "https://a.espncdn.com/i/headshots/golf/players/full/4848.png",
-    "Chris Gotterup": "https://a.espncdn.com/i/headshots/golf/players/full/4690755.png"
+    "Chris Gotterup": "https://a.espncdn.com/i/headshots/golf/players/full/4690755.png",
+    "Wyndham Clark": "https://a.espncdn.com/i/headshots/golf/players/full/11119.png"
   },
   "last_score_refresh_at": 1784037259.5373619,
   "last_score_refresh_attempt_at": 1784037259.5373619,
@@ -2143,7 +2144,8 @@
         "Rory McIlroy",
         "Jon Rahm",
         "Ludvig Aberg",
-        "Chris Gotterup"
+        "Chris Gotterup",
+        "Wyndham Clark"
       ],
       "color": "#00F5FF",
       "image": "spencer-pic.png"
