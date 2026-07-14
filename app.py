@@ -193,6 +193,16 @@ AVAILABLE_GOLFERS_PAGE_SIZE = 33
 PGATOUR_FIELD_URLS_BY_ESPN_EVENT_ID = {
     "401811951": "https://www.pgatour.com/tournaments/2026/rbc-canadian-open/R2026032/field",
 }
+HISTORY_RESULTS = [
+    {
+        "tournament": "2026 U.S. Open",
+        "placements": {
+            "Jayme Leita": "1st",
+            "Peter Miller": "2nd",
+            "Spencer Tidwell": "3rd",
+        },
+    },
+]
 OLD_DEFAULT_PAYOUT_RULES = (
     "Each coach drafts 10 golfers and antes $50. Coach with lowest 3 golfers at end of tournaments "
     "wins with payouts of $X for 1st, $Y for 2nd, and $Z for 3rd."
@@ -334,6 +344,33 @@ def default_teams():
         for index, coach in enumerate(DEFAULT_COACHES)
     }
 
+def default_lunch_ledger():
+    return {
+        debtor: {creditor: 0 for creditor in DEFAULT_COACHES}
+        for debtor in DEFAULT_COACHES
+    }
+
+def normalize_lunch_ledger(state):
+    raw_ledger = state.get("lunch_ledger")
+    if not isinstance(raw_ledger, dict):
+        raw_ledger = {}
+    normalized = default_lunch_ledger()
+    for debtor in DEFAULT_COACHES:
+        debtor_row = raw_ledger.get(debtor)
+        if not isinstance(debtor_row, dict):
+            debtor_row = {}
+        for creditor in DEFAULT_COACHES:
+            if debtor == creditor:
+                normalized[debtor][creditor] = 0
+                continue
+            try:
+                count = int(debtor_row.get(creditor, 0) or 0)
+            except (TypeError, ValueError):
+                count = 0
+            normalized[debtor][creditor] = max(0, count)
+    state["lunch_ledger"] = normalized
+    return normalized
+
 def default_state():
     return {
         "app_title": DEFAULT_APP_TITLE,
@@ -349,6 +386,7 @@ def default_state():
         "last_score_refresh_attempt_at": 0,
         "teams": default_teams(),
         "selected_tournament": {},
+        "lunch_ledger": default_lunch_ledger(),
     }
 
 def normalize_state(state):
@@ -375,6 +413,7 @@ def normalize_state(state):
     state.setdefault("last_score_refresh_attempt_at", base["last_score_refresh_attempt_at"])
     state.setdefault("teams", base["teams"])
     state.setdefault("selected_tournament", base["selected_tournament"])
+    state.setdefault("lunch_ledger", base["lunch_ledger"])
     state.pop("text_updates", None)
     existing_teams = state.get("teams") if isinstance(state.get("teams"), dict) else {}
     normalized_teams = {}
@@ -399,6 +438,7 @@ def normalize_state(state):
         if coach not in cleaned_order:
             cleaned_order.append(coach)
     state["draft_order"] = cleaned_order[:len(valid_coaches)]
+    normalize_lunch_ledger(state)
     if not isinstance(state.get("selected_tournament"), dict):
         state["selected_tournament"] = {}
     if not isinstance(state.get("hole_outcomes"), dict):
@@ -1810,6 +1850,51 @@ def render_tournament_leaderboard(tournament):
     leaderboard_parts.append("</div>")
     st.markdown("".join(leaderboard_parts), unsafe_allow_html=True)
 
+def lunch_icons(count):
+    try:
+        count = int(count or 0)
+    except (TypeError, ValueError):
+        count = 0
+    return "🍽️" * max(0, count)
+
+def render_history_section(state, teams_data):
+    with st.expander("History", expanded=False):
+        st.subheader("Tournament Results")
+        history_parts = ["<table class='roster-table'><thead><tr><th>Tournament</th>"]
+        for coach in DEFAULT_COACHES:
+            color = html.escape(str(teams_data.get(coach, {}).get("color", "#ffffff")))
+            history_parts.append(f"<th style='color:{color};'>{html.escape(coach_short_name(coach))}</th>")
+        history_parts.append("</tr></thead><tbody>")
+        for entry in HISTORY_RESULTS:
+            history_parts.append(f"<tr><td>{html.escape(str(entry.get('tournament') or 'Tournament'))}</td>")
+            placements = entry.get("placements") if isinstance(entry.get("placements"), dict) else {}
+            for coach in DEFAULT_COACHES:
+                history_parts.append(f"<td>{html.escape(str(placements.get(coach, '')))}</td>")
+            history_parts.append("</tr>")
+        history_parts.append("</tbody></table>")
+        st.markdown("".join(history_parts), unsafe_allow_html=True)
+
+        st.subheader("Lunch Tracker")
+        ledger = normalize_lunch_ledger(state)
+        lunch_parts = ["<table class='roster-table'><thead><tr><th>Owes ↓ / Receives →</th>"]
+        for creditor in DEFAULT_COACHES:
+            color = html.escape(str(teams_data.get(creditor, {}).get("color", "#ffffff")))
+            lunch_parts.append(f"<th style='color:{color};'>{html.escape(coach_short_name(creditor))}</th>")
+        lunch_parts.append("</tr></thead><tbody>")
+        for debtor in DEFAULT_COACHES:
+            debtor_color = html.escape(str(teams_data.get(debtor, {}).get("color", "#ffffff")))
+            lunch_parts.append(f"<tr><th style='color:{debtor_color};'>{html.escape(coach_short_name(debtor))}</th>")
+            for creditor in DEFAULT_COACHES:
+                if debtor == creditor:
+                    cell = "—"
+                else:
+                    icons = lunch_icons(ledger.get(debtor, {}).get(creditor, 0))
+                    cell = html.escape(icons) if icons else ""
+                lunch_parts.append(f"<td style='font-size:1.2rem; min-width:4.5rem;'>{cell}</td>")
+            lunch_parts.append("</tr>")
+        lunch_parts.append("</tbody></table>")
+        st.markdown("".join(lunch_parts), unsafe_allow_html=True)
+
 def get_coach_for_pick(pick_num, order):
     team_count = len(order)
     if team_count == 0:
@@ -2011,6 +2096,22 @@ def save_team_settings(new_teams):
                 state["teams"][coach]["image"] = coach_photo_filename(coach)
         return True
     return mutate_shared_state(mutator, "Update team settings")
+
+def save_lunch_ledger_entry(debtor, creditor, count):
+    def mutator(state):
+        state = normalize_state(state)
+        if debtor not in DEFAULT_COACHES or creditor not in DEFAULT_COACHES or debtor == creditor:
+            st.warning("Choose two different coaches for the lunch update.")
+            return False
+        try:
+            safe_count = int(count or 0)
+        except (TypeError, ValueError):
+            safe_count = 0
+        ledger = normalize_lunch_ledger(state)
+        ledger[debtor][creditor] = max(0, safe_count)
+        state["lunch_ledger"] = ledger
+        return True
+    return mutate_shared_state(mutator, "Update lunch tracker")
 
 def get_player_result(player):
     result = PLAYER_RESULTS_DISPLAY.get(player, {"score": "N/A", "hole": "—", "recent_outcomes": [], "competitor_id": ""})
@@ -2563,6 +2664,8 @@ with draft_controls_slot:
                                 if result:
                                     st.rerun()
 
+render_history_section(state, teams_data)
+
 with st.expander("🔧 Admin Section", expanded=False):
     if not st.session_state.get("admin_authenticated", False):
         st.subheader("Admin Locked")
@@ -2593,6 +2696,43 @@ with st.expander("🔧 Admin Section", expanded=False):
             st.error("GitHub save connection is not ready.")
         for check in github_checks:
             st.caption(check)
+
+        st.subheader("Lunch Tracker")
+        ledger = normalize_lunch_ledger(state)
+        lunch_cols = st.columns(3)
+        with lunch_cols[0]:
+            debtor = st.selectbox(
+                "Who owes lunch?",
+                options=DEFAULT_COACHES,
+                format_func=coach_short_name,
+                key="lunch_debtor",
+            )
+        with lunch_cols[1]:
+            creditor = st.selectbox(
+                "Who receives lunch?",
+                options=DEFAULT_COACHES,
+                index=1 if len(DEFAULT_COACHES) > 1 else 0,
+                format_func=coach_short_name,
+                key="lunch_creditor",
+            )
+        current_lunch_count = ledger.get(debtor, {}).get(creditor, 0) if debtor != creditor else 0
+        lunch_key = f"lunch_count_{debtor}_{creditor}".replace(" ", "_")
+        with lunch_cols[2]:
+            lunch_count = st.number_input(
+                "Lunches owed",
+                min_value=0,
+                max_value=20,
+                value=int(current_lunch_count),
+                step=1,
+                key=lunch_key,
+            )
+        if st.button("💾 Save Lunch Tracker", use_container_width=True):
+            result, _ = save_lunch_ledger_entry(debtor, creditor, lunch_count)
+            if result:
+                st.success("Lunch tracker updated.")
+                st.rerun()
+            else:
+                st.error("Lunch tracker was not saved.")
 
         st.subheader("App Settings")
         with st.form("app_settings_form"):
