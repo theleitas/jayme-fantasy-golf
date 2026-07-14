@@ -11,940 +11,940 @@
   "last_pick_started_at": 1781745164.5364294,
   "player_results": {
     "Bryson DeChambeau": {
-      "score": "+5",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "4:58 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/10046/bryson-dechambeau",
       "competitor_id": "10046"
     },
-    "Cole Hammer": {
-      "score": "+6",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/10047/cole-hammer",
-      "competitor_id": "10047"
-    },
-    "Nick Hardy": {
-      "score": "+12",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/10048/nick-hardy",
-      "competitor_id": "10048"
-    },
     "Xander Schauffele": {
-      "score": "+2",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "10:15 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele",
       "competitor_id": "10140"
     },
     "J.J. Spaun": {
-      "score": "+8",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "9:42 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/10166/jj-spaun",
       "competitor_id": "10166"
     },
     "Lucas Herbert": {
-      "score": "+6",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "9:09 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/10343/lucas-herbert",
       "competitor_id": "10343"
     },
     "Kurt Kitayama": {
-      "score": "+9",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "7:25 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/10364/kurt-kitayama",
       "competitor_id": "10364"
     },
     "J.T. Poston": {
-      "score": "E",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "9:20 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/10505/jt-poston",
       "competitor_id": "10505"
     },
+    "Eric Cole": {
+      "score": "N/A",
+      "hole": "6:41 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/10522/eric-cole",
+      "competitor_id": "10522"
+    },
+    "Matt Wallace": {
+      "score": "N/A",
+      "hole": "6:52 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/10548/matt-wallace",
+      "competitor_id": "10548"
+    },
     "Collin Morikawa": {
-      "score": "+3",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "9:42 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/10592/collin-morikawa",
       "competitor_id": "10592"
     },
-    "J.B. Holmes": {
-      "score": "+9",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/1067/jb-holmes",
-      "competitor_id": "1067"
-    },
     "Aaron Rai": {
-      "score": "+2",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "9:53 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/10906/aaron-rai",
       "competitor_id": "10906"
     },
-    "Nathan Kimsey": {
-      "score": "+6",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/10914/nathan-kimsey",
-      "competitor_id": "10914"
-    },
     "Sahith Theegala": {
-      "score": "+2",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "7:03 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/10980/sahith-theegala",
       "competitor_id": "10980"
     },
-    "Jimmy Stanger": {
-      "score": "+7",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/10990/jimmy-stanger",
-      "competitor_id": "10990"
-    },
-    "Manav Shah": {
-      "score": "+7",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/10994/manav-shah",
-      "competitor_id": "10994"
-    },
     "Joaquin Niemann": {
-      "score": "+1",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "7:25 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/11099/joaquin-niemann",
       "competitor_id": "11099"
     },
     "Max Greyserman": {
-      "score": "+8",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "6:52 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/11101/max-greyserman",
       "competitor_id": "11101"
     },
     "Wyndham Clark": {
-      "score": "-4",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "10:04 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/11119/wyndham-clark",
       "competitor_id": "11119"
     },
     "Nicolai Højgaard": {
-      "score": "+9",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "9:42 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/11250/nicolai-højgaard",
       "competitor_id": "11250"
     },
+    "Rasmus Højgaard": {
+      "score": "N/A",
+      "hole": "4:14 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/11253/rasmus-højgaard",
+      "competitor_id": "11253"
+    },
+    "Thomas Sloman": {
+      "score": "N/A",
+      "hole": "5:42 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/11270/thomas-sloman",
+      "competitor_id": "11270"
+    },
     "Andrew Novak": {
-      "score": "+5",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "1:57 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/11332/andrew-novak",
       "competitor_id": "11332"
     },
+    "Victor Perez": {
+      "score": "N/A",
+      "hole": "3:25 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/11340/victor-perez",
+      "competitor_id": "11340"
+    },
+    "Travis Smyth": {
+      "score": "N/A",
+      "hole": "3:47 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/11345/travis-smyth",
+      "competitor_id": "11345"
+    },
     "Robert MacIntyre": {
-      "score": "+7",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "2:19 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/11378/robert-macintyre",
       "competitor_id": "11378"
     },
     "Sungjae Im": {
-      "score": "+8",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "2:41 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/11382/sungjae-im",
       "competitor_id": "11382"
     },
-    "Max McGreevy": {
-      "score": "+6",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/11383/max-mcgreevy",
-      "competitor_id": "11383"
-    },
-    "Angel Hidalgo": {
-      "score": "+9",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/11469/angel-hidalgo",
-      "competitor_id": "11469"
+    "David Duval": {
+      "score": "N/A",
+      "hole": "2:30 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/115/david-duval",
+      "competitor_id": "115"
     },
     "Brian Harman": {
-      "score": "+6",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "5:20 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/1225/brian-harman",
       "competitor_id": "1225"
     },
+    "Louis Oosthuizen": {
+      "score": "N/A",
+      "hole": "8:53 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/1293/louis-oosthuizen",
+      "competitor_id": "1293"
+    },
+    "Daniel Brown": {
+      "score": "N/A",
+      "hole": "2:41 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/1407/daniel-brown",
+      "competitor_id": "1407"
+    },
+    "Francesco Molinari": {
+      "score": "N/A",
+      "hole": "3:03 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/1483/francesco-molinari",
+      "competitor_id": "1483"
+    },
     "Billy Horschel": {
-      "score": "+5",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "8:31 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/1651/billy-horschel",
       "competitor_id": "1651"
     },
     "Peter Uihlein": {
-      "score": "+10",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "10:48 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/1674/peter-uihlein",
       "competitor_id": "1674"
     },
     "Jason Day": {
-      "score": "+7",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "4:47 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/1680/jason-day",
       "competitor_id": "1680"
     },
     "Padraig Harrington": {
-      "score": "+11",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "8:20 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/186/padraig-harrington",
       "competitor_id": "186"
     },
-    "Brandon Holtz": {
-      "score": "+10",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/2201886/brandon-holtz",
-      "competitor_id": "2201886"
-    },
-    "Graeme McDowell": {
-      "score": "+12",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/301/graeme-mcdowell",
-      "competitor_id": "301"
-    },
-    "Dustin Johnson": {
-      "score": "+6",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/3448/dustin-johnson",
-      "competitor_id": "3448"
-    },
-    "Chris Kirk": {
-      "score": "+9",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/3449/chris-kirk",
-      "competitor_id": "3449"
-    },
     "Rory McIlroy": {
-      "score": "+6",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "10:15 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/3470/rory-mcilroy",
       "competitor_id": "3470"
     },
     "Gary Woodland": {
-      "score": "+1",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "2:52 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/3550/gary-woodland",
       "competitor_id": "3550"
     },
     "Rickie Fowler": {
-      "score": "+5",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "2:19 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/3702/rickie-fowler",
       "competitor_id": "3702"
     },
     "Nick Taylor": {
-      "score": "+5",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "5:20 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/3792/nick-taylor",
       "competitor_id": "3792"
     },
     "Alex Noren": {
-      "score": "+6",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "4:47 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/3832/alex-noren",
       "competitor_id": "3832"
     },
     "Adam Scott": {
-      "score": "+8",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "9:31 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/388/adam-scott",
       "competitor_id": "388"
     },
     "Ryan Fox": {
-      "score": "+5",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "1:57 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4251/ryan-fox",
       "competitor_id": "4251"
     },
+    "Bernd Wiesberger": {
+      "score": "N/A",
+      "hole": "7:47 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4317/bernd-wiesberger",
+      "competitor_id": "4317"
+    },
+    "Tom McKibbin": {
+      "score": "N/A",
+      "hole": "3:03 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4348444/tom-mckibbin",
+      "competitor_id": "4348444"
+    },
     "Kristoffer Reitan": {
-      "score": "+6",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "9:20 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4348470/kristoffer-reitan",
       "competitor_id": "4348470"
     },
-    "Brandon Wu": {
-      "score": "+7",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/4355673/brandon-wu",
-      "competitor_id": "4355673"
-    },
-    "Alejandro Tosti": {
-      "score": "+8",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/4358081/alejandro-tosti",
-      "competitor_id": "4358081"
-    },
     "Alex Fitzpatrick": {
-      "score": "+5",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "2:19 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4364865/alex-fitzpatrick",
       "competitor_id": "4364865"
     },
     "Viktor Hovland": {
-      "score": "+5",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "4:36 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4364873/viktor-hovland",
       "competitor_id": "4364873"
     },
-    "Taylor Montgomery": {
-      "score": "+11",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/4372851/taylor-montgomery",
-      "competitor_id": "4372851"
+    "Cameron John": {
+      "score": "N/A",
+      "hole": "10:59 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4368981/cameron-john",
+      "competitor_id": "4368981"
     },
     "Ludvig Aberg": {
-      "score": "+3",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "10:04 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4375972/ludvig-aberg",
       "competitor_id": "4375972"
     },
-    "Niklas Nørgaard": {
-      "score": "+8",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/4382434/niklas-nørgaard",
-      "competitor_id": "4382434"
-    },
     "Matthew Jordan": {
-      "score": "+5",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "1:57 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4390719/matthew-jordan",
       "competitor_id": "4390719"
     },
     "Ben Griffin": {
-      "score": "+3",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "4:25 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4404992/ben-griffin",
       "competitor_id": "4404992"
     },
+    "Antoine Rozner": {
+      "score": "N/A",
+      "hole": "5:53 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4407372/antoine-rozner",
+      "competitor_id": "4407372"
+    },
     "Nico Echavarria": {
-      "score": "+10",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "10:37 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4408316/nico-echavarria",
       "competitor_id": "4408316"
     },
-    "Kevin Roy": {
-      "score": "+9",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/4408320/kevin-roy",
-      "competitor_id": "4408320"
-    },
     "Min Woo Lee": {
-      "score": "+7",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "4:25 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4410932/min-woo-lee",
       "competitor_id": "4410932"
     },
-    "Ugo Coussaud": {
-      "score": "+9",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/4418567/ugo-coussaud",
-      "competitor_id": "4418567"
-    },
     "Akshay Bhatia": {
-      "score": "+3",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "4:14 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4419142/akshay-bhatia",
       "competitor_id": "4419142"
     },
-    "Dylan Wu": {
-      "score": "+18",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/4423323/dylan-wu",
-      "competitor_id": "4423323"
+    "Daniel Hillier": {
+      "score": "N/A",
+      "hole": "1:46 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4425899/daniel-hillier",
+      "competitor_id": "4425899"
     },
-    "Spencer Tibbits": {
-      "score": "+11",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/4425905/spencer-tibbits",
-      "competitor_id": "4425905"
+    "Michael Thorbjornsen": {
+      "score": "N/A",
+      "hole": "3:47 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4425904/michael-thorbjornsen",
+      "competitor_id": "4425904"
     },
     "Cameron Young": {
-      "score": "+8",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "10:04 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4425906/cameron-young",
       "competitor_id": "4425906"
     },
+    "Alistair Docherty": {
+      "score": "N/A",
+      "hole": "10:48 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4425907/alistair-docherty",
+      "competitor_id": "4425907"
+    },
     "Sam Stevens": {
-      "score": "+1",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "4:03 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4426181/sam-stevens",
       "competitor_id": "4426181"
     },
     "Keegan Bradley": {
-      "score": "+6",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "7:58 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4513/keegan-bradley",
       "competitor_id": "4513"
     },
-    "Matti Schmid": {
-      "score": "+14",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/4566443/matti-schmid",
-      "competitor_id": "4566443"
+    "Eugenio Chacarra": {
+      "score": "N/A",
+      "hole": "6:52 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4565467/eugenio-chacarra",
+      "competitor_id": "4565467"
     },
-    "T.K. Kim": {
-      "score": "+16",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/4567001/tk-kim",
-      "competitor_id": "4567001"
+    "Sami Välimäki": {
+      "score": "N/A",
+      "hole": "7:36 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4585548/sami-valimaki",
+      "competitor_id": "4585548"
+    },
+    "Marco Penge": {
+      "score": "N/A",
+      "hole": "8:20 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4585549/marco-penge",
+      "competitor_id": "4585549"
     },
     "Shane Lowry": {
-      "score": "+6",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "9:53 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4587/shane-lowry",
       "competitor_id": "4587"
     },
-    "Chandler Phillips": {
-      "score": "+9",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/4587989/chandler-phillips",
-      "competitor_id": "4587989"
-    },
     "Harry Hall": {
-      "score": "+11",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "8:09 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4589438/harry-hall",
       "competitor_id": "4589438"
     },
-    "Davis Thompson": {
-      "score": "+10",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/4602218/davis-thompson",
-      "competitor_id": "4602218"
+    "Jeong-Woo Ham": {
+      "score": "N/A",
+      "hole": "6:15 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4592199/jeong-woo-ham",
+      "competitor_id": "4592199"
+    },
+    "Frederic LaCroix": {
+      "score": "N/A",
+      "hole": "6:04 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4592246/frederic-lacroix",
+      "competitor_id": "4592246"
+    },
+    "Kazuki Higa": {
+      "score": "N/A",
+      "hole": "11:21 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4597553/kazuki-higa",
+      "competitor_id": "4597553"
     },
     "Tom Kim": {
-      "score": "-1",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "8:31 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4602673/tom-kim",
       "competitor_id": "4602673"
     },
     "Jayden Schaper": {
-      "score": "+10",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "9:09 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4604053/jayden-schaper",
       "competitor_id": "4604053"
     },
+    "Casey Jarvis": {
+      "score": "N/A",
+      "hole": "7:58 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4610056/casey-jarvis",
+      "competitor_id": "4610056"
+    },
     "John Parry": {
-      "score": "+2",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "6:41 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4671/john-parry",
       "competitor_id": "4671"
     },
     "James Nicholas": {
-      "score": "+14",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "1:35 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4683800/james-nicholas",
       "competitor_id": "4683800"
     },
     "Chris Gotterup": {
-      "score": "+8",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "9:31 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4690755/chris-gotterup",
       "competitor_id": "4690755"
     },
-    "Taihei Sato": {
-      "score": "+9",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/4691550/taihei-sato",
-      "competitor_id": "4691550"
+    "Ren Yonezawa": {
+      "score": "N/A",
+      "hole": "5:53 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4699328/ren-yonezawa",
+      "competitor_id": "4699328"
     },
-    "Ryuichi Oiwa": {
-      "score": "+10",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/4699297/ryuichi-oiwa",
-      "competitor_id": "4699297"
+    "Jesper Svensson": {
+      "score": "N/A",
+      "hole": "8:53 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4699329/jesper-svensson",
+      "competitor_id": "4699329"
+    },
+    "Ryutaro Nagano": {
+      "score": "N/A",
+      "hole": "6:15 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4699375/ryutaro-nagano",
+      "competitor_id": "4699375"
+    },
+    "Keita Nakajima": {
+      "score": "N/A",
+      "hole": "8:42 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4699418/keita-nakajima",
+      "competitor_id": "4699418"
+    },
+    "Thomas Detry": {
+      "score": "N/A",
+      "hole": "1:35 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4837/thomas-detry",
+      "competitor_id": "4837"
+    },
+    "Naoyuki Kataoka": {
+      "score": "N/A",
+      "hole": "11:10 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4837226/naoyuki-kataoka",
+      "competitor_id": "4837226"
     },
     "Pierceson Coody": {
-      "score": "+5",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "8:42 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4837368/pierceson-coody",
       "competitor_id": "4837368"
     },
-    "Harry Higgs": {
-      "score": "+8",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/4844/harry-higgs",
-      "competitor_id": "4844"
-    },
     "Justin Thomas": {
-      "score": "+3",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "4:47 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4848/justin-thomas",
       "competitor_id": "4848"
     },
     "Ryo Hisatsune": {
-      "score": "+8",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "4:03 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4858572/ryo-hisatsune",
       "competitor_id": "4858572"
     },
-    "Filippo Celli": {
-      "score": "+5",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/4884239/filippo-celli",
-      "competitor_id": "4884239"
+    "Rasmus Neergaard-Petersen": {
+      "score": "N/A",
+      "hole": "10:26 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4858859/rasmus-neergaard-petersen",
+      "competitor_id": "4858859"
     },
-    "Kaito Onishi": {
-      "score": "+7",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/4894340/kaito-onishi",
-      "competitor_id": "4894340"
+    "Sam Bairstow": {
+      "score": "N/A",
+      "hole": "10:59 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/4872728/sam-bairstow",
+      "competitor_id": "4872728"
     },
     "David Puig": {
-      "score": "+9",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "5:31 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4895429/david-puig",
       "competitor_id": "4895429"
     },
     "Matt McCarty": {
-      "score": "+12",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "8:09 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4901368/matt-mccarty",
       "competitor_id": "4901368"
     },
     "Michael Brennan": {
-      "score": "+8",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "7:03 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4921329/michael-brennan",
       "competitor_id": "4921329"
     },
     "Jackson Suber": {
-      "score": "+5",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "7:36 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4982182/jackson-suber",
       "competitor_id": "4982182"
     },
-    "Cooper Dossey": {
-      "score": "+11",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5027437/cooper-dossey",
-      "competitor_id": "5027437"
-    },
     "Jacob Bridgeman": {
-      "score": "+7",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "10:26 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5054388/jacob-bridgeman",
       "competitor_id": "5054388"
     },
-    "Adrien Dumont de Chassart": {
-      "score": "+9",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5076011/adrien-dumont-de-chassart",
-      "competitor_id": "5076011"
+    "Shaun Norris": {
+      "score": "N/A",
+      "hole": "7:36 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5057/shaun-norris",
+      "competitor_id": "5057"
+    },
+    "Lev Grinberg": {
+      "score": "N/A",
+      "hole": "3:03 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5062278/lev-grinberg",
+      "competitor_id": "5062278"
+    },
+    "Marcus Plunkett": {
+      "score": "N/A",
+      "hole": "11:10 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5075661/marcus-plunkett",
+      "competitor_id": "5075661"
     },
     "Ryan Gerard": {
-      "score": "+5",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "5:31 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
-    "William Mouw": {
-      "score": "+14",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5076025/william-mouw",
-      "competitor_id": "5076025"
+    "Dan Bradbury": {
+      "score": "N/A",
+      "hole": "3:14 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5081630/dan-bradbury",
+      "competitor_id": "5081630"
     },
-    "Ben James": {
-      "score": "+5",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5077389/ben-james",
-      "competitor_id": "5077389"
+    "Martin Couvra": {
+      "score": "N/A",
+      "hole": "2:30 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5102625/martin-couvra",
+      "competitor_id": "5102625"
+    },
+    "Angel Ayora": {
+      "score": "N/A",
+      "hole": "3:25 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5105333/angel-ayora",
+      "competitor_id": "5105333"
     },
     "Caleb Surratt": {
-      "score": "+13",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "5:53 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5110034/caleb-surratt",
       "competitor_id": "5110034"
     },
-    "Sudarshan Yellamaraju": {
-      "score": "+5",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5143175/sudarshan-yellamaraju",
-      "competitor_id": "5143175"
+    "Jiho Yang": {
+      "score": "N/A",
+      "hole": "11:21 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5143177/jiho-yang",
+      "competitor_id": "5143177"
     },
-    "Jackson Van Paris": {
-      "score": "+11",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5203535/jackson-van-paris",
-      "competitor_id": "5203535"
+    "Tiger Christensen": {
+      "score": "N/A",
+      "hole": "6:41 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5146173/tiger-christensen",
+      "competitor_id": "5146173"
     },
-    "Neal Shipley": {
-      "score": "+14",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5209442/neal-shipley",
-      "competitor_id": "5209442"
+    "Tim Wiedemeyer": {
+      "score": "N/A",
+      "hole": "10:26 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5147926/tim-wiedemeyer",
+      "competitor_id": "5147926"
     },
-    "Miles Russell": {
-      "score": "+7",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5209798/miles-russell",
-      "competitor_id": "5209798"
+    "Josele Ballester": {
+      "score": "N/A",
+      "hole": "3:14 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5152205/josele-ballester",
+      "competitor_id": "5152205"
     },
-    "Preston Stout": {
-      "score": "+9",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5210226/preston-stout",
-      "competitor_id": "5210226"
-    },
-    "Jackson Koivun": {
-      "score": "+5",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5215013/jackson-koivun",
-      "competitor_id": "5215013"
+    "Kazuma Kobori": {
+      "score": "N/A",
+      "hole": "5:42 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5186648/kazuma-kobori",
+      "competitor_id": "5186648"
     },
     "Johnny Keefer": {
-      "score": "+7",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "8:42 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5217048/johnny-keefer",
       "competitor_id": "5217048"
     },
-    "Giuseppe Puebla": {
-      "score": "+7",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5272338/giuseppe-puebla",
-      "competitor_id": "5272338"
+    "Bard Bjornevik Skogen": {
+      "score": "N/A",
+      "hole": "11:10 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5289694/bard-bjornevik-skogen",
+      "competitor_id": "5289694"
     },
-    "Robbie Higgins": {
-      "score": "+19",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5277550/robbie-higgins",
-      "competitor_id": "5277550"
-    },
-    "Jake Sollon": {
-      "score": "+13",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5289156/jake-sollon",
-      "competitor_id": "5289156"
-    },
-    "Rocco Repetto Taylor": {
-      "score": "+17",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5289692/rocco-repetto-taylor",
-      "competitor_id": "5289692"
+    "Nevill Ruiter": {
+      "score": "N/A",
+      "hole": "11:21 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5289808/nevill-ruiter",
+      "competitor_id": "5289808"
     },
     "Mason Howell": {
-      "score": "+8",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "8:31 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5289811/mason-howell",
       "competitor_id": "5289811"
     },
-    "Bryan Lee": {
-      "score": "+7",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5289813/bryan-lee",
-      "competitor_id": "5289813"
+    "Kota Kaneko": {
+      "score": "N/A",
+      "hole": "3:47 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5312609/kota-kaneko",
+      "competitor_id": "5312609"
     },
-    "Ethan Fang": {
-      "score": "+11",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5293232/ethan-fang",
-      "competitor_id": "5293232"
+    "Fifa Laopakdee": {
+      "score": "N/A",
+      "hole": "2:41 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5327297/fifa-laopakdee",
+      "competitor_id": "5327297"
     },
-    "Jake Peacock": {
-      "score": "+11",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5326067/jake-peacock",
-      "competitor_id": "5326067"
-    },
-    "Greyson Leach": {
-      "score": "+21",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5327840/greyson-leach",
-      "competitor_id": "5327840"
+    "Jack Buchanan": {
+      "score": "N/A",
+      "hole": "8:53 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5337673/jack-buchanan",
+      "competitor_id": "5337673"
     },
     "Bud Cauley": {
-      "score": "+10",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "9:09 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5338/bud-cauley",
       "competitor_id": "5338"
     },
-    "Hamilton Coleman": {
-      "score": "+11",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5343786/hamilton-coleman",
-      "competitor_id": "5343786"
-    },
     "Mateo Pulcini": {
-      "score": "+11",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "3:25 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5344763/mateo-pulcini",
       "competitor_id": "5344763"
     },
-    "Jackson Herrington": {
-      "score": "+9",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5344766/jackson-herrington",
-      "competitor_id": "5344766"
+    "Stuart Grehan": {
+      "score": "N/A",
+      "hole": "7:14 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5364787/stuart-grehan",
+      "competitor_id": "5364787"
     },
-    "Jackson Ormond": {
-      "score": "+20",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5360549/jackson-ormond",
-      "competitor_id": "5360549"
+    "Alejandro de Castro Piera": {
+      "score": "N/A",
+      "hole": "6:15 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5369475/alejandro-de-castro-piera",
+      "competitor_id": "5369475"
     },
-    "Ryder Cowan": {
-      "score": "+5",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5362517/ryder-cowan",
-      "competitor_id": "5362517"
-    },
-    "Marek Fleming": {
-      "score": "+10",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5362518/marek-fleming",
-      "competitor_id": "5362518"
-    },
-    "Vaughn Harber": {
-      "score": "+12",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5362519/vaughn-harber",
-      "competitor_id": "5362519"
-    },
-    "Chase Kyes": {
-      "score": "+12",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5362520/chase-kyes",
-      "competitor_id": "5362520"
-    },
-    "Eric Lee": {
-      "score": "+13",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5362521/eric-lee",
-      "competitor_id": "5362521"
-    },
-    "Logan Reilly": {
-      "score": "+11",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5362522/logan-reilly",
-      "competitor_id": "5362522"
-    },
-    "Matthew Robles": {
-      "score": "+16",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5362523/matthew-robles",
-      "competitor_id": "5362523"
-    },
-    "Arni Sveinsson": {
-      "score": "+21",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5362524/arni-sveinsson",
-      "competitor_id": "5362524"
-    },
-    "Jack Schoenberger": {
-      "score": "+6",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5362526/jack-schoenberger",
-      "competitor_id": "5362526"
+    "David Howard": {
+      "score": "N/A",
+      "hole": "5:42 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5369476/david-howard",
+      "competitor_id": "5369476"
     },
     "Harris English": {
-      "score": "+5",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "4:14 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5408/harris-english",
       "competitor_id": "5408"
     },
     "Russell Henley": {
-      "score": "+14",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "4:36 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5409/russell-henley",
       "competitor_id": "5409"
     },
     "Jordan Spieth": {
-      "score": "+10",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "5:09 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5467/jordan-spieth",
       "competitor_id": "5467"
     },
-    "Andrew Putnam": {
-      "score": "+14",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5502/andrew-putnam",
-      "competitor_id": "5502"
-    },
-    "Carlos Ortiz": {
-      "score": "+6",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5532/carlos-ortiz",
-      "competitor_id": "5532"
-    },
     "Tommy Fleetwood": {
-      "score": "+2",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "5:09 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5539/tommy-fleetwood",
       "competitor_id": "5539"
     },
     "Laurie Canter": {
-      "score": "+8",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "7:03 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5550/laurie-canter",
       "competitor_id": "5550"
     },
     "Tyrrell Hatton": {
-      "score": "+1",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "4:58 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5553/tyrrell-hatton",
       "competitor_id": "5553"
     },
     "Patrick Reed": {
-      "score": "+5",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "9:20 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5579/patrick-reed",
       "competitor_id": "5579"
     },
     "Justin Rose": {
-      "score": "+2",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "4:36 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/569/justin-rose",
       "competitor_id": "569"
     },
+    "Francesco Laporta": {
+      "score": "N/A",
+      "hole": "10:48 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5716/francesco-laporta",
+      "competitor_id": "5716"
+    },
+    "Joakim Lagergren": {
+      "score": "N/A",
+      "hole": "3:36 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5727/joakim-lagergren",
+      "competitor_id": "5727"
+    },
+    "Henrik Stenson": {
+      "score": "N/A",
+      "hole": "2:08 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/576/henrik-stenson",
+      "competitor_id": "576"
+    },
+    "Matthew Baldwin": {
+      "score": "N/A",
+      "hole": "1:35 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5832/matthew-baldwin",
+      "competitor_id": "5832"
+    },
+    "Matthew Southgate": {
+      "score": "N/A",
+      "hole": "2:30 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5852/matthew-southgate",
+      "competitor_id": "5852"
+    },
     "Hideki Matsuyama": {
-      "score": "+14",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "4:25 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/5860/hideki-matsuyama",
       "competitor_id": "5860"
     },
-    "Emiliano Grillo": {
-      "score": "+5",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/5882/emiliano-grillo",
-      "competitor_id": "5882"
+    "Andy Sullivan": {
+      "score": "N/A",
+      "hole": "1:46 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/5956/andy-sullivan",
+      "competitor_id": "5956"
     },
     "Patrick Cantlay": {
-      "score": "+6",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "10:37 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/6007/patrick-cantlay",
       "competitor_id": "6007"
     },
     "Brooks Koepka": {
-      "score": "+10",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "9:53 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/6798/brooks-koepka",
       "competitor_id": "6798"
     },
-    "Patrick Rodgers": {
-      "score": "+17",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/6825/patrick-rodgers",
-      "competitor_id": "6825"
-    },
-    "Ben Kohles": {
-      "score": "+5",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/6922/ben-kohles",
-      "competitor_id": "6922"
+    "Jack McDonald": {
+      "score": "N/A",
+      "hole": "6:04 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/6849/jack-mcdonald",
+      "competitor_id": "6849"
     },
     "Adrien Saddier": {
-      "score": "+7",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "7:47 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/6962/adrien-saddier",
       "competitor_id": "6962"
     },
+    "Joe Dean": {
+      "score": "N/A",
+      "hole": "2:08 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/6970/joe-dean",
+      "competitor_id": "6970"
+    },
+    "Michael Hollick": {
+      "score": "N/A",
+      "hole": "8:20 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/7067/michael-hollick",
+      "competitor_id": "7067"
+    },
     "Si Woo Kim": {
-      "score": "+6",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "5:20 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/7081/si-woo-kim",
       "competitor_id": "7081"
     },
-    "Marcelo Rozo": {
-      "score": "+8",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/7120/marcelo-rozo",
-      "competitor_id": "7120"
+    "MJ Daffue": {
+      "score": "N/A",
+      "hole": "6:04 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/7110/mj-daffue",
+      "competitor_id": "7110"
+    },
+    "Stewart Cink": {
+      "score": "N/A",
+      "hole": "3:36 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/78/stewart-cink",
+      "competitor_id": "78"
+    },
+    "Darren Clarke": {
+      "score": "N/A",
+      "hole": "7:47 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/82/darren-clarke",
+      "competitor_id": "82"
     },
     "Keith Mitchell": {
-      "score": "E",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "7:14 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/8906/keith-mitchell",
       "competitor_id": "8906"
     },
-    "Ben Silverman": {
-      "score": "+8",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/8910/ben-silverman",
-      "competitor_id": "8910"
-    },
     "Sepp Straka": {
-      "score": "+7",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "7:25 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/8961/sepp-straka",
       "competitor_id": "8961"
     },
+    "Max Homa": {
+      "score": "N/A",
+      "hole": "2:08 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/8973/max-homa",
+      "competitor_id": "8973"
+    },
     "Michael Kim": {
-      "score": "+8",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "1:46 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/8974/michael-kim",
       "competitor_id": "8974"
     },
     "Daniel Berger": {
-      "score": "+10",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "10:37 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/9025/daniel-berger",
       "competitor_id": "9025"
     },
     "Matt Fitzpatrick": {
-      "score": "+4",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "10:15 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/9037/matt-fitzpatrick",
       "competitor_id": "9037"
     },
-    "Zac Blair": {
-      "score": "+6",
-      "hole": "F",
-      "profile_url": "https://www.espn.com/golf/player/_/id/9040/zac-blair",
-      "competitor_id": "9040"
-    },
     "Corey Conners": {
-      "score": "+5",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "7:58 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/9126/corey-conners",
       "competitor_id": "9126"
     },
     "Cameron Smith": {
-      "score": "+6",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "7:14 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/9131/cameron-smith",
       "competitor_id": "9131"
     },
+    "Haotong Li": {
+      "score": "N/A",
+      "hole": "8:09 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/9221/haotong-li",
+      "competitor_id": "9221"
+    },
+    "Austen Truslow": {
+      "score": "N/A",
+      "hole": "10:59 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/9379/austen-truslow",
+      "competitor_id": "9379"
+    },
     "Scottie Scheffler": {
-      "score": "E",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "4:58 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/9478/scottie-scheffler",
       "competitor_id": "9478"
     },
     "Alex Smalley": {
-      "score": "+9",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "4:03 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/9484/alex-smalley",
       "competitor_id": "9484"
     },
+    "Jordan Smith": {
+      "score": "N/A",
+      "hole": "2:52 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/9506/jordan-smith",
+      "competitor_id": "9506"
+    },
     "Maverick McNealy": {
-      "score": "+6",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "5:31 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/9530/maverick-mcnealy",
       "competitor_id": "9530"
     },
     "Jon Rahm": {
-      "score": "+6",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "5:09 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/9780/jon-rahm",
       "competitor_id": "9780"
     },
     "Jake Knapp": {
-      "score": "+8",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "2:52 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/9843/jake-knapp",
       "competitor_id": "9843"
     },
     "Hennie Du Plessis": {
-      "score": "+12",
-      "hole": "MC",
+      "score": "N/A",
+      "hole": "3:14 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/9899/hennie-du-plessis",
       "competitor_id": "9899"
     },
     "Sam Burns": {
-      "score": "-3",
-      "hole": "F",
+      "score": "N/A",
+      "hole": "9:31 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/9938/sam-burns",
       "competitor_id": "9938"
     },
-    "Carl Yuan": {
-      "score": "+9",
-      "hole": "MC",
-      "profile_url": "https://www.espn.com/golf/player/_/id/9951/carl-yuan",
-      "competitor_id": "9951"
+    "Scott Vincent": {
+      "score": "N/A",
+      "hole": "3:36 AM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/9963/scott-vincent",
+      "competitor_id": "9963"
     }
   },
   "hole_outcomes": {
@@ -2039,7 +2039,75 @@
       "P",
       "P",
       "P"
-    ]
+    ],
+    "Eric Cole": [],
+    "Matt Wallace": [],
+    "Rasmus Højgaard": [],
+    "Thomas Sloman": [],
+    "Victor Perez": [],
+    "Travis Smyth": [],
+    "David Duval": [],
+    "Louis Oosthuizen": [],
+    "Daniel Brown": [],
+    "Francesco Molinari": [],
+    "Bernd Wiesberger": [],
+    "Tom McKibbin": [],
+    "Cameron John": [],
+    "Antoine Rozner": [],
+    "Daniel Hillier": [],
+    "Michael Thorbjornsen": [],
+    "Alistair Docherty": [],
+    "Eugenio Chacarra": [],
+    "Sami Välimäki": [],
+    "Marco Penge": [],
+    "Jeong-Woo Ham": [],
+    "Frederic LaCroix": [],
+    "Kazuki Higa": [],
+    "Casey Jarvis": [],
+    "Ren Yonezawa": [],
+    "Jesper Svensson": [],
+    "Ryutaro Nagano": [],
+    "Keita Nakajima": [],
+    "Thomas Detry": [],
+    "Naoyuki Kataoka": [],
+    "Rasmus Neergaard-Petersen": [],
+    "Sam Bairstow": [],
+    "Shaun Norris": [],
+    "Lev Grinberg": [],
+    "Marcus Plunkett": [],
+    "Dan Bradbury": [],
+    "Martin Couvra": [],
+    "Angel Ayora": [],
+    "Jiho Yang": [],
+    "Tiger Christensen": [],
+    "Tim Wiedemeyer": [],
+    "Josele Ballester": [],
+    "Kazuma Kobori": [],
+    "Bard Bjornevik Skogen": [],
+    "Nevill Ruiter": [],
+    "Kota Kaneko": [],
+    "Fifa Laopakdee": [],
+    "Jack Buchanan": [],
+    "Stuart Grehan": [],
+    "Alejandro de Castro Piera": [],
+    "David Howard": [],
+    "Francesco Laporta": [],
+    "Joakim Lagergren": [],
+    "Henrik Stenson": [],
+    "Matthew Baldwin": [],
+    "Matthew Southgate": [],
+    "Andy Sullivan": [],
+    "Jack McDonald": [],
+    "Joe Dean": [],
+    "Michael Hollick": [],
+    "MJ Daffue": [],
+    "Stewart Cink": [],
+    "Darren Clarke": [],
+    "Max Homa": [],
+    "Haotong Li": [],
+    "Austen Truslow": [],
+    "Jordan Smith": [],
+    "Scott Vincent": []
   },
   "player_headshots": {
     "Scottie Scheffler": "https://a.espncdn.com/i/headshots/golf/players/full/9478.png",
@@ -2075,8 +2143,8 @@
     "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1782082668.548412,
-  "last_score_refresh_attempt_at": 1783989003.2433283,
+  "last_score_refresh_at": 1783989004.7110367,
+  "last_score_refresh_attempt_at": 1783989004.7110367,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
@@ -2176,24 +2244,10 @@
     },
     "sent_event_ids": [],
     "top3_by_coach": {
-      "Jayme Leita": [
-        "Sam Burns",
-        "Justin Rose",
-        "Collin Morikawa"
-      ],
-      "Spencer Tidwell": [
-        "Scottie Scheffler",
-        "Tyrrell Hatton",
-        "Ludvig Aberg"
-      ],
-      "Peter Miller": [
-        "Xander Schauffele",
-        "Tommy Fleetwood",
-        "Sahith Theegala"
-      ]
+      "Jayme Leita": [],
+      "Spencer Tidwell": [],
+      "Peter Miller": []
     },
-    "leaders": [
-      "Jayme Leita"
-    ]
+    "leaders": []
   }
 }
