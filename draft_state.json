@@ -1,14 +1,14 @@
 {
   "app_title": "Jayme Fantasy Golf",
   "payout_rules": "Each coach drafts 10 golfers and antes $50. Coach with lowest 3 golfers at end of tournament wins.",
-  "draft_enabled": true,
+  "draft_enabled": false,
   "draft_active": false,
   "draft_order": [
     "Spencer Tidwell",
     "Jayme Leita",
     "Peter Miller"
   ],
-  "last_pick_started_at": 1781745164.5364294,
+  "last_pick_started_at": 0,
   "player_results": {
     "Bryson DeChambeau": {
       "score": "N/A",
@@ -2109,91 +2109,25 @@
     "Jordan Smith": [],
     "Scott Vincent": []
   },
-  "player_headshots": {
-    "Scottie Scheffler": "https://a.espncdn.com/i/headshots/golf/players/full/9478.png",
-    "Rory McIlroy": "https://a.espncdn.com/i/headshots/golf/players/full/3470.png",
-    "Xander Schauffele": "https://a.espncdn.com/i/headshots/golf/players/full/10140.png",
-    "Cameron Young": "https://a.espncdn.com/i/headshots/golf/players/full/4425906.png",
-    "Jon Rahm": "https://a.espncdn.com/i/headshots/golf/players/full/9780.png",
-    "Bryson DeChambeau": "https://a.espncdn.com/i/headshots/golf/players/full/10046.png",
-    "Ludvig Aberg": "https://a.espncdn.com/i/headshots/golf/players/full/4375972.png",
-    "Hideki Matsuyama": "https://a.espncdn.com/i/headshots/golf/players/full/5860.png",
-    "Matt Fitzpatrick": "https://a.espncdn.com/i/headshots/golf/players/full/9037.png",
-    "Tommy Fleetwood": "https://a.espncdn.com/i/headshots/golf/players/full/5539.png",
-    "Viktor Hovland": "https://a.espncdn.com/i/headshots/golf/players/full/4364873.png",
-    "Brooks Koepka": "https://a.espncdn.com/i/headshots/golf/players/full/6798.png",
-    "Russell Henley": "https://a.espncdn.com/i/headshots/golf/players/full/5409.png",
-    "Collin Morikawa": "https://a.espncdn.com/i/headshots/golf/players/full/10592.png",
-    "Justin Thomas": "https://a.espncdn.com/i/headshots/golf/players/full/4848.png",
-    "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
-    "Patrick Cantlay": "https://a.espncdn.com/i/headshots/golf/players/full/6007.png",
-    "Jordan Spieth": "https://a.espncdn.com/i/headshots/golf/players/full/5467.png",
-    "Min Woo Lee": "https://a.espncdn.com/i/headshots/golf/players/full/4410932.png",
-    "Justin Rose": "https://a.espncdn.com/i/headshots/golf/players/full/569.png",
-    "Corey Conners": "https://a.espncdn.com/i/headshots/golf/players/full/9126.png",
-    "Sepp Straka": "https://a.espncdn.com/i/headshots/golf/players/full/8961.png",
-    "Shane Lowry": "https://a.espncdn.com/i/headshots/golf/players/full/4587.png",
-    "Sungjae Im": "https://a.espncdn.com/i/headshots/golf/players/full/11382.png",
-    "Tyrrell Hatton": "https://a.espncdn.com/i/headshots/golf/players/full/5553.png",
-    "Sam Burns": "https://a.espncdn.com/i/headshots/golf/players/full/9938.png",
-    "Michael Brennan": "https://a.espncdn.com/i/headshots/golf/players/full/4921329.png",
-    "Adam Scott": "https://a.espncdn.com/i/headshots/golf/players/full/388.png",
-    "Adrien Dumont de Chassart": "https://a.espncdn.com/i/headshots/golf/players/full/5076011.png",
-    "Alex Smalley": "https://a.espncdn.com/i/headshots/golf/players/full/9484.png",
-    "Jacob Bridgeman": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
-    "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
-  },
+  "player_headshots": {},
   "last_score_refresh_at": 1783991894.281936,
   "last_score_refresh_attempt_at": 1783991894.281936,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
-      "players": [
-        "Rory McIlroy",
-        "Jon Rahm",
-        "Hideki Matsuyama",
-        "Viktor Hovland",
-        "Collin Morikawa",
-        "Patrick Cantlay",
-        "Justin Rose",
-        "Shane Lowry",
-        "Sam Burns",
-        "Jacob Bridgeman"
-      ],
+      "players": [],
       "color": "#39FF14",
       "image": "jayme-pic.png"
     },
     "Spencer Tidwell": {
       "team_name": "Spencer's Team",
-      "players": [
-        "Scottie Scheffler",
-        "Bryson DeChambeau",
-        "Ludvig Aberg",
-        "Brooks Koepka",
-        "Russell Henley",
-        "Jordan Spieth",
-        "Min Woo Lee",
-        "Sungjae Im",
-        "Tyrrell Hatton",
-        "Si Woo Kim"
-      ],
+      "players": [],
       "color": "#00F5FF",
       "image": "spencer-pic.png"
     },
     "Peter Miller": {
       "team_name": "Peter's Princesses",
-      "players": [
-        "Xander Schauffele",
-        "Cameron Young",
-        "Matt Fitzpatrick",
-        "Tommy Fleetwood",
-        "Justin Thomas",
-        "Sahith Theegala",
-        "Corey Conners",
-        "Sepp Straka",
-        "Michael Brennan",
-        "Adam Scott"
-      ],
+      "players": [],
       "color": "#FF00FF",
       "image": "peter-pic.png"
     }
