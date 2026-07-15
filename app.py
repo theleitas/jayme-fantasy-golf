@@ -2321,6 +2321,7 @@ PLAYER_RESULTS_DISPLAY = {
 picks = derive_picks_from_state(state)
 picked_golfers = get_picked_golfers(state)
 current_pick = get_current_pick(state)
+draft_is_live = state["draft_enabled"] and state["draft_active"] and current_pick <= MAX_PICKS
 
 st_autorefresh(interval=60000 if state.get("draft_active") else 5000, limit=None, key="shared_state_refresh")
 auto_refresh_scores_if_needed(state)
@@ -2344,8 +2345,6 @@ st.markdown(
     f"<span>• {html.escape(selected_tournament_date)} • {selected_tournament_location}</span></div>",
     unsafe_allow_html=True,
 )
-
-draft_controls_slot = st.container()
 
 st.subheader("Standings")
 
@@ -2459,13 +2458,15 @@ render_refresh_scores_button("refresh_scores_middle", state)
 st.subheader("Tournament Leaderboard")
 render_tournament_leaderboard(SELECTED_TOURNAMENT)
 
-with draft_controls_slot:
+render_history_section(state, teams_data)
+
+with st.container():
     st.markdown(
         f"<div class='payout-rules-box'><div class='payout-rules-label'>Payout Rules</div>{payout_rules}</div>",
         unsafe_allow_html=True,
     )
 
-    with st.expander("🎯 DRAFT SECTION", expanded=state["draft_enabled"]):
+    with st.expander("🎯 DRAFT SECTION", expanded=draft_is_live):
         if not state["draft_enabled"]:
             st.error("🚫 Draft is currently DISABLED in Admin section")
         else:
@@ -2709,8 +2710,6 @@ with draft_controls_slot:
                                 result, _ = make_draft_pick(golfer)
                                 if result:
                                     st.rerun()
-
-render_history_section(state, teams_data)
 
 with st.expander("🔧 Admin Section", expanded=False):
     if not st.session_state.get("admin_authenticated", False):
