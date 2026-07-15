@@ -61,6 +61,12 @@ div[data-testid="stButton"] > button:disabled, div[data-testid="stButton"] > but
 .roster-table th { text-align:left; padding:7px 8px; color:#fff; border-bottom:1px solid rgba(255,255,255,.18); font-weight:800; }
 .roster-table td { padding:7px 8px; border-bottom:1px solid rgba(255,255,255,.10); vertical-align:middle; }
 .roster-table tr:last-child td { border-bottom:none; }
+.roster-player-cell { display:flex; align-items:center; gap:7px; min-width:0; }
+.roster-player-headshot { width:30px; height:30px; border-radius:50%; object-fit:cover; flex:0 0 auto; background:#111; border:1px solid rgba(255,255,255,.32); }
+.roster-player-name { min-width:0; overflow-wrap:anywhere; }
+.country-strip { display:flex; align-items:center; gap:7px; flex-wrap:wrap; min-height:34px; border:1px solid currentColor; border-radius:8px; padding:6px 8px; margin-top:8px; color:currentColor; background:rgba(255,255,255,.045); box-shadow:inset 0 0 10px currentColor; }
+.country-strip-label { color:#fff; font-size:.72rem; font-weight:950; letter-spacing:.04em; text-transform:uppercase; opacity:.82; }
+.country-chip { display:inline-flex; align-items:center; gap:4px; border:1px solid rgba(255,255,255,.22); border-radius:999px; padding:2px 7px; background:#050505; color:#fff; font-size:.82rem; font-weight:900; line-height:1.25; }
 .history-table th, .history-table td, .lunch-table th, .lunch-table td { text-align:center!important; vertical-align:middle; }
 .history-table th, .lunch-table th { background:rgba(255,255,255,.04); }
 .history-table td, .lunch-table td { border-left:1px solid rgba(255,255,255,.08); }
@@ -1841,6 +1847,37 @@ def draft_table_player_cell_html(player, player_headshots):
         "</span>"
     )
 
+def roster_player_cell_html(player, player_headshots):
+    safe_player = html.escape(display_player_name(player))
+    headshot_url = str((player_headshots or {}).get(player) or "").strip()
+    if not headshot_url:
+        return f"<span class='roster-player-name'>{safe_player}</span>"
+    safe_url = html.escape(headshot_url, quote=True)
+    return (
+        "<span class='roster-player-cell'>"
+        f"<img class='roster-player-headshot' src='{safe_url}' alt='' loading='lazy' width='30' height='30'>"
+        f"<span class='roster-player-name'>{safe_player}</span>"
+        "</span>"
+    )
+
+def roster_country_summary_html(players, color):
+    counts = {}
+    for player in players:
+        flag = flag_for_player(player)
+        counts[flag] = counts.get(flag, 0) + 1
+    if not counts:
+        return ""
+    chips = []
+    for flag, count in sorted(counts.items(), key=lambda item: (-item[1], item[0])):
+        chips.append(f"<span class='country-chip'>{html.escape(flag)} <span>{count}</span></span>")
+    safe_color = html.escape(str(color or "#ffffff"))
+    return (
+        f"<div class='country-strip' style='color:{safe_color};'>"
+        "<span class='country-strip-label'>Countries</span>"
+        + "".join(chips)
+        + "</div>"
+    )
+
 def render_tournament_leaderboard(tournament):
     leaderboard_rows = get_tournament_leaderboard(20)
     owner_lookup = {}
@@ -2438,13 +2475,15 @@ for row_start in range(0, len(ordered_coach_ids), 3):
             else:
                 roster_parts.append("<table class='roster-table'><thead><tr><th>Golfer</th><th>Score</th><th>Hole</th></tr></thead><tbody>")
                 for player in players:
-                    safe_player = html.escape(display_player_name(player))
+                    player_cell = roster_player_cell_html(player, state.get("player_headshots", {}))
                     result = get_player_result(player)
                     score = html.escape(str(result.get("score", "N/A")))
                     hole = html.escape(display_hole_value(result.get("hole", "—")))
                     row_class = " class='roster-top-three'" if player in top_three_lowest_score_players else ""
-                    roster_parts.append(f"<tr{row_class}><td>{safe_player}</td><td>{score}</td><td>{hole}</td></tr>")
+                    roster_parts.append(f"<tr{row_class}><td>{player_cell}</td><td>{score}</td><td>{hole}</td></tr>")
                 roster_parts.append("</tbody></table>")
+                if len(players) >= MAX_ROUNDS:
+                    roster_parts.append(roster_country_summary_html(players, color))
 
             roster_parts.append(
                 f"<div style='color:#fff; font-size:.78rem; font-style:italic; margin-top:9px;'>"
