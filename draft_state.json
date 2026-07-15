@@ -8,7 +8,7 @@
     "Peter Miller",
     "Jayme Leita"
   ],
-  "last_pick_started_at": 1784078299.1282012,
+  "last_pick_started_at": 1784078313.1298952,
   "player_results": {
     "Bryson DeChambeau": {
       "score": "N/A",
@@ -2132,7 +2132,8 @@
     "Justin Rose": "https://a.espncdn.com/i/headshots/golf/players/full/569.png",
     "Robert MacIntyre": "https://a.espncdn.com/i/headshots/golf/players/full/11378.png",
     "Tyrrell Hatton": "https://a.espncdn.com/i/headshots/golf/players/full/5553.png",
-    "Bryson DeChambeau": "https://a.espncdn.com/i/headshots/golf/players/full/10046.png"
+    "Bryson DeChambeau": "https://a.espncdn.com/i/headshots/golf/players/full/10046.png",
+    "Hideki Matsuyama": "https://a.espncdn.com/i/headshots/golf/players/full/5860.png"
   },
   "last_score_refresh_at": 1784078249.5948784,
   "last_score_refresh_attempt_at": 1784078249.5948784,
@@ -2146,7 +2147,8 @@
         "Cameron Young",
         "Russell Henley",
         "Patrick Cantlay",
-        "Bryson DeChambeau"
+        "Bryson DeChambeau",
+        "Hideki Matsuyama"
       ],
       "color": "#39FF14",
       "image": "jayme-pic.png"
