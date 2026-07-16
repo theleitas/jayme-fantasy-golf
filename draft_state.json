@@ -17,8 +17,8 @@
       "competitor_id": "10046"
     },
     "Xander Schauffele": {
-      "score": "-2",
-      "hole": "14",
+      "score": "-1",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele",
       "competitor_id": "10140"
     },
@@ -42,7 +42,7 @@
     },
     "J.T. Poston": {
       "score": "+1",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/10505/jt-poston",
       "competitor_id": "10505"
     },
@@ -246,7 +246,7 @@
     },
     "Kristoffer Reitan": {
       "score": "-1",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4348470/kristoffer-reitan",
       "competitor_id": "4348470"
     },
@@ -264,7 +264,7 @@
     },
     "Cameron John": {
       "score": "E",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/4368981/cameron-john",
       "competitor_id": "4368981"
     },
@@ -324,7 +324,7 @@
     },
     "Cameron Young": {
       "score": "-3",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4425906/cameron-young",
       "competitor_id": "4425906"
     },
@@ -485,8 +485,8 @@
       "competitor_id": "4858572"
     },
     "Rasmus Neergaard-Petersen": {
-      "score": "+1",
-      "hole": "13",
+      "score": "-1",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/4858859/rasmus-neergaard-petersen",
       "competitor_id": "4858859"
     },
@@ -521,8 +521,8 @@
       "competitor_id": "4982182"
     },
     "Jacob Bridgeman": {
-      "score": "-2",
-      "hole": "13",
+      "score": "-1",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/5054388/jacob-bridgeman",
       "competitor_id": "5054388"
     },
@@ -719,8 +719,8 @@
       "competitor_id": "5553"
     },
     "Patrick Reed": {
-      "score": "+1",
-      "hole": "17",
+      "score": "+2",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5579/patrick-reed",
       "competitor_id": "5579"
     },
@@ -972,9 +972,9 @@
     "Xander Schauffele": [
       "P",
       "P",
-      "P",
       "○",
-      "○"
+      "○",
+      "□"
     ],
     "J.J. Spaun": [
       "P",
@@ -1350,7 +1350,7 @@
     "Cameron Young": [
       "○",
       "○",
-      "○",
+      "P",
       "P",
       "P"
     ],
@@ -1537,11 +1537,11 @@
       "□"
     ],
     "Jacob Bridgeman": [
+      "○",
+      "○",
+      "○",
       "P",
-      "○",
-      "○",
-      "○",
-      "P"
+      "□"
     ],
     "Adrien Dumont de Chassart": [
       "P",
@@ -1848,8 +1848,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "□"
     ],
     "Justin Rose": [
       "P",
@@ -2092,8 +2092,8 @@
     "Tom McKibbin": [],
     "Cameron John": [
       "P",
-      "P",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -2206,9 +2206,9 @@
     "Rasmus Neergaard-Petersen": [
       "P",
       "P",
-      "P",
       "○",
-      "P"
+      "P",
+      "○"
     ],
     "Sam Bairstow": [
       "□",
@@ -2432,8 +2432,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784227685.6409254,
-  "last_score_refresh_attempt_at": 1784227990.1676083,
+  "last_score_refresh_at": 1784227991.9401965,
+  "last_score_refresh_attempt_at": 1784227991.9401965,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
