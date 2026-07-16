@@ -90,13 +90,13 @@
     },
     "Wyndham Clark": {
       "score": "+2",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/11119/wyndham-clark",
       "competitor_id": "11119"
     },
     "Nicolai Højgaard": {
-      "score": "+3",
-      "hole": "16",
+      "score": "+2",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/11250/nicolai-højgaard",
       "competitor_id": "11250"
     },
@@ -173,8 +173,8 @@
       "competitor_id": "1651"
     },
     "Peter Uihlein": {
-      "score": "+3",
-      "hole": "12",
+      "score": "+5",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/1674/peter-uihlein",
       "competitor_id": "1674"
     },
@@ -192,7 +192,7 @@
     },
     "Rory McIlroy": {
       "score": "+2",
-      "hole": "13",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/3470/rory-mcilroy",
       "competitor_id": "3470"
     },
@@ -270,7 +270,7 @@
     },
     "Ludvig Aberg": {
       "score": "+1",
-      "hole": "14",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4375972/ludvig-aberg",
       "competitor_id": "4375972"
     },
@@ -329,8 +329,8 @@
       "competitor_id": "4425906"
     },
     "Alistair Docherty": {
-      "score": "+3",
-      "hole": "12",
+      "score": "+4",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/4425907/alistair-docherty",
       "competitor_id": "4425907"
     },
@@ -389,8 +389,8 @@
       "competitor_id": "4592246"
     },
     "Kazuki Higa": {
-      "score": "+1",
-      "hole": "10",
+      "score": "+2",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/4597553/kazuki-higa",
       "competitor_id": "4597553"
     },
@@ -426,7 +426,7 @@
     },
     "Chris Gotterup": {
       "score": "E",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4690755/chris-gotterup",
       "competitor_id": "4690755"
     },
@@ -462,7 +462,7 @@
     },
     "Naoyuki Kataoka": {
       "score": "+2",
-      "hole": "11",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/4837226/naoyuki-kataoka",
       "competitor_id": "4837226"
     },
@@ -492,7 +492,7 @@
     },
     "Sam Bairstow": {
       "score": "+3",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/4872728/sam-bairstow",
       "competitor_id": "4872728"
     },
@@ -540,7 +540,7 @@
     },
     "Marcus Plunkett": {
       "score": "+1",
-      "hole": "11",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/5075661/marcus-plunkett",
       "competitor_id": "5075661"
     },
@@ -594,7 +594,7 @@
     },
     "Tim Wiedemeyer": {
       "score": "+3",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/5147926/tim-wiedemeyer",
       "competitor_id": "5147926"
     },
@@ -618,13 +618,13 @@
     },
     "Bard Bjornevik Skogen": {
       "score": "+2",
-      "hole": "11",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/5289694/bard-bjornevik-skogen",
       "competitor_id": "5289694"
     },
     "Nevill Ruiter": {
-      "score": "+2",
-      "hole": "10",
+      "score": "+3",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/5289808/nevill-ruiter",
       "competitor_id": "5289808"
     },
@@ -731,8 +731,8 @@
       "competitor_id": "569"
     },
     "Francesco Laporta": {
-      "score": "E",
-      "hole": "12",
+      "score": "+1",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/5716/francesco-laporta",
       "competitor_id": "5716"
     },
@@ -864,7 +864,7 @@
     },
     "Matt Fitzpatrick": {
       "score": "+2",
-      "hole": "13",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/9037/matt-fitzpatrick",
       "competitor_id": "9037"
     },
@@ -888,7 +888,7 @@
     },
     "Austen Truslow": {
       "score": "+6",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/9379/austen-truslow",
       "competitor_id": "9379"
     },
@@ -1078,8 +1078,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "□"
+      "□",
+      "○"
     ],
     "Andrew Novak": [
       "○",
@@ -1133,7 +1133,7 @@
     "Peter Uihlein": [
       "P",
       "P",
-      "P",
+      "□",
       "□",
       "□"
     ],
@@ -1272,9 +1272,9 @@
     ],
     "Ludvig Aberg": [
       "P",
-      "P",
-      "P",
       "○",
+      "P",
+      "P",
       "P"
     ],
     "Niklas Nørgaard": [
@@ -1440,10 +1440,10 @@
     ],
     "Chris Gotterup": [
       "P",
-      "P",
       "□",
       "□",
-      "○"
+      "○",
+      "P"
     ],
     "Taihei Sato": [
       "○",
@@ -2113,10 +2113,10 @@
     ],
     "Alistair Docherty": [
       "P",
+      "□",
+      "□",
       "P",
-      "□",
-      "□",
-      "P"
+      "□"
     ],
     "Eugenio Chacarra": [
       "P",
@@ -2158,7 +2158,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "□"
     ],
     "Casey Jarvis": [
       "P",
@@ -2198,8 +2198,8 @@
     "Thomas Detry": [],
     "Naoyuki Kataoka": [
       "P",
-      "P",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -2213,7 +2213,7 @@
     "Sam Bairstow": [
       "□",
       "□",
-      "□",
+      "P",
       "P",
       "P"
     ],
@@ -2256,9 +2256,9 @@
     ],
     "Tim Wiedemeyer": [
       "P",
+      "□",
+      "□",
       "P",
-      "□",
-      "□",
       "P"
     ],
     "Josele Ballester": [
@@ -2274,16 +2274,16 @@
     "Bard Bjornevik Skogen": [
       "□",
       "□",
-      "□",
+      "P",
       "P",
       "P"
     ],
     "Nevill Ruiter": [
       "P",
-      "P",
-      "P",
       "□",
-      "P"
+      "P",
+      "P",
+      "□"
     ],
     "Kota Kaneko": [
       "P",
@@ -2322,10 +2322,10 @@
     ],
     "Francesco Laporta": [
       "P",
-      "P",
       "□",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Joakim Lagergren": [
       "P",
@@ -2381,7 +2381,7 @@
     "Austen Truslow": [
       "□",
       "□",
-      "□",
+      "P",
       "P",
       "P"
     ],
@@ -2432,8 +2432,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784227991.9401965,
-  "last_score_refresh_attempt_at": 1784228295.1795797,
+  "last_score_refresh_at": 1784228296.8711975,
+  "last_score_refresh_attempt_at": 1784228296.8711975,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
