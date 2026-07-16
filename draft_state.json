@@ -173,8 +173,8 @@
       "competitor_id": "1651"
     },
     "Peter Uihlein": {
-      "score": "+2",
-      "hole": "17",
+      "score": "+3",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/1674/peter-uihlein",
       "competitor_id": "1674"
     },
@@ -330,7 +330,7 @@
     },
     "Alistair Docherty": {
       "score": "+3",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4425907/alistair-docherty",
       "competitor_id": "4425907"
     },
@@ -389,8 +389,8 @@
       "competitor_id": "4592246"
     },
     "Kazuki Higa": {
-      "score": "+3",
-      "hole": "15",
+      "score": "+2",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4597553/kazuki-higa",
       "competitor_id": "4597553"
     },
@@ -491,8 +491,8 @@
       "competitor_id": "4858859"
     },
     "Sam Bairstow": {
-      "score": "+3",
-      "hole": "16",
+      "score": "+2",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4872728/sam-bairstow",
       "competitor_id": "4872728"
     },
@@ -732,7 +732,7 @@
     },
     "Francesco Laporta": {
       "score": "+4",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5716/francesco-laporta",
       "competitor_id": "5716"
     },
@@ -1131,10 +1131,10 @@
       "P"
     ],
     "Peter Uihlein": [
-      "□",
       "○",
       "P",
       "○",
+      "□",
       "□"
     ],
     "Jason Day": [
@@ -2112,8 +2112,8 @@
       "○"
     ],
     "Alistair Docherty": [
-      "□",
       "○",
+      "P",
       "P",
       "P",
       "P"
@@ -2154,11 +2154,11 @@
       "P"
     ],
     "Kazuki Higa": [
-      "P",
       "□",
       "□",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Casey Jarvis": [
       "P",
@@ -2215,7 +2215,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "○"
     ],
     "Shaun Norris": [
       "P",
@@ -2321,11 +2321,11 @@
       "□"
     ],
     "Francesco Laporta": [
-      "□",
       "P",
       "□",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "Joakim Lagergren": [
       "P",
@@ -2432,8 +2432,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784233183.633116,
-  "last_score_refresh_attempt_at": 1784233486.2937539,
+  "last_score_refresh_at": 1784233488.510155,
+  "last_score_refresh_attempt_at": 1784233488.510155,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
