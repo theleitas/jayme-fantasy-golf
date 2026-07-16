@@ -66,7 +66,7 @@
     },
     "Aaron Rai": {
       "score": "+1",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/10906/aaron-rai",
       "competitor_id": "10906"
     },
@@ -221,8 +221,8 @@
       "competitor_id": "3832"
     },
     "Adam Scott": {
-      "score": "+1",
-      "hole": "17",
+      "score": "+2",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/388/adam-scott",
       "competitor_id": "388"
     },
@@ -365,8 +365,8 @@
       "competitor_id": "4585549"
     },
     "Shane Lowry": {
-      "score": "E",
-      "hole": "16",
+      "score": "-1",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4587/shane-lowry",
       "competitor_id": "4587"
     },
@@ -581,8 +581,8 @@
       "competitor_id": "5110034"
     },
     "Jiho Yang": {
-      "score": "+7",
-      "hole": "10",
+      "score": "+6",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/5143177/jiho-yang",
       "competitor_id": "5143177"
     },
@@ -779,8 +779,8 @@
       "competitor_id": "6007"
     },
     "Brooks Koepka": {
-      "score": "E",
-      "hole": "16",
+      "score": "-1",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/6798/brooks-koepka",
       "competitor_id": "6798"
     },
@@ -935,8 +935,8 @@
       "competitor_id": "9899"
     },
     "Sam Burns": {
-      "score": "+2",
-      "hole": "17",
+      "score": "+3",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/9938/sam-burns",
       "competitor_id": "9938"
     },
@@ -1020,8 +1020,8 @@
     ],
     "Aaron Rai": [
       "P",
-      "P",
       "□",
+      "P",
       "P",
       "P"
     ],
@@ -1218,8 +1218,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "□"
     ],
     "Ryan Fox": [
       "P",
@@ -1384,9 +1384,9 @@
     ],
     "Shane Lowry": [
       "P",
-      "P",
       "□",
       "□",
+      "○",
       "○"
     ],
     "Chandler Phillips": [
@@ -1881,9 +1881,9 @@
     ],
     "Brooks Koepka": [
       "P",
-      "P",
       "□",
       "P",
+      "○",
       "○"
     ],
     "Patrick Rodgers": [
@@ -2029,7 +2029,7 @@
     "Sam Burns": [
       "P",
       "P",
-      "P",
+      "□",
       "□",
       "□"
     ],
@@ -2241,11 +2241,11 @@
       "□"
     ],
     "Jiho Yang": [
+      "□",
+      "□",
+      "□",
       "P",
-      "□",
-      "□",
-      "□",
-      "□"
+      "○"
     ],
     "Tiger Christensen": [
       "□",
@@ -2432,8 +2432,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784228296.8711975,
-  "last_score_refresh_attempt_at": 1784228601.0798078,
+  "last_score_refresh_at": 1784228602.7546096,
+  "last_score_refresh_attempt_at": 1784228602.7546096,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
