@@ -49,7 +49,7 @@ div[data-testid="stButton"] > button:disabled, div[data-testid="stButton"] > but
 }
 .top-thumbnail-wrap { width:100%; display:flex; justify-content:center; align-items:center; margin:.2rem 0 .55rem 0; }
 .top-thumbnail { width:100%; max-width:760px; max-height:220px; height:auto; object-fit:contain; border-radius:8px; display:block; }
-.app-title { display:flex; align-items:center; gap:14px; margin:.6rem 0 .65rem 0; }
+.app-title { display:flex; align-items:center; gap:14px; margin:.6rem 0 .85rem 0; }
 .app-title h1 { margin:0; padding:0; font-size:2.75rem; line-height:1.1; font-weight:800; }
 .app-logo { width:3.5em; height:3.5em; object-fit:contain; flex:0 0 auto; }
 .tournament-meta { font-size:1.2rem; line-height:1.45; color:#f2f2f2; margin:0 0 1.1rem 0; font-weight:700; }
@@ -62,8 +62,11 @@ div[data-testid="stButton"] > button:disabled, div[data-testid="stButton"] > but
 .roster-table td { padding:7px 8px; border-bottom:1px solid rgba(255,255,255,.10); vertical-align:middle; }
 .roster-table tr:last-child td { border-bottom:none; }
 .roster-player-cell { display:flex; align-items:center; gap:7px; min-width:0; }
-.roster-player-headshot { width:30px; height:30px; border-radius:50%; object-fit:cover; flex:0 0 auto; background:#111; border:1px solid rgba(255,255,255,.32); }
+.roster-player-headshot { width:36px; height:36px; border-radius:50%; object-fit:cover; flex:0 0 auto; background:#111; border:1px solid rgba(255,255,255,.32); }
 .roster-player-name { min-width:0; overflow-wrap:anywhere; }
+.standings-player-line { display:flex; align-items:center; gap:7px; min-width:0; margin:5px 0; }
+.standings-player-score { color:#fff; font-weight:850; white-space:nowrap; }
+.standings-player-status { color:#ddd; white-space:nowrap; }
 .country-strip { display:flex; align-items:center; justify-content:center; gap:7px; flex-wrap:wrap; min-height:34px; border:1px solid currentColor; border-radius:8px; padding:6px 8px; margin-top:8px; color:currentColor; background:rgba(255,255,255,.045); box-shadow:inset 0 0 10px currentColor; text-align:center; }
 .country-strip-label { color:#fff; font-size:.72rem; font-weight:950; letter-spacing:.04em; text-transform:uppercase; opacity:.82; }
 .country-chip { display:inline-flex; align-items:center; gap:4px; border:1px solid rgba(255,255,255,.22); border-radius:999px; padding:2px 7px; background:#050505; color:#fff; font-size:.82rem; font-weight:900; line-height:1.25; }
@@ -1855,9 +1858,24 @@ def roster_player_cell_html(player, player_headshots):
     safe_url = html.escape(headshot_url, quote=True)
     return (
         "<span class='roster-player-cell'>"
-        f"<img class='roster-player-headshot' src='{safe_url}' alt='' loading='lazy' width='30' height='30'>"
+        f"<img class='roster-player-headshot' src='{safe_url}' alt='' loading='lazy' width='36' height='36'>"
         f"<span class='roster-player-name'>{safe_player}</span>"
         "</span>"
+    )
+
+def standings_player_line_html(player, player_headshots, score, status_text, recent_outcomes_text=""):
+    safe_player = html.escape(display_player_name(player))
+    headshot_url = str((player_headshots or {}).get(player) or "").strip()
+    headshot_html = ""
+    if headshot_url:
+        safe_url = html.escape(headshot_url, quote=True)
+        headshot_html = f"<img class='roster-player-headshot' src='{safe_url}' alt='' loading='lazy' width='36' height='36'>"
+    return (
+        "<div class='standings-player-line'>"
+        f"{headshot_html}<span class='roster-player-name'>{safe_player}</span>"
+        f"<span class='standings-player-score'>({html.escape(score)})</span>"
+        f"<span class='standings-player-status'>{html.escape(status_text)}{recent_outcomes_text}</span>"
+        "</div>"
     )
 
 def roster_country_summary_html(players, color):
@@ -2418,14 +2436,13 @@ for coach_id in ordered_coach_ids:
     if scored_players:
         top3_html = ""
         for score_value, _, player, result in scored_players:
-            safe_player = html.escape(display_player_name(player))
-            score = html.escape(format_golf_score(score_value))
+            score = format_golf_score(score_value)
             status_text = format_hole_status_for_card(result.get("hole", "—"))
             recent_outcomes = get_recent_outcomes_for_standings(player, result) if should_show_recent_hole_outcomes(result) else []
             recent_outcomes_text = format_recent_hole_outcomes(recent_outcomes)
             top3_html += (
-                f"<div style='margin:3px 0; color:{color}; font-size:.92rem;'>"
-                f"{safe_player} <span style='font-weight:700;'>({score})</span> {html.escape(status_text)}{recent_outcomes_text}"
+                f"<div style='color:{color}; font-size:.92rem;'>"
+                f"{standings_player_line_html(player, state.get('player_headshots', {}), score, status_text, recent_outcomes_text)}"
                 f"</div>"
             )
     elif players:
