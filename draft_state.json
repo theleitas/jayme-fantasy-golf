@@ -18,7 +18,7 @@
     },
     "Xander Schauffele": {
       "score": "-1",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele",
       "competitor_id": "10140"
     },
@@ -173,8 +173,8 @@
       "competitor_id": "1651"
     },
     "Peter Uihlein": {
-      "score": "+4",
-      "hole": "14",
+      "score": "+3",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/1674/peter-uihlein",
       "competitor_id": "1674"
     },
@@ -263,8 +263,8 @@
       "competitor_id": "4364873"
     },
     "Cameron John": {
-      "score": "E",
-      "hole": "13",
+      "score": "+1",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/4368981/cameron-john",
       "competitor_id": "4368981"
     },
@@ -294,7 +294,7 @@
     },
     "Nico Echavarria": {
       "score": "+1",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4408316/nico-echavarria",
       "competitor_id": "4408316"
     },
@@ -485,8 +485,8 @@
       "competitor_id": "4858572"
     },
     "Rasmus Neergaard-Petersen": {
-      "score": "-1",
-      "hole": "16",
+      "score": "+1",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4858859/rasmus-neergaard-petersen",
       "competitor_id": "4858859"
     },
@@ -522,7 +522,7 @@
     },
     "Jacob Bridgeman": {
       "score": "E",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5054388/jacob-bridgeman",
       "competitor_id": "5054388"
     },
@@ -540,7 +540,7 @@
     },
     "Marcus Plunkett": {
       "score": "+1",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/5075661/marcus-plunkett",
       "competitor_id": "5075661"
     },
@@ -774,7 +774,7 @@
     },
     "Patrick Cantlay": {
       "score": "+1",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/6007/patrick-cantlay",
       "competitor_id": "6007"
     },
@@ -864,7 +864,7 @@
     },
     "Matt Fitzpatrick": {
       "score": "+2",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/9037/matt-fitzpatrick",
       "competitor_id": "9037"
     },
@@ -970,10 +970,10 @@
       "○"
     ],
     "Xander Schauffele": [
-      "P",
       "○",
       "○",
       "□",
+      "P",
       "P"
     ],
     "J.J. Spaun": [
@@ -1131,10 +1131,10 @@
       "P"
     ],
     "Peter Uihlein": [
+      "□",
+      "□",
+      "○",
       "P",
-      "□",
-      "□",
-      "□",
       "○"
     ],
     "Jason Day": [
@@ -1299,9 +1299,9 @@
       "□"
     ],
     "Nico Echavarria": [
-      "□",
       "P",
       "□",
+      "P",
       "P",
       "P"
     ],
@@ -1537,11 +1537,11 @@
       "□"
     ],
     "Jacob Bridgeman": [
-      "○",
       "P",
       "□",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Adrien Dumont de Chassart": [
       "P",
@@ -1874,7 +1874,7 @@
     ],
     "Patrick Cantlay": [
       "□",
-      "□",
+      "P",
       "P",
       "P",
       "P"
@@ -2092,10 +2092,10 @@
     "Tom McKibbin": [],
     "Cameron John": [
       "P",
-      "○",
       "P",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Antoine Rozner": [
       "○",
@@ -2204,11 +2204,11 @@
       "□"
     ],
     "Rasmus Neergaard-Petersen": [
-      "○",
       "P",
       "○",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Sam Bairstow": [
       "□",
@@ -2432,8 +2432,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784230741.8973665,
-  "last_score_refresh_attempt_at": 1784231042.2597685,
+  "last_score_refresh_at": 1784231044.0819194,
+  "last_score_refresh_attempt_at": 1784231044.0819194,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
