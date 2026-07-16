@@ -49,7 +49,7 @@ div[data-testid="stButton"] > button:disabled, div[data-testid="stButton"] > but
 }
 .top-thumbnail-wrap { width:100%; display:flex; justify-content:center; align-items:center; margin:.2rem 0 .55rem 0; }
 .top-thumbnail { width:100%; max-width:760px; max-height:220px; height:auto; object-fit:contain; border-radius:8px; display:block; }
-.app-title { display:flex; align-items:center; gap:14px; margin:.6rem 0 .35rem 0; }
+.app-title { display:flex; align-items:center; gap:14px; margin:.6rem 0 .65rem 0; }
 .app-title h1 { margin:0; padding:0; font-size:2.75rem; line-height:1.1; font-weight:800; }
 .app-logo { width:3.5em; height:3.5em; object-fit:contain; flex:0 0 auto; }
 .tournament-meta { font-size:1.2rem; line-height:1.45; color:#f2f2f2; margin:0 0 1.1rem 0; font-weight:700; }
