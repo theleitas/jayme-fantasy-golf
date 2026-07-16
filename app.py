@@ -57,6 +57,7 @@ div[data-testid="stButton"] > button:disabled, div[data-testid="stButton"] > but
 .payout-rules-box { border:1px solid #444; background:#0b0b0b; border-left:5px solid #ffeb3b; border-radius:8px; padding:12px 14px; margin:1.2rem 0; color:#fff; font-size:.98rem; line-height:1.4; }
 .payout-rules-label { color:#ffeb3b; font-size:.76rem; font-weight:1000; letter-spacing:.04em; text-transform:uppercase; margin-bottom:5px; }
 .compact-card { border-width:3px!important; border-radius:10px!important; padding:12px 14px!important; margin-bottom:1rem!important; box-shadow:0 3px 10px rgba(255,255,255,.06); }
+.standings-card { margin-bottom:1.45rem!important; }
 .roster-table { width:100%; border-collapse:collapse; font-size:.82rem; background:#080808; color:#fff; overflow:hidden; border-radius:8px; }
 .roster-table th { text-align:left; padding:7px 8px; color:#fff; border-bottom:1px solid rgba(255,255,255,.18); font-weight:800; }
 .roster-table td { padding:7px 8px; border-bottom:1px solid rgba(255,255,255,.10); vertical-align:middle; }
@@ -2458,7 +2459,7 @@ for coach_id in ordered_coach_ids:
 
     safe_total = html.escape(total)
     card = (
-        f"<div class='compact-card' style='border:3px solid {color}; background-color:{color}18;'>"
+        f"<div class='compact-card standings-card' style='border:3px solid {color}; background-color:{color}18;'>"
         f"<div class='team-heading' style='color:{color}; font-size:1.15rem; font-weight:850;'>"
         f"{face_html}<span class='team-name'>{html.escape(team_name)}</span>"
         f"<span class='score-badge' style='background:{color};'>{safe_total}</span></div>"
