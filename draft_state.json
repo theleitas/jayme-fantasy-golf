@@ -89,8 +89,8 @@
       "competitor_id": "11101"
     },
     "Wyndham Clark": {
-      "score": "+2",
-      "hole": "17",
+      "score": "+3",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/11119/wyndham-clark",
       "competitor_id": "11119"
     },
@@ -270,7 +270,7 @@
     },
     "Ludvig Aberg": {
       "score": "+1",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4375972/ludvig-aberg",
       "competitor_id": "4375972"
     },
@@ -324,7 +324,7 @@
     },
     "Cameron Young": {
       "score": "-3",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4425906/cameron-young",
       "competitor_id": "4425906"
     },
@@ -1072,7 +1072,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "□"
     ],
     "Nicolai Højgaard": [
       "P",
@@ -1271,7 +1271,7 @@
       "□"
     ],
     "Ludvig Aberg": [
-      "○",
+      "P",
       "P",
       "P",
       "P",
@@ -1348,7 +1348,7 @@
       "□"
     ],
     "Cameron Young": [
-      "○",
+      "P",
       "P",
       "P",
       "P",
@@ -2432,8 +2432,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784230435.624224,
-  "last_score_refresh_attempt_at": 1784230740.2571993,
+  "last_score_refresh_at": 1784230741.8973665,
+  "last_score_refresh_attempt_at": 1784230741.8973665,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
