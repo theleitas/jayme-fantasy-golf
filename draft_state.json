@@ -462,7 +462,7 @@
     },
     "Naoyuki Kataoka": {
       "score": "+3",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4837226/naoyuki-kataoka",
       "competitor_id": "4837226"
     },
@@ -540,7 +540,7 @@
     },
     "Marcus Plunkett": {
       "score": "E",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5075661/marcus-plunkett",
       "competitor_id": "5075661"
     },
@@ -618,7 +618,7 @@
     },
     "Bard Bjornevik Skogen": {
       "score": "+3",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5289694/bard-bjornevik-skogen",
       "competitor_id": "5289694"
     },
@@ -2197,7 +2197,7 @@
     ],
     "Thomas Detry": [],
     "Naoyuki Kataoka": [
-      "□",
+      "P",
       "P",
       "P",
       "P",
@@ -2228,8 +2228,8 @@
     "Marcus Plunkett": [
       "P",
       "P",
-      "P",
       "○",
+      "P",
       "P"
     ],
     "Dan Bradbury": [
@@ -2272,7 +2272,7 @@
       "P"
     ],
     "Bard Bjornevik Skogen": [
-      "□",
+      "P",
       "P",
       "P",
       "P",
@@ -2432,8 +2432,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784234706.017244,
-  "last_score_refresh_attempt_at": 1784235009.3506367,
+  "last_score_refresh_at": 1784235011.0568635,
+  "last_score_refresh_attempt_at": 1784235011.0568635,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
