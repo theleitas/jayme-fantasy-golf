@@ -264,7 +264,7 @@
     },
     "Cameron John": {
       "score": "E",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4368981/cameron-john",
       "competitor_id": "4368981"
     },
@@ -462,7 +462,7 @@
     },
     "Naoyuki Kataoka": {
       "score": "+3",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4837226/naoyuki-kataoka",
       "competitor_id": "4837226"
     },
@@ -492,7 +492,7 @@
     },
     "Sam Bairstow": {
       "score": "+2",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4872728/sam-bairstow",
       "competitor_id": "4872728"
     },
@@ -540,7 +540,7 @@
     },
     "Marcus Plunkett": {
       "score": "E",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5075661/marcus-plunkett",
       "competitor_id": "5075661"
     },
@@ -582,7 +582,7 @@
     },
     "Jiho Yang": {
       "score": "+6",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5143177/jiho-yang",
       "competitor_id": "5143177"
     },
@@ -618,13 +618,13 @@
     },
     "Bard Bjornevik Skogen": {
       "score": "+3",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5289694/bard-bjornevik-skogen",
       "competitor_id": "5289694"
     },
     "Nevill Ruiter": {
       "score": "+6",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5289808/nevill-ruiter",
       "competitor_id": "5289808"
     },
@@ -2092,10 +2092,10 @@
     "Tom McKibbin": [],
     "Cameron John": [
       "P",
-      "P",
       "□",
       "P",
-      "○"
+      "○",
+      "P"
     ],
     "Antoine Rozner": [
       "○",
@@ -2197,8 +2197,8 @@
     ],
     "Thomas Detry": [],
     "Naoyuki Kataoka": [
-      "P",
       "□",
+      "P",
       "P",
       "P",
       "P"
@@ -2214,8 +2214,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "P"
     ],
     "Shaun Norris": [
       "P",
@@ -2229,8 +2229,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "P"
     ],
     "Dan Bradbury": [
       "P"
@@ -2241,10 +2241,10 @@
       "□"
     ],
     "Jiho Yang": [
-      "P",
       "○",
       "□",
       "○",
+      "P",
       "P"
     ],
     "Tiger Christensen": [
@@ -2272,18 +2272,18 @@
       "P"
     ],
     "Bard Bjornevik Skogen": [
-      "P",
       "□",
+      "P",
       "P",
       "P",
       "P"
     ],
     "Nevill Ruiter": [
-      "P",
       "□",
       "□",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "Kota Kaneko": [
       "P",
@@ -2432,8 +2432,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784233488.510155,
-  "last_score_refresh_attempt_at": 1784234095.3531277,
+  "last_score_refresh_at": 1784234097.1112273,
+  "last_score_refresh_attempt_at": 1784234097.1112273,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
