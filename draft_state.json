@@ -887,8 +887,8 @@
       "competitor_id": "9221"
     },
     "Austen Truslow": {
-      "score": "+8",
-      "hole": "17",
+      "score": "+9",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/9379/austen-truslow",
       "competitor_id": "9379"
     },
@@ -2379,9 +2379,9 @@
       "○"
     ],
     "Austen Truslow": [
-      "P",
       "○",
       "P",
+      "□",
       "□",
       "□"
     ],
@@ -2432,8 +2432,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784235011.0568635,
-  "last_score_refresh_attempt_at": 1784235314.4712083,
+  "last_score_refresh_at": 1784235317.3271542,
+  "last_score_refresh_attempt_at": 1784235317.3271542,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
