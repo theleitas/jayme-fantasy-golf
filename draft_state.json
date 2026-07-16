@@ -294,7 +294,7 @@
     },
     "Nico Echavarria": {
       "score": "+1",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4408316/nico-echavarria",
       "competitor_id": "4408316"
     },
@@ -485,8 +485,8 @@
       "competitor_id": "4858572"
     },
     "Rasmus Neergaard-Petersen": {
-      "score": "+1",
-      "hole": "17",
+      "score": "+2",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4858859/rasmus-neergaard-petersen",
       "competitor_id": "4858859"
     },
@@ -522,7 +522,7 @@
     },
     "Jacob Bridgeman": {
       "score": "E",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5054388/jacob-bridgeman",
       "competitor_id": "5054388"
     },
@@ -773,8 +773,8 @@
       "competitor_id": "5956"
     },
     "Patrick Cantlay": {
-      "score": "+1",
-      "hole": "16",
+      "score": "E",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/6007/patrick-cantlay",
       "competitor_id": "6007"
     },
@@ -1299,8 +1299,8 @@
       "□"
     ],
     "Nico Echavarria": [
-      "P",
       "□",
+      "P",
       "P",
       "P",
       "P"
@@ -1537,10 +1537,10 @@
       "□"
     ],
     "Jacob Bridgeman": [
-      "P",
       "□",
       "P",
       "□",
+      "P",
       "P"
     ],
     "Adrien Dumont de Chassart": [
@@ -1873,11 +1873,11 @@
       "□"
     ],
     "Patrick Cantlay": [
-      "□",
       "P",
       "P",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Brooks Koepka": [
       "□",
@@ -2204,10 +2204,10 @@
       "P"
     ],
     "Rasmus Neergaard-Petersen": [
-      "P",
       "○",
       "P",
       "P",
+      "□",
       "□"
     ],
     "Sam Bairstow": [
@@ -2432,8 +2432,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784231651.0818694,
-  "last_score_refresh_attempt_at": 1784231954.403509,
+  "last_score_refresh_at": 1784231955.90221,
+  "last_score_refresh_attempt_at": 1784231955.90221,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
