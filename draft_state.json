@@ -24,7 +24,7 @@
     },
     "J.J. Spaun": {
       "score": "E",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/10166/jj-spaun",
       "competitor_id": "10166"
     },
@@ -60,7 +60,7 @@
     },
     "Collin Morikawa": {
       "score": "-3",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/10592/collin-morikawa",
       "competitor_id": "10592"
     },
@@ -402,7 +402,7 @@
     },
     "Jayden Schaper": {
       "score": "E",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4604053/jayden-schaper",
       "competitor_id": "4604053"
     },
@@ -979,9 +979,9 @@
     "J.J. Spaun": [
       "P",
       "P",
-      "P",
       "□",
-      "○"
+      "○",
+      "P"
     ],
     "Lucas Herbert": [
       "P",
@@ -1007,8 +1007,8 @@
     "Collin Morikawa": [
       "P",
       "P",
-      "P",
       "□",
+      "P",
       "P"
     ],
     "J.B. Holmes": [
@@ -1421,8 +1421,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "P"
     ],
     "John Parry": [
       "P",
@@ -2432,8 +2432,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784227380.6167037,
-  "last_score_refresh_attempt_at": 1784227683.847601,
+  "last_score_refresh_at": 1784227685.6409254,
+  "last_score_refresh_attempt_at": 1784227685.6409254,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
