@@ -581,8 +581,8 @@
       "competitor_id": "5110034"
     },
     "Jiho Yang": {
-      "score": "+7",
-      "hole": "13",
+      "score": "+6",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/5143177/jiho-yang",
       "competitor_id": "5143177"
     },
@@ -888,7 +888,7 @@
     },
     "Austen Truslow": {
       "score": "+6",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/9379/austen-truslow",
       "competitor_id": "9379"
     },
@@ -2242,10 +2242,10 @@
     ],
     "Jiho Yang": [
       "□",
-      "□",
       "P",
       "○",
-      "□"
+      "□",
+      "○"
     ],
     "Tiger Christensen": [
       "□",
@@ -2379,11 +2379,11 @@
       "○"
     ],
     "Austen Truslow": [
-      "□",
       "P",
       "P",
       "P",
-      "○"
+      "○",
+      "P"
     ],
     "Jordan Smith": [],
     "Scott Vincent": [
@@ -2432,8 +2432,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784231347.4835002,
-  "last_score_refresh_attempt_at": 1784231649.3629193,
+  "last_score_refresh_at": 1784231651.0818694,
+  "last_score_refresh_attempt_at": 1784231651.0818694,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
