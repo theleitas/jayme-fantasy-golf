@@ -173,7 +173,7 @@
       "competitor_id": "1651"
     },
     "Peter Uihlein": {
-      "score": "+4",
+      "score": "+2",
       "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/1674/peter-uihlein",
       "competitor_id": "1674"
@@ -263,8 +263,8 @@
       "competitor_id": "4364873"
     },
     "Cameron John": {
-      "score": "+1",
-      "hole": "16",
+      "score": "E",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4368981/cameron-john",
       "competitor_id": "4368981"
     },
@@ -294,7 +294,7 @@
     },
     "Nico Echavarria": {
       "score": "+1",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4408316/nico-echavarria",
       "competitor_id": "4408316"
     },
@@ -773,8 +773,8 @@
       "competitor_id": "5956"
     },
     "Patrick Cantlay": {
-      "score": "E",
-      "hole": "17",
+      "score": "+1",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/6007/patrick-cantlay",
       "competitor_id": "6007"
     },
@@ -857,8 +857,8 @@
       "competitor_id": "8974"
     },
     "Daniel Berger": {
-      "score": "+5",
-      "hole": "17",
+      "score": "+6",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/9025/daniel-berger",
       "competitor_id": "9025"
     },
@@ -887,8 +887,8 @@
       "competitor_id": "9221"
     },
     "Austen Truslow": {
-      "score": "+7",
-      "hole": "16",
+      "score": "+8",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/9379/austen-truslow",
       "competitor_id": "9379"
     },
@@ -1299,7 +1299,7 @@
       "□"
     ],
     "Nico Echavarria": [
-      "□",
+      "P",
       "P",
       "P",
       "P",
@@ -1876,8 +1876,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "□"
     ],
     "Brooks Koepka": [
       "□",
@@ -1950,10 +1950,10 @@
       "□"
     ],
     "Daniel Berger": [
-      "□",
       "P",
       "□",
       "P",
+      "□",
       "□"
     ],
     "Matt Fitzpatrick": [
@@ -2093,9 +2093,9 @@
     "Cameron John": [
       "P",
       "P",
-      "P",
       "□",
-      "P"
+      "P",
+      "○"
     ],
     "Antoine Rozner": [
       "○",
@@ -2380,9 +2380,9 @@
     ],
     "Austen Truslow": [
       "P",
-      "P",
       "○",
       "P",
+      "□",
       "□"
     ],
     "Jordan Smith": [],
@@ -2432,8 +2432,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784232869.4001205,
-  "last_score_refresh_attempt_at": 1784233181.9574254,
+  "last_score_refresh_at": 1784233183.633116,
+  "last_score_refresh_attempt_at": 1784233183.633116,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
