@@ -64,7 +64,7 @@ div[data-testid="stButton"] > button:disabled, div[data-testid="stButton"] > but
 .roster-player-cell { display:flex; align-items:center; gap:7px; min-width:0; }
 .roster-player-headshot { width:30px; height:30px; border-radius:50%; object-fit:cover; flex:0 0 auto; background:#111; border:1px solid rgba(255,255,255,.32); }
 .roster-player-name { min-width:0; overflow-wrap:anywhere; }
-.country-strip { display:flex; align-items:center; gap:7px; flex-wrap:wrap; min-height:34px; border:1px solid currentColor; border-radius:8px; padding:6px 8px; margin-top:8px; color:currentColor; background:rgba(255,255,255,.045); box-shadow:inset 0 0 10px currentColor; }
+.country-strip { display:flex; align-items:center; justify-content:center; gap:7px; flex-wrap:wrap; min-height:34px; border:1px solid currentColor; border-radius:8px; padding:6px 8px; margin-top:8px; color:currentColor; background:rgba(255,255,255,.045); box-shadow:inset 0 0 10px currentColor; text-align:center; }
 .country-strip-label { color:#fff; font-size:.72rem; font-weight:950; letter-spacing:.04em; text-transform:uppercase; opacity:.82; }
 .country-chip { display:inline-flex; align-items:center; gap:4px; border:1px solid rgba(255,255,255,.22); border-radius:999px; padding:2px 7px; background:#050505; color:#fff; font-size:.82rem; font-weight:900; line-height:1.25; }
 .history-table th, .history-table td, .lunch-table th, .lunch-table td { text-align:center!important; vertical-align:middle; }
