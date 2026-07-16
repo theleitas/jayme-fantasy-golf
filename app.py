@@ -64,6 +64,7 @@ div[data-testid="stButton"] > button:disabled, div[data-testid="stButton"] > but
 .roster-player-cell { display:flex; align-items:center; gap:7px; min-width:0; }
 .roster-player-headshot { width:36px; height:36px; border-radius:50%; object-fit:cover; flex:0 0 auto; background:#111; border:1px solid rgba(255,255,255,.32); }
 .roster-player-name { min-width:0; overflow-wrap:anywhere; }
+.roster-player-flag { display:inline-block; font-size:1.2em; line-height:1; margin-right:3px; vertical-align:-.08em; }
 .standings-player-line { display:flex; align-items:center; gap:7px; min-width:0; margin:5px 0; }
 .standings-player-score { color:#fff; font-weight:850; white-space:nowrap; }
 .standings-player-status { color:#ddd; white-space:nowrap; }
@@ -741,6 +742,11 @@ def flag_for_player(player):
 
 def display_player_name(player):
     return f"{flag_for_player(player)} {player}"
+
+def player_name_with_large_flag_html(player):
+    flag = html.escape(flag_for_player(player))
+    safe_player = html.escape(str(player))
+    return f"<span class='roster-player-flag'>{flag}</span>{safe_player}"
 
 def last_name_key(player):
     cleaned = player.replace(".", "").replace("'", "")
@@ -1851,20 +1857,20 @@ def draft_table_player_cell_html(player, player_headshots):
     )
 
 def roster_player_cell_html(player, player_headshots):
-    safe_player = html.escape(display_player_name(player))
+    player_name_html = player_name_with_large_flag_html(player)
     headshot_url = str((player_headshots or {}).get(player) or "").strip()
     if not headshot_url:
-        return f"<span class='roster-player-name'>{safe_player}</span>"
+        return f"<span class='roster-player-name'>{player_name_html}</span>"
     safe_url = html.escape(headshot_url, quote=True)
     return (
         "<span class='roster-player-cell'>"
         f"<img class='roster-player-headshot' src='{safe_url}' alt='' loading='lazy' width='36' height='36'>"
-        f"<span class='roster-player-name'>{safe_player}</span>"
+        f"<span class='roster-player-name'>{player_name_html}</span>"
         "</span>"
     )
 
 def standings_player_line_html(player, player_headshots, score, status_text, recent_outcomes_text=""):
-    safe_player = html.escape(display_player_name(player))
+    player_name_html = player_name_with_large_flag_html(player)
     headshot_url = str((player_headshots or {}).get(player) or "").strip()
     headshot_html = ""
     if headshot_url:
@@ -1872,7 +1878,7 @@ def standings_player_line_html(player, player_headshots, score, status_text, rec
         headshot_html = f"<img class='roster-player-headshot' src='{safe_url}' alt='' loading='lazy' width='36' height='36'>"
     return (
         "<div class='standings-player-line'>"
-        f"{headshot_html}<span class='roster-player-name'>{safe_player}</span>"
+        f"{headshot_html}<span class='roster-player-name'>{player_name_html}</span>"
         f"<span class='standings-player-score'>({html.escape(score)})</span>"
         f"<span class='standings-player-status'>{html.escape(status_text)}{recent_outcomes_text}</span>"
         "</div>"
