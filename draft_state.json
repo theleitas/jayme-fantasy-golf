@@ -30,7 +30,7 @@
     },
     "Lucas Herbert": {
       "score": "E",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/10343/lucas-herbert",
       "competitor_id": "10343"
     },
@@ -221,8 +221,8 @@
       "competitor_id": "3832"
     },
     "Adam Scott": {
-      "score": "+2",
-      "hole": "16",
+      "score": "+1",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/388/adam-scott",
       "competitor_id": "388"
     },
@@ -425,8 +425,8 @@
       "competitor_id": "4683800"
     },
     "Chris Gotterup": {
-      "score": "+1",
-      "hole": "16",
+      "score": "E",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4690755/chris-gotterup",
       "competitor_id": "4690755"
     },
@@ -654,7 +654,7 @@
     },
     "Bud Cauley": {
       "score": "-2",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5338/bud-cauley",
       "competitor_id": "5338"
     },
@@ -987,8 +987,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "P"
     ],
     "Kurt Kitayama": [
       "○",
@@ -1219,7 +1219,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "○"
     ],
     "Ryan Fox": [
       "P",
@@ -1441,9 +1441,9 @@
     "Chris Gotterup": [
       "P",
       "P",
-      "P",
       "□",
-      "□"
+      "□",
+      "○"
     ],
     "Taihei Sato": [
       "○",
@@ -2432,8 +2432,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784227069.0243638,
-  "last_score_refresh_attempt_at": 1784227378.9738047,
+  "last_score_refresh_at": 1784227380.6167037,
+  "last_score_refresh_attempt_at": 1784227380.6167037,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
