@@ -23,8 +23,8 @@
       "competitor_id": "10140"
     },
     "J.J. Spaun": {
-      "score": "+1",
-      "hole": "15",
+      "score": "E",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/10166/jj-spaun",
       "competitor_id": "10166"
     },
@@ -42,7 +42,7 @@
     },
     "J.T. Poston": {
       "score": "+1",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/10505/jt-poston",
       "competitor_id": "10505"
     },
@@ -60,7 +60,7 @@
     },
     "Collin Morikawa": {
       "score": "-3",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/10592/collin-morikawa",
       "competitor_id": "10592"
     },
@@ -95,8 +95,8 @@
       "competitor_id": "11119"
     },
     "Nicolai Højgaard": {
-      "score": "+2",
-      "hole": "15",
+      "score": "+3",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/11250/nicolai-højgaard",
       "competitor_id": "11250"
     },
@@ -246,7 +246,7 @@
     },
     "Kristoffer Reitan": {
       "score": "-1",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4348470/kristoffer-reitan",
       "competitor_id": "4348470"
     },
@@ -719,8 +719,8 @@
       "competitor_id": "5553"
     },
     "Patrick Reed": {
-      "score": "+2",
-      "hole": "16",
+      "score": "+1",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5579/patrick-reed",
       "competitor_id": "5579"
     },
@@ -980,8 +980,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "□"
+      "□",
+      "○"
     ],
     "Lucas Herbert": [
       "P",
@@ -1008,8 +1008,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "□"
+      "□",
+      "P"
     ],
     "J.B. Holmes": [
       "○",
@@ -1079,7 +1079,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "□"
     ],
     "Andrew Novak": [
       "○",
@@ -1849,7 +1849,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "○"
     ],
     "Justin Rose": [
       "P",
@@ -2432,8 +2432,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784226155.6215706,
-  "last_score_refresh_attempt_at": 1784226458.9669235,
+  "last_score_refresh_at": 1784226460.5608025,
+  "last_score_refresh_attempt_at": 1784226460.5608025,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
