@@ -29,8 +29,8 @@
       "competitor_id": "10166"
     },
     "Lucas Herbert": {
-      "score": "+1",
-      "hole": "16",
+      "score": "E",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/10343/lucas-herbert",
       "competitor_id": "10343"
     },
@@ -65,8 +65,8 @@
       "competitor_id": "10592"
     },
     "Aaron Rai": {
-      "score": "E",
-      "hole": "13",
+      "score": "+1",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/10906/aaron-rai",
       "competitor_id": "10906"
     },
@@ -222,7 +222,7 @@
     },
     "Adam Scott": {
       "score": "+2",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/388/adam-scott",
       "competitor_id": "388"
     },
@@ -365,8 +365,8 @@
       "competitor_id": "4585549"
     },
     "Shane Lowry": {
-      "score": "-1",
-      "hole": "13",
+      "score": "E",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/4587/shane-lowry",
       "competitor_id": "4587"
     },
@@ -401,8 +401,8 @@
       "competitor_id": "4602673"
     },
     "Jayden Schaper": {
-      "score": "+1",
-      "hole": "16",
+      "score": "E",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4604053/jayden-schaper",
       "competitor_id": "4604053"
     },
@@ -425,8 +425,8 @@
       "competitor_id": "4683800"
     },
     "Chris Gotterup": {
-      "score": "E",
-      "hole": "15",
+      "score": "+1",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4690755/chris-gotterup",
       "competitor_id": "4690755"
     },
@@ -449,8 +449,8 @@
       "competitor_id": "4699375"
     },
     "Keita Nakajima": {
-      "score": "+2",
-      "hole": "17",
+      "score": "+3",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4699418/keita-nakajima",
       "competitor_id": "4699418"
     },
@@ -467,8 +467,8 @@
       "competitor_id": "4837226"
     },
     "Pierceson Coody": {
-      "score": "-4",
-      "hole": "17",
+      "score": "-3",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4837368/pierceson-coody",
       "competitor_id": "4837368"
     },
@@ -611,8 +611,8 @@
       "competitor_id": "5186648"
     },
     "Johnny Keefer": {
-      "score": "-1",
-      "hole": "17",
+      "score": "E",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5217048/johnny-keefer",
       "competitor_id": "5217048"
     },
@@ -654,7 +654,7 @@
     },
     "Bud Cauley": {
       "score": "-2",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5338/bud-cauley",
       "competitor_id": "5338"
     },
@@ -779,8 +779,8 @@
       "competitor_id": "6007"
     },
     "Brooks Koepka": {
-      "score": "E",
-      "hole": "13",
+      "score": "+1",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/6798/brooks-koepka",
       "competitor_id": "6798"
     },
@@ -984,11 +984,11 @@
       "□"
     ],
     "Lucas Herbert": [
-      "○",
       "P",
       "P",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Kurt Kitayama": [
       "○",
@@ -1023,7 +1023,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "□"
     ],
     "Nathan Kimsey": [
       "□",
@@ -1383,11 +1383,11 @@
       "P"
     ],
     "Shane Lowry": [
-      "○",
       "P",
       "P",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Chandler Phillips": [
       "□",
@@ -1418,11 +1418,11 @@
       "P"
     ],
     "Jayden Schaper": [
-      "□",
       "P",
       "P",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "John Parry": [
       "P",
@@ -1442,7 +1442,7 @@
       "P",
       "P",
       "P",
-      "P",
+      "□",
       "□"
     ],
     "Taihei Sato": [
@@ -1460,11 +1460,11 @@
       "○"
     ],
     "Pierceson Coody": [
+      "P",
+      "P",
+      "P",
       "○",
-      "P",
-      "P",
-      "P",
-      "○"
+      "□"
     ],
     "Harry Higgs": [
       "P",
@@ -1621,11 +1621,11 @@
       "○"
     ],
     "Johnny Keefer": [
-      "○",
       "P",
       "P",
       "○",
-      "○"
+      "○",
+      "□"
     ],
     "Giuseppe Puebla": [
       "○",
@@ -1884,7 +1884,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "□"
     ],
     "Patrick Rodgers": [
       "P",
@@ -2189,11 +2189,11 @@
       "□"
     ],
     "Keita Nakajima": [
+      "P",
+      "P",
+      "P",
       "○",
-      "P",
-      "P",
-      "P",
-      "○"
+      "□"
     ],
     "Thomas Detry": [],
     "Naoyuki Kataoka": [
@@ -2432,8 +2432,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784225548.2257957,
-  "last_score_refresh_attempt_at": 1784225848.9938233,
+  "last_score_refresh_at": 1784225850.707121,
+  "last_score_refresh_attempt_at": 1784225850.707121,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
