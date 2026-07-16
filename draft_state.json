@@ -17,8 +17,8 @@
       "competitor_id": "10046"
     },
     "Xander Schauffele": {
-      "score": "-1",
-      "hole": "17",
+      "score": "+1",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele",
       "competitor_id": "10140"
     },
@@ -330,7 +330,7 @@
     },
     "Alistair Docherty": {
       "score": "+3",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4425907/alistair-docherty",
       "competitor_id": "4425907"
     },
@@ -539,8 +539,8 @@
       "competitor_id": "5062278"
     },
     "Marcus Plunkett": {
-      "score": "+1",
-      "hole": "14",
+      "score": "E",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5075661/marcus-plunkett",
       "competitor_id": "5075661"
     },
@@ -731,8 +731,8 @@
       "competitor_id": "569"
     },
     "Francesco Laporta": {
-      "score": "+3",
-      "hole": "16",
+      "score": "+4",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5716/francesco-laporta",
       "competitor_id": "5716"
     },
@@ -971,10 +971,10 @@
     ],
     "Xander Schauffele": [
       "○",
-      "○",
       "□",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "J.J. Spaun": [
       "P",
@@ -2112,9 +2112,9 @@
       "○"
     ],
     "Alistair Docherty": [
-      "P",
       "□",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -2230,7 +2230,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "○"
     ],
     "Dan Bradbury": [
       "P"
@@ -2321,9 +2321,9 @@
       "□"
     ],
     "Francesco Laporta": [
-      "P",
       "□",
       "P",
+      "□",
       "□",
       "□"
     ],
@@ -2432,8 +2432,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784232261.2964296,
-  "last_score_refresh_attempt_at": 1784232564.4470503,
+  "last_score_refresh_at": 1784232566.1646073,
+  "last_score_refresh_attempt_at": 1784232566.1646073,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
