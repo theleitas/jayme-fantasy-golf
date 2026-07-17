@@ -11,7 +11,7 @@
   "last_pick_started_at": 1784118861.3090055,
   "player_results": {
     "Bryson DeChambeau": {
-      "score": "-7",
+      "score": "-5",
       "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/10046/bryson-dechambeau",
       "competitor_id": "10046"
@@ -383,8 +383,8 @@
       "competitor_id": "4592199"
     },
     "Frederic LaCroix": {
-      "score": "+3",
-      "hole": "17",
+      "score": "+4",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4592246/frederic-lacroix",
       "competitor_id": "4592246"
     },
@@ -671,8 +671,8 @@
       "competitor_id": "5364787"
     },
     "Alejandro de Castro Piera": {
-      "score": "+5",
-      "hole": "16",
+      "score": "+6",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5369475/alejandro-de-castro-piera",
       "competitor_id": "5369475"
     },
@@ -786,7 +786,7 @@
     },
     "Jack McDonald": {
       "score": "+1",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/6849/jack-mcdonald",
       "competitor_id": "6849"
     },
@@ -816,7 +816,7 @@
     },
     "MJ Daffue": {
       "score": "-1",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/7110/mj-daffue",
       "competitor_id": "7110"
     },
@@ -2186,7 +2186,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "□"
     ],
     "Kazuki Higa": [
       "○",
@@ -2378,11 +2378,11 @@
       "○"
     ],
     "Alejandro de Castro Piera": [
-      "P",
-      "P",
       "□",
       "□",
-      "P"
+      "P",
+      "P",
+      "□"
     ],
     "David Howard": [
       "P",
@@ -2436,8 +2436,8 @@
     "Jack McDonald": [
       "P",
       "P",
-      "P",
       "□",
+      "P",
       "P"
     ],
     "Joe Dean": [
@@ -2457,9 +2457,9 @@
     "MJ Daffue": [
       "P",
       "P",
-      "P",
       "○",
-      "○"
+      "○",
+      "P"
     ],
     "Stewart Cink": [
       "P",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784320383.4933763,
-  "last_score_refresh_attempt_at": 1784321191.3418584,
+  "last_score_refresh_at": 1784321192.8968222,
+  "last_score_refresh_attempt_at": 1784321192.8968222,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
