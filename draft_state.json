@@ -107,8 +107,8 @@
       "competitor_id": "11253"
     },
     "Thomas Sloman": {
-      "score": "+3",
-      "hole": "17",
+      "score": "+4",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/11270/thomas-sloman",
       "competitor_id": "11270"
     },
@@ -377,8 +377,8 @@
       "competitor_id": "4589438"
     },
     "Jeong-Woo Ham": {
-      "score": "+9",
-      "hole": "15",
+      "score": "+10",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4592199/jeong-woo-ham",
       "competitor_id": "4592199"
     },
@@ -432,7 +432,7 @@
     },
     "Ren Yonezawa": {
       "score": "+14",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4699328/ren-yonezawa",
       "competitor_id": "4699328"
     },
@@ -444,7 +444,7 @@
     },
     "Ryutaro Nagano": {
       "score": "+2",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4699375/ryutaro-nagano",
       "competitor_id": "4699375"
     },
@@ -575,8 +575,8 @@
       "competitor_id": "5105333"
     },
     "Caleb Surratt": {
-      "score": "+7",
-      "hole": "16",
+      "score": "+6",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5110034/caleb-surratt",
       "competitor_id": "5110034"
     },
@@ -672,7 +672,7 @@
     },
     "Alejandro de Castro Piera": {
       "score": "+5",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5369475/alejandro-de-castro-piera",
       "competitor_id": "5369475"
     },
@@ -1572,11 +1572,11 @@
       "○"
     ],
     "Caleb Surratt": [
-      "□",
       "P",
       "P",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Sudarshan Yellamaraju": [
       "P",
@@ -2062,11 +2062,11 @@
       "P"
     ],
     "Thomas Sloman": [
-      "□",
       "P",
       "P",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Victor Perez": [
       "P",
@@ -2175,10 +2175,10 @@
       "○"
     ],
     "Jeong-Woo Ham": [
+      "P",
+      "P",
+      "P",
       "□",
-      "P",
-      "P",
-      "P",
       "□"
     ],
     "Frederic LaCroix": [
@@ -2204,10 +2204,10 @@
     ],
     "Ren Yonezawa": [
       "P",
-      "P",
       "□",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "Jesper Svensson": [
       "P",
@@ -2220,8 +2220,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "P"
     ],
     "Keita Nakajima": [
       "P",
@@ -2378,11 +2378,11 @@
       "○"
     ],
     "Alejandro de Castro Piera": [
-      "○",
       "P",
       "P",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "David Howard": [
       "P",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784318975.1186528,
-  "last_score_refresh_attempt_at": 1784319450.2395308,
+  "last_score_refresh_at": 1784319451.955492,
+  "last_score_refresh_attempt_at": 1784319451.955492,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
