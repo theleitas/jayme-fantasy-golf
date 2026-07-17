@@ -287,8 +287,8 @@
       "competitor_id": "4404992"
     },
     "Antoine Rozner": {
-      "score": "+1",
-      "hole": "17",
+      "score": "+2",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4407372/antoine-rozner",
       "competitor_id": "4407372"
     },
@@ -377,14 +377,14 @@
       "competitor_id": "4589438"
     },
     "Jeong-Woo Ham": {
-      "score": "+10",
-      "hole": "16",
+      "score": "+9",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4592199/jeong-woo-ham",
       "competitor_id": "4592199"
     },
     "Frederic LaCroix": {
       "score": "+3",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4592246/frederic-lacroix",
       "competitor_id": "4592246"
     },
@@ -431,8 +431,8 @@
       "competitor_id": "4690755"
     },
     "Ren Yonezawa": {
-      "score": "+14",
-      "hole": "17",
+      "score": "+15",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4699328/ren-yonezawa",
       "competitor_id": "4699328"
     },
@@ -444,7 +444,7 @@
     },
     "Ryutaro Nagano": {
       "score": "+2",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4699375/ryutaro-nagano",
       "competitor_id": "4699375"
     },
@@ -575,8 +575,8 @@
       "competitor_id": "5105333"
     },
     "Caleb Surratt": {
-      "score": "+6",
-      "hole": "17",
+      "score": "+7",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5110034/caleb-surratt",
       "competitor_id": "5110034"
     },
@@ -786,7 +786,7 @@
     },
     "Jack McDonald": {
       "score": "+1",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/6849/jack-mcdonald",
       "competitor_id": "6849"
     },
@@ -815,8 +815,8 @@
       "competitor_id": "7081"
     },
     "MJ Daffue": {
-      "score": "E",
-      "hole": "16",
+      "score": "-1",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/7110/mj-daffue",
       "competitor_id": "7110"
     },
@@ -1575,8 +1575,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "□"
     ],
     "Sudarshan Yellamaraju": [
       "P",
@@ -2126,11 +2126,11 @@
       "P"
     ],
     "Antoine Rozner": [
-      "□",
       "P",
       "P",
       "P",
-      "○"
+      "○",
+      "□"
     ],
     "Daniel Hillier": [
       "P",
@@ -2177,12 +2177,12 @@
     "Jeong-Woo Ham": [
       "P",
       "P",
-      "P",
       "□",
-      "□"
+      "□",
+      "○"
     ],
     "Frederic LaCroix": [
-      "□",
+      "P",
       "P",
       "P",
       "P",
@@ -2203,11 +2203,11 @@
       "○"
     ],
     "Ren Yonezawa": [
+      "□",
+      "□",
+      "□",
       "P",
-      "□",
-      "□",
-      "□",
-      "P"
+      "□"
     ],
     "Jesper Svensson": [
       "P",
@@ -2219,8 +2219,8 @@
     "Ryutaro Nagano": [
       "P",
       "P",
-      "P",
       "○",
+      "P",
       "P"
     ],
     "Keita Nakajima": [
@@ -2434,11 +2434,11 @@
       "○"
     ],
     "Jack McDonald": [
-      "○",
       "P",
       "P",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Joe Dean": [
       "P",
@@ -2455,10 +2455,10 @@
       "□"
     ],
     "MJ Daffue": [
-      "□",
       "P",
       "P",
       "P",
+      "○",
       "○"
     ],
     "Stewart Cink": [
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784319451.955492,
-  "last_score_refresh_attempt_at": 1784320381.6464705,
+  "last_score_refresh_at": 1784320383.4933763,
+  "last_score_refresh_attempt_at": 1784320383.4933763,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
