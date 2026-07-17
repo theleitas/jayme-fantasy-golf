@@ -30,7 +30,7 @@
     },
     "Lucas Herbert": {
       "score": "-8",
-      "hole": "F",
+      "hole": "10:50 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/10343/lucas-herbert",
       "competitor_id": "10343"
     },
@@ -516,7 +516,7 @@
     },
     "Jackson Suber": {
       "score": "-6",
-      "hole": "F",
+      "hole": "10:50 AM",
       "profile_url": "https://www.espn.com/golf/player/_/id/4982182/jackson-suber",
       "competitor_id": "4982182"
     },
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784325805.2332165,
-  "last_score_refresh_attempt_at": 1784326124.8225505,
+  "last_score_refresh_at": 1784326126.593944,
+  "last_score_refresh_attempt_at": 1784326126.593944,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
