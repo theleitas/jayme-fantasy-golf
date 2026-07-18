@@ -72,7 +72,7 @@
     },
     "Sahith Theegala": {
       "score": "E",
-      "hole": "6:05 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/10980/sahith-theegala",
       "competitor_id": "10980"
     },
@@ -707,8 +707,8 @@
       "competitor_id": "5539"
     },
     "Laurie Canter": {
-      "score": "E",
-      "hole": "6:05 AM",
+      "score": "+1",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/5550/laurie-canter",
       "competitor_id": "5550"
     },
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784369847.1227956,
-  "last_score_refresh_attempt_at": 1784370257.8838208,
+  "last_score_refresh_at": 1784370259.6226203,
+  "last_score_refresh_attempt_at": 1784370259.6226203,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
