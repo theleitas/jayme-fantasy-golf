@@ -12,7 +12,7 @@
   "player_results": {
     "Bryson DeChambeau": {
       "score": "-5",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/10046/bryson-dechambeau",
       "competitor_id": "10046"
     },
@@ -30,7 +30,7 @@
     },
     "Lucas Herbert": {
       "score": "-9",
-      "hole": "11",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/10343/lucas-herbert",
       "competitor_id": "10343"
     },
@@ -53,8 +53,8 @@
       "competitor_id": "10522"
     },
     "Matt Wallace": {
-      "score": "-2",
-      "hole": "12",
+      "score": "-3",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/10548/matt-wallace",
       "competitor_id": "10548"
     },
@@ -270,7 +270,7 @@
     },
     "Ludvig Aberg": {
       "score": "-6",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4375972/ludvig-aberg",
       "competitor_id": "4375972"
     },
@@ -366,7 +366,7 @@
     },
     "Shane Lowry": {
       "score": "-4",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4587/shane-lowry",
       "competitor_id": "4587"
     },
@@ -468,7 +468,7 @@
     },
     "Pierceson Coody": {
       "score": "-1",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4837368/pierceson-coody",
       "competitor_id": "4837368"
     },
@@ -516,7 +516,7 @@
     },
     "Jackson Suber": {
       "score": "-8",
-      "hole": "11",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/4982182/jackson-suber",
       "competitor_id": "4982182"
     },
@@ -545,8 +545,8 @@
       "competitor_id": "5075661"
     },
     "Ryan Gerard": {
-      "score": "-5",
-      "hole": "12",
+      "score": "-6",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -702,7 +702,7 @@
     },
     "Tommy Fleetwood": {
       "score": "-6",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5539/tommy-fleetwood",
       "competitor_id": "5539"
     },
@@ -917,8 +917,8 @@
       "competitor_id": "9530"
     },
     "Jon Rahm": {
-      "score": "-3",
-      "hole": "16",
+      "score": "-4",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/9780/jon-rahm",
       "competitor_id": "9780"
     },
@@ -984,9 +984,9 @@
       "P"
     ],
     "Lucas Herbert": [
-      "○",
       "P",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -1271,11 +1271,11 @@
       "□"
     ],
     "Ludvig Aberg": [
+      "P",
+      "P",
+      "P",
       "○",
-      "P",
-      "P",
-      "P",
-      "○"
+      "P"
     ],
     "Niklas Nørgaard": [
       "P",
@@ -1384,7 +1384,7 @@
     ],
     "Shane Lowry": [
       "○",
-      "○",
+      "P",
       "P",
       "P",
       "P"
@@ -1460,10 +1460,10 @@
       "○"
     ],
     "Pierceson Coody": [
-      "P",
       "○",
       "P",
       "□",
+      "P",
       "P"
     ],
     "Harry Higgs": [
@@ -1523,11 +1523,11 @@
       "□"
     ],
     "Jackson Suber": [
-      "□",
       "P",
       "P",
       "P",
-      "○"
+      "○",
+      "P"
     ],
     "Cooper Dossey": [
       "P",
@@ -1555,7 +1555,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "○"
     ],
     "William Mouw": [
       "□",
@@ -1826,8 +1826,8 @@
     "Tommy Fleetwood": [
       "P",
       "P",
-      "P",
       "□",
+      "P",
       "P"
     ],
     "Laurie Canter": [
@@ -2010,7 +2010,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "○"
     ],
     "Jake Knapp": [
       "□",
@@ -2049,10 +2049,10 @@
     ],
     "Matt Wallace": [
       "P",
-      "P",
       "○",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Rasmus Højgaard": [
       "P",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784395931.8220093,
-  "last_score_refresh_attempt_at": 1784396708.1936939,
+  "last_score_refresh_at": 1784396709.713658,
+  "last_score_refresh_attempt_at": 1784396709.713658,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
