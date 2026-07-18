@@ -12,7 +12,7 @@
   "player_results": {
     "Bryson DeChambeau": {
       "score": "-5",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/10046/bryson-dechambeau",
       "competitor_id": "10046"
     },
@@ -24,13 +24,13 @@
     },
     "J.J. Spaun": {
       "score": "E",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/10166/jj-spaun",
       "competitor_id": "10166"
     },
     "Lucas Herbert": {
       "score": "-9",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/10343/lucas-herbert",
       "competitor_id": "10343"
     },
@@ -161,8 +161,8 @@
       "competitor_id": "1407"
     },
     "Francesco Molinari": {
-      "score": "-2",
-      "hole": "15",
+      "score": "-3",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/1483/francesco-molinari",
       "competitor_id": "1483"
     },
@@ -324,7 +324,7 @@
     },
     "Cameron Young": {
       "score": "-5",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/4425906/cameron-young",
       "competitor_id": "4425906"
     },
@@ -515,8 +515,8 @@
       "competitor_id": "4921329"
     },
     "Jackson Suber": {
-      "score": "-8",
-      "hole": "12",
+      "score": "-7",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/4982182/jackson-suber",
       "competitor_id": "4982182"
     },
@@ -653,8 +653,8 @@
       "competitor_id": "5337673"
     },
     "Bud Cauley": {
-      "score": "-3",
-      "hole": "14",
+      "score": "-2",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/5338/bud-cauley",
       "competitor_id": "5338"
     },
@@ -810,7 +810,7 @@
     },
     "Si Woo Kim": {
       "score": "-7",
-      "hole": "13",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/7081/si-woo-kim",
       "competitor_id": "7081"
     },
@@ -893,8 +893,8 @@
       "competitor_id": "9379"
     },
     "Scottie Scheffler": {
-      "score": "-5",
-      "hole": "15",
+      "score": "-4",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/9478/scottie-scheffler",
       "competitor_id": "9478"
     },
@@ -935,8 +935,8 @@
       "competitor_id": "9899"
     },
     "Sam Burns": {
-      "score": "-8",
-      "hole": "13",
+      "score": "-9",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/9938/sam-burns",
       "competitor_id": "9938"
     },
@@ -978,14 +978,14 @@
     ],
     "J.J. Spaun": [
       "○",
-      "○",
       "P",
       "□",
+      "P",
       "P"
     ],
     "Lucas Herbert": [
-      "P",
       "○",
+      "P",
       "P",
       "P",
       "P"
@@ -1350,9 +1350,9 @@
     "Cameron Young": [
       "P",
       "P",
-      "P",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "Sam Stevens": [
       "P",
@@ -1525,9 +1525,9 @@
     "Jackson Suber": [
       "P",
       "P",
-      "P",
       "○",
-      "P"
+      "P",
+      "□"
     ],
     "Cooper Dossey": [
       "P",
@@ -1691,11 +1691,11 @@
       "□"
     ],
     "Bud Cauley": [
-      "○",
       "P",
       "○",
       "□",
-      "P"
+      "P",
+      "□"
     ],
     "Hamilton Coleman": [
       "P",
@@ -1909,9 +1909,9 @@
     ],
     "Si Woo Kim": [
       "P",
-      "○",
-      "P",
       "□",
+      "P",
+      "P",
       "P"
     ],
     "Marcelo Rozo": [
@@ -1989,7 +1989,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "□"
     ],
     "Alex Smalley": [
       "P",
@@ -2027,11 +2027,11 @@
       "P"
     ],
     "Sam Burns": [
-      "□",
       "P",
       "P",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Carl Yuan": [
       "○",
@@ -2099,10 +2099,10 @@
     ],
     "Francesco Molinari": [
       "P",
-      "□",
       "P",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Bernd Wiesberger": [
       "P",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784396709.713658,
-  "last_score_refresh_attempt_at": 1784397118.6219327,
+  "last_score_refresh_at": 1784397120.2435925,
+  "last_score_refresh_attempt_at": 1784397120.2435925,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
