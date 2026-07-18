@@ -71,8 +71,8 @@
       "competitor_id": "10906"
     },
     "Sahith Theegala": {
-      "score": "-2",
-      "hole": "15",
+      "score": "-3",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/10980/sahith-theegala",
       "competitor_id": "10980"
     },
@@ -269,8 +269,8 @@
       "competitor_id": "4368981"
     },
     "Ludvig Aberg": {
-      "score": "-3",
-      "hole": "9:15 AM",
+      "score": "-2",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/4375972/ludvig-aberg",
       "competitor_id": "4375972"
     },
@@ -282,7 +282,7 @@
     },
     "Ben Griffin": {
       "score": "+2",
-      "hole": "10",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/4404992/ben-griffin",
       "competitor_id": "4404992"
     },
@@ -366,7 +366,7 @@
     },
     "Shane Lowry": {
       "score": "-3",
-      "hole": "9:15 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/4587/shane-lowry",
       "competitor_id": "4587"
     },
@@ -612,7 +612,7 @@
     },
     "Johnny Keefer": {
       "score": "-1",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/5217048/johnny-keefer",
       "competitor_id": "5217048"
     },
@@ -708,7 +708,7 @@
     },
     "Laurie Canter": {
       "score": "+3",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5550/laurie-canter",
       "competitor_id": "5550"
     },
@@ -719,8 +719,8 @@
       "competitor_id": "5553"
     },
     "Patrick Reed": {
-      "score": "-2",
-      "hole": "3",
+      "score": "-3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/5579/patrick-reed",
       "competitor_id": "5579"
     },
@@ -767,14 +767,14 @@
       "competitor_id": "5860"
     },
     "Andy Sullivan": {
-      "score": "E",
-      "hole": "10",
+      "score": "+1",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/5956/andy-sullivan",
       "competitor_id": "5956"
     },
     "Patrick Cantlay": {
-      "score": "-2",
-      "hole": "10",
+      "score": "-1",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/6007/patrick-cantlay",
       "competitor_id": "6007"
     },
@@ -870,7 +870,7 @@
     },
     "Corey Conners": {
       "score": "-3",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/9126/corey-conners",
       "competitor_id": "9126"
     },
@@ -929,8 +929,8 @@
       "competitor_id": "9843"
     },
     "Hennie Du Plessis": {
-      "score": "-2",
-      "hole": "10",
+      "score": "-3",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/9899/hennie-du-plessis",
       "competitor_id": "9899"
     },
@@ -1035,9 +1035,9 @@
     "Sahith Theegala": [
       "P",
       "P",
-      "P",
       "○",
-      "P"
+      "P",
+      "○"
     ],
     "Jimmy Stanger": [
       "P",
@@ -1292,11 +1292,11 @@
       "○"
     ],
     "Ben Griffin": [
-      "○",
-      "□",
       "□",
       "P",
-      "□"
+      "□",
+      "P",
+      "P"
     ],
     "Nico Echavarria": [
       "○",
@@ -1621,9 +1621,9 @@
       "○"
     ],
     "Johnny Keefer": [
+      "○",
+      "○",
       "P",
-      "○",
-      "○",
       "P",
       "P"
     ],
@@ -1832,10 +1832,10 @@
     ],
     "Laurie Canter": [
       "P",
-      "P",
       "□",
       "○",
-      "□"
+      "□",
+      "P"
     ],
     "Tyrrell Hatton": [
       "○",
@@ -1848,8 +1848,8 @@
       "○",
       "○",
       "○",
-      "○",
-      "P"
+      "P",
+      "○"
     ],
     "Justin Rose": [
       "P",
@@ -1877,7 +1877,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "□"
     ],
     "Brooks Koepka": [
       "○",
@@ -1971,10 +1971,10 @@
       "□"
     ],
     "Corey Conners": [
+      "○",
+      "○",
+      "○",
       "P",
-      "○",
-      "○",
-      "○",
       "P"
     ],
     "Cameron Smith": [
@@ -2021,10 +2021,10 @@
     ],
     "Hennie Du Plessis": [
       "P",
-      "□",
       "P",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Sam Burns": [
       "○",
@@ -2427,11 +2427,11 @@
       "○"
     ],
     "Andy Sullivan": [
-      "○",
       "P",
       "P",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Jack McDonald": [
       "P",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784381252.941375,
-  "last_score_refresh_attempt_at": 1784381604.9088638,
+  "last_score_refresh_at": 1784381606.38219,
+  "last_score_refresh_attempt_at": 1784381606.38219,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
