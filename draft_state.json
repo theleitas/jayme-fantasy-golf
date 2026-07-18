@@ -216,7 +216,7 @@
     },
     "Alex Noren": {
       "score": "E",
-      "hole": "5:10 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/3832/alex-noren",
       "competitor_id": "3832"
     },
@@ -299,8 +299,8 @@
       "competitor_id": "4408316"
     },
     "Min Woo Lee": {
-      "score": "+1",
-      "hole": "4",
+      "score": "E",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/4410932/min-woo-lee",
       "competitor_id": "4410932"
     },
@@ -462,7 +462,7 @@
     },
     "Naoyuki Kataoka": {
       "score": "E",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/4837226/naoyuki-kataoka",
       "competitor_id": "4837226"
     },
@@ -479,8 +479,8 @@
       "competitor_id": "4848"
     },
     "Ryo Hisatsune": {
-      "score": "+2",
-      "hole": "4",
+      "score": "+1",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/4858572/ryo-hisatsune",
       "competitor_id": "4858572"
     },
@@ -540,7 +540,7 @@
     },
     "Marcus Plunkett": {
       "score": "E",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5075661/marcus-plunkett",
       "competitor_id": "5075661"
     },
@@ -900,7 +900,7 @@
     },
     "Alex Smalley": {
       "score": "E",
-      "hole": "5:10 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/9484/alex-smalley",
       "competitor_id": "9484"
     },
@@ -1313,11 +1313,11 @@
       "P"
     ],
     "Min Woo Lee": [
-      "P",
       "○",
       "P",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Ugo Coussaud": [
       "P",
@@ -1481,11 +1481,11 @@
       "□"
     ],
     "Ryo Hisatsune": [
-      "○",
       "□",
       "P",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Filippo Celli": [
       "○",
@@ -2238,11 +2238,11 @@
       "○"
     ],
     "Naoyuki Kataoka": [
-      "□",
       "P",
       "○",
       "○",
-      "○"
+      "○",
+      "P"
     ],
     "Rasmus Neergaard-Petersen": [
       "P",
@@ -2273,7 +2273,7 @@
       "P"
     ],
     "Marcus Plunkett": [
-      "□",
+      "P",
       "P",
       "P",
       "P",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784366367.7788732,
-  "last_score_refresh_attempt_at": 1784366929.5214064,
+  "last_score_refresh_at": 1784366931.630146,
+  "last_score_refresh_attempt_at": 1784366931.630146,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
