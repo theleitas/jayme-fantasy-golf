@@ -17,8 +17,8 @@
       "competitor_id": "10046"
     },
     "Xander Schauffele": {
-      "score": "-4",
-      "hole": "14",
+      "score": "-3",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele",
       "competitor_id": "10140"
     },
@@ -47,8 +47,8 @@
       "competitor_id": "10505"
     },
     "Eric Cole": {
-      "score": "+1",
-      "hole": "9",
+      "score": "-1",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/10522/eric-cole",
       "competitor_id": "10522"
     },
@@ -120,7 +120,7 @@
     },
     "Victor Perez": {
       "score": "-3",
-      "hole": "8:55 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/11340/victor-perez",
       "competitor_id": "11340"
     },
@@ -138,7 +138,7 @@
     },
     "Sungjae Im": {
       "score": "-4",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/11382/sungjae-im",
       "competitor_id": "11382"
     },
@@ -191,8 +191,8 @@
       "competitor_id": "186"
     },
     "Rory McIlroy": {
-      "score": "E",
-      "hole": "7",
+      "score": "-2",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/3470/rory-mcilroy",
       "competitor_id": "3470"
     },
@@ -203,7 +203,7 @@
       "competitor_id": "3550"
     },
     "Rickie Fowler": {
-      "score": "E",
+      "score": "+1",
       "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/3702/rickie-fowler",
       "competitor_id": "3702"
@@ -227,8 +227,8 @@
       "competitor_id": "388"
     },
     "Ryan Fox": {
-      "score": "-6",
-      "hole": "14",
+      "score": "-7",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4251/ryan-fox",
       "competitor_id": "4251"
     },
@@ -245,8 +245,8 @@
       "competitor_id": "4348444"
     },
     "Kristoffer Reitan": {
-      "score": "-3",
-      "hole": "14",
+      "score": "-2",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/4348470/kristoffer-reitan",
       "competitor_id": "4348470"
     },
@@ -282,7 +282,7 @@
     },
     "Ben Griffin": {
       "score": "+1",
-      "hole": "8",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/4404992/ben-griffin",
       "competitor_id": "4404992"
     },
@@ -317,8 +317,8 @@
       "competitor_id": "4425899"
     },
     "Michael Thorbjornsen": {
-      "score": "-3",
-      "hole": "5",
+      "score": "-2",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/4425904/michael-thorbjornsen",
       "competitor_id": "4425904"
     },
@@ -342,7 +342,7 @@
     },
     "Keegan Bradley": {
       "score": "+5",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4513/keegan-bradley",
       "competitor_id": "4513"
     },
@@ -360,7 +360,7 @@
     },
     "Marco Penge": {
       "score": "-2",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/4585549/marco-penge",
       "competitor_id": "4585549"
     },
@@ -414,7 +414,7 @@
     },
     "John Parry": {
       "score": "-1",
-      "hole": "5",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/4671/john-parry",
       "competitor_id": "4671"
     },
@@ -474,7 +474,7 @@
     },
     "Justin Thomas": {
       "score": "-4",
-      "hole": "9",
+      "hole": "10",
       "profile_url": "https://www.espn.com/golf/player/_/id/4848/justin-thomas",
       "competitor_id": "4848"
     },
@@ -527,8 +527,8 @@
       "competitor_id": "5054388"
     },
     "Shaun Norris": {
-      "score": "-1",
-      "hole": "6",
+      "score": "-2",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/5057/shaun-norris",
       "competitor_id": "5057"
     },
@@ -551,8 +551,8 @@
       "competitor_id": "5076021"
     },
     "Aldrich Potgieter": {
-      "score": "+1",
-      "hole": "17",
+      "score": "+2",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5080439/aldrich-potgieter",
       "competitor_id": "5080439"
     },
@@ -605,14 +605,14 @@
       "competitor_id": "5152205"
     },
     "Kazuma Kobori": {
-      "score": "-2",
-      "hole": "9",
+      "score": "-3",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/5186648/kazuma-kobori",
       "competitor_id": "5186648"
     },
     "Johnny Keefer": {
       "score": "-1",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/5217048/johnny-keefer",
       "competitor_id": "5217048"
     },
@@ -719,8 +719,8 @@
       "competitor_id": "5553"
     },
     "Patrick Reed": {
-      "score": "-1",
-      "hole": "1",
+      "score": "-2",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/5579/patrick-reed",
       "competitor_id": "5579"
     },
@@ -761,20 +761,20 @@
       "competitor_id": "5852"
     },
     "Hideki Matsuyama": {
-      "score": "-2",
-      "hole": "8",
+      "score": "-3",
+      "hole": "10",
       "profile_url": "https://www.espn.com/golf/player/_/id/5860/hideki-matsuyama",
       "competitor_id": "5860"
     },
     "Andy Sullivan": {
       "score": "E",
-      "hole": "8",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/5956/andy-sullivan",
       "competitor_id": "5956"
     },
     "Patrick Cantlay": {
       "score": "-2",
-      "hole": "8",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/6007/patrick-cantlay",
       "competitor_id": "6007"
     },
@@ -845,8 +845,8 @@
       "competitor_id": "8961"
     },
     "Max Homa": {
-      "score": "-2",
-      "hole": "16",
+      "score": "-3",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/8973/max-homa",
       "competitor_id": "8973"
     },
@@ -972,9 +972,9 @@
     "Xander Schauffele": [
       "P",
       "P",
+      "○",
       "P",
-      "P",
-      "○"
+      "□"
     ],
     "J.J. Spaun": [
       "P",
@@ -1096,11 +1096,11 @@
       "□"
     ],
     "Sungjae Im": [
-      "□",
       "○",
       "P",
       "P",
-      "○"
+      "○",
+      "P"
     ],
     "Max McGreevy": [
       "P",
@@ -1180,11 +1180,11 @@
       "P"
     ],
     "Rory McIlroy": [
-      "□",
       "P",
       "P",
       "P",
-      "P"
+      "○",
+      "○"
     ],
     "Gary Woodland": [
       "□",
@@ -1222,18 +1222,18 @@
       "□"
     ],
     "Ryan Fox": [
-      "P",
-      "P",
       "○",
       "□",
+      "○",
+      "P",
       "○"
     ],
     "Kristoffer Reitan": [
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "□"
     ],
     "Brandon Wu": [
       "○",
@@ -1293,10 +1293,10 @@
     ],
     "Ben Griffin": [
       "P",
-      "P",
       "○",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "Nico Echavarria": [
       "○",
@@ -1362,9 +1362,9 @@
       "P"
     ],
     "Keegan Bradley": [
+      "□",
+      "□",
       "P",
-      "□",
-      "□",
       "P",
       "P"
     ],
@@ -1425,11 +1425,11 @@
       "□"
     ],
     "John Parry": [
-      "○",
-      "P",
       "□",
       "P",
-      "○"
+      "○",
+      "P",
+      "P"
     ],
     "James Nicholas": [
       "P",
@@ -1475,10 +1475,10 @@
     ],
     "Justin Thomas": [
       "○",
-      "○",
       "P",
       "□",
-      "○"
+      "○",
+      "P"
     ],
     "Ryo Hisatsune": [
       "P",
@@ -1623,9 +1623,9 @@
     "Johnny Keefer": [
       "P",
       "P",
-      "P",
       "○",
-      "○"
+      "○",
+      "P"
     ],
     "Giuseppe Puebla": [
       "○",
@@ -1845,7 +1845,7 @@
       "○"
     ],
     "Patrick Reed": [
-      "P",
+      "○",
       "○",
       "○",
       "○",
@@ -1859,9 +1859,9 @@
       "P"
     ],
     "Hideki Matsuyama": [
+      "□",
       "P",
       "○",
-      "□",
       "P",
       "○"
     ],
@@ -2044,8 +2044,8 @@
       "P",
       "P",
       "P",
-      "□",
-      "P"
+      "○",
+      "○"
     ],
     "Matt Wallace": [
       "P",
@@ -2142,9 +2142,9 @@
     "Michael Thorbjornsen": [
       "P",
       "P",
+      "○",
       "P",
-      "P",
-      "○"
+      "□"
     ],
     "Alistair Docherty": [
       "P",
@@ -2171,8 +2171,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "P"
     ],
     "Jeong-Woo Ham": [
       "P",
@@ -2261,7 +2261,7 @@
     "Shaun Norris": [
       "P",
       "P",
-      "P",
+      "○",
       "P",
       "○"
     ],
@@ -2329,11 +2329,11 @@
       "□"
     ],
     "Kazuma Kobori": [
-      "○",
-      "□",
       "P",
       "P",
-      "P"
+      "P",
+      "P",
+      "○"
     ],
     "Bard Bjornevik Skogen": [
       "P",
@@ -2427,9 +2427,9 @@
       "□"
     ],
     "Andy Sullivan": [
-      "P",
       "□",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -2476,11 +2476,11 @@
       "□"
     ],
     "Max Homa": [
-      "○",
       "P",
       "○",
       "○",
-      "P"
+      "P",
+      "○"
     ],
     "Haotong Li": [
       "P",
@@ -2511,11 +2511,11 @@
       "P"
     ],
     "Aldrich Potgieter": [
-      "□",
       "P",
       "○",
       "P",
-      "P"
+      "P",
+      "□"
     ]
   },
   "player_headshots": {
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784379757.6639557,
-  "last_score_refresh_attempt_at": 1784380126.0481026,
+  "last_score_refresh_at": 1784380127.7296374,
+  "last_score_refresh_attempt_at": 1784380127.7296374,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
