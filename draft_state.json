@@ -11,8 +11,8 @@
   "last_pick_started_at": 1784118861.3090055,
   "player_results": {
     "Bryson DeChambeau": {
-      "score": "-5",
-      "hole": "14",
+      "score": "-6",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/10046/bryson-dechambeau",
       "competitor_id": "10046"
     },
@@ -54,7 +54,7 @@
     },
     "Matt Wallace": {
       "score": "-3",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/10548/matt-wallace",
       "competitor_id": "10548"
     },
@@ -132,7 +132,7 @@
     },
     "Robert MacIntyre": {
       "score": "-3",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/11378/robert-macintyre",
       "competitor_id": "11378"
     },
@@ -252,7 +252,7 @@
     },
     "Alex Fitzpatrick": {
       "score": "E",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4364865/alex-fitzpatrick",
       "competitor_id": "4364865"
     },
@@ -545,8 +545,8 @@
       "competitor_id": "5075661"
     },
     "Ryan Gerard": {
-      "score": "-6",
-      "hole": "13",
+      "score": "-7",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -810,7 +810,7 @@
     },
     "Si Woo Kim": {
       "score": "-7",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/7081/si-woo-kim",
       "competitor_id": "7081"
     },
@@ -936,7 +936,7 @@
     },
     "Sam Burns": {
       "score": "-9",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/9938/sam-burns",
       "competitor_id": "9938"
     },
@@ -953,7 +953,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "○"
     ],
     "Cole Hammer": [
       "□",
@@ -1090,10 +1090,10 @@
     ],
     "Robert MacIntyre": [
       "P",
-      "P",
       "□",
       "□",
-      "○"
+      "○",
+      "P"
     ],
     "Sungjae Im": [
       "P",
@@ -1554,7 +1554,7 @@
       "P",
       "P",
       "P",
-      "P",
+      "○",
       "○"
     ],
     "William Mouw": [
@@ -1908,8 +1908,8 @@
       "○"
     ],
     "Si Woo Kim": [
-      "P",
       "□",
+      "P",
       "P",
       "P",
       "P"
@@ -2030,8 +2030,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "P"
     ],
     "Carl Yuan": [
       "○",
@@ -2049,8 +2049,8 @@
     ],
     "Matt Wallace": [
       "P",
-      "P",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784397456.2529652,
-  "last_score_refresh_attempt_at": 1784397823.735804,
+  "last_score_refresh_at": 1784397825.3547432,
+  "last_score_refresh_attempt_at": 1784397825.3547432,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
