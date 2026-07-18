@@ -29,8 +29,8 @@
       "competitor_id": "10166"
     },
     "Lucas Herbert": {
-      "score": "-8",
-      "hole": "15",
+      "score": "-7",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/10343/lucas-herbert",
       "competitor_id": "10343"
     },
@@ -53,8 +53,8 @@
       "competitor_id": "10522"
     },
     "Matt Wallace": {
-      "score": "-3",
-      "hole": "17",
+      "score": "-2",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/10548/matt-wallace",
       "competitor_id": "10548"
     },
@@ -516,7 +516,7 @@
     },
     "Jackson Suber": {
       "score": "-7",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4982182/jackson-suber",
       "competitor_id": "4982182"
     },
@@ -810,7 +810,7 @@
     },
     "Si Woo Kim": {
       "score": "-8",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/7081/si-woo-kim",
       "competitor_id": "7081"
     },
@@ -987,7 +987,7 @@
       "P",
       "P",
       "P",
-      "P",
+      "□",
       "□"
     ],
     "Kurt Kitayama": [
@@ -1523,11 +1523,11 @@
       "□"
     ],
     "Jackson Suber": [
-      "○",
       "P",
       "□",
       "○",
-      "□"
+      "□",
+      "P"
     ],
     "Cooper Dossey": [
       "P",
@@ -1911,8 +1911,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "P"
     ],
     "Marcelo Rozo": [
       "○",
@@ -2048,11 +2048,11 @@
       "○"
     ],
     "Matt Wallace": [
-      "○",
       "P",
       "P",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Rasmus Højgaard": [
       "P",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784399782.2551725,
-  "last_score_refresh_attempt_at": 1784400140.6321318,
+  "last_score_refresh_at": 1784400142.4450011,
+  "last_score_refresh_attempt_at": 1784400142.4450011,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
