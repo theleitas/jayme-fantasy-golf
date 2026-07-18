@@ -54,7 +54,7 @@
     },
     "Matt Wallace": {
       "score": "-3",
-      "hole": "13",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/10548/matt-wallace",
       "competitor_id": "10548"
     },
@@ -131,8 +131,8 @@
       "competitor_id": "11345"
     },
     "Robert MacIntyre": {
-      "score": "-2",
-      "hole": "15",
+      "score": "-3",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/11378/robert-macintyre",
       "competitor_id": "11378"
     },
@@ -252,7 +252,7 @@
     },
     "Alex Fitzpatrick": {
       "score": "E",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4364865/alex-fitzpatrick",
       "competitor_id": "4364865"
     },
@@ -455,8 +455,8 @@
       "competitor_id": "4699418"
     },
     "Thomas Detry": {
-      "score": "-1",
-      "hole": "14",
+      "score": "E",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4837/thomas-detry",
       "competitor_id": "4837"
     },
@@ -653,8 +653,8 @@
       "competitor_id": "5337673"
     },
     "Bud Cauley": {
-      "score": "-2",
-      "hole": "15",
+      "score": "-1",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5338/bud-cauley",
       "competitor_id": "5338"
     },
@@ -701,8 +701,8 @@
       "competitor_id": "5467"
     },
     "Tommy Fleetwood": {
-      "score": "-6",
-      "hole": "17",
+      "score": "-5",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5539/tommy-fleetwood",
       "competitor_id": "5539"
     },
@@ -918,7 +918,7 @@
     },
     "Jon Rahm": {
       "score": "-4",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/9780/jon-rahm",
       "competitor_id": "9780"
     },
@@ -1091,9 +1091,9 @@
     "Robert MacIntyre": [
       "P",
       "P",
-      "P",
       "□",
-      "□"
+      "□",
+      "○"
     ],
     "Sungjae Im": [
       "P",
@@ -1691,10 +1691,10 @@
       "□"
     ],
     "Bud Cauley": [
-      "P",
       "○",
       "□",
       "P",
+      "□",
       "□"
     ],
     "Hamilton Coleman": [
@@ -1825,10 +1825,10 @@
     ],
     "Tommy Fleetwood": [
       "P",
-      "P",
       "□",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Laurie Canter": [
       "○",
@@ -2009,8 +2009,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "P"
     ],
     "Jake Knapp": [
       "□",
@@ -2049,10 +2049,10 @@
     ],
     "Matt Wallace": [
       "P",
+      "P",
       "○",
       "P",
-      "P",
-      "○"
+      "P"
     ],
     "Rasmus Højgaard": [
       "P",
@@ -2232,7 +2232,7 @@
     ],
     "Thomas Detry": [
       "□",
-      "○",
+      "P",
       "□",
       "P",
       "□"
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784397120.2435925,
-  "last_score_refresh_attempt_at": 1784397454.5565698,
+  "last_score_refresh_at": 1784397456.2529652,
+  "last_score_refresh_attempt_at": 1784397456.2529652,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
