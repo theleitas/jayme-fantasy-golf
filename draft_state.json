@@ -12,7 +12,7 @@
   "player_results": {
     "Bryson DeChambeau": {
       "score": "-5",
-      "hole": "8",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/10046/bryson-dechambeau",
       "competitor_id": "10046"
     },
@@ -23,14 +23,14 @@
       "competitor_id": "10140"
     },
     "J.J. Spaun": {
-      "score": "E",
-      "hole": "13",
+      "score": "-1",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/10166/jj-spaun",
       "competitor_id": "10166"
     },
     "Lucas Herbert": {
       "score": "-8",
-      "hole": "7",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/10343/lucas-herbert",
       "competitor_id": "10343"
     },
@@ -155,14 +155,14 @@
       "competitor_id": "1225"
     },
     "Daniel Brown": {
-      "score": "-2",
-      "hole": "15",
+      "score": "-3",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/1407/daniel-brown",
       "competitor_id": "1407"
     },
     "Francesco Molinari": {
       "score": "-2",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/1483/francesco-molinari",
       "competitor_id": "1483"
     },
@@ -221,8 +221,8 @@
       "competitor_id": "3832"
     },
     "Adam Scott": {
-      "score": "-2",
-      "hole": "17",
+      "score": "-1",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/388/adam-scott",
       "competitor_id": "388"
     },
@@ -252,7 +252,7 @@
     },
     "Alex Fitzpatrick": {
       "score": "E",
-      "hole": "10",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/4364865/alex-fitzpatrick",
       "competitor_id": "4364865"
     },
@@ -264,13 +264,13 @@
     },
     "Cameron John": {
       "score": "-4",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4368981/cameron-john",
       "competitor_id": "4368981"
     },
     "Ludvig Aberg": {
       "score": "-5",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/4375972/ludvig-aberg",
       "competitor_id": "4375972"
     },
@@ -324,7 +324,7 @@
     },
     "Cameron Young": {
       "score": "-7",
-      "hole": "8",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/4425906/cameron-young",
       "competitor_id": "4425906"
     },
@@ -366,7 +366,7 @@
     },
     "Shane Lowry": {
       "score": "-4",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/4587/shane-lowry",
       "competitor_id": "4587"
     },
@@ -425,8 +425,8 @@
       "competitor_id": "4683800"
     },
     "Chris Gotterup": {
-      "score": "+1",
-      "hole": "17",
+      "score": "E",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4690755/chris-gotterup",
       "competitor_id": "4690755"
     },
@@ -467,8 +467,8 @@
       "competitor_id": "4837226"
     },
     "Pierceson Coody": {
-      "score": "-1",
-      "hole": "13",
+      "score": "-2",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/4837368/pierceson-coody",
       "competitor_id": "4837368"
     },
@@ -516,7 +516,7 @@
     },
     "Jackson Suber": {
       "score": "-7",
-      "hole": "7",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/4982182/jackson-suber",
       "competitor_id": "4982182"
     },
@@ -546,7 +546,7 @@
     },
     "Ryan Gerard": {
       "score": "-5",
-      "hole": "8",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -702,7 +702,7 @@
     },
     "Tommy Fleetwood": {
       "score": "-7",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/5539/tommy-fleetwood",
       "competitor_id": "5539"
     },
@@ -840,7 +840,7 @@
     },
     "Sepp Straka": {
       "score": "+1",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/8961/sepp-straka",
       "competitor_id": "8961"
     },
@@ -869,8 +869,8 @@
       "competitor_id": "9037"
     },
     "Corey Conners": {
-      "score": "E",
-      "hole": "16",
+      "score": "-1",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/9126/corey-conners",
       "competitor_id": "9126"
     },
@@ -894,7 +894,7 @@
     },
     "Scottie Scheffler": {
       "score": "-5",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/9478/scottie-scheffler",
       "competitor_id": "9478"
     },
@@ -950,8 +950,8 @@
   "hole_outcomes": {
     "Bryson DeChambeau": [
       "P",
-      "P",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -977,18 +977,18 @@
       "P"
     ],
     "J.J. Spaun": [
-      "P",
       "□",
       "□",
       "P",
+      "○",
       "○"
     ],
     "Lucas Herbert": [
+      "P",
+      "P",
+      "P",
       "○",
-      "P",
-      "P",
-      "P",
-      "○"
+      "P"
     ],
     "Kurt Kitayama": [
       "P",
@@ -1215,11 +1215,11 @@
       "P"
     ],
     "Adam Scott": [
-      "P",
       "○",
       "P",
       "P",
-      "○"
+      "○",
+      "□"
     ],
     "Ryan Fox": [
       "○",
@@ -1250,8 +1250,8 @@
       "P"
     ],
     "Alex Fitzpatrick": [
-      "□",
-      "□",
+      "P",
+      "P",
       "P",
       "P",
       "P"
@@ -1273,8 +1273,8 @@
     "Ludvig Aberg": [
       "P",
       "P",
-      "P",
       "○",
+      "P",
       "P"
     ],
     "Niklas Nørgaard": [
@@ -1348,8 +1348,8 @@
       "□"
     ],
     "Cameron Young": [
-      "P",
       "○",
+      "P",
       "P",
       "P",
       "P"
@@ -1383,11 +1383,11 @@
       "P"
     ],
     "Shane Lowry": [
-      "□",
       "P",
       "□",
       "○",
-      "○"
+      "○",
+      "P"
     ],
     "Chandler Phillips": [
       "□",
@@ -1439,10 +1439,10 @@
       "○"
     ],
     "Chris Gotterup": [
-      "P",
       "○",
       "□",
       "P",
+      "○",
       "○"
     ],
     "Taihei Sato": [
@@ -1460,11 +1460,11 @@
       "○"
     ],
     "Pierceson Coody": [
-      "○",
       "P",
       "□",
       "□",
-      "P"
+      "P",
+      "○"
     ],
     "Harry Higgs": [
       "P",
@@ -1523,11 +1523,11 @@
       "□"
     ],
     "Jackson Suber": [
-      "○",
       "P",
       "○",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Cooper Dossey": [
       "P",
@@ -1551,7 +1551,7 @@
       "P"
     ],
     "Ryan Gerard": [
-      "□",
+      "P",
       "P",
       "P",
       "P",
@@ -1824,10 +1824,10 @@
       "P"
     ],
     "Tommy Fleetwood": [
-      "P",
       "○",
       "P",
       "○",
+      "P",
       "P"
     ],
     "Laurie Canter": [
@@ -1936,9 +1936,9 @@
       "□"
     ],
     "Sepp Straka": [
-      "P",
       "□",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -1971,11 +1971,11 @@
       "□"
     ],
     "Corey Conners": [
-      "P",
       "□",
       "P",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Cameron Smith": [
       "P",
@@ -2091,18 +2091,18 @@
     ],
     "Louis Oosthuizen": [],
     "Daniel Brown": [
-      "○",
       "□",
       "□",
       "○",
-      "P"
+      "P",
+      "○"
     ],
     "Francesco Molinari": [
       "P",
       "P",
       "P",
-      "P",
-      "□"
+      "□",
+      "P"
     ],
     "Bernd Wiesberger": [
       "P",
@@ -2119,7 +2119,7 @@
       "○"
     ],
     "Cameron John": [
-      "○",
+      "P",
       "P",
       "P",
       "P",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784392531.3170228,
-  "last_score_refresh_attempt_at": 1784393159.9159853,
+  "last_score_refresh_at": 1784393161.543371,
+  "last_score_refresh_attempt_at": 1784393161.543371,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
