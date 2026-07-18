@@ -72,7 +72,7 @@
     },
     "Sahith Theegala": {
       "score": "-1",
-      "hole": "3",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/10980/sahith-theegala",
       "competitor_id": "10980"
     },
@@ -281,8 +281,8 @@
       "competitor_id": "4390719"
     },
     "Ben Griffin": {
-      "score": "-1",
-      "hole": "6:55 AM",
+      "score": "E",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/4404992/ben-griffin",
       "competitor_id": "4404992"
     },
@@ -599,7 +599,7 @@
       "competitor_id": "5147926"
     },
     "Josele Ballester": {
-      "score": "E",
+      "score": "-1",
       "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/5152205/josele-ballester",
       "competitor_id": "5152205"
@@ -708,7 +708,7 @@
     },
     "Laurie Canter": {
       "score": "+1",
-      "hole": "3",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/5550/laurie-canter",
       "competitor_id": "5550"
     },
@@ -1033,11 +1033,11 @@
       "P"
     ],
     "Sahith Theegala": [
-      "P",
+      "○",
       "P",
       "○",
       "P",
-      "○"
+      "P"
     ],
     "Jimmy Stanger": [
       "P",
@@ -1831,9 +1831,9 @@
       "○"
     ],
     "Laurie Canter": [
-      "P",
-      "P",
       "□",
+      "P",
+      "P",
       "P",
       "P"
     ],
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784372019.2377186,
-  "last_score_refresh_attempt_at": 1784372956.6992846,
+  "last_score_refresh_at": 1784372958.2494566,
+  "last_score_refresh_attempt_at": 1784372958.2494566,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
