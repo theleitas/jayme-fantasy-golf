@@ -18,7 +18,7 @@
     },
     "Xander Schauffele": {
       "score": "-3",
-      "hole": "8",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele",
       "competitor_id": "10140"
     },
@@ -72,7 +72,7 @@
     },
     "Sahith Theegala": {
       "score": "-1",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/10980/sahith-theegala",
       "competitor_id": "10980"
     },
@@ -228,7 +228,7 @@
     },
     "Ryan Fox": {
       "score": "-5",
-      "hole": "8",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/4251/ryan-fox",
       "competitor_id": "4251"
     },
@@ -347,8 +347,8 @@
       "competitor_id": "4513"
     },
     "Eugenio Chacarra": {
-      "score": "-1",
-      "hole": "4",
+      "score": "-2",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/4565467/eugenio-chacarra",
       "competitor_id": "4565467"
     },
@@ -606,7 +606,7 @@
     },
     "Kazuma Kobori": {
       "score": "-2",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5186648/kazuma-kobori",
       "competitor_id": "5186648"
     },
@@ -707,8 +707,8 @@
       "competitor_id": "5539"
     },
     "Laurie Canter": {
-      "score": "+1",
-      "hole": "5",
+      "score": "+2",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/5550/laurie-canter",
       "competitor_id": "5550"
     },
@@ -971,10 +971,10 @@
     ],
     "Xander Schauffele": [
       "P",
-      "P",
       "○",
       "○",
-      "○"
+      "○",
+      "P"
     ],
     "J.J. Spaun": [
       "P",
@@ -1033,9 +1033,9 @@
       "P"
     ],
     "Sahith Theegala": [
-      "○",
       "P",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -1222,11 +1222,11 @@
       "○"
     ],
     "Ryan Fox": [
-      "○",
       "P",
       "○",
       "○",
-      "○"
+      "○",
+      "P"
     ],
     "Kristoffer Reitan": [
       "P",
@@ -1831,11 +1831,11 @@
       "○"
     ],
     "Laurie Canter": [
-      "□",
       "P",
       "P",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Tyrrell Hatton": [
       "P",
@@ -2157,7 +2157,7 @@
       "P",
       "P",
       "P",
-      "P",
+      "○",
       "○"
     ],
     "Sami Välimäki": [
@@ -2332,8 +2332,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "P"
     ],
     "Bard Bjornevik Skogen": [
       "P",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784373343.0220783,
-  "last_score_refresh_attempt_at": 1784373673.3819027,
+  "last_score_refresh_at": 1784373674.9380465,
+  "last_score_refresh_attempt_at": 1784373674.9380465,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
