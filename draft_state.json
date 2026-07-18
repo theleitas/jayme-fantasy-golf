@@ -323,8 +323,8 @@
       "competitor_id": "4425904"
     },
     "Cameron Young": {
-      "score": "-4",
-      "hole": "17",
+      "score": "-3",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4425906/cameron-young",
       "competitor_id": "4425906"
     },
@@ -546,7 +546,7 @@
     },
     "Ryan Gerard": {
       "score": "-7",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -1349,10 +1349,10 @@
     ],
     "Cameron Young": [
       "P",
-      "P",
       "□",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Sam Stevens": [
       "P",
@@ -1552,7 +1552,7 @@
     ],
     "Ryan Gerard": [
       "○",
-      "○",
+      "P",
       "P",
       "P",
       "P"
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784400861.9831774,
-  "last_score_refresh_attempt_at": 1784401220.47484,
+  "last_score_refresh_at": 1784401222.1383142,
+  "last_score_refresh_attempt_at": 1784401222.1383142,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
