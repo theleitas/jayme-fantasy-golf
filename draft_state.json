@@ -24,13 +24,13 @@
     },
     "J.J. Spaun": {
       "score": "E",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/10166/jj-spaun",
       "competitor_id": "10166"
     },
     "Lucas Herbert": {
       "score": "-9",
-      "hole": "10",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/10343/lucas-herbert",
       "competitor_id": "10343"
     },
@@ -131,8 +131,8 @@
       "competitor_id": "11345"
     },
     "Robert MacIntyre": {
-      "score": "-4",
-      "hole": "13",
+      "score": "-3",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/11378/robert-macintyre",
       "competitor_id": "11378"
     },
@@ -162,7 +162,7 @@
     },
     "Francesco Molinari": {
       "score": "-2",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/1483/francesco-molinari",
       "competitor_id": "1483"
     },
@@ -252,7 +252,7 @@
     },
     "Alex Fitzpatrick": {
       "score": "E",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/4364865/alex-fitzpatrick",
       "competitor_id": "4364865"
     },
@@ -323,8 +323,8 @@
       "competitor_id": "4425904"
     },
     "Cameron Young": {
-      "score": "-6",
-      "hole": "11",
+      "score": "-5",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/4425906/cameron-young",
       "competitor_id": "4425906"
     },
@@ -456,7 +456,7 @@
     },
     "Thomas Detry": {
       "score": "-2",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/4837/thomas-detry",
       "competitor_id": "4837"
     },
@@ -468,7 +468,7 @@
     },
     "Pierceson Coody": {
       "score": "-1",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4837368/pierceson-coody",
       "competitor_id": "4837368"
     },
@@ -515,8 +515,8 @@
       "competitor_id": "4921329"
     },
     "Jackson Suber": {
-      "score": "-7",
-      "hole": "10",
+      "score": "-8",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/4982182/jackson-suber",
       "competitor_id": "4982182"
     },
@@ -546,7 +546,7 @@
     },
     "Ryan Gerard": {
       "score": "-5",
-      "hole": "11",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -918,7 +918,7 @@
     },
     "Jon Rahm": {
       "score": "-3",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/9780/jon-rahm",
       "competitor_id": "9780"
     },
@@ -936,7 +936,7 @@
     },
     "Sam Burns": {
       "score": "-8",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/9938/sam-burns",
       "competitor_id": "9938"
     },
@@ -977,17 +977,17 @@
       "P"
     ],
     "J.J. Spaun": [
-      "P",
       "○",
       "○",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Lucas Herbert": [
-      "P",
       "○",
       "P",
       "○",
+      "P",
       "P"
     ],
     "Kurt Kitayama": [
@@ -1093,7 +1093,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "□"
     ],
     "Sungjae Im": [
       "P",
@@ -1351,7 +1351,7 @@
       "P",
       "P",
       "P",
-      "P",
+      "□",
       "□"
     ],
     "Sam Stevens": [
@@ -1460,11 +1460,11 @@
       "○"
     ],
     "Pierceson Coody": [
-      "□",
       "P",
       "○",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Harry Higgs": [
       "P",
@@ -1523,11 +1523,11 @@
       "□"
     ],
     "Jackson Suber": [
-      "P",
       "□",
       "P",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Cooper Dossey": [
       "P",
@@ -2027,8 +2027,8 @@
       "P"
     ],
     "Sam Burns": [
-      "○",
       "□",
+      "P",
       "P",
       "P",
       "P"
@@ -2099,8 +2099,8 @@
     ],
     "Francesco Molinari": [
       "P",
-      "P",
       "□",
+      "P",
       "P",
       "P"
     ],
@@ -2231,11 +2231,11 @@
       "P"
     ],
     "Thomas Detry": [
-      "□",
       "P",
       "□",
       "○",
-      "□"
+      "□",
+      "P"
     ],
     "Naoyuki Kataoka": [
       "P",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784395063.1469336,
-  "last_score_refresh_attempt_at": 1784395616.0879998,
+  "last_score_refresh_at": 1784395617.758362,
+  "last_score_refresh_attempt_at": 1784395617.758362,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
