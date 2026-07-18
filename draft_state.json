@@ -23,8 +23,8 @@
       "competitor_id": "10140"
     },
     "J.J. Spaun": {
-      "score": "-1",
-      "hole": "15",
+      "score": "E",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/10166/jj-spaun",
       "competitor_id": "10166"
     },
@@ -119,8 +119,8 @@
       "competitor_id": "11332"
     },
     "Victor Perez": {
-      "score": "-2",
-      "hole": "17",
+      "score": "E",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/11340/victor-perez",
       "competitor_id": "11340"
     },
@@ -132,7 +132,7 @@
     },
     "Robert MacIntyre": {
       "score": "-4",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/11378/robert-macintyre",
       "competitor_id": "11378"
     },
@@ -162,7 +162,7 @@
     },
     "Francesco Molinari": {
       "score": "-2",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/1483/francesco-molinari",
       "competitor_id": "1483"
     },
@@ -269,8 +269,8 @@
       "competitor_id": "4368981"
     },
     "Ludvig Aberg": {
-      "score": "-5",
-      "hole": "16",
+      "score": "-6",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4375972/ludvig-aberg",
       "competitor_id": "4375972"
     },
@@ -366,7 +366,7 @@
     },
     "Shane Lowry": {
       "score": "-4",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4587/shane-lowry",
       "competitor_id": "4587"
     },
@@ -467,8 +467,8 @@
       "competitor_id": "4837226"
     },
     "Pierceson Coody": {
-      "score": "-2",
-      "hole": "15",
+      "score": "-1",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4837368/pierceson-coody",
       "competitor_id": "4837368"
     },
@@ -653,8 +653,8 @@
       "competitor_id": "5337673"
     },
     "Bud Cauley": {
-      "score": "-4",
-      "hole": "12",
+      "score": "-3",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/5338/bud-cauley",
       "competitor_id": "5338"
     },
@@ -701,8 +701,8 @@
       "competitor_id": "5467"
     },
     "Tommy Fleetwood": {
-      "score": "-7",
-      "hole": "14",
+      "score": "-6",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/5539/tommy-fleetwood",
       "competitor_id": "5539"
     },
@@ -714,7 +714,7 @@
     },
     "Tyrrell Hatton": {
       "score": "+1",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5553/tyrrell-hatton",
       "competitor_id": "5553"
     },
@@ -894,7 +894,7 @@
     },
     "Scottie Scheffler": {
       "score": "-5",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/9478/scottie-scheffler",
       "competitor_id": "9478"
     },
@@ -918,7 +918,7 @@
     },
     "Jon Rahm": {
       "score": "-3",
-      "hole": "13",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/9780/jon-rahm",
       "competitor_id": "9780"
     },
@@ -977,11 +977,11 @@
       "P"
     ],
     "J.J. Spaun": [
-      "□",
       "P",
       "○",
       "○",
-      "P"
+      "P",
+      "□"
     ],
     "Lucas Herbert": [
       "P",
@@ -1271,11 +1271,11 @@
       "□"
     ],
     "Ludvig Aberg": [
-      "P",
       "○",
       "P",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Niklas Nørgaard": [
       "P",
@@ -1383,9 +1383,9 @@
       "P"
     ],
     "Shane Lowry": [
-      "□",
       "○",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -1461,10 +1461,10 @@
     ],
     "Pierceson Coody": [
       "□",
-      "□",
       "P",
       "○",
-      "P"
+      "P",
+      "□"
     ],
     "Harry Higgs": [
       "P",
@@ -1691,11 +1691,11 @@
       "□"
     ],
     "Bud Cauley": [
-      "□",
       "P",
       "○",
       "P",
-      "○"
+      "○",
+      "□"
     ],
     "Hamilton Coleman": [
       "P",
@@ -1824,11 +1824,11 @@
       "P"
     ],
     "Tommy Fleetwood": [
-      "P",
       "○",
       "P",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Laurie Canter": [
       "○",
@@ -1838,11 +1838,11 @@
       "□"
     ],
     "Tyrrell Hatton": [
-      "□",
       "P",
       "□",
       "P",
-      "○"
+      "○",
+      "P"
     ],
     "Patrick Reed": [
       "P",
@@ -2006,7 +2006,7 @@
       "P"
     ],
     "Jon Rahm": [
-      "□",
+      "P",
       "P",
       "P",
       "P",
@@ -2069,11 +2069,11 @@
       "□"
     ],
     "Victor Perez": [
-      "□",
       "P",
       "P",
       "○",
-      "P"
+      "P",
+      "□"
     ],
     "Travis Smyth": [
       "□",
@@ -2100,8 +2100,8 @@
     "Francesco Molinari": [
       "P",
       "P",
-      "P",
       "□",
+      "P",
       "P"
     ],
     "Bernd Wiesberger": [
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784394081.786959,
-  "last_score_refresh_attempt_at": 1784394614.5413525,
+  "last_score_refresh_at": 1784394616.098927,
+  "last_score_refresh_attempt_at": 1784394616.098927,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
