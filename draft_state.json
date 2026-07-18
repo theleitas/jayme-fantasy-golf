@@ -30,7 +30,7 @@
     },
     "Lucas Herbert": {
       "score": "-7",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/10343/lucas-herbert",
       "competitor_id": "10343"
     },
@@ -516,7 +516,7 @@
     },
     "Jackson Suber": {
       "score": "-6",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4982182/jackson-suber",
       "competitor_id": "4982182"
     },
@@ -985,9 +985,9 @@
     ],
     "Lucas Herbert": [
       "P",
+      "□",
+      "□",
       "P",
-      "□",
-      "□",
       "P"
     ],
     "Kurt Kitayama": [
@@ -1523,11 +1523,11 @@
       "□"
     ],
     "Jackson Suber": [
-      "□",
       "○",
       "□",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Cooper Dossey": [
       "P",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784402244.6710768,
-  "last_score_refresh_attempt_at": 1784402600.7399652,
+  "last_score_refresh_at": 1784402602.2689242,
+  "last_score_refresh_attempt_at": 1784402602.2689242,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
