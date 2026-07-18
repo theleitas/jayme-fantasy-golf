@@ -30,7 +30,7 @@
     },
     "Lucas Herbert": {
       "score": "-9",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/10343/lucas-herbert",
       "competitor_id": "10343"
     },
@@ -161,8 +161,8 @@
       "competitor_id": "1407"
     },
     "Francesco Molinari": {
-      "score": "-3",
-      "hole": "17",
+      "score": "-2",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/1483/francesco-molinari",
       "competitor_id": "1483"
     },
@@ -324,7 +324,7 @@
     },
     "Cameron Young": {
       "score": "-5",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/4425906/cameron-young",
       "competitor_id": "4425906"
     },
@@ -894,7 +894,7 @@
     },
     "Scottie Scheffler": {
       "score": "-4",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/9478/scottie-scheffler",
       "competitor_id": "9478"
     },
@@ -984,7 +984,7 @@
       "P"
     ],
     "Lucas Herbert": [
-      "○",
+      "P",
       "P",
       "P",
       "P",
@@ -1349,9 +1349,9 @@
     ],
     "Cameron Young": [
       "P",
+      "□",
+      "□",
       "P",
-      "□",
-      "□",
       "P"
     ],
     "Sam Stevens": [
@@ -1988,8 +1988,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "□"
+      "□",
+      "P"
     ],
     "Alex Smalley": [
       "P",
@@ -2101,8 +2101,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "□"
     ],
     "Bernd Wiesberger": [
       "P",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784397825.3547432,
-  "last_score_refresh_attempt_at": 1784398138.0482419,
+  "last_score_refresh_at": 1784398139.6511898,
+  "last_score_refresh_attempt_at": 1784398139.6511898,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
