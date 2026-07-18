@@ -131,8 +131,8 @@
       "competitor_id": "11345"
     },
     "Robert MacIntyre": {
-      "score": "-3",
-      "hole": "14",
+      "score": "-2",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/11378/robert-macintyre",
       "competitor_id": "11378"
     },
@@ -156,7 +156,7 @@
     },
     "Daniel Brown": {
       "score": "-4",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/1407/daniel-brown",
       "competitor_id": "1407"
     },
@@ -252,7 +252,7 @@
     },
     "Alex Fitzpatrick": {
       "score": "E",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/4364865/alex-fitzpatrick",
       "competitor_id": "4364865"
     },
@@ -263,8 +263,8 @@
       "competitor_id": "4364873"
     },
     "Cameron John": {
-      "score": "-5",
-      "hole": "17",
+      "score": "-4",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4368981/cameron-john",
       "competitor_id": "4368981"
     },
@@ -455,8 +455,8 @@
       "competitor_id": "4699418"
     },
     "Thomas Detry": {
-      "score": "-2",
-      "hole": "13",
+      "score": "-1",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/4837/thomas-detry",
       "competitor_id": "4837"
     },
@@ -654,7 +654,7 @@
     },
     "Bud Cauley": {
       "score": "-3",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/5338/bud-cauley",
       "competitor_id": "5338"
     },
@@ -1092,7 +1092,7 @@
       "P",
       "P",
       "P",
-      "P",
+      "□",
       "□"
     ],
     "Sungjae Im": [
@@ -1691,11 +1691,11 @@
       "□"
     ],
     "Bud Cauley": [
-      "P",
       "○",
       "P",
       "○",
-      "□"
+      "□",
+      "P"
     ],
     "Hamilton Coleman": [
       "P",
@@ -2091,11 +2091,11 @@
     ],
     "Louis Oosthuizen": [],
     "Daniel Brown": [
-      "□",
       "○",
       "P",
       "○",
-      "○"
+      "○",
+      "P"
     ],
     "Francesco Molinari": [
       "P",
@@ -2122,8 +2122,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "□"
     ],
     "Antoine Rozner": [
       "P",
@@ -2231,11 +2231,11 @@
       "P"
     ],
     "Thomas Detry": [
-      "P",
       "□",
       "○",
       "□",
-      "P"
+      "P",
+      "□"
     ],
     "Naoyuki Kataoka": [
       "P",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784395617.758362,
-  "last_score_refresh_attempt_at": 1784395930.138628,
+  "last_score_refresh_at": 1784395931.8220093,
+  "last_score_refresh_attempt_at": 1784395931.8220093,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
