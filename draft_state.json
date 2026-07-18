@@ -174,7 +174,7 @@
     },
     "Peter Uihlein": {
       "score": "+1",
-      "hole": "2",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/1674/peter-uihlein",
       "competitor_id": "1674"
     },
@@ -203,8 +203,8 @@
       "competitor_id": "3550"
     },
     "Rickie Fowler": {
-      "score": "E",
-      "hole": "5:20 AM",
+      "score": "-1",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/3702/rickie-fowler",
       "competitor_id": "3702"
     },
@@ -216,7 +216,7 @@
     },
     "Alex Noren": {
       "score": "E",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/3832/alex-noren",
       "competitor_id": "3832"
     },
@@ -299,8 +299,8 @@
       "competitor_id": "4408316"
     },
     "Min Woo Lee": {
-      "score": "E",
-      "hole": "5",
+      "score": "+1",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/4410932/min-woo-lee",
       "competitor_id": "4410932"
     },
@@ -341,8 +341,8 @@
       "competitor_id": "4426181"
     },
     "Keegan Bradley": {
-      "score": "+2",
-      "hole": "1",
+      "score": "+4",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/4513/keegan-bradley",
       "competitor_id": "4513"
     },
@@ -390,7 +390,7 @@
     },
     "Kazuki Higa": {
       "score": "+1",
-      "hole": "4",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/4597553/kazuki-higa",
       "competitor_id": "4597553"
     },
@@ -462,7 +462,7 @@
     },
     "Naoyuki Kataoka": {
       "score": "E",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/4837226/naoyuki-kataoka",
       "competitor_id": "4837226"
     },
@@ -479,8 +479,8 @@
       "competitor_id": "4848"
     },
     "Ryo Hisatsune": {
-      "score": "+1",
-      "hole": "5",
+      "score": "+2",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/4858572/ryo-hisatsune",
       "competitor_id": "4858572"
     },
@@ -540,7 +540,7 @@
     },
     "Marcus Plunkett": {
       "score": "E",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/5075661/marcus-plunkett",
       "competitor_id": "5075661"
     },
@@ -552,7 +552,7 @@
     },
     "Aldrich Potgieter": {
       "score": "+1",
-      "hole": "1",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5080439/aldrich-potgieter",
       "competitor_id": "5080439"
     },
@@ -600,7 +600,7 @@
     },
     "Josele Ballester": {
       "score": "+1",
-      "hole": "4",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/5152205/josele-ballester",
       "competitor_id": "5152205"
     },
@@ -690,7 +690,7 @@
     },
     "Russell Henley": {
       "score": "E",
-      "hole": "5",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/5409/russell-henley",
       "competitor_id": "5409"
     },
@@ -780,13 +780,13 @@
     },
     "Brooks Koepka": {
       "score": "+1",
-      "hole": "2",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/6798/brooks-koepka",
       "competitor_id": "6798"
     },
     "Jack McDonald": {
-      "score": "+1",
-      "hole": "5",
+      "score": "+2",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/6849/jack-mcdonald",
       "competitor_id": "6849"
     },
@@ -846,7 +846,7 @@
     },
     "Max Homa": {
       "score": "E",
-      "hole": "5:20 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/8973/max-homa",
       "competitor_id": "8973"
     },
@@ -899,8 +899,8 @@
       "competitor_id": "9478"
     },
     "Alex Smalley": {
-      "score": "E",
-      "hole": "1",
+      "score": "+1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/9484/alex-smalley",
       "competitor_id": "9484"
     },
@@ -1131,9 +1131,9 @@
       "□"
     ],
     "Peter Uihlein": [
+      "○",
       "P",
-      "○",
-      "○",
+      "P",
       "P",
       "P"
     ],
@@ -1209,8 +1209,8 @@
     ],
     "Alex Noren": [
       "P",
-      "P",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -1313,11 +1313,11 @@
       "P"
     ],
     "Min Woo Lee": [
+      "P",
+      "P",
+      "P",
       "○",
-      "P",
-      "P",
-      "P",
-      "○"
+      "□"
     ],
     "Ugo Coussaud": [
       "P",
@@ -1363,8 +1363,8 @@
     ],
     "Keegan Bradley": [
       "P",
-      "P",
-      "P",
+      "□",
+      "□",
       "□",
       "□"
     ],
@@ -1481,11 +1481,11 @@
       "□"
     ],
     "Ryo Hisatsune": [
-      "□",
       "P",
       "P",
       "P",
-      "○"
+      "○",
+      "□"
     ],
     "Filippo Celli": [
       "○",
@@ -1797,10 +1797,10 @@
     ],
     "Russell Henley": [
       "P",
-      "□",
       "P",
+      "○",
       "P",
-      "○"
+      "P"
     ],
     "Jordan Spieth": [
       "□",
@@ -1881,9 +1881,9 @@
     ],
     "Brooks Koepka": [
       "P",
-      "P",
-      "P",
       "□",
+      "P",
+      "P",
       "P"
     ],
     "Patrick Rodgers": [
@@ -1994,8 +1994,8 @@
     "Alex Smalley": [
       "□",
       "□",
-      "□",
       "P",
+      "□",
       "□"
     ],
     "Maverick McNealy": [
@@ -2190,8 +2190,8 @@
     ],
     "Kazuki Higa": [
       "P",
-      "P",
       "□",
+      "P",
       "P",
       "P"
     ],
@@ -2238,10 +2238,10 @@
       "○"
     ],
     "Naoyuki Kataoka": [
+      "○",
+      "○",
+      "○",
       "P",
-      "○",
-      "○",
-      "○",
       "P"
     ],
     "Rasmus Neergaard-Petersen": [
@@ -2322,9 +2322,9 @@
       "□"
     ],
     "Josele Ballester": [
+      "○",
+      "○",
       "P",
-      "○",
-      "○",
       "P",
       "P"
     ],
@@ -2438,7 +2438,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "□"
     ],
     "Joe Dean": [
       "P",
@@ -2512,10 +2512,10 @@
     ],
     "Aldrich Potgieter": [
       "P",
-      "P",
-      "P",
       "□",
-      "□"
+      "□",
+      "P",
+      "P"
     ]
   },
   "player_headshots": {
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784366931.630146,
-  "last_score_refresh_attempt_at": 1784367859.496884,
+  "last_score_refresh_at": 1784367861.0353653,
+  "last_score_refresh_attempt_at": 1784367861.0353653,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
