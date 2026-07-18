@@ -29,8 +29,8 @@
       "competitor_id": "10166"
     },
     "Lucas Herbert": {
-      "score": "-9",
-      "hole": "14",
+      "score": "-8",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/10343/lucas-herbert",
       "competitor_id": "10343"
     },
@@ -54,7 +54,7 @@
     },
     "Matt Wallace": {
       "score": "-3",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/10548/matt-wallace",
       "competitor_id": "10548"
     },
@@ -132,7 +132,7 @@
     },
     "Robert MacIntyre": {
       "score": "-3",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/11378/robert-macintyre",
       "competitor_id": "11378"
     },
@@ -251,8 +251,8 @@
       "competitor_id": "4348470"
     },
     "Alex Fitzpatrick": {
-      "score": "E",
-      "hole": "17",
+      "score": "-1",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4364865/alex-fitzpatrick",
       "competitor_id": "4364865"
     },
@@ -324,7 +324,7 @@
     },
     "Cameron Young": {
       "score": "-4",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4425906/cameron-young",
       "competitor_id": "4425906"
     },
@@ -456,7 +456,7 @@
     },
     "Thomas Detry": {
       "score": "E",
-      "hole": "16",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4837/thomas-detry",
       "competitor_id": "4837"
     },
@@ -515,8 +515,8 @@
       "competitor_id": "4921329"
     },
     "Jackson Suber": {
-      "score": "-8",
-      "hole": "14",
+      "score": "-7",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/4982182/jackson-suber",
       "competitor_id": "4982182"
     },
@@ -546,7 +546,7 @@
     },
     "Ryan Gerard": {
       "score": "-7",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -654,7 +654,7 @@
     },
     "Bud Cauley": {
       "score": "-1",
-      "hole": "16",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5338/bud-cauley",
       "competitor_id": "5338"
     },
@@ -809,8 +809,8 @@
       "competitor_id": "7067"
     },
     "Si Woo Kim": {
-      "score": "-7",
-      "hole": "16",
+      "score": "-8",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/7081/si-woo-kim",
       "competitor_id": "7081"
     },
@@ -988,7 +988,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "□"
     ],
     "Kurt Kitayama": [
       "P",
@@ -1089,10 +1089,10 @@
       "○"
     ],
     "Robert MacIntyre": [
-      "P",
       "□",
       "□",
       "○",
+      "P",
       "P"
     ],
     "Sungjae Im": [
@@ -1254,7 +1254,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "○"
     ],
     "Viktor Hovland": [
       "P",
@@ -1349,10 +1349,10 @@
     ],
     "Cameron Young": [
       "□",
+      "P",
+      "P",
       "□",
-      "P",
-      "P",
-      "□"
+      "P"
     ],
     "Sam Stevens": [
       "P",
@@ -1523,11 +1523,11 @@
       "□"
     ],
     "Jackson Suber": [
-      "P",
       "○",
       "P",
       "□",
-      "○"
+      "○",
+      "□"
     ],
     "Cooper Dossey": [
       "P",
@@ -1552,9 +1552,9 @@
     ],
     "Ryan Gerard": [
       "P",
+      "○",
+      "○",
       "P",
-      "○",
-      "○",
       "P"
     ],
     "William Mouw": [
@@ -1691,11 +1691,11 @@
       "□"
     ],
     "Bud Cauley": [
-      "○",
-      "□",
       "P",
       "□",
-      "□"
+      "□",
+      "P",
+      "P"
     ],
     "Hamilton Coleman": [
       "P",
@@ -1908,11 +1908,11 @@
       "○"
     ],
     "Si Woo Kim": [
-      "□",
       "P",
       "P",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Marcelo Rozo": [
       "○",
@@ -2048,8 +2048,8 @@
       "○"
     ],
     "Matt Wallace": [
-      "P",
       "○",
+      "P",
       "P",
       "P",
       "P"
@@ -2235,7 +2235,7 @@
       "P",
       "□",
       "P",
-      "□"
+      "P"
     ],
     "Naoyuki Kataoka": [
       "P",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784398497.6830568,
-  "last_score_refresh_attempt_at": 1784399427.0119414,
+  "last_score_refresh_at": 1784399428.6594727,
+  "last_score_refresh_attempt_at": 1784399428.6594727,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
