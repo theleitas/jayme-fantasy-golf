@@ -11,8 +11,8 @@
   "last_pick_started_at": 1784118861.3090055,
   "player_results": {
     "Bryson DeChambeau": {
-      "score": "-6",
-      "hole": "16",
+      "score": "-7",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/10046/bryson-dechambeau",
       "competitor_id": "10046"
     },
@@ -935,8 +935,8 @@
       "competitor_id": "9899"
     },
     "Sam Burns": {
-      "score": "-9",
-      "hole": "16",
+      "score": "-10",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/9938/sam-burns",
       "competitor_id": "9938"
     },
@@ -951,9 +951,9 @@
     "Bryson DeChambeau": [
       "P",
       "P",
-      "P",
       "○",
-      "P"
+      "P",
+      "○"
     ],
     "Cole Hammer": [
       "□",
@@ -2028,10 +2028,10 @@
     ],
     "Sam Burns": [
       "P",
-      "P",
       "○",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Carl Yuan": [
       "○",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784399428.6594727,
-  "last_score_refresh_attempt_at": 1784399780.6631713,
+  "last_score_refresh_at": 1784399782.2551725,
+  "last_score_refresh_attempt_at": 1784399782.2551725,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
