@@ -120,7 +120,7 @@
     },
     "Victor Perez": {
       "score": "-3",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/11340/victor-perez",
       "competitor_id": "11340"
     },
@@ -204,7 +204,7 @@
     },
     "Rickie Fowler": {
       "score": "+1",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/3702/rickie-fowler",
       "competitor_id": "3702"
     },
@@ -222,7 +222,7 @@
     },
     "Adam Scott": {
       "score": "E",
-      "hole": "4",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/388/adam-scott",
       "competitor_id": "388"
     },
@@ -264,7 +264,7 @@
     },
     "Cameron John": {
       "score": "-3",
-      "hole": "9:05 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/4368981/cameron-john",
       "competitor_id": "4368981"
     },
@@ -425,8 +425,8 @@
       "competitor_id": "4683800"
     },
     "Chris Gotterup": {
-      "score": "-1",
-      "hole": "4",
+      "score": "+1",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/4690755/chris-gotterup",
       "competitor_id": "4690755"
     },
@@ -714,7 +714,7 @@
     },
     "Tyrrell Hatton": {
       "score": "-3",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/5553/tyrrell-hatton",
       "competitor_id": "5553"
     },
@@ -840,13 +840,13 @@
     },
     "Sepp Straka": {
       "score": "-1",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/8961/sepp-straka",
       "competitor_id": "8961"
     },
     "Max Homa": {
       "score": "-3",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/8973/max-homa",
       "competitor_id": "8973"
     },
@@ -869,7 +869,7 @@
       "competitor_id": "9037"
     },
     "Corey Conners": {
-      "score": "-2",
+      "score": "-3",
       "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/9126/corey-conners",
       "competitor_id": "9126"
@@ -1197,8 +1197,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "P"
     ],
     "Nick Taylor": [
       "P",
@@ -1216,9 +1216,9 @@
     ],
     "Adam Scott": [
       "○",
-      "○",
       "□",
       "□",
+      "P",
       "P"
     ],
     "Ryan Fox": [
@@ -1440,9 +1440,9 @@
     ],
     "Chris Gotterup": [
       "○",
-      "○",
       "P",
       "P",
+      "□",
       "□"
     ],
     "Taihei Sato": [
@@ -1838,11 +1838,11 @@
       "□"
     ],
     "Tyrrell Hatton": [
-      "P",
       "○",
       "P",
       "○",
-      "○"
+      "○",
+      "P"
     ],
     "Patrick Reed": [
       "○",
@@ -1939,8 +1939,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "□"
+      "□",
+      "P"
     ],
     "Michael Kim": [
       "P",
@@ -2070,10 +2070,10 @@
     ],
     "Victor Perez": [
       "P",
-      "P",
       "□",
       "○",
-      "□"
+      "□",
+      "P"
     ],
     "Travis Smyth": [
       "□",
@@ -2476,11 +2476,11 @@
       "□"
     ],
     "Max Homa": [
-      "P",
       "○",
       "○",
       "P",
-      "○"
+      "○",
+      "P"
     ],
     "Haotong Li": [
       "P",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784380857.064817,
-  "last_score_refresh_attempt_at": 1784381251.2774973,
+  "last_score_refresh_at": 1784381252.941375,
+  "last_score_refresh_attempt_at": 1784381252.941375,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
