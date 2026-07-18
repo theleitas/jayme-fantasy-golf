@@ -72,7 +72,7 @@
     },
     "Sahith Theegala": {
       "score": "-2",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/10980/sahith-theegala",
       "competitor_id": "10980"
     },
@@ -156,7 +156,7 @@
     },
     "Daniel Brown": {
       "score": "-3",
-      "hole": "9:05 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/1407/daniel-brown",
       "competitor_id": "1407"
     },
@@ -216,7 +216,7 @@
     },
     "Alex Noren": {
       "score": "-1",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/3832/alex-noren",
       "competitor_id": "3832"
     },
@@ -414,7 +414,7 @@
     },
     "John Parry": {
       "score": "-1",
-      "hole": "7",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/4671/john-parry",
       "competitor_id": "4671"
     },
@@ -437,8 +437,8 @@
       "competitor_id": "4699328"
     },
     "Jesper Svensson": {
-      "score": "-2",
-      "hole": "7",
+      "score": "-1",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/4699329/jesper-svensson",
       "competitor_id": "4699329"
     },
@@ -521,8 +521,8 @@
       "competitor_id": "4982182"
     },
     "Jacob Bridgeman": {
-      "score": "-4",
-      "hole": "7",
+      "score": "-3",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/5054388/jacob-bridgeman",
       "competitor_id": "5054388"
     },
@@ -612,7 +612,7 @@
     },
     "Johnny Keefer": {
       "score": "-1",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5217048/johnny-keefer",
       "competitor_id": "5217048"
     },
@@ -707,8 +707,8 @@
       "competitor_id": "5539"
     },
     "Laurie Canter": {
-      "score": "+2",
-      "hole": "14",
+      "score": "+3",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/5550/laurie-canter",
       "competitor_id": "5550"
     },
@@ -720,7 +720,7 @@
     },
     "Patrick Reed": {
       "score": "-2",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5579/patrick-reed",
       "competitor_id": "5579"
     },
@@ -900,7 +900,7 @@
     },
     "Alex Smalley": {
       "score": "-3",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/9484/alex-smalley",
       "competitor_id": "9484"
     },
@@ -1033,11 +1033,11 @@
       "P"
     ],
     "Sahith Theegala": [
-      "□",
       "P",
       "P",
       "P",
-      "○"
+      "○",
+      "P"
     ],
     "Jimmy Stanger": [
       "P",
@@ -1208,11 +1208,11 @@
       "P"
     ],
     "Alex Noren": [
-      "○",
       "P",
       "□",
       "P",
-      "○"
+      "○",
+      "P"
     ],
     "Adam Scott": [
       "○",
@@ -1425,9 +1425,9 @@
       "□"
     ],
     "John Parry": [
-      "□",
       "P",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -1537,11 +1537,11 @@
       "□"
     ],
     "Jacob Bridgeman": [
+      "P",
+      "P",
       "○",
       "P",
-      "P",
-      "P",
-      "○"
+      "□"
     ],
     "Adrien Dumont de Chassart": [
       "P",
@@ -1622,9 +1622,9 @@
     ],
     "Johnny Keefer": [
       "P",
+      "○",
+      "○",
       "P",
-      "○",
-      "○",
       "P"
     ],
     "Giuseppe Puebla": [
@@ -1833,9 +1833,9 @@
     "Laurie Canter": [
       "P",
       "P",
-      "P",
       "□",
-      "○"
+      "○",
+      "□"
     ],
     "Tyrrell Hatton": [
       "P",
@@ -1849,7 +1849,7 @@
       "○",
       "○",
       "○",
-      "○"
+      "P"
     ],
     "Justin Rose": [
       "P",
@@ -1995,8 +1995,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "○"
+      "○",
+      "P"
     ],
     "Maverick McNealy": [
       "P",
@@ -2210,11 +2210,11 @@
       "□"
     ],
     "Jesper Svensson": [
-      "P",
       "□",
       "P",
       "○",
-      "○"
+      "○",
+      "□"
     ],
     "Ryutaro Nagano": [
       "P",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784380493.199715,
-  "last_score_refresh_attempt_at": 1784380855.313671,
+  "last_score_refresh_at": 1784380857.064817,
+  "last_score_refresh_attempt_at": 1784380857.064817,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
