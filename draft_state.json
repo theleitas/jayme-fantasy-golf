@@ -341,8 +341,8 @@
       "competitor_id": "4426181"
     },
     "Keegan Bradley": {
-      "score": "+5",
-      "hole": "6",
+      "score": "+6",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/4513/keegan-bradley",
       "competitor_id": "4513"
     },
@@ -437,8 +437,8 @@
       "competitor_id": "4699328"
     },
     "Jesper Svensson": {
-      "score": "+7",
-      "hole": "6",
+      "score": "+8",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/4699329/jesper-svensson",
       "competitor_id": "4699329"
     },
@@ -480,7 +480,7 @@
     },
     "Ryo Hisatsune": {
       "score": "+2",
-      "hole": "3:40 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/4858572/ryo-hisatsune",
       "competitor_id": "4858572"
     },
@@ -539,8 +539,8 @@
       "competitor_id": "5062278"
     },
     "Marcus Plunkett": {
-      "score": "+2",
-      "hole": "3:40 AM",
+      "score": "+4",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/5075661/marcus-plunkett",
       "competitor_id": "5075661"
     },
@@ -552,7 +552,7 @@
     },
     "Aldrich Potgieter": {
       "score": "+2",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/5080439/aldrich-potgieter",
       "competitor_id": "5080439"
     },
@@ -768,7 +768,7 @@
     },
     "Andy Sullivan": {
       "score": "+2",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/5956/andy-sullivan",
       "competitor_id": "5956"
     },
@@ -1365,7 +1365,7 @@
       "P",
       "P",
       "P",
-      "P",
+      "□",
       "□"
     ],
     "Matti Schmid": [
@@ -2214,7 +2214,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "□"
     ],
     "Ryutaro Nagano": [
       "P",
@@ -2430,8 +2430,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "□"
+      "□",
+      "P"
     ],
     "Jack McDonald": [
       "□",
@@ -2511,11 +2511,11 @@
       "P"
     ],
     "Aldrich Potgieter": [
-      "P",
       "○",
       "P",
       "P",
-      "□"
+      "□",
+      "P"
     ]
   },
   "player_headshots": {
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784447476.3326209,
-  "last_score_refresh_attempt_at": 1784447875.468019,
+  "last_score_refresh_at": 1784447877.1544442,
+  "last_score_refresh_attempt_at": 1784447877.1544442,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
