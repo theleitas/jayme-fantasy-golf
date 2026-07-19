@@ -227,8 +227,8 @@
       "competitor_id": "388"
     },
     "Ryan Fox": {
-      "score": "-8",
-      "hole": "13",
+      "score": "-9",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/4251/ryan-fox",
       "competitor_id": "4251"
     },
@@ -606,7 +606,7 @@
     },
     "Kazuma Kobori": {
       "score": "-2",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5186648/kazuma-kobori",
       "competitor_id": "5186648"
     },
@@ -762,7 +762,7 @@
     },
     "Hideki Matsuyama": {
       "score": "-4",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5860/hideki-matsuyama",
       "competitor_id": "5860"
     },
@@ -810,7 +810,7 @@
     },
     "Si Woo Kim": {
       "score": "-8",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/7081/si-woo-kim",
       "competitor_id": "7081"
     },
@@ -936,7 +936,7 @@
     },
     "Sam Burns": {
       "score": "-8",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/9938/sam-burns",
       "competitor_id": "9938"
     },
@@ -1267,11 +1267,11 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
       "PAR",
       "PAR",
       "PAR",
+      "BIRDIE",
       "BIRDIE"
     ],
     "Kristoffer Reitan": [
@@ -1972,8 +1972,8 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR",
       "BIRDIE",
+      "PAR",
       "PAR",
       "PAR",
       "PAR"
@@ -2024,13 +2024,13 @@
       "BIRDIE"
     ],
     "Si Woo Kim": [
-      "BIRDIE",
       "PAR",
       "PAR",
       "PAR",
       "PAR",
       "BOGEY",
       "BOGEY",
+      "PAR",
       "PAR",
       "PAR"
     ],
@@ -2168,7 +2168,7 @@
     ],
     "Sam Burns": [
       "BOGEY",
-      "BOGEY",
+      "PAR",
       "PAR",
       "PAR",
       "PAR",
@@ -2517,7 +2517,6 @@
       "PAR"
     ],
     "Kazuma Kobori": [
-      "BOGEY",
       "PAR",
       "PAR",
       "PAR",
@@ -2525,7 +2524,8 @@
       "BOGEY",
       "PAR",
       "PAR",
-      "BOGEY"
+      "BOGEY",
+      "PAR"
     ],
     "Bard Bjornevik Skogen": [
       "PAR",
@@ -2751,8 +2751,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784478996.0980613,
-  "last_score_refresh_attempt_at": 1784479354.536258,
+  "last_score_refresh_at": 1784479356.226952,
+  "last_score_refresh_attempt_at": 1784479356.226952,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
