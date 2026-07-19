@@ -132,7 +132,7 @@
     },
     "Robert MacIntyre": {
       "score": "-1",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/11378/robert-macintyre",
       "competitor_id": "11378"
     },
@@ -155,8 +155,8 @@
       "competitor_id": "1225"
     },
     "Daniel Brown": {
-      "score": "-2",
-      "hole": "11",
+      "score": "-1",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/1407/daniel-brown",
       "competitor_id": "1407"
     },
@@ -246,7 +246,7 @@
     },
     "Kristoffer Reitan": {
       "score": "-3",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4348470/kristoffer-reitan",
       "competitor_id": "4348470"
     },
@@ -264,7 +264,7 @@
     },
     "Cameron John": {
       "score": "-3",
-      "hole": "11",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/4368981/cameron-john",
       "competitor_id": "4368981"
     },
@@ -323,8 +323,8 @@
       "competitor_id": "4425904"
     },
     "Cameron Young": {
-      "score": "-9",
-      "hole": "16",
+      "score": "-10",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4425906/cameron-young",
       "competitor_id": "4425906"
     },
@@ -366,7 +366,7 @@
     },
     "Shane Lowry": {
       "score": "-3",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/4587/shane-lowry",
       "competitor_id": "4587"
     },
@@ -546,7 +546,7 @@
     },
     "Ryan Gerard": {
       "score": "-6",
-      "hole": "6",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -845,8 +845,8 @@
       "competitor_id": "8961"
     },
     "Max Homa": {
-      "score": "-4",
-      "hole": "13",
+      "score": "-3",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/8973/max-homa",
       "competitor_id": "8973"
     },
@@ -900,7 +900,7 @@
     },
     "Alex Smalley": {
       "score": "-1",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/9484/alex-smalley",
       "competitor_id": "9484"
     },
@@ -918,7 +918,7 @@
     },
     "Jon Rahm": {
       "score": "-1",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/9780/jon-rahm",
       "competitor_id": "9780"
     },
@@ -1115,11 +1115,11 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
       "BIRDIE",
       "PAR",
-      "BOGEY"
+      "BOGEY",
+      "PAR"
     ],
     "Sungjae Im": [
       "PAR",
@@ -1275,13 +1275,13 @@
       "PAR"
     ],
     "Kristoffer Reitan": [
-      "BIRDIE",
       "PAR",
       "BOGEY",
       "PAR",
       "PAR",
       "PAR",
       "BOGEY",
+      "PAR",
       "PAR",
       "PAR"
     ],
@@ -1409,7 +1409,6 @@
       "BOGEY"
     ],
     "Cameron Young": [
-      "PAR",
       "BIRDIE",
       "PAR",
       "PAR",
@@ -1417,7 +1416,8 @@
       "PAR",
       "BIRDIE",
       "PAR",
-      "PAR"
+      "PAR",
+      "BIRDIE"
     ],
     "Sam Stevens": [
       "PAR",
@@ -1448,7 +1448,6 @@
       "PAR"
     ],
     "Shane Lowry": [
-      "BIRDIE",
       "PAR",
       "PAR",
       "PAR",
@@ -1456,6 +1455,7 @@
       "PAR",
       "BOGEY",
       "BOGEY",
+      "PAR",
       "PAR"
     ],
     "Chandler Phillips": [
@@ -1644,8 +1644,8 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
+      "PAR",
       "PAR"
     ],
     "William Mouw": [
@@ -2120,9 +2120,9 @@
       "BOGEY"
     ],
     "Alex Smalley": [
-      "BIRDIE",
       "BOGEY",
       "BOGEY",
+      "PAR",
       "PAR",
       "PAR",
       "PAR",
@@ -2138,13 +2138,13 @@
       "PAR"
     ],
     "Jon Rahm": [
-      "PAR",
       "BIRDIE",
       "BOGEY",
       "BOGEY",
       "PAR",
       "BOGEY",
       "BIRDIE",
+      "PAR",
       "PAR",
       "PAR"
     ],
@@ -2243,7 +2243,6 @@
     ],
     "Louis Oosthuizen": [],
     "Daniel Brown": [
-      "BOGEY",
       "PAR",
       "PAR",
       "PAR",
@@ -2251,7 +2250,8 @@
       "PAR",
       "PAR",
       "BIRDIE",
-      "PAR"
+      "PAR",
+      "BOGEY"
     ],
     "Francesco Molinari": [
       "BOGEY",
@@ -2281,9 +2281,9 @@
     "Cameron John": [
       "PAR",
       "PAR",
-      "PAR",
       "BIRDIE",
       "DOUBLE",
+      "PAR",
       "PAR",
       "PAR",
       "PAR",
@@ -2670,13 +2670,13 @@
     "Max Homa": [
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
       "PAR",
       "PAR",
       "BIRDIE",
       "PAR",
-      "PAR"
+      "PAR",
+      "BOGEY"
     ],
     "Haotong Li": [
       "PAR",
@@ -2751,8 +2751,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784472696.2328274,
-  "last_score_refresh_attempt_at": 1784473054.3892157,
+  "last_score_refresh_at": 1784473056.2207558,
+  "last_score_refresh_attempt_at": 1784473056.2207558,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
