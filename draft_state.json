@@ -17,8 +17,8 @@
       "competitor_id": "10046"
     },
     "Xander Schauffele": {
-      "score": "-2",
-      "hole": "16",
+      "score": "-3",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele",
       "competitor_id": "10140"
     },
@@ -48,7 +48,7 @@
     },
     "Eric Cole": {
       "score": "-1",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/10522/eric-cole",
       "competitor_id": "10522"
     },
@@ -516,7 +516,7 @@
     },
     "Jackson Suber": {
       "score": "-3",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4982182/jackson-suber",
       "competitor_id": "4982182"
     },
@@ -702,7 +702,7 @@
     },
     "Tommy Fleetwood": {
       "score": "-5",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5539/tommy-fleetwood",
       "competitor_id": "5539"
     },
@@ -975,14 +975,14 @@
     ],
     "Xander Schauffele": [
       "PAR",
-      "PAR",
       "BOGEY",
       "PAR",
       "PAR",
       "BIRDIE",
       "BOGEY",
       "PAR",
-      "PAR"
+      "PAR",
+      "BIRDIE"
     ],
     "J.J. Spaun": [
       "PAR",
@@ -1602,7 +1602,6 @@
       "PAR"
     ],
     "Jackson Suber": [
-      "PAR",
       "BOGEY",
       "PAR",
       "PAR",
@@ -1610,7 +1609,8 @@
       "PAR",
       "PAR",
       "PAR",
-      "BOGEY"
+      "BOGEY",
+      "PAR"
     ],
     "Cooper Dossey": [
       "PAR",
@@ -1925,11 +1925,11 @@
       "PAR"
     ],
     "Tommy Fleetwood": [
-      "PAR",
       "BIRDIE",
       "BOGEY",
       "BOGEY",
       "BOGEY",
+      "PAR",
       "PAR",
       "PAR",
       "PAR",
@@ -2188,9 +2188,9 @@
       "PAR",
       "PAR",
       "PAR",
+      "BOGEY",
+      "BOGEY",
       "PAR",
-      "BOGEY",
-      "BOGEY",
       "PAR",
       "PAR",
       "PAR"
@@ -2751,8 +2751,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784478282.8547263,
-  "last_score_refresh_attempt_at": 1784478634.5209794,
+  "last_score_refresh_at": 1784478636.0637,
+  "last_score_refresh_attempt_at": 1784478636.0637,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
