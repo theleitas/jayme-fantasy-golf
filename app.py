@@ -1740,7 +1740,8 @@ def recent_hole_tape_html(outcomes):
     normalized = [item for item in normalized if item][-9:]
     if not normalized:
         return ""
-    padded = [""] * max(0, 9 - len(normalized)) + normalized
+    # Show newest first: the last hole played sits on the far left.
+    padded = list(reversed(normalized)) + [""] * max(0, 9 - len(normalized))
     cells = []
     for marker in padded:
         if not marker:
