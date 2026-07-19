@@ -17,8 +17,8 @@
       "competitor_id": "10046"
     },
     "Xander Schauffele": {
-      "score": "-4",
-      "hole": "3",
+      "score": "-3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele",
       "competitor_id": "10140"
     },
@@ -30,7 +30,7 @@
     },
     "Lucas Herbert": {
       "score": "-7",
-      "hole": "9:00 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/10343/lucas-herbert",
       "competitor_id": "10343"
     },
@@ -47,8 +47,8 @@
       "competitor_id": "10505"
     },
     "Eric Cole": {
-      "score": "-4",
-      "hole": "3",
+      "score": "-3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/10522/eric-cole",
       "competitor_id": "10522"
     },
@@ -59,8 +59,8 @@
       "competitor_id": "10548"
     },
     "Collin Morikawa": {
-      "score": "-4",
-      "hole": "13",
+      "score": "-3",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/10592/collin-morikawa",
       "competitor_id": "10592"
     },
@@ -137,8 +137,8 @@
       "competitor_id": "11378"
     },
     "Sungjae Im": {
-      "score": "-3",
-      "hole": "9",
+      "score": "-4",
+      "hole": "10",
       "profile_url": "https://www.espn.com/golf/player/_/id/11382/sungjae-im",
       "competitor_id": "11382"
     },
@@ -161,8 +161,8 @@
       "competitor_id": "1407"
     },
     "Francesco Molinari": {
-      "score": "E",
-      "hole": "13",
+      "score": "+1",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/1483/francesco-molinari",
       "competitor_id": "1483"
     },
@@ -221,8 +221,8 @@
       "competitor_id": "3832"
     },
     "Adam Scott": {
-      "score": "-4",
-      "hole": "16",
+      "score": "-5",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/388/adam-scott",
       "competitor_id": "388"
     },
@@ -245,8 +245,8 @@
       "competitor_id": "4348444"
     },
     "Kristoffer Reitan": {
-      "score": "-5",
-      "hole": "10",
+      "score": "-4",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/4348470/kristoffer-reitan",
       "competitor_id": "4348470"
     },
@@ -270,7 +270,7 @@
     },
     "Ludvig Aberg": {
       "score": "-6",
-      "hole": "9:00 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/4375972/ludvig-aberg",
       "competitor_id": "4375972"
     },
@@ -294,7 +294,7 @@
     },
     "Nico Echavarria": {
       "score": "-2",
-      "hole": "9",
+      "hole": "10",
       "profile_url": "https://www.espn.com/golf/player/_/id/4408316/nico-echavarria",
       "competitor_id": "4408316"
     },
@@ -366,7 +366,7 @@
     },
     "Shane Lowry": {
       "score": "-5",
-      "hole": "6",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/4587/shane-lowry",
       "competitor_id": "4587"
     },
@@ -407,8 +407,8 @@
       "competitor_id": "4604053"
     },
     "Casey Jarvis": {
-      "score": "-4",
-      "hole": "10",
+      "score": "-5",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/4610056/casey-jarvis",
       "competitor_id": "4610056"
     },
@@ -600,13 +600,13 @@
     },
     "Josele Ballester": {
       "score": "-2",
-      "hole": "7",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/5152205/josele-ballester",
       "competitor_id": "5152205"
     },
     "Kazuma Kobori": {
-      "score": "-5",
-      "hole": "4",
+      "score": "-6",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/5186648/kazuma-kobori",
       "competitor_id": "5186648"
     },
@@ -719,8 +719,8 @@
       "competitor_id": "5553"
     },
     "Patrick Reed": {
-      "score": "+1",
-      "hole": "16",
+      "score": "E",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5579/patrick-reed",
       "competitor_id": "5579"
     },
@@ -870,7 +870,7 @@
     },
     "Corey Conners": {
       "score": "-4",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/9126/corey-conners",
       "competitor_id": "9126"
     },
@@ -917,8 +917,8 @@
       "competitor_id": "9530"
     },
     "Jon Rahm": {
-      "score": "-2",
-      "hole": "6",
+      "score": "-1",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/9780/jon-rahm",
       "competitor_id": "9780"
     },
@@ -976,7 +976,8 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR"
+      "PAR",
+      "BOGEY"
     ],
     "J.J. Spaun": [
       "PAR",
@@ -1016,7 +1017,8 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR"
+      "PAR",
+      "BOGEY"
     ],
     "J.B. Holmes": [
       "BIRDIE",
@@ -1116,7 +1118,8 @@
       "PAR",
       "BOGEY",
       "PAR",
-      "PAR"
+      "PAR",
+      "BIRDIE"
     ],
     "Max McGreevy": [
       "PAR",
@@ -1245,6 +1248,7 @@
       "PAR",
       "BIRDIE",
       "BOGEY",
+      "BIRDIE",
       "BIRDIE"
     ],
     "Ryan Fox": [
@@ -1261,7 +1265,8 @@
       "BIRDIE",
       "PAR",
       "BIRDIE",
-      "PAR"
+      "PAR",
+      "BOGEY"
     ],
     "Brandon Wu": [
       "BIRDIE",
@@ -1334,6 +1339,7 @@
       "BOGEY",
       "PAR",
       "BIRDIE",
+      "PAR",
       "PAR",
       "PAR",
       "PAR",
@@ -1425,6 +1431,7 @@
       "PAR",
       "BIRDIE",
       "BIRDIE",
+      "PAR",
       "PAR",
       "PAR"
     ],
@@ -1913,7 +1920,8 @@
       "BOGEY",
       "PAR",
       "BOGEY",
-      "PAR"
+      "PAR",
+      "BIRDIE"
     ],
     "Justin Rose": [
       "PAR",
@@ -2048,7 +2056,8 @@
       "BIRDIE",
       "PAR",
       "PAR",
-      "BIRDIE"
+      "BIRDIE",
+      "PAR"
     ],
     "Cameron Smith": [
       "PAR",
@@ -2091,6 +2100,7 @@
       "PAR",
       "PAR",
       "BIRDIE",
+      "BOGEY",
       "BOGEY"
     ],
     "Jake Knapp": [
@@ -2132,7 +2142,8 @@
       "BIRDIE",
       "BIRDIE",
       "BIRDIE",
-      "PAR"
+      "PAR",
+      "BOGEY"
     ],
     "Matt Wallace": [
       "PAR",
@@ -2199,6 +2210,7 @@
       "BOGEY",
       "PAR",
       "PAR",
+      "BOGEY",
       "BOGEY"
     ],
     "Bernd Wiesberger": [
@@ -2309,7 +2321,8 @@
       "BIRDIE",
       "PAR",
       "PAR",
-      "PAR"
+      "PAR",
+      "BIRDIE"
     ],
     "Ren Yonezawa": [
       "BOGEY",
@@ -2442,6 +2455,7 @@
       "PAR",
       "PAR",
       "BOGEY",
+      "PAR",
       "PAR"
     ],
     "Kazuma Kobori": [
@@ -2452,7 +2466,8 @@
       "PAR",
       "BIRDIE",
       "PAR",
-      "PAR"
+      "PAR",
+      "BIRDIE"
     ],
     "Bard Bjornevik Skogen": [
       "PAR",
@@ -2677,8 +2692,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784467496.5582764,
-  "last_score_refresh_attempt_at": 1784467819.9927096,
+  "last_score_refresh_at": 1784467821.6545508,
+  "last_score_refresh_attempt_at": 1784467821.6545508,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
