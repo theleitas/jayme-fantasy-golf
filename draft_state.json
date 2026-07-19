@@ -299,7 +299,7 @@
       "competitor_id": "4408316"
     },
     "Min Woo Lee": {
-      "score": "+3",
+      "score": "+2",
       "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/4410932/min-woo-lee",
       "competitor_id": "4410932"
@@ -414,7 +414,7 @@
     },
     "John Parry": {
       "score": "+1",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/4671/john-parry",
       "competitor_id": "4671"
     },
@@ -480,7 +480,7 @@
     },
     "Ryo Hisatsune": {
       "score": "+2",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/4858572/ryo-hisatsune",
       "competitor_id": "4858572"
     },
@@ -540,7 +540,7 @@
     },
     "Marcus Plunkett": {
       "score": "+4",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/5075661/marcus-plunkett",
       "competitor_id": "5075661"
     },
@@ -552,7 +552,7 @@
     },
     "Aldrich Potgieter": {
       "score": "+2",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5080439/aldrich-potgieter",
       "competitor_id": "5080439"
     },
@@ -708,7 +708,7 @@
     },
     "Laurie Canter": {
       "score": "+4",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/5550/laurie-canter",
       "competitor_id": "5550"
     },
@@ -755,8 +755,8 @@
       "competitor_id": "5832"
     },
     "Matthew Southgate": {
-      "score": "+1",
-      "hole": "5",
+      "score": "+2",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/5852/matthew-southgate",
       "competitor_id": "5852"
     },
@@ -768,7 +768,7 @@
     },
     "Andy Sullivan": {
       "score": "+2",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5956/andy-sullivan",
       "competitor_id": "5956"
     },
@@ -840,7 +840,7 @@
     },
     "Sepp Straka": {
       "score": "+4",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/8961/sepp-straka",
       "competitor_id": "8961"
     },
@@ -1425,11 +1425,11 @@
       "□"
     ],
     "John Parry": [
-      "P",
       "○",
       "□",
       "□",
-      "○"
+      "○",
+      "P"
     ],
     "James Nicholas": [
       "P",
@@ -1483,8 +1483,8 @@
     "Ryo Hisatsune": [
       "P",
       "P",
-      "P",
       "○",
+      "P",
       "P"
     ],
     "Filippo Celli": [
@@ -1831,11 +1831,11 @@
       "□"
     ],
     "Laurie Canter": [
-      "□",
       "○",
       "□",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Tyrrell Hatton": [
       "P",
@@ -1938,9 +1938,9 @@
     "Sepp Straka": [
       "P",
       "P",
-      "P",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "Michael Kim": [
       "P",
@@ -2273,11 +2273,11 @@
       "P"
     ],
     "Marcus Plunkett": [
-      "○",
       "P",
       "P",
       "○",
-      "□"
+      "□",
+      "P"
     ],
     "Dan Bradbury": [
       "□",
@@ -2420,17 +2420,17 @@
       "□"
     ],
     "Matthew Southgate": [
-      "□",
       "○",
       "○",
       "P",
-      "P"
+      "P",
+      "□"
     ],
     "Andy Sullivan": [
       "P",
       "P",
-      "P",
       "□",
+      "P",
       "P"
     ],
     "Jack McDonald": [
@@ -2511,10 +2511,10 @@
       "P"
     ],
     "Aldrich Potgieter": [
-      "○",
       "P",
       "P",
       "□",
+      "P",
       "P"
     ]
   },
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784448455.8973138,
-  "last_score_refresh_attempt_at": 1784448756.7921815,
+  "last_score_refresh_at": 1784448758.3926904,
+  "last_score_refresh_attempt_at": 1784448758.3926904,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
