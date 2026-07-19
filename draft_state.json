@@ -174,7 +174,7 @@
     },
     "Peter Uihlein": {
       "score": "+2",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/1674/peter-uihlein",
       "competitor_id": "1674"
     },
@@ -282,7 +282,7 @@
     },
     "Ben Griffin": {
       "score": "+2",
-      "hole": "4",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/4404992/ben-griffin",
       "competitor_id": "4404992"
     },
@@ -299,8 +299,8 @@
       "competitor_id": "4408316"
     },
     "Min Woo Lee": {
-      "score": "+2",
-      "hole": "3:50 AM",
+      "score": "+3",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/4410932/min-woo-lee",
       "competitor_id": "4410932"
     },
@@ -390,7 +390,7 @@
     },
     "Kazuki Higa": {
       "score": "+4",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/4597553/kazuki-higa",
       "competitor_id": "4597553"
     },
@@ -413,8 +413,8 @@
       "competitor_id": "4610056"
     },
     "John Parry": {
-      "score": "+2",
-      "hole": "2",
+      "score": "+1",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/4671/john-parry",
       "competitor_id": "4671"
     },
@@ -713,8 +713,8 @@
       "competitor_id": "5550"
     },
     "Tyrrell Hatton": {
-      "score": "+1",
-      "hole": "3:50 AM",
+      "score": "E",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/5553/tyrrell-hatton",
       "competitor_id": "5553"
     },
@@ -785,8 +785,8 @@
       "competitor_id": "6798"
     },
     "Jack McDonald": {
-      "score": "+5",
-      "hole": "4",
+      "score": "+6",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/6849/jack-mcdonald",
       "competitor_id": "6849"
     },
@@ -839,8 +839,8 @@
       "competitor_id": "8906"
     },
     "Sepp Straka": {
-      "score": "+3",
-      "hole": "2",
+      "score": "+4",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/8961/sepp-straka",
       "competitor_id": "8961"
     },
@@ -1131,11 +1131,11 @@
       "□"
     ],
     "Peter Uihlein": [
-      "P",
       "○",
       "□",
       "P",
-      "○"
+      "○",
+      "P"
     ],
     "Jason Day": [
       "P",
@@ -1426,10 +1426,10 @@
     ],
     "John Parry": [
       "P",
-      "P",
       "○",
       "□",
-      "□"
+      "□",
+      "○"
     ],
     "James Nicholas": [
       "P",
@@ -1936,10 +1936,10 @@
       "□"
     ],
     "Sepp Straka": [
-      "○",
       "P",
       "P",
       "P",
+      "□",
       "□"
     ],
     "Michael Kim": [
@@ -2189,11 +2189,11 @@
       "□"
     ],
     "Kazuki Higa": [
-      "□",
       "○",
       "P",
       "P",
-      "□"
+      "□",
+      "P"
     ],
     "Casey Jarvis": [
       "P",
@@ -2434,10 +2434,10 @@
       "P"
     ],
     "Jack McDonald": [
-      "□",
       "P",
       "○",
       "P",
+      "□",
       "□"
     ],
     "Joe Dean": [
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784447877.1544442,
-  "last_score_refresh_attempt_at": 1784448454.119471,
+  "last_score_refresh_at": 1784448455.8973138,
+  "last_score_refresh_attempt_at": 1784448455.8973138,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
