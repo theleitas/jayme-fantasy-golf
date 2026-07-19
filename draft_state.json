@@ -227,8 +227,8 @@
       "competitor_id": "388"
     },
     "Ryan Fox": {
-      "score": "-9",
-      "hole": "17",
+      "score": "-10",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4251/ryan-fox",
       "competitor_id": "4251"
     },
@@ -936,7 +936,7 @@
     },
     "Sam Burns": {
       "score": "-8",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/9938/sam-burns",
       "competitor_id": "9938"
     },
@@ -1264,7 +1264,6 @@
       "PAR"
     ],
     "Ryan Fox": [
-      "BOGEY",
       "PAR",
       "PAR",
       "PAR",
@@ -1272,7 +1271,8 @@
       "BIRDIE",
       "BOGEY",
       "BIRDIE",
-      "PAR"
+      "PAR",
+      "BIRDIE"
     ],
     "Kristoffer Reitan": [
       "PAR",
@@ -2751,8 +2751,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784482488.649742,
-  "last_score_refresh_attempt_at": 1784482795.0567791,
+  "last_score_refresh_at": 1784482796.5975864,
+  "last_score_refresh_attempt_at": 1784482796.5975864,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
