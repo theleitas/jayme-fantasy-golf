@@ -29,8 +29,8 @@
       "competitor_id": "10166"
     },
     "Lucas Herbert": {
-      "score": "-8",
-      "hole": "10",
+      "score": "-7",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/10343/lucas-herbert",
       "competitor_id": "10343"
     },
@@ -270,7 +270,7 @@
     },
     "Ludvig Aberg": {
       "score": "-5",
-      "hole": "10",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/4375972/ludvig-aberg",
       "competitor_id": "4375972"
     },
@@ -365,8 +365,8 @@
       "competitor_id": "4585549"
     },
     "Shane Lowry": {
-      "score": "-2",
-      "hole": "15",
+      "score": "-1",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4587/shane-lowry",
       "competitor_id": "4587"
     },
@@ -516,7 +516,7 @@
     },
     "Jackson Suber": {
       "score": "-4",
-      "hole": "11",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/4982182/jackson-suber",
       "competitor_id": "4982182"
     },
@@ -918,7 +918,7 @@
     },
     "Jon Rahm": {
       "score": "-2",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/9780/jon-rahm",
       "competitor_id": "9780"
     },
@@ -992,7 +992,6 @@
       "PAR"
     ],
     "Lucas Herbert": [
-      "PAR",
       "BOGEY",
       "PAR",
       "BIRDIE",
@@ -1000,7 +999,8 @@
       "PAR",
       "PAR",
       "BIRDIE",
-      "BIRDIE"
+      "BIRDIE",
+      "BOGEY"
     ],
     "Kurt Kitayama": [
       "PAR",
@@ -1324,7 +1324,6 @@
       "BOGEY"
     ],
     "Ludvig Aberg": [
-      "PAR",
       "BOGEY",
       "PAR",
       "PAR",
@@ -1332,6 +1331,7 @@
       "BOGEY",
       "PAR",
       "BIRDIE",
+      "PAR",
       "PAR"
     ],
     "Niklas Nørgaard": [
@@ -1450,12 +1450,12 @@
     "Shane Lowry": [
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
       "BOGEY",
       "PAR",
       "PAR",
       "PAR",
+      "BOGEY",
       "BOGEY"
     ],
     "Chandler Phillips": [
@@ -1606,8 +1606,8 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
+      "PAR",
       "PAR",
       "PAR",
       "PAR"
@@ -2138,7 +2138,6 @@
       "PAR"
     ],
     "Jon Rahm": [
-      "BOGEY",
       "PAR",
       "BOGEY",
       "BIRDIE",
@@ -2146,6 +2145,7 @@
       "PAR",
       "PAR",
       "BIRDIE",
+      "PAR",
       "PAR"
     ],
     "Jake Knapp": [
@@ -2751,8 +2751,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784475576.0035505,
-  "last_score_refresh_attempt_at": 1784475934.3691316,
+  "last_score_refresh_at": 1784475936.1875732,
+  "last_score_refresh_attempt_at": 1784475936.1875732,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
