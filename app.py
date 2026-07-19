@@ -234,7 +234,7 @@ PGATOUR_FIELD_URLS_BY_ESPN_EVENT_ID = {
 }
 HISTORY_RESULTS = [
     {
-        "tournament": "2026 British Open",
+        "tournament": "2026 The Open (British Open)",
         "placements": {
             "Jayme Leita": "1st",
             "Spencer Tidwell": "2nd",
