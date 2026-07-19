@@ -12,13 +12,13 @@
   "player_results": {
     "Bryson DeChambeau": {
       "score": "-2",
-      "hole": "11",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/10046/bryson-dechambeau",
       "competitor_id": "10046"
     },
     "Xander Schauffele": {
-      "score": "-3",
-      "hole": "13",
+      "score": "-2",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele",
       "competitor_id": "10140"
     },
@@ -48,7 +48,7 @@
     },
     "Eric Cole": {
       "score": "-1",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/10522/eric-cole",
       "competitor_id": "10522"
     },
@@ -156,7 +156,7 @@
     },
     "Daniel Brown": {
       "score": "-2",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/1407/daniel-brown",
       "competitor_id": "1407"
     },
@@ -264,7 +264,7 @@
     },
     "Cameron John": {
       "score": "-2",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4368981/cameron-john",
       "competitor_id": "4368981"
     },
@@ -546,7 +546,7 @@
     },
     "Ryan Gerard": {
       "score": "-6",
-      "hole": "10",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -606,7 +606,7 @@
     },
     "Kazuma Kobori": {
       "score": "-3",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/5186648/kazuma-kobori",
       "competitor_id": "5186648"
     },
@@ -762,7 +762,7 @@
     },
     "Hideki Matsuyama": {
       "score": "-4",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/5860/hideki-matsuyama",
       "competitor_id": "5860"
     },
@@ -954,10 +954,10 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
       "PAR",
-      "DOUBLE"
+      "DOUBLE",
+      "PAR"
     ],
     "Cole Hammer": [
       "BOGEY",
@@ -978,11 +978,11 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
       "PAR",
       "PAR",
-      "BIRDIE"
+      "BIRDIE",
+      "BOGEY"
     ],
     "J.J. Spaun": [
       "PAR",
@@ -1640,8 +1640,8 @@
     "Ryan Gerard": [
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
+      "PAR",
       "PAR",
       "PAR",
       "PAR",
@@ -1969,14 +1969,14 @@
     ],
     "Hideki Matsuyama": [
       "BOGEY",
-      "BOGEY",
       "PAR",
       "PAR",
       "PAR",
       "PAR",
       "PAR",
       "PAR",
-      "BIRDIE"
+      "BIRDIE",
+      "PAR"
     ],
     "Emiliano Grillo": [
       "BOGEY",
@@ -2191,9 +2191,9 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
-      "BOGEY"
+      "BOGEY",
+      "PAR"
     ],
     "Matt Wallace": [
       "BIRDIE",
@@ -2245,13 +2245,13 @@
     "Daniel Brown": [
       "PAR",
       "PAR",
-      "PAR",
       "BIRDIE",
       "PAR",
       "BOGEY",
       "PAR",
       "PAR",
-      "BIRDIE"
+      "BIRDIE",
+      "PAR"
     ],
     "Francesco Molinari": [
       "BOGEY",
@@ -2279,13 +2279,13 @@
       "BIRDIE"
     ],
     "Cameron John": [
-      "DOUBLE",
       "PAR",
       "PAR",
       "PAR",
       "PAR",
       "PAR",
       "BOGEY",
+      "PAR",
       "PAR",
       "PAR"
     ],
@@ -2519,13 +2519,13 @@
     "Kazuma Kobori": [
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
       "PAR",
       "PAR",
       "PAR",
       "BOGEY",
-      "BOGEY"
+      "BOGEY",
+      "PAR"
     ],
     "Bard Bjornevik Skogen": [
       "PAR",
@@ -2751,8 +2751,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784475936.1875732,
-  "last_score_refresh_attempt_at": 1784476238.5925477,
+  "last_score_refresh_at": 1784476240.1730473,
+  "last_score_refresh_attempt_at": 1784476240.1730473,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
