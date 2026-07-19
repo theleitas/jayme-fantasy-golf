@@ -81,6 +81,9 @@ div[data-testid="stButton"] > button:disabled, div[data-testid="stButton"] > but
 .recent-hole-bogey { border-radius:3px; background:#ffb000; border-color:#ffe0a3; color:#160d00; box-shadow:0 0 8px rgba(255,176,0,.45); }
 .recent-hole-double { border-radius:3px; background:#ffb000; border-color:#ffe0a3; color:#160d00; box-shadow:0 0 8px rgba(255,176,0,.45), inset 0 0 0 2px rgba(22,13,0,.28); }
 .recent-hole-empty { color:#666; background:#080808; border-color:#222; box-shadow:none; }
+.leaderboard-golfer-cell { min-width:12rem; }
+.leaderboard-golfer-name { font-weight:850; }
+.leaderboard-golfer-cell .recent-hole-tape { margin:5px 0 0 0; }
 .country-strip { display:flex; align-items:center; justify-content:center; gap:7px; flex-wrap:wrap; min-height:34px; border:1px solid currentColor; border-radius:8px; padding:6px 8px; margin-top:8px; color:currentColor; background:rgba(255,255,255,.045); box-shadow:inset 0 0 10px currentColor; text-align:center; }
 .country-strip-label { color:#fff; font-size:.72rem; font-weight:950; letter-spacing:.04em; text-transform:uppercase; opacity:.82; }
 .country-chip { display:inline-flex; align-items:center; gap:4px; border:1px solid rgba(255,255,255,.22); border-radius:999px; padding:2px 7px; background:#050505; color:#fff; font-size:.82rem; font-weight:900; line-height:1.25; }
@@ -1915,17 +1918,22 @@ def leaderboard_owner_image_html(golfer, owner_lookup):
         f"border:2px solid {color}; display:block;'>"
     )
 
-def leaderboard_golfer_with_info_html(player, result):
+def leaderboard_golfer_with_info_html(player, result, recent_outcomes=None):
     safe_player = html.escape(display_player_name(player))
     profile_url = str((result or {}).get("profile_url") or "").strip()
-    if not profile_url:
-        return safe_player
-    safe_url = html.escape(profile_url, quote=True)
+    player_line = safe_player
+    if profile_url:
+        safe_url = html.escape(profile_url, quote=True)
+        player_line += (
+            f" <a href='{safe_url}' target='_blank' rel='noopener noreferrer' "
+            f"title='Player info' aria-label='Player info' "
+            f"style='color:#fff; text-decoration:none; font-style:normal; font-weight:700;'>ⓘ</a>"
+        )
     return (
-        f"{safe_player} "
-        f"<a href='{safe_url}' target='_blank' rel='noopener noreferrer' "
-        f"title='Player info' aria-label='Player info' "
-        f"style='color:#fff; text-decoration:none; font-style:normal; font-weight:700;'>ⓘ</a>"
+        "<div class='leaderboard-golfer-cell'>"
+        f"<div class='leaderboard-golfer-name'>{player_line}</div>"
+        f"{recent_hole_tape_html(recent_outcomes)}"
+        "</div>"
     )
 
 def draft_table_player_cell_html(player, player_headshots):
@@ -2011,7 +2019,8 @@ def render_tournament_leaderboard(tournament):
         leaderboard_parts.append("<table class='roster-table'><thead><tr><th>Rank</th><th>Owner</th><th>Golfer</th><th>Score</th><th>Hole</th></tr></thead><tbody>")
         for rank, (score_value, _, player, result) in enumerate(leaderboard_rows, start=1):
             owner_html = leaderboard_owner_image_html(player, owner_lookup)
-            golfer_cell = leaderboard_golfer_with_info_html(player, result)
+            recent_outcomes = get_recent_outcomes_for_standings(player, result) if should_show_recent_hole_outcomes(result) else []
+            golfer_cell = leaderboard_golfer_with_info_html(player, result, recent_outcomes)
             score = html.escape(format_golf_score(score_value))
             hole = html.escape(format_hole_status_for_card(result.get("hole", "—")))
             leaderboard_parts.append(f"<tr><td>{rank}</td><td>{owner_html}</td><td>{golfer_cell}</td><td>{score}</td><td>{hole}</td></tr>")
