@@ -12,7 +12,7 @@
   "player_results": {
     "Bryson DeChambeau": {
       "score": "-6",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/10046/bryson-dechambeau",
       "competitor_id": "10046"
     },
@@ -132,13 +132,13 @@
     },
     "Robert MacIntyre": {
       "score": "-2",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/11378/robert-macintyre",
       "competitor_id": "11378"
     },
     "Sungjae Im": {
       "score": "-4",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/11382/sungjae-im",
       "competitor_id": "11382"
     },
@@ -293,8 +293,8 @@
       "competitor_id": "4407372"
     },
     "Nico Echavarria": {
-      "score": "-1",
-      "hole": "13",
+      "score": "E",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/4408316/nico-echavarria",
       "competitor_id": "4408316"
     },
@@ -324,7 +324,7 @@
     },
     "Cameron Young": {
       "score": "-9",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/4425906/cameron-young",
       "competitor_id": "4425906"
     },
@@ -365,8 +365,8 @@
       "competitor_id": "4585549"
     },
     "Shane Lowry": {
-      "score": "-4",
-      "hole": "10",
+      "score": "-3",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/4587/shane-lowry",
       "competitor_id": "4587"
     },
@@ -516,7 +516,7 @@
     },
     "Jackson Suber": {
       "score": "-5",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/4982182/jackson-suber",
       "competitor_id": "4982182"
     },
@@ -600,13 +600,13 @@
     },
     "Josele Ballester": {
       "score": "-1",
-      "hole": "11",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/5152205/josele-ballester",
       "competitor_id": "5152205"
     },
     "Kazuma Kobori": {
-      "score": "-6",
-      "hole": "8",
+      "score": "-5",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/5186648/kazuma-kobori",
       "competitor_id": "5186648"
     },
@@ -762,7 +762,7 @@
     },
     "Hideki Matsuyama": {
       "score": "-3",
-      "hole": "8",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/5860/hideki-matsuyama",
       "competitor_id": "5860"
     },
@@ -846,7 +846,7 @@
     },
     "Max Homa": {
       "score": "-4",
-      "hole": "11",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/8973/max-homa",
       "competitor_id": "8973"
     },
@@ -893,20 +893,20 @@
       "competitor_id": "9379"
     },
     "Scottie Scheffler": {
-      "score": "-7",
-      "hole": "11",
+      "score": "-8",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/9478/scottie-scheffler",
       "competitor_id": "9478"
     },
     "Alex Smalley": {
       "score": "-1",
-      "hole": "11",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/9484/alex-smalley",
       "competitor_id": "9484"
     },
     "Jordan Smith": {
       "score": "-3",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/9506/jordan-smith",
       "competitor_id": "9506"
     },
@@ -949,11 +949,11 @@
   },
   "hole_outcomes": {
     "Bryson DeChambeau": [
-      "PAR",
       "BIRDIE",
       "PAR",
       "BIRDIE",
       "BOGEY",
+      "PAR",
       "PAR",
       "PAR",
       "PAR",
@@ -1111,7 +1111,6 @@
       "BIRDIE"
     ],
     "Robert MacIntyre": [
-      "PAR",
       "BOGEY",
       "PAR",
       "PAR",
@@ -1119,15 +1118,16 @@
       "PAR",
       "PAR",
       "BOGEY",
-      "BIRDIE"
+      "BIRDIE",
+      "PAR"
     ],
     "Sungjae Im": [
-      "PAR",
       "PAR",
       "BOGEY",
       "PAR",
       "PAR",
       "BIRDIE",
+      "PAR",
       "PAR",
       "PAR",
       "PAR"
@@ -1355,7 +1355,6 @@
       "BOGEY"
     ],
     "Nico Echavarria": [
-      "BIRDIE",
       "PAR",
       "PAR",
       "PAR",
@@ -1363,7 +1362,8 @@
       "PAR",
       "BOGEY",
       "PAR",
-      "PAR"
+      "PAR",
+      "BOGEY"
     ],
     "Kevin Roy": [
       "PAR",
@@ -1408,7 +1408,6 @@
       "BOGEY"
     ],
     "Cameron Young": [
-      "BOGEY",
       "PAR",
       "PAR",
       "BIRDIE",
@@ -1416,7 +1415,8 @@
       "PAR",
       "PAR",
       "PAR",
-      "BIRDIE"
+      "BIRDIE",
+      "PAR"
     ],
     "Sam Stevens": [
       "PAR",
@@ -1447,7 +1447,6 @@
       "PAR"
     ],
     "Shane Lowry": [
-      "PAR",
       "BIRDIE",
       "BIRDIE",
       "PAR",
@@ -1455,6 +1454,7 @@
       "PAR",
       "PAR",
       "PAR",
+      "BOGEY",
       "BOGEY"
     ],
     "Chandler Phillips": [
@@ -1601,10 +1601,10 @@
       "PAR"
     ],
     "Jackson Suber": [
-      "BIRDIE",
       "BOGEY",
       "PAR",
       "BOGEY",
+      "PAR",
       "PAR",
       "PAR",
       "PAR",
@@ -1967,13 +1967,13 @@
     ],
     "Hideki Matsuyama": [
       "PAR",
-      "PAR",
       "BIRDIE",
       "BIRDIE",
       "BOGEY",
       "PAR",
       "BOGEY",
       "BOGEY",
+      "PAR",
       "PAR"
     ],
     "Emiliano Grillo": [
@@ -2107,21 +2107,21 @@
     ],
     "Scottie Scheffler": [
       "PAR",
-      "PAR",
       "BIRDIE",
       "PAR",
       "PAR",
       "PAR",
       "PAR",
       "PAR",
-      "PAR"
+      "PAR",
+      "BIRDIE"
     ],
     "Alex Smalley": [
-      "BIRDIE",
       "PAR",
       "BIRDIE",
       "BOGEY",
       "BOGEY",
+      "PAR",
       "PAR",
       "PAR",
       "PAR",
@@ -2502,26 +2502,26 @@
       "BOGEY"
     ],
     "Josele Ballester": [
-      "BOGEY",
       "PAR",
       "PAR",
       "BOGEY",
       "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "PAR"
+    ],
+    "Kazuma Kobori": [
+      "PAR",
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "BIRDIE",
       "PAR",
       "PAR",
       "PAR",
       "BOGEY"
-    ],
-    "Kazuma Kobori": [
-      "BIRDIE",
-      "PAR",
-      "BIRDIE",
-      "PAR",
-      "PAR",
-      "BIRDIE",
-      "PAR",
-      "PAR",
-      "PAR"
     ],
     "Bard Bjornevik Skogen": [
       "PAR",
@@ -2664,7 +2664,6 @@
       "BOGEY"
     ],
     "Max Homa": [
-      "BIRDIE",
       "PAR",
       "PAR",
       "PAR",
@@ -2672,7 +2671,8 @@
       "BOGEY",
       "PAR",
       "PAR",
-      "BIRDIE"
+      "BIRDIE",
+      "PAR"
     ],
     "Haotong Li": [
       "PAR",
@@ -2691,13 +2691,13 @@
     "Jordan Smith": [
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
       "PAR",
       "BIRDIE",
       "PAR",
       "PAR",
-      "BIRDIE"
+      "BIRDIE",
+      "PAR"
     ],
     "Scott Vincent": [
       "PAR",
@@ -2747,8 +2747,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784470929.1455,
-  "last_score_refresh_attempt_at": 1784471239.578927,
+  "last_score_refresh_at": 1784471241.168619,
+  "last_score_refresh_attempt_at": 1784471241.168619,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
