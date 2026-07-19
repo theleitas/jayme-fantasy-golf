@@ -69,9 +69,9 @@ div[data-testid="stButton"] > button:disabled, div[data-testid="stButton"] > but
 .standings-player-line { display:flex; align-items:center; gap:7px; min-width:0; margin:5px 0; }
 .standings-player-score { color:#fff; font-weight:850; white-space:nowrap; }
 .standings-player-status { color:#ddd; white-space:nowrap; }
-.recent-hole-tape { display:flex; align-items:center; gap:4px; flex-wrap:wrap; margin:4px 0 8px 43px; }
-.recent-hole-label { color:#ddd; font-size:.64rem; font-weight:950; letter-spacing:.04em; text-transform:uppercase; margin-right:2px; }
-.recent-hole-cell { display:inline-flex; align-items:center; justify-content:center; width:1.55rem; height:1.35rem; border-radius:5px; border:1px solid rgba(255,255,255,.24); background:#101010; color:#fff; font-size:.66rem; font-weight:1000; line-height:1; box-shadow:0 0 6px rgba(255,255,255,.08); }
+.recent-hole-tape { display:flex; align-items:center; gap:3px; flex-wrap:wrap; margin:3px 0 8px 43px; }
+.recent-hole-label { color:#ddd; font-size:.5rem; font-weight:950; letter-spacing:.04em; text-transform:uppercase; margin-right:2px; }
+.recent-hole-cell { display:inline-flex; align-items:center; justify-content:center; width:1.16rem; height:1.02rem; border-radius:4px; border:1px solid rgba(255,255,255,.24); background:#101010; color:#fff; font-size:.5rem; font-weight:1000; line-height:1; box-shadow:0 0 6px rgba(255,255,255,.08); }
 .recent-hole-eagle { background:#00f5ff; border-color:#baffff; color:#001316; box-shadow:0 0 9px rgba(0,245,255,.55); }
 .recent-hole-birdie { background:#39ff14; border-color:#c9ffbf; color:#031300; box-shadow:0 0 9px rgba(57,255,20,.5); }
 .recent-hole-par { background:#f1f1f1; border-color:#fff; color:#111; }
