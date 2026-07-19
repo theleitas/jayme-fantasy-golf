@@ -173,8 +173,8 @@
       "competitor_id": "1651"
     },
     "Peter Uihlein": {
-      "score": "+2",
-      "hole": "4",
+      "score": "+1",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/1674/peter-uihlein",
       "competitor_id": "1674"
     },
@@ -281,8 +281,8 @@
       "competitor_id": "4390719"
     },
     "Ben Griffin": {
-      "score": "+2",
-      "hole": "5",
+      "score": "+3",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/4404992/ben-griffin",
       "competitor_id": "4404992"
     },
@@ -389,8 +389,8 @@
       "competitor_id": "4592246"
     },
     "Kazuki Higa": {
-      "score": "+4",
-      "hole": "4",
+      "score": "+3",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/4597553/kazuki-higa",
       "competitor_id": "4597553"
     },
@@ -413,8 +413,8 @@
       "competitor_id": "4610056"
     },
     "John Parry": {
-      "score": "+1",
-      "hole": "4",
+      "score": "E",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/4671/john-parry",
       "competitor_id": "4671"
     },
@@ -479,8 +479,8 @@
       "competitor_id": "4848"
     },
     "Ryo Hisatsune": {
-      "score": "+2",
-      "hole": "2",
+      "score": "+1",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/4858572/ryo-hisatsune",
       "competitor_id": "4858572"
     },
@@ -552,7 +552,7 @@
     },
     "Aldrich Potgieter": {
       "score": "+2",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/5080439/aldrich-potgieter",
       "competitor_id": "5080439"
     },
@@ -756,7 +756,7 @@
     },
     "Matthew Southgate": {
       "score": "+2",
-      "hole": "6",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/5852/matthew-southgate",
       "competitor_id": "5852"
     },
@@ -767,8 +767,8 @@
       "competitor_id": "5860"
     },
     "Andy Sullivan": {
-      "score": "+2",
-      "hole": "3",
+      "score": "+1",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/5956/andy-sullivan",
       "competitor_id": "5956"
     },
@@ -1131,11 +1131,11 @@
       "□"
     ],
     "Peter Uihlein": [
-      "○",
       "□",
       "P",
       "○",
-      "P"
+      "P",
+      "○"
     ],
     "Jason Day": [
       "P",
@@ -1296,7 +1296,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "□"
     ],
     "Nico Echavarria": [
       "P",
@@ -1425,11 +1425,11 @@
       "□"
     ],
     "John Parry": [
-      "○",
       "□",
       "□",
       "○",
-      "P"
+      "P",
+      "○"
     ],
     "James Nicholas": [
       "P",
@@ -1482,10 +1482,10 @@
     ],
     "Ryo Hisatsune": [
       "P",
-      "P",
       "○",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Filippo Celli": [
       "○",
@@ -2189,11 +2189,11 @@
       "□"
     ],
     "Kazuki Higa": [
-      "○",
       "P",
       "P",
       "□",
-      "P"
+      "P",
+      "○"
     ],
     "Casey Jarvis": [
       "P",
@@ -2421,17 +2421,17 @@
     ],
     "Matthew Southgate": [
       "○",
-      "○",
-      "P",
-      "P",
-      "□"
-    ],
-    "Andy Sullivan": [
       "P",
       "P",
       "□",
-      "P",
       "P"
+    ],
+    "Andy Sullivan": [
+      "P",
+      "□",
+      "P",
+      "P",
+      "○"
     ],
     "Jack McDonald": [
       "P",
@@ -2512,8 +2512,8 @@
     ],
     "Aldrich Potgieter": [
       "P",
-      "P",
       "□",
+      "P",
       "P",
       "P"
     ]
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784449067.5597184,
-  "last_score_refresh_attempt_at": 1784449369.9320045,
+  "last_score_refresh_at": 1784449371.558433,
+  "last_score_refresh_attempt_at": 1784449371.558433,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
