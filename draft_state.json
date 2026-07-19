@@ -546,7 +546,7 @@
     },
     "Ryan Gerard": {
       "score": "-6",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -810,7 +810,7 @@
     },
     "Si Woo Kim": {
       "score": "-7",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/7081/si-woo-kim",
       "competitor_id": "7081"
     },
@@ -2026,13 +2026,13 @@
     "Si Woo Kim": [
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
       "BOGEY",
       "PAR",
       "PAR",
       "PAR",
-      "BOGEY"
+      "BOGEY",
+      "PAR"
     ],
     "Marcelo Rozo": [
       "BIRDIE",
@@ -2751,8 +2751,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784481096.366006,
-  "last_score_refresh_attempt_at": 1784481454.7787287,
+  "last_score_refresh_at": 1784481456.1982744,
+  "last_score_refresh_attempt_at": 1784481456.1982744,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
