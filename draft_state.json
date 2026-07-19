@@ -342,7 +342,7 @@
     },
     "Keegan Bradley": {
       "score": "+6",
-      "hole": "8",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/4513/keegan-bradley",
       "competitor_id": "4513"
     },
@@ -438,7 +438,7 @@
     },
     "Jesper Svensson": {
       "score": "+8",
-      "hole": "8",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/4699329/jesper-svensson",
       "competitor_id": "4699329"
     },
@@ -540,7 +540,7 @@
     },
     "Marcus Plunkett": {
       "score": "+4",
-      "hole": "2",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/5075661/marcus-plunkett",
       "competitor_id": "5075661"
     },
@@ -786,7 +786,7 @@
     },
     "Jack McDonald": {
       "score": "+6",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/6849/jack-mcdonald",
       "competitor_id": "6849"
     },
@@ -839,8 +839,8 @@
       "competitor_id": "8906"
     },
     "Sepp Straka": {
-      "score": "+4",
-      "hole": "4",
+      "score": "+3",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/8961/sepp-straka",
       "competitor_id": "8961"
     },
@@ -1363,9 +1363,9 @@
     ],
     "Keegan Bradley": [
       "P",
+      "□",
+      "□",
       "P",
-      "□",
-      "□",
       "P"
     ],
     "Matti Schmid": [
@@ -1937,10 +1937,10 @@
     ],
     "Sepp Straka": [
       "P",
+      "□",
+      "□",
       "P",
-      "□",
-      "□",
-      "P"
+      "○"
     ],
     "Michael Kim": [
       "P",
@@ -2212,8 +2212,8 @@
     "Jesper Svensson": [
       "P",
       "P",
-      "P",
       "□",
+      "P",
       "P"
     ],
     "Ryutaro Nagano": [
@@ -2274,9 +2274,9 @@
     ],
     "Marcus Plunkett": [
       "P",
-      "P",
       "○",
       "□",
+      "P",
       "P"
     ],
     "Dan Bradbury": [
@@ -2434,11 +2434,11 @@
       "○"
     ],
     "Jack McDonald": [
-      "P",
       "○",
       "P",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "Joe Dean": [
       "P",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784449371.558433,
-  "last_score_refresh_attempt_at": 1784449675.9925559,
+  "last_score_refresh_at": 1784449677.6767716,
+  "last_score_refresh_attempt_at": 1784449677.6767716,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
