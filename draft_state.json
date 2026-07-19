@@ -30,7 +30,7 @@
     },
     "Lucas Herbert": {
       "score": "-6",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/10343/lucas-herbert",
       "competitor_id": "10343"
     },
@@ -228,7 +228,7 @@
     },
     "Ryan Fox": {
       "score": "-9",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4251/ryan-fox",
       "competitor_id": "4251"
     },
@@ -269,8 +269,8 @@
       "competitor_id": "4368981"
     },
     "Ludvig Aberg": {
-      "score": "-6",
-      "hole": "17",
+      "score": "-5",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4375972/ludvig-aberg",
       "competitor_id": "4375972"
     },
@@ -936,7 +936,7 @@
     },
     "Sam Burns": {
       "score": "-8",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/9938/sam-burns",
       "competitor_id": "9938"
     },
@@ -993,14 +993,14 @@
     ],
     "Lucas Herbert": [
       "BIRDIE",
-      "BIRDIE",
       "BOGEY",
       "PAR",
       "PAR",
       "PAR",
       "PAR",
       "PAR",
-      "BOGEY"
+      "BOGEY",
+      "PAR"
     ],
     "Kurt Kitayama": [
       "PAR",
@@ -1264,7 +1264,6 @@
       "PAR"
     ],
     "Ryan Fox": [
-      "PAR",
       "BOGEY",
       "PAR",
       "PAR",
@@ -1272,7 +1271,8 @@
       "BIRDIE",
       "BIRDIE",
       "BOGEY",
-      "BIRDIE"
+      "BIRDIE",
+      "PAR"
     ],
     "Kristoffer Reitan": [
       "PAR",
@@ -1324,15 +1324,15 @@
       "BOGEY"
     ],
     "Ludvig Aberg": [
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
       "BIRDIE",
-      "PAR",
-      "PAR",
-      "PAR",
-      "PAR",
-      "PAR",
-      "PAR",
-      "PAR",
-      "BIRDIE"
+      "BOGEY"
     ],
     "Niklas Nørgaard": [
       "PAR",
@@ -2751,8 +2751,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784481456.1982744,
-  "last_score_refresh_attempt_at": 1784481814.6153784,
+  "last_score_refresh_at": 1784481816.1359134,
+  "last_score_refresh_attempt_at": 1784481816.1359134,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
