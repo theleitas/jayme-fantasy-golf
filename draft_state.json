@@ -29,8 +29,8 @@
       "competitor_id": "10166"
     },
     "Lucas Herbert": {
-      "score": "-7",
-      "hole": "16",
+      "score": "-6",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/10343/lucas-herbert",
       "competitor_id": "10343"
     },
@@ -227,8 +227,8 @@
       "competitor_id": "388"
     },
     "Ryan Fox": {
-      "score": "-8",
-      "hole": "15",
+      "score": "-9",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4251/ryan-fox",
       "competitor_id": "4251"
     },
@@ -486,7 +486,7 @@
     },
     "Rasmus Neergaard-Petersen": {
       "score": "-5",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4858859/rasmus-neergaard-petersen",
       "competitor_id": "4858859"
     },
@@ -516,7 +516,7 @@
     },
     "Jackson Suber": {
       "score": "-2",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4982182/jackson-suber",
       "competitor_id": "4982182"
     },
@@ -546,7 +546,7 @@
     },
     "Ryan Gerard": {
       "score": "-6",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -701,8 +701,8 @@
       "competitor_id": "5467"
     },
     "Tommy Fleetwood": {
-      "score": "-6",
-      "hole": "17",
+      "score": "-7",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5539/tommy-fleetwood",
       "competitor_id": "5539"
     },
@@ -809,8 +809,8 @@
       "competitor_id": "7067"
     },
     "Si Woo Kim": {
-      "score": "-8",
-      "hole": "15",
+      "score": "-7",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/7081/si-woo-kim",
       "competitor_id": "7081"
     },
@@ -936,7 +936,7 @@
     },
     "Sam Burns": {
       "score": "-8",
-      "hole": "14",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/9938/sam-burns",
       "competitor_id": "9938"
     },
@@ -992,7 +992,6 @@
       "PAR"
     ],
     "Lucas Herbert": [
-      "PAR",
       "BIRDIE",
       "BIRDIE",
       "BOGEY",
@@ -1000,7 +999,8 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR"
+      "PAR",
+      "BOGEY"
     ],
     "Kurt Kitayama": [
       "PAR",
@@ -1265,14 +1265,14 @@
     ],
     "Ryan Fox": [
       "PAR",
-      "PAR",
       "BOGEY",
       "PAR",
       "PAR",
       "PAR",
       "BIRDIE",
       "BIRDIE",
-      "BOGEY"
+      "BOGEY",
+      "BIRDIE"
     ],
     "Kristoffer Reitan": [
       "PAR",
@@ -1607,10 +1607,10 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
       "PAR",
-      "BOGEY"
+      "BOGEY",
+      "PAR"
     ],
     "Cooper Dossey": [
       "PAR",
@@ -1927,12 +1927,12 @@
     "Tommy Fleetwood": [
       "BOGEY",
       "BOGEY",
-      "BOGEY",
       "PAR",
       "PAR",
       "PAR",
       "PAR",
       "PAR",
+      "BIRDIE",
       "BIRDIE"
     ],
     "Laurie Canter": [
@@ -2027,12 +2027,12 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
       "BOGEY",
       "PAR",
       "PAR",
-      "PAR"
+      "PAR",
+      "BOGEY"
     ],
     "Marcelo Rozo": [
       "BIRDIE",
@@ -2167,7 +2167,7 @@
       "BOGEY"
     ],
     "Sam Burns": [
-      "BOGEY",
+      "PAR",
       "PAR",
       "PAR",
       "PAR",
@@ -2421,7 +2421,6 @@
       "BOGEY"
     ],
     "Rasmus Neergaard-Petersen": [
-      "BIRDIE",
       "PAR",
       "PAR",
       "PAR",
@@ -2429,7 +2428,8 @@
       "BIRDIE",
       "DOUBLE",
       "PAR",
-      "EAGLE"
+      "EAGLE",
+      "PAR"
     ],
     "Sam Bairstow": [
       "BOGEY",
@@ -2751,8 +2751,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784480076.2766247,
-  "last_score_refresh_attempt_at": 1784480734.485469,
+  "last_score_refresh_at": 1784480736.0763721,
+  "last_score_refresh_attempt_at": 1784480736.0763721,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
