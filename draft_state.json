@@ -120,7 +120,7 @@
     },
     "Victor Perez": {
       "score": "E",
-      "hole": "4:35 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/11340/victor-perez",
       "competitor_id": "11340"
     },
@@ -210,7 +210,7 @@
     },
     "Nick Taylor": {
       "score": "+1",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/3792/nick-taylor",
       "competitor_id": "3792"
     },
@@ -816,7 +816,7 @@
     },
     "MJ Daffue": {
       "score": "+1",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/7110/mj-daffue",
       "competitor_id": "7110"
     },
@@ -1201,8 +1201,8 @@
       "P"
     ],
     "Nick Taylor": [
-      "P",
       "□",
+      "P",
       "P",
       "P",
       "P"
@@ -2455,9 +2455,9 @@
       "□"
     ],
     "MJ Daffue": [
-      "○",
       "□",
       "□",
+      "P",
       "P",
       "P"
     ],
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784450549.7645822,
-  "last_score_refresh_attempt_at": 1784450853.040385,
+  "last_score_refresh_at": 1784450855.0678377,
+  "last_score_refresh_attempt_at": 1784450855.0678377,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
