@@ -24,7 +24,7 @@
     },
     "J.J. Spaun": {
       "score": "-2",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/10166/jj-spaun",
       "competitor_id": "10166"
     },
@@ -119,8 +119,8 @@
       "competitor_id": "11332"
     },
     "Victor Perez": {
-      "score": "-2",
-      "hole": "3",
+      "score": "-1",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/11340/victor-perez",
       "competitor_id": "11340"
     },
@@ -203,8 +203,8 @@
       "competitor_id": "3550"
     },
     "Rickie Fowler": {
-      "score": "E",
-      "hole": "6",
+      "score": "-1",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/3702/rickie-fowler",
       "competitor_id": "3702"
     },
@@ -299,8 +299,8 @@
       "competitor_id": "4408316"
     },
     "Min Woo Lee": {
-      "score": "+2",
-      "hole": "7",
+      "score": "+1",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/4410932/min-woo-lee",
       "competitor_id": "4410932"
     },
@@ -348,7 +348,7 @@
     },
     "Eugenio Chacarra": {
       "score": "+1",
-      "hole": "6",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/4565467/eugenio-chacarra",
       "competitor_id": "4565467"
     },
@@ -425,8 +425,8 @@
       "competitor_id": "4683800"
     },
     "Chris Gotterup": {
-      "score": "-1",
-      "hole": "2",
+      "score": "E",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/4690755/chris-gotterup",
       "competitor_id": "4690755"
     },
@@ -713,8 +713,8 @@
       "competitor_id": "5550"
     },
     "Tyrrell Hatton": {
-      "score": "E",
-      "hole": "7",
+      "score": "-1",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/5553/tyrrell-hatton",
       "competitor_id": "5553"
     },
@@ -773,8 +773,8 @@
       "competitor_id": "5956"
     },
     "Patrick Cantlay": {
-      "score": "E",
-      "hole": "2",
+      "score": "-1",
+      "hole": "3",
       "profile_url": "https://www.espn.com/golf/player/_/id/6007/patrick-cantlay",
       "competitor_id": "6007"
     },
@@ -977,10 +977,10 @@
       "P"
     ],
     "J.J. Spaun": [
-      "□",
       "P",
       "P",
       "○",
+      "P",
       "P"
     ],
     "Lucas Herbert": [
@@ -1198,7 +1198,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "○"
     ],
     "Nick Taylor": [
       "P",
@@ -1317,7 +1317,7 @@
       "P",
       "P",
       "P",
-      "P"
+      "○"
     ],
     "Ugo Coussaud": [
       "P",
@@ -1439,11 +1439,11 @@
       "○"
     ],
     "Chris Gotterup": [
-      "○",
       "□",
       "P",
       "○",
-      "○"
+      "○",
+      "□"
     ],
     "Taihei Sato": [
       "○",
@@ -1838,11 +1838,11 @@
       "P"
     ],
     "Tyrrell Hatton": [
-      "P",
       "○",
       "P",
       "□",
-      "P"
+      "P",
+      "○"
     ],
     "Patrick Reed": [
       "P",
@@ -1874,10 +1874,10 @@
     ],
     "Patrick Cantlay": [
       "P",
-      "P",
       "□",
       "P",
-      "P"
+      "P",
+      "○"
     ],
     "Brooks Koepka": [
       "○",
@@ -2069,11 +2069,11 @@
       "□"
     ],
     "Victor Perez": [
-      "○",
       "P",
       "□",
       "○",
-      "○"
+      "○",
+      "□"
     ],
     "Travis Smyth": [
       "□",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784452997.5849705,
-  "last_score_refresh_attempt_at": 1784453432.7520683,
+  "last_score_refresh_at": 1784453434.5975118,
+  "last_score_refresh_attempt_at": 1784453434.5975118,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
