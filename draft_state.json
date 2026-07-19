@@ -174,7 +174,7 @@
     },
     "Peter Uihlein": {
       "score": "+3",
-      "hole": "3:10 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/1674/peter-uihlein",
       "competitor_id": "1674"
     },
@@ -342,7 +342,7 @@
     },
     "Keegan Bradley": {
       "score": "+4",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/4513/keegan-bradley",
       "competitor_id": "4513"
     },
@@ -390,7 +390,7 @@
     },
     "Kazuki Higa": {
       "score": "+3",
-      "hole": "3:10 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/4597553/kazuki-higa",
       "competitor_id": "4597553"
     },
@@ -438,7 +438,7 @@
     },
     "Jesper Svensson": {
       "score": "+7",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/4699329/jesper-svensson",
       "competitor_id": "4699329"
     },
@@ -785,8 +785,8 @@
       "competitor_id": "6798"
     },
     "Jack McDonald": {
-      "score": "+5",
-      "hole": "1",
+      "score": "+4",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/6849/jack-mcdonald",
       "competitor_id": "6849"
     },
@@ -2211,8 +2211,8 @@
     ],
     "Jesper Svensson": [
       "□",
-      "□",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -2435,10 +2435,10 @@
     ],
     "Jack McDonald": [
       "P",
+      "□",
+      "□",
       "P",
-      "□",
-      "□",
-      "P"
+      "○"
     ],
     "Joe Dean": [
       "P",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784445497.4805598,
-  "last_score_refresh_attempt_at": 1784446021.2476218,
+  "last_score_refresh_at": 1784446022.7940395,
+  "last_score_refresh_attempt_at": 1784446022.7940395,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
