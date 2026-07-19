@@ -71,7 +71,7 @@ div[data-testid="stButton"] > button:disabled, div[data-testid="stButton"] > but
 .standings-player-status { color:#ddd; white-space:nowrap; }
 .recent-hole-tape { display:flex; align-items:center; gap:3px; flex-wrap:wrap; margin:3px 0 8px 43px; }
 .recent-hole-label { color:#ddd; font-size:.5rem; font-weight:950; letter-spacing:.04em; text-transform:uppercase; margin-right:2px; }
-.recent-hole-cell { display:inline-flex; align-items:center; justify-content:center; width:1.16rem; height:1.16rem; border-radius:4px; border:1px solid rgba(255,255,255,.24); background:#101010; color:#fff; font-size:.5rem; font-weight:1000; line-height:1; box-shadow:0 0 6px rgba(255,255,255,.08); }
+.recent-hole-cell { display:inline-flex; align-items:center; justify-content:center; width:1.22rem; height:1.22rem; border-radius:4px; border:1px solid rgba(255,255,255,.24); background:#101010; color:#fff; font-size:.525rem; font-weight:1000; line-height:1; box-shadow:0 0 6px rgba(255,255,255,.08); }
 .recent-hole-eagle { border-radius:50%; background:#39ff14; border-color:#c9ffbf; color:#031300; box-shadow:0 0 9px rgba(57,255,20,.55), inset 0 0 0 2px rgba(3,19,0,.32); }
 .recent-hole-birdie { border-radius:50%; background:#39ff14; border-color:#c9ffbf; color:#031300; box-shadow:0 0 9px rgba(57,255,20,.5); }
 .recent-hole-par { background:transparent; border-color:transparent; color:#fff; box-shadow:none; }
