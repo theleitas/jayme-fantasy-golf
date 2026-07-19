@@ -173,8 +173,8 @@
       "competitor_id": "1651"
     },
     "Peter Uihlein": {
-      "score": "+1",
-      "hole": "5",
+      "score": "+2",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/1674/peter-uihlein",
       "competitor_id": "1674"
     },
@@ -282,7 +282,7 @@
     },
     "Ben Griffin": {
       "score": "+3",
-      "hole": "6",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/4404992/ben-griffin",
       "competitor_id": "4404992"
     },
@@ -389,8 +389,8 @@
       "competitor_id": "4592246"
     },
     "Kazuki Higa": {
-      "score": "+3",
-      "hole": "5",
+      "score": "+6",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/4597553/kazuki-higa",
       "competitor_id": "4597553"
     },
@@ -456,7 +456,7 @@
     },
     "Thomas Detry": {
       "score": "E",
-      "hole": "4:25 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/4837/thomas-detry",
       "competitor_id": "4837"
     },
@@ -540,7 +540,7 @@
     },
     "Marcus Plunkett": {
       "score": "+4",
-      "hole": "3",
+      "hole": "4",
       "profile_url": "https://www.espn.com/golf/player/_/id/5075661/marcus-plunkett",
       "competitor_id": "5075661"
     },
@@ -708,7 +708,7 @@
     },
     "Laurie Canter": {
       "score": "+3",
-      "hole": "7",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/5550/laurie-canter",
       "competitor_id": "5550"
     },
@@ -756,7 +756,7 @@
     },
     "Matthew Southgate": {
       "score": "+2",
-      "hole": "7",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/5852/matthew-southgate",
       "competitor_id": "5852"
     },
@@ -786,7 +786,7 @@
     },
     "Jack McDonald": {
       "score": "+6",
-      "hole": "6",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/6849/jack-mcdonald",
       "competitor_id": "6849"
     },
@@ -1131,11 +1131,11 @@
       "□"
     ],
     "Peter Uihlein": [
-      "□",
       "P",
       "○",
       "P",
-      "○"
+      "○",
+      "□"
     ],
     "Jason Day": [
       "P",
@@ -1295,8 +1295,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "□"
+      "□",
+      "P"
     ],
     "Nico Echavarria": [
       "P",
@@ -1831,11 +1831,11 @@
       "□"
     ],
     "Laurie Canter": [
-      "□",
       "P",
       "□",
       "P",
-      "○"
+      "○",
+      "P"
     ],
     "Tyrrell Hatton": [
       "○",
@@ -2190,10 +2190,10 @@
     ],
     "Kazuki Higa": [
       "P",
-      "P",
       "□",
       "P",
-      "○"
+      "○",
+      "□"
     ],
     "Casey Jarvis": [
       "P",
@@ -2273,9 +2273,9 @@
       "P"
     ],
     "Marcus Plunkett": [
-      "P",
       "○",
       "□",
+      "P",
       "P",
       "P"
     ],
@@ -2420,10 +2420,10 @@
       "□"
     ],
     "Matthew Southgate": [
-      "○",
       "P",
       "P",
       "□",
+      "P",
       "P"
     ],
     "Andy Sullivan": [
@@ -2434,10 +2434,10 @@
       "○"
     ],
     "Jack McDonald": [
-      "○",
       "P",
       "□",
       "□",
+      "P",
       "P"
     ],
     "Joe Dean": [
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784450237.2174413,
-  "last_score_refresh_attempt_at": 1784450548.1975172,
+  "last_score_refresh_at": 1784450549.7645822,
+  "last_score_refresh_attempt_at": 1784450549.7645822,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
