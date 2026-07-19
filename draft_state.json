@@ -12,7 +12,7 @@
   "player_results": {
     "Bryson DeChambeau": {
       "score": "-5",
-      "hole": "9",
+      "hole": "10",
       "profile_url": "https://www.espn.com/golf/player/_/id/10046/bryson-dechambeau",
       "competitor_id": "10046"
     },
@@ -293,8 +293,8 @@
       "competitor_id": "4407372"
     },
     "Nico Echavarria": {
-      "score": "+3",
-      "hole": "17",
+      "score": "+4",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4408316/nico-echavarria",
       "competitor_id": "4408316"
     },
@@ -473,8 +473,8 @@
       "competitor_id": "4837368"
     },
     "Justin Thomas": {
-      "score": "+1",
-      "hole": "16",
+      "score": "+2",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4848/justin-thomas",
       "competitor_id": "4848"
     },
@@ -522,7 +522,7 @@
     },
     "Jacob Bridgeman": {
       "score": "-2",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5054388/jacob-bridgeman",
       "competitor_id": "5054388"
     },
@@ -546,7 +546,7 @@
     },
     "Ryan Gerard": {
       "score": "-6",
-      "hole": "8",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -600,13 +600,13 @@
     },
     "Josele Ballester": {
       "score": "+1",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/5152205/josele-ballester",
       "competitor_id": "5152205"
     },
     "Kazuma Kobori": {
-      "score": "-5",
-      "hole": "12",
+      "score": "-4",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/5186648/kazuma-kobori",
       "competitor_id": "5186648"
     },
@@ -762,7 +762,7 @@
     },
     "Hideki Matsuyama": {
       "score": "-3",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/5860/hideki-matsuyama",
       "competitor_id": "5860"
     },
@@ -810,7 +810,7 @@
     },
     "Si Woo Kim": {
       "score": "-10",
-      "hole": "8",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/7081/si-woo-kim",
       "competitor_id": "7081"
     },
@@ -846,7 +846,7 @@
     },
     "Max Homa": {
       "score": "-3",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/8973/max-homa",
       "competitor_id": "8973"
     },
@@ -900,7 +900,7 @@
     },
     "Alex Smalley": {
       "score": "E",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/9484/alex-smalley",
       "competitor_id": "9484"
     },
@@ -949,15 +949,15 @@
   },
   "hole_outcomes": {
     "Bryson DeChambeau": [
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
       "BOGEY",
-      "PAR",
-      "PAR",
-      "PAR",
-      "PAR",
-      "PAR",
-      "PAR",
-      "PAR",
-      "BOGEY"
+      "PAR"
     ],
     "Cole Hammer": [
       "BOGEY",
@@ -1357,14 +1357,14 @@
     ],
     "Nico Echavarria": [
       "PAR",
-      "PAR",
       "BOGEY",
       "PAR",
       "PAR",
       "BOGEY",
       "BOGEY",
       "PAR",
-      "DOUBLE"
+      "DOUBLE",
+      "BOGEY"
     ],
     "Kevin Roy": [
       "PAR",
@@ -1549,13 +1549,13 @@
     "Justin Thomas": [
       "PAR",
       "PAR",
-      "PAR",
       "DOUBLE",
       "PAR",
       "PAR",
       "BIRDIE",
       "BOGEY",
-      "PAR"
+      "PAR",
+      "BOGEY"
     ],
     "Ryo Hisatsune": [
       "BIRDIE",
@@ -1620,7 +1620,6 @@
       "BOGEY"
     ],
     "Jacob Bridgeman": [
-      "BOGEY",
       "PAR",
       "PAR",
       "PAR",
@@ -1628,6 +1627,7 @@
       "PAR",
       "PAR",
       "BOGEY",
+      "PAR",
       "PAR"
     ],
     "Adrien Dumont de Chassart": [
@@ -1642,8 +1642,8 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
+      "PAR",
       "PAR",
       "PAR",
       "PAR"
@@ -1968,10 +1968,10 @@
       "PAR"
     ],
     "Hideki Matsuyama": [
-      "BOGEY",
       "PAR",
       "BOGEY",
       "BOGEY",
+      "PAR",
       "PAR",
       "PAR",
       "PAR",
@@ -2024,13 +2024,13 @@
       "BIRDIE"
     ],
     "Si Woo Kim": [
-      "BIRDIE",
       "PAR",
       "PAR",
       "PAR",
       "PAR",
       "BIRDIE",
       "BIRDIE",
+      "PAR",
       "PAR",
       "PAR"
     ],
@@ -2120,15 +2120,15 @@
       "BOGEY"
     ],
     "Alex Smalley": [
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
       "BOGEY",
-      "PAR",
-      "PAR",
-      "PAR",
-      "PAR",
-      "PAR",
-      "PAR",
-      "PAR",
-      "BOGEY"
+      "PAR"
     ],
     "Maverick McNealy": [
       "PAR",
@@ -2506,7 +2506,6 @@
       "BOGEY"
     ],
     "Josele Ballester": [
-      "BOGEY",
       "PAR",
       "PAR",
       "PAR",
@@ -2514,10 +2513,10 @@
       "BOGEY",
       "PAR",
       "DOUBLE",
+      "PAR",
       "PAR"
     ],
     "Kazuma Kobori": [
-      "PAR",
       "BIRDIE",
       "PAR",
       "PAR",
@@ -2525,7 +2524,8 @@
       "BOGEY",
       "PAR",
       "PAR",
-      "PAR"
+      "PAR",
+      "BOGEY"
     ],
     "Bard Bjornevik Skogen": [
       "PAR",
@@ -2668,7 +2668,6 @@
       "BOGEY"
     ],
     "Max Homa": [
-      "PAR",
       "BOGEY",
       "PAR",
       "PAR",
@@ -2676,6 +2675,7 @@
       "PAR",
       "PAR",
       "BOGEY",
+      "PAR",
       "PAR"
     ],
     "Haotong Li": [
@@ -2751,8 +2751,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784474136.1716473,
-  "last_score_refresh_attempt_at": 1784474494.381651,
+  "last_score_refresh_at": 1784474495.8228705,
+  "last_score_refresh_attempt_at": 1784474495.8228705,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
