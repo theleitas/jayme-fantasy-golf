@@ -11,8 +11,8 @@
   "last_pick_started_at": 1784118861.3090055,
   "player_results": {
     "Bryson DeChambeau": {
-      "score": "-3",
-      "hole": "13",
+      "score": "-4",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/10046/bryson-dechambeau",
       "competitor_id": "10046"
     },
@@ -155,8 +155,8 @@
       "competitor_id": "1225"
     },
     "Daniel Brown": {
-      "score": "-2",
-      "hole": "16",
+      "score": "-3",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/1407/daniel-brown",
       "competitor_id": "1407"
     },
@@ -546,7 +546,7 @@
     },
     "Ryan Gerard": {
       "score": "-6",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -600,7 +600,7 @@
     },
     "Josele Ballester": {
       "score": "E",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5152205/josele-ballester",
       "competitor_id": "5152205"
     },
@@ -810,7 +810,7 @@
     },
     "Si Woo Kim": {
       "score": "-8",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/7081/si-woo-kim",
       "competitor_id": "7081"
     },
@@ -952,11 +952,11 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
       "PAR",
       "DOUBLE",
       "PAR",
+      "BIRDIE",
       "BIRDIE"
     ],
     "Cole Hammer": [
@@ -1638,8 +1638,8 @@
       "PAR"
     ],
     "Ryan Gerard": [
-      "PAR",
       "BOGEY",
+      "PAR",
       "PAR",
       "PAR",
       "PAR",
@@ -2024,7 +2024,6 @@
       "BIRDIE"
     ],
     "Si Woo Kim": [
-      "PAR",
       "BIRDIE",
       "BIRDIE",
       "PAR",
@@ -2032,7 +2031,8 @@
       "PAR",
       "PAR",
       "BOGEY",
-      "BOGEY"
+      "BOGEY",
+      "PAR"
     ],
     "Marcelo Rozo": [
       "BIRDIE",
@@ -2244,14 +2244,14 @@
     "Louis Oosthuizen": [],
     "Daniel Brown": [
       "PAR",
-      "PAR",
       "BIRDIE",
       "PAR",
       "BOGEY",
       "PAR",
       "PAR",
       "BIRDIE",
-      "PAR"
+      "PAR",
+      "BIRDIE"
     ],
     "Francesco Molinari": [
       "BOGEY",
@@ -2507,14 +2507,14 @@
     ],
     "Josele Ballester": [
       "PAR",
-      "PAR",
       "BOGEY",
       "PAR",
       "DOUBLE",
       "PAR",
       "PAR",
       "PAR",
-      "BIRDIE"
+      "BIRDIE",
+      "PAR"
     ],
     "Kazuma Kobori": [
       "PAR",
@@ -2751,8 +2751,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784477316.2912812,
-  "last_score_refresh_attempt_at": 1784477674.578478,
+  "last_score_refresh_at": 1784477676.227493,
+  "last_score_refresh_attempt_at": 1784477676.227493,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
