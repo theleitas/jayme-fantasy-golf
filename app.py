@@ -71,12 +71,12 @@ div[data-testid="stButton"] > button:disabled, div[data-testid="stButton"] > but
 .standings-player-status { color:#ddd; white-space:nowrap; }
 .recent-hole-tape { display:flex; align-items:center; gap:3px; flex-wrap:wrap; margin:3px 0 8px 43px; }
 .recent-hole-label { color:#ddd; font-size:.5rem; font-weight:950; letter-spacing:.04em; text-transform:uppercase; margin-right:2px; }
-.recent-hole-cell { display:inline-flex; align-items:center; justify-content:center; width:1.16rem; height:1.02rem; border-radius:4px; border:1px solid rgba(255,255,255,.24); background:#101010; color:#fff; font-size:.5rem; font-weight:1000; line-height:1; box-shadow:0 0 6px rgba(255,255,255,.08); }
-.recent-hole-eagle { background:#00f5ff; border-color:#baffff; color:#001316; box-shadow:0 0 9px rgba(0,245,255,.55); }
-.recent-hole-birdie { background:#39ff14; border-color:#c9ffbf; color:#031300; box-shadow:0 0 9px rgba(57,255,20,.5); }
-.recent-hole-par { background:#f1f1f1; border-color:#fff; color:#111; }
-.recent-hole-bogey { background:#ffb000; border-color:#ffe0a3; color:#160d00; box-shadow:0 0 8px rgba(255,176,0,.45); }
-.recent-hole-double { background:#ff4040; border-color:#ffc0c0; color:#fff; box-shadow:0 0 8px rgba(255,64,64,.55); }
+.recent-hole-cell { display:inline-flex; align-items:center; justify-content:center; width:1.16rem; height:1.16rem; border-radius:4px; border:1px solid rgba(255,255,255,.24); background:#101010; color:#fff; font-size:.5rem; font-weight:1000; line-height:1; box-shadow:0 0 6px rgba(255,255,255,.08); }
+.recent-hole-eagle { border-radius:50%; background:#39ff14; border-color:#c9ffbf; color:#031300; box-shadow:0 0 9px rgba(57,255,20,.55), inset 0 0 0 2px rgba(3,19,0,.32); }
+.recent-hole-birdie { border-radius:50%; background:#39ff14; border-color:#c9ffbf; color:#031300; box-shadow:0 0 9px rgba(57,255,20,.5); }
+.recent-hole-par { background:transparent; border-color:transparent; color:#fff; box-shadow:none; }
+.recent-hole-bogey { border-radius:3px; background:#ffb000; border-color:#ffe0a3; color:#160d00; box-shadow:0 0 8px rgba(255,176,0,.45); }
+.recent-hole-double { border-radius:3px; background:#ffb000; border-color:#ffe0a3; color:#160d00; box-shadow:0 0 8px rgba(255,176,0,.45), inset 0 0 0 2px rgba(22,13,0,.28); }
 .recent-hole-empty { color:#666; background:#080808; border-color:#222; box-shadow:none; }
 .country-strip { display:flex; align-items:center; justify-content:center; gap:7px; flex-wrap:wrap; min-height:34px; border:1px solid currentColor; border-radius:8px; padding:6px 8px; margin-top:8px; color:currentColor; background:rgba(255,255,255,.045); box-shadow:inset 0 0 10px currentColor; text-align:center; }
 .country-strip-label { color:#fff; font-size:.72rem; font-weight:950; letter-spacing:.04em; text-transform:uppercase; opacity:.82; }
