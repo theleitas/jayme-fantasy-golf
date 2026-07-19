@@ -12,7 +12,7 @@
   "player_results": {
     "Bryson DeChambeau": {
       "score": "-4",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/10046/bryson-dechambeau",
       "competitor_id": "10046"
     },
@@ -30,7 +30,7 @@
     },
     "Lucas Herbert": {
       "score": "-7",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/10343/lucas-herbert",
       "competitor_id": "10343"
     },
@@ -156,7 +156,7 @@
     },
     "Daniel Brown": {
       "score": "-3",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/1407/daniel-brown",
       "competitor_id": "1407"
     },
@@ -263,8 +263,8 @@
       "competitor_id": "4364873"
     },
     "Cameron John": {
-      "score": "-3",
-      "hole": "17",
+      "score": "-2",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4368981/cameron-john",
       "competitor_id": "4368981"
     },
@@ -485,8 +485,8 @@
       "competitor_id": "4858572"
     },
     "Rasmus Neergaard-Petersen": {
-      "score": "-3",
-      "hole": "16",
+      "score": "-5",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4858859/rasmus-neergaard-petersen",
       "competitor_id": "4858859"
     },
@@ -546,7 +546,7 @@
     },
     "Ryan Gerard": {
       "score": "-6",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -701,8 +701,8 @@
       "competitor_id": "5467"
     },
     "Tommy Fleetwood": {
-      "score": "-5",
-      "hole": "16",
+      "score": "-6",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5539/tommy-fleetwood",
       "competitor_id": "5539"
     },
@@ -810,7 +810,7 @@
     },
     "Si Woo Kim": {
       "score": "-8",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/7081/si-woo-kim",
       "competitor_id": "7081"
     },
@@ -950,13 +950,13 @@
   "hole_outcomes": {
     "Bryson DeChambeau": [
       "PAR",
-      "PAR",
       "BOGEY",
       "PAR",
       "DOUBLE",
       "PAR",
       "BIRDIE",
       "BIRDIE",
+      "PAR",
       "PAR"
     ],
     "Cole Hammer": [
@@ -992,12 +992,12 @@
       "PAR"
     ],
     "Lucas Herbert": [
-      "BOGEY",
       "PAR",
       "PAR",
       "BIRDIE",
       "BIRDIE",
       "BOGEY",
+      "PAR",
       "PAR",
       "PAR",
       "PAR"
@@ -1638,7 +1638,7 @@
       "PAR"
     ],
     "Ryan Gerard": [
-      "BOGEY",
+      "PAR",
       "PAR",
       "PAR",
       "PAR",
@@ -1925,7 +1925,6 @@
       "PAR"
     ],
     "Tommy Fleetwood": [
-      "BIRDIE",
       "BOGEY",
       "BOGEY",
       "BOGEY",
@@ -1933,7 +1932,8 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR"
+      "PAR",
+      "BIRDIE"
     ],
     "Laurie Canter": [
       "BIRDIE",
@@ -2025,13 +2025,13 @@
     ],
     "Si Woo Kim": [
       "BIRDIE",
-      "BIRDIE",
       "PAR",
       "PAR",
       "PAR",
       "PAR",
       "BOGEY",
       "BOGEY",
+      "PAR",
       "PAR"
     ],
     "Marcelo Rozo": [
@@ -2243,7 +2243,6 @@
     ],
     "Louis Oosthuizen": [],
     "Daniel Brown": [
-      "PAR",
       "BIRDIE",
       "PAR",
       "BOGEY",
@@ -2251,7 +2250,8 @@
       "PAR",
       "BIRDIE",
       "PAR",
-      "BIRDIE"
+      "BIRDIE",
+      "PAR"
     ],
     "Francesco Molinari": [
       "BOGEY",
@@ -2282,12 +2282,12 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
       "PAR",
       "PAR",
       "PAR",
-      "BIRDIE"
+      "BIRDIE",
+      "BOGEY"
     ],
     "Antoine Rozner": [
       "PAR",
@@ -2421,7 +2421,6 @@
       "BOGEY"
     ],
     "Rasmus Neergaard-Petersen": [
-      "BOGEY",
       "BIRDIE",
       "PAR",
       "PAR",
@@ -2429,7 +2428,8 @@
       "PAR",
       "BIRDIE",
       "DOUBLE",
-      "PAR"
+      "PAR",
+      "EAGLE"
     ],
     "Sam Bairstow": [
       "BOGEY",
@@ -2751,8 +2751,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784478636.0637,
-  "last_score_refresh_attempt_at": 1784478994.509603,
+  "last_score_refresh_at": 1784478996.0980613,
+  "last_score_refresh_attempt_at": 1784478996.0980613,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
