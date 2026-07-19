@@ -35,8 +35,8 @@
       "competitor_id": "10343"
     },
     "Kurt Kitayama": {
-      "score": "E",
-      "hole": "16",
+      "score": "-1",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/10364/kurt-kitayama",
       "competitor_id": "10364"
     },
@@ -54,13 +54,13 @@
     },
     "Matt Wallace": {
       "score": "-3",
-      "hole": "11",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/10548/matt-wallace",
       "competitor_id": "10548"
     },
     "Collin Morikawa": {
       "score": "-4",
-      "hole": "10",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/10592/collin-morikawa",
       "competitor_id": "10592"
     },
@@ -137,8 +137,8 @@
       "competitor_id": "11378"
     },
     "Sungjae Im": {
-      "score": "-4",
-      "hole": "6",
+      "score": "-3",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/11382/sungjae-im",
       "competitor_id": "11382"
     },
@@ -156,13 +156,13 @@
     },
     "Daniel Brown": {
       "score": "-2",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/1407/daniel-brown",
       "competitor_id": "1407"
     },
     "Francesco Molinari": {
       "score": "-1",
-      "hole": "10",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/1483/francesco-molinari",
       "competitor_id": "1483"
     },
@@ -191,8 +191,8 @@
       "competitor_id": "186"
     },
     "Rory McIlroy": {
-      "score": "-3",
-      "hole": "9",
+      "score": "-4",
+      "hole": "10",
       "profile_url": "https://www.espn.com/golf/player/_/id/3470/rory-mcilroy",
       "competitor_id": "3470"
     },
@@ -221,8 +221,8 @@
       "competitor_id": "3832"
     },
     "Adam Scott": {
-      "score": "-3",
-      "hole": "13",
+      "score": "-4",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/388/adam-scott",
       "competitor_id": "388"
     },
@@ -252,7 +252,7 @@
     },
     "Alex Fitzpatrick": {
       "score": "+5",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4364865/alex-fitzpatrick",
       "competitor_id": "4364865"
     },
@@ -264,7 +264,7 @@
     },
     "Cameron John": {
       "score": "-4",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/4368981/cameron-john",
       "competitor_id": "4368981"
     },
@@ -294,7 +294,7 @@
     },
     "Nico Echavarria": {
       "score": "-2",
-      "hole": "6",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/4408316/nico-echavarria",
       "competitor_id": "4408316"
     },
@@ -467,14 +467,14 @@
       "competitor_id": "4837226"
     },
     "Pierceson Coody": {
-      "score": "-2",
-      "hole": "15",
+      "score": "-1",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4837368/pierceson-coody",
       "competitor_id": "4837368"
     },
     "Justin Thomas": {
-      "score": "-2",
-      "hole": "5",
+      "score": "-1",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/4848/justin-thomas",
       "competitor_id": "4848"
     },
@@ -510,7 +510,7 @@
     },
     "Michael Brennan": {
       "score": "+1",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4921329/michael-brennan",
       "competitor_id": "4921329"
     },
@@ -522,7 +522,7 @@
     },
     "Jacob Bridgeman": {
       "score": "-4",
-      "hole": "5",
+      "hole": "6",
       "profile_url": "https://www.espn.com/golf/player/_/id/5054388/jacob-bridgeman",
       "competitor_id": "5054388"
     },
@@ -611,8 +611,8 @@
       "competitor_id": "5186648"
     },
     "Johnny Keefer": {
-      "score": "E",
-      "hole": "14",
+      "score": "+1",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/5217048/johnny-keefer",
       "competitor_id": "5217048"
     },
@@ -870,7 +870,7 @@
     },
     "Corey Conners": {
       "score": "-3",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/9126/corey-conners",
       "competitor_id": "9126"
     },
@@ -906,7 +906,7 @@
     },
     "Jordan Smith": {
       "score": "-2",
-      "hole": "9",
+      "hole": "10",
       "profile_url": "https://www.espn.com/golf/player/_/id/9506/jordan-smith",
       "competitor_id": "9506"
     },
@@ -930,7 +930,7 @@
     },
     "Hennie Du Plessis": {
       "score": "E",
-      "hole": "8",
+      "hole": "9",
       "profile_url": "https://www.espn.com/golf/player/_/id/9899/hennie-du-plessis",
       "competitor_id": "9899"
     },
@@ -949,1573 +949,1592 @@
   },
   "hole_outcomes": {
     "Bryson DeChambeau": [
-      "P",
-      "○",
-      "P",
-      "○",
-      "□"
+      "PAR",
+      "BIRDIE",
+      "PAR",
+      "BIRDIE",
+      "BOGEY"
     ],
     "Cole Hammer": [
-      "□",
-      "P",
-      "P",
-      "P",
-      "○"
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Nick Hardy": [
-      "○",
-      "□",
-      "P",
-      "P",
-      "○"
+      "BIRDIE",
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Xander Schauffele": [
-      "○",
-      "P",
-      "□",
-      "P",
-      "P"
+      "BIRDIE",
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "PAR"
     ],
     "J.J. Spaun": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "PAR"
     ],
     "Lucas Herbert": [
-      "P",
-      "□",
-      "□",
-      "P",
-      "P"
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "PAR",
+      "PAR"
     ],
     "Kurt Kitayama": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "J.T. Poston": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Collin Morikawa": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "PAR",
+      "PAR"
     ],
     "J.B. Holmes": [
-      "○",
-      "P",
-      "P",
-      "□",
-      "P"
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "PAR"
     ],
     "Aaron Rai": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Nathan Kimsey": [
-      "□",
-      "P",
-      "□",
-      "P",
-      "P"
+      "BOGEY",
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "PAR"
     ],
     "Sahith Theegala": [
-      "P",
-      "P",
-      "□",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "PAR"
     ],
     "Jimmy Stanger": [
-      "P",
-      "P",
-      "□",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "PAR"
     ],
     "Manav Shah": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Joaquin Niemann": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BIRDIE"
     ],
     "Max Greyserman": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Wyndham Clark": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Nicolai Højgaard": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Andrew Novak": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BIRDIE"
     ],
     "Robert MacIntyre": [
-      "□",
-      "○",
-      "P",
-      "P",
-      "□"
+      "BOGEY",
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Sungjae Im": [
-      "□",
-      "□",
-      "○",
-      "P",
-      "P"
+      "BOGEY",
+      "BOGEY",
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Max McGreevy": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY"
     ],
     "Angel Hidalgo": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY"
     ],
     "Brian Harman": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY"
     ],
     "Billy Horschel": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Peter Uihlein": [
-      "P",
-      "○",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Jason Day": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Padraig Harrington": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Brandon Holtz": [
-      "□",
-      "○",
-      "P",
-      "P",
-      "P"
+      "BOGEY",
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Graeme McDowell": [
-      "P",
-      "P",
-      "□",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "BOGEY"
     ],
     "Dustin Johnson": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY"
     ],
     "Chris Kirk": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Rory McIlroy": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Gary Woodland": [
-      "□",
-      "□",
-      "P",
-      "○",
-      "○"
+      "BOGEY",
+      "BOGEY",
+      "PAR",
+      "BIRDIE",
+      "BIRDIE"
     ],
     "Rickie Fowler": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Nick Taylor": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Alex Noren": [
-      "P",
-      "P",
-      "○",
-      "○",
-      "P"
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BIRDIE",
+      "PAR"
     ],
     "Adam Scott": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Ryan Fox": [
-      "○",
-      "P",
-      "○",
-      "P",
-      "○"
+      "BIRDIE",
+      "PAR",
+      "BIRDIE",
+      "PAR",
+      "BIRDIE"
     ],
     "Kristoffer Reitan": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "PAR"
     ],
     "Brandon Wu": [
-      "○",
-      "P",
-      "P",
-      "P",
-      "P"
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Alejandro Tosti": [
-      "○",
-      "P",
-      "□",
-      "P",
-      "P"
+      "BIRDIE",
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "PAR"
     ],
     "Alex Fitzpatrick": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "PAR"
     ],
     "Viktor Hovland": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Taylor Montgomery": [
-      "○",
-      "P",
-      "P",
-      "P",
-      "□"
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Ludvig Aberg": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "PAR"
     ],
     "Niklas Nørgaard": [
-      "P",
-      "□",
-      "□",
-      "□",
-      "□"
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Matthew Jordan": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Ben Griffin": [
-      "○",
-      "○",
-      "P",
-      "P",
-      "□"
+      "BIRDIE",
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Nico Echavarria": [
-      "□",
-      "□",
-      "P",
-      "○",
-      "P"
+      "BOGEY",
+      "BOGEY",
+      "PAR",
+      "BIRDIE",
+      "PAR",
+      "PAR"
     ],
     "Kevin Roy": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "PAR"
     ],
     "Min Woo Lee": [
-      "○",
-      "P",
-      "P",
-      "P",
-      "□"
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Ugo Coussaud": [
-      "P",
-      "□",
-      "○",
-      "□",
-      "○"
+      "PAR",
+      "BOGEY",
+      "BIRDIE",
+      "BOGEY",
+      "BIRDIE"
     ],
     "Akshay Bhatia": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY"
     ],
     "Dylan Wu": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Spencer Tibbits": [
-      "P",
-      "P",
-      "□",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Cameron Young": [
-      "□",
-      "P",
-      "P",
-      "□",
-      "P"
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "PAR"
     ],
     "Sam Stevens": [
-      "P",
-      "P",
-      "□",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "PAR"
     ],
     "Keegan Bradley": [
-      "○",
-      "P",
-      "P",
-      "○",
-      "□"
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BOGEY"
     ],
     "Matti Schmid": [
-      "□",
-      "□",
-      "P",
-      "P",
-      "P"
+      "BOGEY",
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "T.K. Kim": [
-      "□",
-      "P",
-      "□",
-      "P",
-      "P"
+      "BOGEY",
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "PAR"
     ],
     "Shane Lowry": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BIRDIE"
     ],
     "Chandler Phillips": [
-      "□",
-      "□",
-      "□",
-      "P",
-      "P"
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "PAR",
+      "PAR"
     ],
     "Harry Hall": [
-      "P",
-      "P",
-      "○",
-      "○",
-      "○"
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BIRDIE",
+      "BIRDIE"
     ],
     "Davis Thompson": [
-      "○",
-      "□",
-      "□",
-      "P",
-      "P"
+      "BIRDIE",
+      "BOGEY",
+      "BOGEY",
+      "PAR",
+      "PAR"
     ],
     "Tom Kim": [
-      "P",
-      "P",
-      "□",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Jayden Schaper": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY"
     ],
     "John Parry": [
-      "○",
-      "P",
-      "P",
-      "○",
-      "P"
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "PAR"
     ],
     "James Nicholas": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Chris Gotterup": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Taihei Sato": [
-      "○",
-      "□",
-      "P",
-      "□",
-      "P"
+      "BIRDIE",
+      "BOGEY",
+      "PAR",
+      "BOGEY",
+      "PAR"
     ],
     "Ryuichi Oiwa": [
-      "P",
-      "□",
-      "○",
-      "○",
-      "○"
+      "PAR",
+      "BOGEY",
+      "BIRDIE",
+      "BIRDIE",
+      "BIRDIE"
     ],
     "Pierceson Coody": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "PAR",
+      "BOGEY"
     ],
     "Harry Higgs": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY"
     ],
     "Justin Thomas": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Ryo Hisatsune": [
-      "○",
-      "P",
-      "P",
-      "P",
-      "□"
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Filippo Celli": [
-      "○",
-      "P",
-      "P",
-      "P",
-      "○"
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Kaito Onishi": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "David Puig": [
-      "P",
-      "P",
-      "□",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Matt McCarty": [
-      "P",
-      "P",
-      "○",
-      "○",
-      "○"
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BIRDIE",
+      "BIRDIE"
     ],
     "Michael Brennan": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "PAR"
     ],
     "Jackson Suber": [
-      "○",
-      "□",
-      "P",
-      "□",
-      "P"
+      "BIRDIE",
+      "BOGEY",
+      "PAR",
+      "BOGEY",
+      "PAR"
     ],
     "Cooper Dossey": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Jacob Bridgeman": [
-      "P",
-      "□",
-      "P",
-      "P",
-      "○"
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "PAR"
     ],
     "Adrien Dumont de Chassart": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Ryan Gerard": [
-      "○",
-      "P",
-      "P",
-      "P",
-      "P"
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "William Mouw": [
-      "□",
-      "□",
-      "□",
-      "□",
-      "□"
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Ben James": [
-      "P",
-      "P",
-      "○",
-      "○",
-      "○"
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BIRDIE",
+      "BIRDIE"
     ],
     "Caleb Surratt": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BOGEY"
     ],
     "Sudarshan Yellamaraju": [
-      "P",
-      "□",
-      "P",
-      "P",
-      "□"
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Jackson Van Paris": [
-      "P",
-      "P",
-      "□",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Neal Shipley": [
-      "P",
-      "P",
-      "□",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Miles Russell": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Preston Stout": [
-      "○",
-      "P",
-      "○",
-      "□",
-      "○"
+      "BIRDIE",
+      "PAR",
+      "BIRDIE",
+      "BOGEY",
+      "BIRDIE"
     ],
     "Jackson Koivun": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BIRDIE"
     ],
     "Johnny Keefer": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BOGEY"
     ],
     "Giuseppe Puebla": [
-      "○",
-      "□",
-      "P",
-      "P",
-      "○"
+      "BIRDIE",
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Robbie Higgins": [
-      "P",
-      "○",
-      "○",
-      "P",
-      "P"
+      "PAR",
+      "BIRDIE",
+      "BIRDIE",
+      "PAR",
+      "PAR"
     ],
     "Jake Sollon": [
-      "P",
-      "P",
-      "□",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "PAR"
     ],
     "Rocco Repetto Taylor": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Mason Howell": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Bryan Lee": [
-      "P",
-      "□",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Ethan Fang": [
-      "P",
-      "□",
-      "P",
-      "□",
-      "P"
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "BOGEY",
+      "PAR"
     ],
     "Jake Peacock": [
-      "P",
-      "○",
-      "□",
-      "□",
-      "□"
+      "PAR",
+      "BIRDIE",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Greyson Leach": [
-      "P",
-      "□",
-      "P",
-      "P",
-      "□"
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Bud Cauley": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "PAR"
     ],
     "Hamilton Coleman": [
-      "P",
-      "P",
-      "□",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "BOGEY"
     ],
     "Mateo Pulcini": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BIRDIE"
     ],
     "Jackson Herrington": [
-      "P",
-      "P",
-      "□",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "BOGEY"
     ],
     "Jackson Ormond": [
-      "○",
-      "□",
-      "P",
-      "□",
-      "□"
+      "BIRDIE",
+      "BOGEY",
+      "PAR",
+      "BOGEY",
+      "BOGEY"
     ],
     "Ryder Cowan": [
-      "P",
-      "P",
-      "□",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Marek Fleming": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY"
     ],
     "Vaughn Harber": [
-      "□",
-      "○",
-      "P",
-      "P",
-      "○"
+      "BOGEY",
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Chase Kyes": [
-      "P",
-      "P",
-      "□",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "BOGEY"
     ],
     "Eric Lee": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Logan Reilly": [
-      "P",
-      "□",
-      "○",
-      "□",
-      "P"
+      "PAR",
+      "BOGEY",
+      "BIRDIE",
+      "BOGEY",
+      "PAR"
     ],
     "Matthew Robles": [
-      "□",
-      "○",
-      "□",
-      "□",
-      "□"
+      "BOGEY",
+      "BIRDIE",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Arni Sveinsson": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "PAR"
     ],
     "Jack Schoenberger": [
-      "P",
-      "□",
-      "□",
-      "○",
-      "○"
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "BIRDIE",
+      "BIRDIE"
     ],
     "Harris English": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Russell Henley": [
-      "P",
-      "○",
-      "○",
-      "○",
-      "P"
+      "PAR",
+      "BIRDIE",
+      "BIRDIE",
+      "BIRDIE",
+      "PAR"
     ],
     "Jordan Spieth": [
-      "□",
-      "□",
-      "□",
-      "□",
-      "□"
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Andrew Putnam": [
-      "□",
-      "□",
-      "□",
-      "□",
-      "□"
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Carlos Ortiz": [
-      "P",
-      "□",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Tommy Fleetwood": [
-      "P",
-      "□",
-      "P",
-      "P",
-      "□"
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Laurie Canter": [
-      "○",
-      "P",
-      "□",
-      "□",
-      "P"
+      "BIRDIE",
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "PAR"
     ],
     "Tyrrell Hatton": [
-      "P",
-      "□",
-      "□",
-      "□",
-      "□"
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Patrick Reed": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY"
     ],
     "Justin Rose": [
-      "P",
-      "P",
-      "○",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "PAR",
+      "PAR"
     ],
     "Hideki Matsuyama": [
-      "P",
-      "○",
-      "○",
-      "P",
-      "P"
+      "PAR",
+      "BIRDIE",
+      "BIRDIE",
+      "PAR",
+      "PAR"
     ],
     "Emiliano Grillo": [
-      "□",
-      "□",
-      "□",
-      "□",
-      "□"
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Patrick Cantlay": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Brooks Koepka": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "PAR"
     ],
     "Patrick Rodgers": [
-      "P",
-      "□",
-      "□",
-      "□",
-      "□"
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Ben Kohles": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Adrien Saddier": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Si Woo Kim": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "PAR"
     ],
     "Marcelo Rozo": [
-      "○",
-      "□",
-      "P",
-      "□",
-      "○"
+      "BIRDIE",
+      "BOGEY",
+      "PAR",
+      "BOGEY",
+      "BIRDIE"
     ],
     "Keith Mitchell": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Ben Silverman": [
-      "P",
-      "□",
-      "P",
-      "P",
-      "□"
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Sepp Straka": [
-      "P",
-      "P",
-      "□",
-      "○",
-      "□"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BIRDIE",
+      "BOGEY"
     ],
     "Michael Kim": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Daniel Berger": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Matt Fitzpatrick": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY"
     ],
     "Zac Blair": [
-      "P",
-      "P",
-      "□",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Corey Conners": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BIRDIE",
+      "PAR"
     ],
     "Cameron Smith": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Scottie Scheffler": [
-      "P",
-      "P",
-      "□",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "PAR"
     ],
     "Alex Smalley": [
-      "P",
-      "P",
-      "○",
-      "P",
-      "○"
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "PAR",
+      "BIRDIE"
     ],
     "Maverick McNealy": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Jon Rahm": [
-      "P",
-      "○",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Jake Knapp": [
-      "□",
-      "□",
-      "P",
-      "○",
-      "○"
+      "BOGEY",
+      "BOGEY",
+      "PAR",
+      "BIRDIE",
+      "BIRDIE"
     ],
     "Hennie Du Plessis": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BOGEY",
+      "PAR"
     ],
     "Sam Burns": [
-      "○",
-      "P",
-      "P",
-      "○",
-      "P"
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "PAR"
     ],
     "Carl Yuan": [
-      "○",
-      "□",
-      "P",
-      "P",
-      "P"
+      "BIRDIE",
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Eric Cole": [
-      "P",
-      "P",
-      "○",
-      "○",
-      "○"
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BIRDIE",
+      "BIRDIE"
     ],
     "Matt Wallace": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "PAR",
+      "PAR"
     ],
     "Rasmus Højgaard": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Thomas Sloman": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Victor Perez": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Travis Smyth": [
-      "□",
-      "□",
-      "P",
-      "P",
-      "○"
+      "BOGEY",
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "David Duval": [
-      "□",
-      "□",
-      "□",
-      "P",
-      "□"
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "PAR",
+      "BOGEY"
     ],
     "Louis Oosthuizen": [],
     "Daniel Brown": [
-      "○",
-      "P",
-      "○",
-      "○",
-      "P"
+      "BIRDIE",
+      "PAR",
+      "BIRDIE",
+      "BIRDIE",
+      "PAR",
+      "PAR"
     ],
     "Francesco Molinari": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "PAR"
     ],
     "Bernd Wiesberger": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Tom McKibbin": [
-      "□",
-      "□",
-      "P",
-      "P",
-      "○"
+      "BOGEY",
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Cameron John": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BOGEY",
+      "PAR"
     ],
     "Antoine Rozner": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BOGEY"
     ],
     "Daniel Hillier": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Michael Thorbjornsen": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Alistair Docherty": [
-      "P",
-      "P",
-      "□",
-      "□",
-      "P"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "PAR"
     ],
     "Eugenio Chacarra": [
-      "○",
-      "P",
-      "P",
-      "P",
-      "○"
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Sami Välimäki": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY"
     ],
     "Marco Penge": [
-      "P",
-      "P",
-      "○",
-      "○",
-      "P"
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BIRDIE",
+      "PAR"
     ],
     "Jeong-Woo Ham": [
-      "P",
-      "P",
-      "□",
-      "□",
-      "○"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "BIRDIE"
     ],
     "Frederic LaCroix": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Kazuki Higa": [
-      "○",
-      "□",
-      "P",
-      "P",
-      "□"
+      "BIRDIE",
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Casey Jarvis": [
-      "P",
-      "P",
-      "○",
-      "○",
-      "P"
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BIRDIE",
+      "PAR"
     ],
     "Ren Yonezawa": [
-      "□",
-      "□",
-      "□",
-      "P",
-      "□"
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "PAR",
+      "BOGEY"
     ],
     "Jesper Svensson": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Ryutaro Nagano": [
-      "P",
-      "P",
-      "○",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "PAR",
+      "PAR"
     ],
     "Keita Nakajima": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Thomas Detry": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Naoyuki Kataoka": [
-      "P",
-      "P",
-      "□",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Rasmus Neergaard-Petersen": [
-      "□",
-      "P",
-      "P",
-      "○",
-      "□"
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BOGEY"
     ],
     "Sam Bairstow": [
-      "□",
-      "□",
-      "□",
-      "□",
-      "P"
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "PAR"
     ],
     "Shaun Norris": [
-      "P",
-      "□",
-      "□",
-      "□",
-      "P"
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "PAR"
     ],
     "Lev Grinberg": [
-      "□",
-      "P",
-      "P",
-      "P",
-      "P"
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Marcus Plunkett": [
-      "○",
-      "□",
-      "P",
-      "P",
-      "P"
+      "BIRDIE",
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Dan Bradbury": [
-      "□",
-      "P",
-      "P",
-      "P",
-      "○"
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Martin Couvra": [
-      "P",
-      "P",
-      "□",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "BOGEY"
     ],
     "Angel Ayora": [
-      "P",
-      "○",
-      "○",
-      "□",
-      "P"
+      "PAR",
+      "BIRDIE",
+      "BIRDIE",
+      "BOGEY",
+      "PAR"
     ],
     "Jiho Yang": [
-      "□",
-      "P",
-      "P",
-      "P",
-      "○"
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Tiger Christensen": [
-      "□",
-      "□",
-      "□",
-      "□",
-      "□"
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Tim Wiedemeyer": [
-      "P",
-      "P",
-      "□",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Josele Ballester": [
-      "○",
-      "○",
-      "○",
-      "□",
-      "P"
+      "BIRDIE",
+      "BIRDIE",
+      "BIRDIE",
+      "BOGEY",
+      "PAR"
     ],
     "Kazuma Kobori": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "PAR"
     ],
     "Bard Bjornevik Skogen": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Nevill Ruiter": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Kota Kaneko": [
-      "□",
-      "□",
-      "P",
-      "P",
-      "○"
+      "BOGEY",
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Fifa Laopakdee": [
-      "P",
-      "P",
-      "○",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BOGEY",
+      "BOGEY"
     ],
     "Jack Buchanan": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY"
     ],
     "Stuart Grehan": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE"
     ],
     "Alejandro de Castro Piera": [
-      "□",
-      "□",
-      "P",
-      "P",
-      "□"
+      "BOGEY",
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "David Howard": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY"
     ],
     "Francesco Laporta": [
-      "□",
-      "□",
-      "□",
-      "□",
-      "P"
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "PAR"
     ],
     "Joakim Lagergren": [
-      "P",
-      "□",
-      "□",
-      "P",
-      "P"
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "PAR",
+      "PAR"
     ],
     "Henrik Stenson": [
-      "P",
-      "P",
-      "P",
-      "○",
-      "○"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BIRDIE",
+      "BIRDIE"
     ],
     "Matthew Baldwin": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY"
     ],
     "Matthew Southgate": [
-      "P",
-      "○",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "BIRDIE",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Andy Sullivan": [
-      "□",
-      "□",
-      "P",
-      "P",
-      "P"
+      "BOGEY",
+      "BOGEY",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Jack McDonald": [
-      "P",
-      "P",
-      "□",
-      "P",
-      "□"
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "PAR",
+      "BOGEY"
     ],
     "Joe Dean": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Michael Hollick": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY"
     ],
     "MJ Daffue": [
-      "○",
-      "P",
-      "□",
-      "□",
-      "□"
+      "BIRDIE",
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Stewart Cink": [
-      "P",
-      "□",
-      "□",
-      "P",
-      "P"
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "PAR",
+      "PAR"
     ],
     "Darren Clarke": [
-      "P",
-      "□",
-      "□",
-      "□",
-      "□"
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Max Homa": [
-      "○",
-      "P",
-      "○",
-      "P",
-      "P"
+      "BIRDIE",
+      "PAR",
+      "BIRDIE",
+      "PAR",
+      "PAR"
     ],
     "Haotong Li": [
-      "P",
-      "P",
-      "P",
-      "□",
-      "□"
+      "PAR",
+      "PAR",
+      "PAR",
+      "BOGEY",
+      "BOGEY"
     ],
     "Austen Truslow": [
-      "P",
-      "□",
-      "□",
-      "□",
-      "□"
+      "PAR",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY",
+      "BOGEY"
     ],
     "Jordan Smith": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Scott Vincent": [
-      "P",
-      "P",
-      "P",
-      "P",
-      "P"
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR",
+      "PAR"
     ],
     "Aldrich Potgieter": [
-      "P",
-      "□",
-      "○",
-      "○",
-      "P"
+      "PAR",
+      "BOGEY",
+      "BIRDIE",
+      "BIRDIE",
+      "PAR"
     ]
   },
   "player_headshots": {
@@ -2551,8 +2570,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784465018.2813187,
-  "last_score_refresh_attempt_at": 1784465324.8512366,
+  "last_score_refresh_at": 1784465326.54387,
+  "last_score_refresh_attempt_at": 1784465326.54387,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
