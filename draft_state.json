@@ -12,13 +12,13 @@
   "player_results": {
     "Bryson DeChambeau": {
       "score": "-4",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/10046/bryson-dechambeau",
       "competitor_id": "10046"
     },
     "Xander Schauffele": {
       "score": "-3",
-      "hole": "17",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele",
       "competitor_id": "10140"
     },
@@ -270,7 +270,7 @@
     },
     "Ludvig Aberg": {
       "score": "-5",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/4375972/ludvig-aberg",
       "competitor_id": "4375972"
     },
@@ -546,7 +546,7 @@
     },
     "Ryan Gerard": {
       "score": "-6",
-      "hole": "14",
+      "hole": "15",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -949,13 +949,13 @@
   },
   "hole_outcomes": {
     "Bryson DeChambeau": [
-      "PAR",
       "BOGEY",
       "PAR",
       "DOUBLE",
       "PAR",
       "BIRDIE",
       "BIRDIE",
+      "PAR",
       "PAR",
       "PAR"
     ],
@@ -974,7 +974,6 @@
       "BIRDIE"
     ],
     "Xander Schauffele": [
-      "PAR",
       "BOGEY",
       "PAR",
       "PAR",
@@ -982,7 +981,8 @@
       "BOGEY",
       "PAR",
       "PAR",
-      "BIRDIE"
+      "BIRDIE",
+      "PAR"
     ],
     "J.J. Spaun": [
       "PAR",
@@ -1324,10 +1324,10 @@
       "BOGEY"
     ],
     "Ludvig Aberg": [
-      "PAR",
       "BOGEY",
       "PAR",
       "BIRDIE",
+      "PAR",
       "PAR",
       "PAR",
       "PAR",
@@ -2751,8 +2751,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784479356.226952,
-  "last_score_refresh_attempt_at": 1784479714.673951,
+  "last_score_refresh_at": 1784479716.3504782,
+  "last_score_refresh_attempt_at": 1784479716.3504782,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
