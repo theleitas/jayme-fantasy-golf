@@ -210,7 +210,7 @@
     },
     "Nick Taylor": {
       "score": "+1",
-      "hole": "4:00 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/3792/nick-taylor",
       "competitor_id": "3792"
     },
@@ -300,7 +300,7 @@
     },
     "Min Woo Lee": {
       "score": "+2",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/4410932/min-woo-lee",
       "competitor_id": "4410932"
     },
@@ -342,7 +342,7 @@
     },
     "Keegan Bradley": {
       "score": "+6",
-      "hole": "7",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/4513/keegan-bradley",
       "competitor_id": "4513"
     },
@@ -438,7 +438,7 @@
     },
     "Jesper Svensson": {
       "score": "+8",
-      "hole": "7",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/4699329/jesper-svensson",
       "competitor_id": "4699329"
     },
@@ -707,14 +707,14 @@
       "competitor_id": "5539"
     },
     "Laurie Canter": {
-      "score": "+4",
-      "hole": "6",
+      "score": "+3",
+      "hole": "7",
       "profile_url": "https://www.espn.com/golf/player/_/id/5550/laurie-canter",
       "competitor_id": "5550"
     },
     "Tyrrell Hatton": {
       "score": "E",
-      "hole": "1",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/5553/tyrrell-hatton",
       "competitor_id": "5553"
     },
@@ -816,7 +816,7 @@
     },
     "MJ Daffue": {
       "score": "+1",
-      "hole": "4:00 AM",
+      "hole": "1",
       "profile_url": "https://www.espn.com/golf/player/_/id/7110/mj-daffue",
       "competitor_id": "7110"
     },
@@ -1314,8 +1314,8 @@
     ],
     "Min Woo Lee": [
       "P",
-      "P",
       "○",
+      "P",
       "P",
       "P"
     ],
@@ -1364,9 +1364,9 @@
     "Keegan Bradley": [
       "P",
       "P",
-      "P",
       "□",
-      "□"
+      "□",
+      "P"
     ],
     "Matti Schmid": [
       "□",
@@ -1831,17 +1831,17 @@
       "□"
     ],
     "Laurie Canter": [
-      "○",
       "□",
       "P",
       "□",
-      "P"
+      "P",
+      "○"
     ],
     "Tyrrell Hatton": [
-      "P",
       "□",
       "P",
       "○",
+      "P",
       "P"
     ],
     "Patrick Reed": [
@@ -2213,8 +2213,8 @@
       "P",
       "P",
       "P",
-      "P",
-      "□"
+      "□",
+      "P"
     ],
     "Ryutaro Nagano": [
       "P",
@@ -2551,8 +2551,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784448758.3926904,
-  "last_score_refresh_attempt_at": 1784449065.9191053,
+  "last_score_refresh_at": 1784449067.5597184,
+  "last_score_refresh_attempt_at": 1784449067.5597184,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
