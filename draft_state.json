@@ -11,8 +11,8 @@
   "last_pick_started_at": 1784118861.3090055,
   "player_results": {
     "Bryson DeChambeau": {
-      "score": "-5",
-      "hole": "10",
+      "score": "-2",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/10046/bryson-dechambeau",
       "competitor_id": "10046"
     },
@@ -546,7 +546,7 @@
     },
     "Ryan Gerard": {
       "score": "-6",
-      "hole": "9",
+      "hole": "10",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -600,7 +600,7 @@
     },
     "Josele Ballester": {
       "score": "+1",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5152205/josele-ballester",
       "competitor_id": "5152205"
     },
@@ -955,9 +955,9 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
-      "PAR"
+      "PAR",
+      "DOUBLE"
     ],
     "Cole Hammer": [
       "BOGEY",
@@ -1641,8 +1641,8 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
+      "PAR",
       "PAR",
       "PAR",
       "PAR",
@@ -2509,10 +2509,10 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
       "PAR",
       "DOUBLE",
+      "PAR",
       "PAR",
       "PAR"
     ],
@@ -2751,8 +2751,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784474856.0877218,
-  "last_score_refresh_attempt_at": 1784475214.4172764,
+  "last_score_refresh_at": 1784475215.8502111,
+  "last_score_refresh_attempt_at": 1784475215.8502111,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
