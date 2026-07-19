@@ -545,8 +545,8 @@
       "competitor_id": "5075661"
     },
     "Ryan Gerard": {
-      "score": "-6",
-      "hole": "17",
+      "score": "-5",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -1646,7 +1646,7 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR"
+      "BOGEY"
     ],
     "William Mouw": [
       "BOGEY",
@@ -2751,8 +2751,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784482163.97534,
-  "last_score_refresh_attempt_at": 1784482487.1694782,
+  "last_score_refresh_at": 1784482488.649742,
+  "last_score_refresh_attempt_at": 1784482488.649742,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
