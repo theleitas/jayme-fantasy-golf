@@ -132,7 +132,7 @@
     },
     "Robert MacIntyre": {
       "score": "-2",
-      "hole": "7",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/11378/robert-macintyre",
       "competitor_id": "11378"
     },
@@ -216,7 +216,7 @@
     },
     "Alex Noren": {
       "score": "-1",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/3832/alex-noren",
       "competitor_id": "3832"
     },
@@ -324,7 +324,7 @@
     },
     "Cameron Young": {
       "score": "-7",
-      "hole": "7",
+      "hole": "8",
       "profile_url": "https://www.espn.com/golf/player/_/id/4425906/cameron-young",
       "competitor_id": "4425906"
     },
@@ -360,7 +360,7 @@
     },
     "Marco Penge": {
       "score": "-2",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/4585549/marco-penge",
       "competitor_id": "4585549"
     },
@@ -425,8 +425,8 @@
       "competitor_id": "4683800"
     },
     "Chris Gotterup": {
-      "score": "-4",
-      "hole": "17",
+      "score": "-3",
+      "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/4690755/chris-gotterup",
       "competitor_id": "4690755"
     },
@@ -600,13 +600,13 @@
     },
     "Josele Ballester": {
       "score": "-3",
-      "hole": "4",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/5152205/josele-ballester",
       "competitor_id": "5152205"
     },
     "Kazuma Kobori": {
-      "score": "-4",
-      "hole": "1",
+      "score": "-5",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/5186648/kazuma-kobori",
       "competitor_id": "5186648"
     },
@@ -720,7 +720,7 @@
     },
     "Patrick Reed": {
       "score": "E",
-      "hole": "13",
+      "hole": "14",
       "profile_url": "https://www.espn.com/golf/player/_/id/5579/patrick-reed",
       "competitor_id": "5579"
     },
@@ -761,8 +761,8 @@
       "competitor_id": "5852"
     },
     "Hideki Matsuyama": {
-      "score": "-4",
-      "hole": "1",
+      "score": "-5",
+      "hole": "2",
       "profile_url": "https://www.espn.com/golf/player/_/id/5860/hideki-matsuyama",
       "competitor_id": "5860"
     },
@@ -893,8 +893,8 @@
       "competitor_id": "9379"
     },
     "Scottie Scheffler": {
-      "score": "-6",
-      "hole": "4",
+      "score": "-7",
+      "hole": "5",
       "profile_url": "https://www.espn.com/golf/player/_/id/9478/scottie-scheffler",
       "competitor_id": "9478"
     },
@@ -1095,7 +1095,8 @@
       "BIRDIE",
       "PAR",
       "PAR",
-      "BOGEY"
+      "BOGEY",
+      "PAR"
     ],
     "Sungjae Im": [
       "BOGEY",
@@ -1216,6 +1217,7 @@
       "PAR",
       "BIRDIE",
       "BIRDIE",
+      "PAR",
       "PAR"
     ],
     "Adam Scott": [
@@ -1359,6 +1361,7 @@
       "PAR",
       "PAR",
       "BOGEY",
+      "PAR",
       "PAR"
     ],
     "Sam Stevens": [
@@ -1450,7 +1453,8 @@
       "PAR",
       "PAR",
       "PAR",
-      "BIRDIE"
+      "BIRDIE",
+      "BOGEY"
     ],
     "Taihei Sato": [
       "BIRDIE",
@@ -1861,7 +1865,8 @@
       "PAR",
       "PAR",
       "BOGEY",
-      "BOGEY"
+      "BOGEY",
+      "PAR"
     ],
     "Justin Rose": [
       "PAR",
@@ -1875,7 +1880,8 @@
       "BIRDIE",
       "BIRDIE",
       "PAR",
-      "PAR"
+      "PAR",
+      "BIRDIE"
     ],
     "Emiliano Grillo": [
       "BOGEY",
@@ -2002,7 +2008,8 @@
       "PAR",
       "BOGEY",
       "PAR",
-      "PAR"
+      "PAR",
+      "BIRDIE"
     ],
     "Alex Smalley": [
       "PAR",
@@ -2190,6 +2197,7 @@
       "PAR",
       "BIRDIE",
       "BIRDIE",
+      "PAR",
       "PAR"
     ],
     "Jeong-Woo Ham": [
@@ -2344,6 +2352,7 @@
       "BIRDIE",
       "BIRDIE",
       "BOGEY",
+      "PAR",
       "PAR"
     ],
     "Kazuma Kobori": [
@@ -2351,7 +2360,8 @@
       "PAR",
       "PAR",
       "BIRDIE",
-      "PAR"
+      "PAR",
+      "BIRDIE"
     ],
     "Bard Bjornevik Skogen": [
       "PAR",
@@ -2570,8 +2580,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784465326.54387,
-  "last_score_refresh_attempt_at": 1784465628.1514082,
+  "last_score_refresh_at": 1784465629.9099295,
+  "last_score_refresh_attempt_at": 1784465629.9099295,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
