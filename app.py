@@ -69,6 +69,15 @@ div[data-testid="stButton"] > button:disabled, div[data-testid="stButton"] > but
 .standings-player-line { display:flex; align-items:center; gap:7px; min-width:0; margin:5px 0; }
 .standings-player-score { color:#fff; font-weight:850; white-space:nowrap; }
 .standings-player-status { color:#ddd; white-space:nowrap; }
+.recent-hole-tape { display:flex; align-items:center; gap:4px; flex-wrap:wrap; margin:4px 0 8px 43px; }
+.recent-hole-label { color:#ddd; font-size:.64rem; font-weight:950; letter-spacing:.04em; text-transform:uppercase; margin-right:2px; }
+.recent-hole-cell { display:inline-flex; align-items:center; justify-content:center; width:1.55rem; height:1.35rem; border-radius:5px; border:1px solid rgba(255,255,255,.24); background:#101010; color:#fff; font-size:.66rem; font-weight:1000; line-height:1; box-shadow:0 0 6px rgba(255,255,255,.08); }
+.recent-hole-eagle { background:#00f5ff; border-color:#baffff; color:#001316; box-shadow:0 0 9px rgba(0,245,255,.55); }
+.recent-hole-birdie { background:#39ff14; border-color:#c9ffbf; color:#031300; box-shadow:0 0 9px rgba(57,255,20,.5); }
+.recent-hole-par { background:#f1f1f1; border-color:#fff; color:#111; }
+.recent-hole-bogey { background:#ffb000; border-color:#ffe0a3; color:#160d00; box-shadow:0 0 8px rgba(255,176,0,.45); }
+.recent-hole-double { background:#ff4040; border-color:#ffc0c0; color:#fff; box-shadow:0 0 8px rgba(255,64,64,.55); }
+.recent-hole-empty { color:#666; background:#080808; border-color:#222; box-shadow:none; }
 .country-strip { display:flex; align-items:center; justify-content:center; gap:7px; flex-wrap:wrap; min-height:34px; border:1px solid currentColor; border-radius:8px; padding:6px 8px; margin-top:8px; color:currentColor; background:rgba(255,255,255,.045); box-shadow:inset 0 0 10px currentColor; text-align:center; }
 .country-strip-label { color:#fff; font-size:.72rem; font-weight:950; letter-spacing:.04em; text-transform:uppercase; opacity:.82; }
 .country-chip { display:inline-flex; align-items:center; gap:4px; border:1px solid rgba(255,255,255,.22); border-radius:999px; padding:2px 7px; background:#050505; color:#fff; font-size:.82rem; font-weight:900; line-height:1.25; }
@@ -1509,35 +1518,81 @@ def fetch_event_competitor_lookup(event_id, league="pga"):
             lookup[matched_name] = competitor_id
     return lookup
 
+HOLE_OUTCOME_LABELS = {
+    "EAGLE": ("-2", "Eagle or better", "recent-hole-eagle"),
+    "BIRDIE": ("-1", "Birdie", "recent-hole-birdie"),
+    "PAR": ("E", "Par", "recent-hole-par"),
+    "BOGEY": ("+1", "Bogey", "recent-hole-bogey"),
+    "DOUBLE": ("+2", "Double bogey or worse", "recent-hole-double"),
+}
+
+def normalize_hole_outcome_marker(value):
+    text = str(value or "").strip().upper()
+    old_marker_map = {"○": "BIRDIE", "□": "BOGEY", "P": "PAR"}
+    if text in old_marker_map:
+        return old_marker_map[text]
+    if text in HOLE_OUTCOME_LABELS:
+        return text
+    if text in {"E", "EVEN", "PAR"}:
+        return "PAR"
+    if text in {"B", "BIRDIE", "-1"}:
+        return "BIRDIE"
+    if text in {"EAGLE", "ALBATROSS", "-2", "-3"}:
+        return "EAGLE"
+    if text in {"BOGEY", "+1"}:
+        return "BOGEY"
+    if text in {"DOUBLE", "DOUBLE BOGEY", "DB", "+2", "+3", "+4"}:
+        return "DOUBLE"
+    return ""
+
+def hole_outcome_for_delta(score_delta):
+    try:
+        delta = int(score_delta)
+    except (TypeError, ValueError):
+        return "PAR"
+    if delta <= -2:
+        return "EAGLE"
+    if delta == -1:
+        return "BIRDIE"
+    if delta == 0:
+        return "PAR"
+    if delta == 1:
+        return "BOGEY"
+    return "DOUBLE"
+
 def marker_for_hole_scoretype(linescore):
     score_type = linescore.get("scoreType") if isinstance(linescore.get("scoreType"), dict) else {}
     score_name = str(score_type.get("name") or "").upper()
+    if any(key in score_name for key in ["ALBATROSS", "EAGLE"]):
+        return "EAGLE"
+    if "BIRDIE" in score_name:
+        return "BIRDIE"
     if "PAR" in score_name:
-        return "P"
-    if any(key in score_name for key in ["BIRDIE", "EAGLE", "ALBATROSS"]):
-        return "○"
+        return "PAR"
+    if "DOUBLE" in score_name or "TRIPLE" in score_name:
+        return "DOUBLE"
     if "BOGEY" in score_name:
-        return "□"
+        return "BOGEY"
 
     value = linescore.get("value")
     par = linescore.get("par")
     try:
-        value_num = float(value)
-        par_num = float(par)
-        if value_num < par_num:
-            return "○"
-        if value_num > par_num:
-            return "□"
-        return "P"
+        return hole_outcome_for_delta(int(float(value) - float(par)))
     except (TypeError, ValueError):
         pass
 
     display_delta = str(score_type.get("displayValue") or "").strip()
     if display_delta.startswith("-"):
-        return "○"
+        try:
+            return hole_outcome_for_delta(int(display_delta))
+        except ValueError:
+            return "BIRDIE"
     if display_delta.startswith("+"):
-        return "□"
-    return "P"
+        try:
+            return hole_outcome_for_delta(int(display_delta))
+        except ValueError:
+            return "BOGEY"
+    return "PAR"
 
 def extract_recent_hole_outcomes_from_summary(summary):
     rounds = summary.get("rounds") if isinstance(summary, dict) else []
@@ -1557,9 +1612,13 @@ def extract_recent_hole_outcomes_from_summary(summary):
         return []
 
     linescores = latest_round.get("linescores")
-    markers = [marker_for_hole_scoretype(linescore) for linescore in linescores if isinstance(linescore, dict)]
-    markers = [marker for marker in markers if marker in {"P", "○", "□"}]
-    return markers[-5:]
+    markers = [
+        normalize_hole_outcome_marker(marker_for_hole_scoretype(linescore))
+        for linescore in linescores
+        if isinstance(linescore, dict)
+    ]
+    markers = [marker for marker in markers if marker]
+    return markers[-9:]
 
 def get_recent_outcomes_for_standings(player_name, result):
     fallback = result.get("recent_outcomes", []) if isinstance(result, dict) else []
@@ -1602,11 +1661,7 @@ def is_final_hole_status(value):
     return strip_thru_prefix(display_hole_value(value)).upper() in ["F", "FINAL"]
 
 def outcome_marker_for_delta(score_delta):
-    if score_delta < 0:
-        return "○"
-    if score_delta > 0:
-        return "□"
-    return "P"
+    return hole_outcome_for_delta(score_delta)
 
 def derive_hole_outcome_markers(old_result, new_result):
     old_result = old_result if isinstance(old_result, dict) else {}
@@ -1638,14 +1693,14 @@ def derive_hole_outcome_markers(old_result, new_result):
     markers = []
     if score_delta < 0:
         birdies = min(-score_delta, holes_advanced)
-        markers.extend(["P"] * (holes_advanced - birdies))
-        markers.extend(["○"] * birdies)
+        markers.extend(["PAR"] * (holes_advanced - birdies))
+        markers.extend(["BIRDIE"] * birdies)
     elif score_delta > 0:
         bogeys = min(score_delta, holes_advanced)
-        markers.extend(["P"] * (holes_advanced - bogeys))
-        markers.extend(["□"] * bogeys)
+        markers.extend(["PAR"] * (holes_advanced - bogeys))
+        markers.extend(["BOGEY"] * bogeys)
     else:
-        markers.extend(["P"] * holes_advanced)
+        markers.extend(["PAR"] * holes_advanced)
     return markers
 
 def update_hole_outcomes(existing_outcomes, old_results, new_results):
@@ -1656,7 +1711,8 @@ def update_hole_outcomes(existing_outcomes, old_results, new_results):
     updated = {}
     for player, prior in existing_outcomes.items():
         if isinstance(prior, list):
-            updated[player] = [str(item) for item in prior if str(item) in {"P", "○", "□"}][-5:]
+            normalized_prior = [normalize_hole_outcome_marker(item) for item in prior]
+            updated[player] = [item for item in normalized_prior if item][-9:]
 
     for player, new_result in new_results.items():
         markers = derive_hole_outcome_markers(old_results.get(player, {}), new_result)
@@ -1665,20 +1721,44 @@ def update_hole_outcomes(existing_outcomes, old_results, new_results):
                 updated[player] = []
             continue
         history = list(updated.get(player, []))
-        history.extend(markers)
-        updated[player] = history[-5:]
+        history.extend(normalize_hole_outcome_marker(marker) for marker in markers)
+        updated[player] = [item for item in history if item][-9:]
     return updated
 
 def format_recent_hole_outcomes(outcomes):
     if not isinstance(outcomes, list) or not outcomes:
         return ""
-    safe = [html.escape(str(item)) for item in outcomes if str(item) in {"P", "○", "□"}]
+    safe = [html.escape(str(item)) for item in outcomes if normalize_hole_outcome_marker(item)]
     if not safe:
         return ""
     return f" ({' '.join(safe)})"
 
+def recent_hole_tape_html(outcomes):
+    if not isinstance(outcomes, list):
+        outcomes = []
+    normalized = [normalize_hole_outcome_marker(item) for item in outcomes]
+    normalized = [item for item in normalized if item][-9:]
+    if not normalized:
+        return ""
+    padded = [""] * max(0, 9 - len(normalized)) + normalized
+    cells = []
+    for marker in padded:
+        if not marker:
+            cells.append("<span class='recent-hole-cell recent-hole-empty' title='No recent hole'>·</span>")
+            continue
+        label, title, class_name = HOLE_OUTCOME_LABELS[marker]
+        cells.append(
+            f"<span class='recent-hole-cell {class_name}' title='{html.escape(title)}'>{html.escape(label)}</span>"
+        )
+    return (
+        "<div class='recent-hole-tape'>"
+        "<span class='recent-hole-label'>Last 9</span>"
+        + "".join(cells)
+        + "</div>"
+    )
+
 def should_show_recent_hole_outcomes(result):
-    # Only show the last-5 markers when the golfer is actively playing today's round.
+    # Only show the last-9 tape when the golfer is actively playing today's round.
     hole_value = (result or {}).get("hole", "—")
     return hole_number_from_status(hole_value) is not None
 
@@ -1870,7 +1950,7 @@ def roster_player_cell_html(player, player_headshots):
         "</span>"
     )
 
-def standings_player_line_html(player, player_headshots, score, status_text, recent_outcomes_text=""):
+def standings_player_line_html(player, player_headshots, score, status_text, recent_outcomes=None):
     player_name_html = player_name_with_large_flag_html(player)
     headshot_url = str((player_headshots or {}).get(player) or "").strip()
     headshot_html = ""
@@ -1878,10 +1958,13 @@ def standings_player_line_html(player, player_headshots, score, status_text, rec
         safe_url = html.escape(headshot_url, quote=True)
         headshot_html = f"<img class='roster-player-headshot' src='{safe_url}' alt='' loading='lazy' width='36' height='36'>"
     return (
+        "<div class='standings-player-block'>"
         "<div class='standings-player-line'>"
         f"{headshot_html}<span class='roster-player-name'>{player_name_html}</span>"
         f"<span class='standings-player-score'>({html.escape(score)})</span>"
-        f"<span class='standings-player-status'>{html.escape(status_text)}{recent_outcomes_text}</span>"
+        f"<span class='standings-player-status'>{html.escape(status_text)}</span>"
+        "</div>"
+        f"{recent_hole_tape_html(recent_outcomes)}"
         "</div>"
     )
 
@@ -2446,10 +2529,9 @@ for coach_id in ordered_coach_ids:
             score = format_golf_score(score_value)
             status_text = format_hole_status_for_card(result.get("hole", "—"))
             recent_outcomes = get_recent_outcomes_for_standings(player, result) if should_show_recent_hole_outcomes(result) else []
-            recent_outcomes_text = format_recent_hole_outcomes(recent_outcomes)
             top3_html += (
                 f"<div style='color:{color}; font-size:.92rem;'>"
-                f"{standings_player_line_html(player, state.get('player_headshots', {}), score, status_text, recent_outcomes_text)}"
+                f"{standings_player_line_html(player, state.get('player_headshots', {}), score, status_text, recent_outcomes)}"
                 f"</div>"
             )
     elif players:
