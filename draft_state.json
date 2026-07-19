@@ -227,8 +227,8 @@
       "competitor_id": "388"
     },
     "Ryan Fox": {
-      "score": "-7",
-      "hole": "12",
+      "score": "-8",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/4251/ryan-fox",
       "competitor_id": "4251"
     },
@@ -263,8 +263,8 @@
       "competitor_id": "4364873"
     },
     "Cameron John": {
-      "score": "-2",
-      "hole": "16",
+      "score": "-3",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4368981/cameron-john",
       "competitor_id": "4368981"
     },
@@ -486,7 +486,7 @@
     },
     "Rasmus Neergaard-Petersen": {
       "score": "-3",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/4858859/rasmus-neergaard-petersen",
       "competitor_id": "4858859"
     },
@@ -762,7 +762,7 @@
     },
     "Hideki Matsuyama": {
       "score": "-4",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/5860/hideki-matsuyama",
       "competitor_id": "5860"
     },
@@ -936,7 +936,7 @@
     },
     "Sam Burns": {
       "score": "-8",
-      "hole": "12",
+      "hole": "13",
       "profile_url": "https://www.espn.com/golf/player/_/id/9938/sam-burns",
       "competitor_id": "9938"
     },
@@ -1268,11 +1268,11 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
       "PAR",
       "PAR",
-      "PAR"
+      "PAR",
+      "BIRDIE"
     ],
     "Kristoffer Reitan": [
       "PAR",
@@ -1973,8 +1973,8 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR",
       "BIRDIE",
+      "PAR",
       "PAR",
       "PAR"
     ],
@@ -2169,7 +2169,7 @@
     "Sam Burns": [
       "BOGEY",
       "BOGEY",
-      "BOGEY",
+      "PAR",
       "PAR",
       "PAR",
       "PAR",
@@ -2283,11 +2283,11 @@
       "PAR",
       "PAR",
       "PAR",
-      "PAR",
       "BOGEY",
       "PAR",
       "PAR",
-      "PAR"
+      "PAR",
+      "BIRDIE"
     ],
     "Antoine Rozner": [
       "PAR",
@@ -2422,14 +2422,14 @@
     ],
     "Rasmus Neergaard-Petersen": [
       "BOGEY",
-      "BOGEY",
       "BIRDIE",
       "PAR",
       "PAR",
       "PAR",
       "PAR",
       "BIRDIE",
-      "DOUBLE"
+      "DOUBLE",
+      "PAR"
     ],
     "Sam Bairstow": [
       "BOGEY",
@@ -2751,8 +2751,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784477676.227493,
-  "last_score_refresh_attempt_at": 1784477978.633269,
+  "last_score_refresh_at": 1784477980.1791763,
+  "last_score_refresh_attempt_at": 1784477980.1791763,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
