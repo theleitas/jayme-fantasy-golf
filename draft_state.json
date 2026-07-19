@@ -228,7 +228,7 @@
     },
     "Ryan Fox": {
       "score": "-7",
-      "hole": "10",
+      "hole": "11",
       "profile_url": "https://www.espn.com/golf/player/_/id/4251/ryan-fox",
       "competitor_id": "4251"
     },
@@ -365,8 +365,8 @@
       "competitor_id": "4585549"
     },
     "Shane Lowry": {
-      "score": "-1",
-      "hole": "16",
+      "score": "-3",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/4587/shane-lowry",
       "competitor_id": "4587"
     },
@@ -546,7 +546,7 @@
     },
     "Ryan Gerard": {
       "score": "-6",
-      "hole": "11",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/5076021/ryan-gerard",
       "competitor_id": "5076021"
     },
@@ -606,7 +606,7 @@
     },
     "Kazuma Kobori": {
       "score": "-3",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5186648/kazuma-kobori",
       "competitor_id": "5186648"
     },
@@ -762,7 +762,7 @@
     },
     "Hideki Matsuyama": {
       "score": "-4",
-      "hole": "15",
+      "hole": "16",
       "profile_url": "https://www.espn.com/golf/player/_/id/5860/hideki-matsuyama",
       "competitor_id": "5860"
     },
@@ -809,8 +809,8 @@
       "competitor_id": "7067"
     },
     "Si Woo Kim": {
-      "score": "-9",
-      "hole": "11",
+      "score": "-8",
+      "hole": "12",
       "profile_url": "https://www.espn.com/golf/player/_/id/7081/si-woo-kim",
       "competitor_id": "7081"
     },
@@ -899,7 +899,7 @@
       "competitor_id": "9478"
     },
     "Alex Smalley": {
-      "score": "-1",
+      "score": "+1",
       "hole": "F",
       "profile_url": "https://www.espn.com/golf/player/_/id/9484/alex-smalley",
       "competitor_id": "9484"
@@ -918,7 +918,7 @@
     },
     "Jon Rahm": {
       "score": "-2",
-      "hole": "16",
+      "hole": "17",
       "profile_url": "https://www.espn.com/golf/player/_/id/9780/jon-rahm",
       "competitor_id": "9780"
     },
@@ -1264,7 +1264,6 @@
       "PAR"
     ],
     "Ryan Fox": [
-      "BIRDIE",
       "PAR",
       "PAR",
       "PAR",
@@ -1272,6 +1271,7 @@
       "PAR",
       "PAR",
       "BOGEY",
+      "PAR",
       "PAR"
     ],
     "Kristoffer Reitan": [
@@ -1449,14 +1449,14 @@
     ],
     "Shane Lowry": [
       "PAR",
-      "PAR",
       "BOGEY",
       "BOGEY",
       "PAR",
       "PAR",
       "PAR",
       "BOGEY",
-      "BOGEY"
+      "BOGEY",
+      "EAGLE"
     ],
     "Chandler Phillips": [
       "BOGEY",
@@ -1639,8 +1639,8 @@
     ],
     "Ryan Gerard": [
       "PAR",
-      "PAR",
       "BOGEY",
+      "PAR",
       "PAR",
       "PAR",
       "PAR",
@@ -1968,7 +1968,6 @@
       "PAR"
     ],
     "Hideki Matsuyama": [
-      "BOGEY",
       "PAR",
       "PAR",
       "PAR",
@@ -1976,6 +1975,7 @@
       "PAR",
       "PAR",
       "BIRDIE",
+      "PAR",
       "PAR"
     ],
     "Emiliano Grillo": [
@@ -2025,13 +2025,13 @@
     ],
     "Si Woo Kim": [
       "PAR",
-      "PAR",
       "BIRDIE",
       "BIRDIE",
       "PAR",
       "PAR",
       "PAR",
       "PAR",
+      "BOGEY",
       "BOGEY"
     ],
     "Marcelo Rozo": [
@@ -2138,13 +2138,13 @@
       "PAR"
     ],
     "Jon Rahm": [
-      "PAR",
       "BOGEY",
       "BIRDIE",
       "PAR",
       "PAR",
       "PAR",
       "BIRDIE",
+      "PAR",
       "PAR",
       "PAR"
     ],
@@ -2518,13 +2518,13 @@
     ],
     "Kazuma Kobori": [
       "PAR",
-      "PAR",
       "BOGEY",
       "PAR",
       "PAR",
       "PAR",
       "BOGEY",
       "BOGEY",
+      "PAR",
       "PAR"
     ],
     "Bard Bjornevik Skogen": [
@@ -2751,8 +2751,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784476596.0257316,
-  "last_score_refresh_attempt_at": 1784476954.4796262,
+  "last_score_refresh_at": 1784476956.1068883,
+  "last_score_refresh_attempt_at": 1784476956.1068883,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
