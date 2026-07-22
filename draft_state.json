@@ -220,6 +220,12 @@
       "profile_url": "https://www.espn.com/golf/player/_/id/1680/jason-day",
       "competitor_id": "1680"
     },
+    "Charley Hoffman": {
+      "score": "N/A",
+      "hole": "Scheduled",
+      "profile_url": "https://www.espn.com/golf/player/_/id/205/charley-hoffman",
+      "competitor_id": "205"
+    },
     "Tony Finau": {
       "score": "N/A",
       "hole": "1:44 PM",
@@ -2732,7 +2738,8 @@
     "Brian Campbell": [],
     "Tyler Duncan": [],
     "Paul Peterson": [],
-    "Taylor Pendrith": []
+    "Taylor Pendrith": [],
+    "Charley Hoffman": []
   },
   "player_headshots": {
     "Rory McIlroy": "https://a.espncdn.com/i/headshots/golf/players/full/3470.png",
@@ -2767,8 +2774,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1784724758.3310502,
-  "last_score_refresh_attempt_at": 1784725208.571585,
+  "last_score_refresh_at": 1784725211.608208,
+  "last_score_refresh_attempt_at": 1784725211.608208,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
