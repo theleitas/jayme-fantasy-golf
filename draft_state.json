@@ -760,12 +760,6 @@
       "profile_url": "https://www.espn.com/golf/player/_/id/676/lucas-glover",
       "competitor_id": "676"
     },
-    "Brooks Koepka": {
-      "score": "N/A",
-      "hole": "12:43 PM",
-      "profile_url": "https://www.espn.com/golf/player/_/id/6798/brooks-koepka",
-      "competitor_id": "6798"
-    },
     "Patrick Rodgers": {
       "score": "N/A",
       "hole": "12:21 PM",
@@ -813,6 +807,12 @@
       "hole": "1:49 PM",
       "profile_url": "https://www.espn.com/golf/player/_/id/8889/zecheng-dou",
       "competitor_id": "8889"
+    },
+    "Ben Silverman": {
+      "score": "N/A",
+      "hole": "12:43 PM",
+      "profile_url": "https://www.espn.com/golf/player/_/id/8910/ben-silverman",
+      "competitor_id": "8910"
     },
     "Michael Kim": {
       "score": "N/A",
@@ -2797,8 +2797,8 @@
     "Sahith Theegala": "https://a.espncdn.com/i/headshots/golf/players/full/10980.png",
     "Si Woo Kim": "https://a.espncdn.com/i/headshots/golf/players/full/7081.png"
   },
-  "last_score_refresh_at": 1785262150.1780777,
-  "last_score_refresh_attempt_at": 1785278400.0302994,
+  "last_score_refresh_at": 1785278401.577923,
+  "last_score_refresh_attempt_at": 1785278401.577923,
   "teams": {
     "Jayme Leita": {
       "team_name": "Jayme's Team",
